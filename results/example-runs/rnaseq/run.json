@@ -1,0 +1,34 @@
+{
+  "project": "rnaseq",
+  "created_utc": "20260915T181457Z-dbb6ad",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "bioinformatics-lab": "0.1.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "biopython": "1.88",
+    "pydeseq2": "0.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "git_commit": "c6f9b2f4d6a8048b03a292a0b20feb446305e54d",
+  "working_tree_dirty": true,
+  "parameters": {
+    "design": "~ type + condition",
+    "seed": 42
+  },
+  "inputs": [
+    {
+      "path": "datasets\\raw\\pasilla_gene_counts.tsv",
+      "sha256": "ea0dafbfcc600559644cfe7dd5cc8de809d631eb64ba3089aaa25c2fa0954dad",
+      "bytes": 498373
+    },
+    {
+      "path": "datasets\\raw\\pasilla_sample_annotation.csv",
+      "sha256": "1844f871ca5d750f41685c73b87bd7dda291ec0d52304c1afb46a17ae88db745",
+      "bytes": 527
+    }
+  ]
+}

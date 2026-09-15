@@ -1,0 +1,24 @@
+{
+  "project": "ml",
+  "created_utc": "20260915T181543Z-ac2631",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "bioinformatics-lab": "0.1.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "biopython": "1.88",
+    "pydeseq2": "0.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "git_commit": "c6f9b2f4d6a8048b03a292a0b20feb446305e54d",
+  "working_tree_dirty": true,
+  "parameters": {
+    "seed": 42,
+    "test_fraction": 0.25,
+    "cv_folds": 5
+  },
+  "inputs": []
+}

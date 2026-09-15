@@ -1,0 +1,44 @@
+{
+  "pasilla_gene_counts.tsv": {
+    "source_url": "https://bioconductor.org/packages/3.23/data/experiment/src/contrib/pasilla_1.40.0.tar.gz",
+    "retrieved_at": "2026-09-15T17:57:30.430606+00:00",
+    "bytes": 498373,
+    "sha256": "ea0dafbfcc600559644cfe7dd5cc8de809d631eb64ba3089aaa25c2fa0954dad",
+    "transformation": "Exact package member pasilla/inst/extdata/pasilla_gene_counts.tsv; archive sha256=75122d45eb2c415d3e94d1b9bc9e4f6978c4504ef7e70f6bfeccb20547cb3db5"
+  },
+  "pasilla_sample_annotation.csv": {
+    "source_url": "https://bioconductor.org/packages/3.23/data/experiment/src/contrib/pasilla_1.40.0.tar.gz",
+    "retrieved_at": "2026-09-15T17:57:30.430606+00:00",
+    "bytes": 527,
+    "sha256": "1844f871ca5d750f41685c73b87bd7dda291ec0d52304c1afb46a17ae88db745",
+    "transformation": "Exact package member pasilla/inst/extdata/pasilla_sample_annotation.csv; archive sha256=75122d45eb2c415d3e94d1b9bc9e4f6978c4504ef7e70f6bfeccb20547cb3db5"
+  },
+  "NC_001422.1.fasta": {
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_001422.1&rettype=fasta&retmode=text",
+    "retrieved_at": "2026-09-15T17:57:30.931129+00:00",
+    "bytes": 5520,
+    "sha256": "caa155c83967cc080f4f188f14f1f28c18d77448e87c3d00d3579ed348f4de2a",
+    "transformation": "Unmodified response"
+  },
+  "giab_hg001_first1000.vcf": {
+    "source_url": "https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/NA12878_HG001/NISTv4.2.1/GRCh38/HG001_GRCh38_1_22_v4.2.1_benchmark.vcf.gz",
+    "retrieved_at": "2026-09-15T17:57:31.827380+00:00",
+    "bytes": 547467,
+    "sha256": "d40781c1f8502777cb111a11cf0d8e0670fe8066e6d0f6c967aa6a1d20a5162a",
+    "transformation": "Header plus first 1000 records in source order; genomic prefix, NOT random sample; checksum applies to extracted subset, not full remote archive"
+  },
+  "P01308.fasta": {
+    "source_url": "https://rest.uniprot.org/uniprotkb/P01308.fasta",
+    "retrieved_at": "2026-09-15T17:57:32.175942+00:00",
+    "bytes": 182,
+    "sha256": "ec55929cdb69371f89213f4b08a19808c115fc8225ed92b09dd93d15571b5584",
+    "transformation": "Unmodified response"
+  },
+  "1CRN.pdb": {
+    "source_url": "https://files.rcsb.org/download/1CRN.pdb",
+    "retrieved_at": "2026-09-15T17:57:32.905469+00:00",
+    "bytes": 49491,
+    "sha256": "42199a30a0701864a2a5cc76cd7f35cc544cd0e65fbcf63e03c166543249b811",
+    "transformation": "Unmodified response"
+  }
+}

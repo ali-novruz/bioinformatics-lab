@@ -60,7 +60,8 @@ def plot_expression(res,norm,meta,out):
     for group in ['untreated','treated']:
         mask=meta.loc[log.index,'condition'].eq(group)
         ax.scatter(coords[mask,0],coords[mask,1],label=group,s=65)
-    for idx,name in enumerate(log.index):ax.annotate(name,(coords[idx,0],coords[idx,1]),fontsize=7)
+    for idx,name in enumerate(log.index):ax.annotate(name,(coords[idx,0],coords[idx,1]),fontsize=7,xytext=(4,4),textcoords='offset points')
+    ax.margins(x=.2,y=.15)
     ax.set(xlabel='PC1',ylabel='PC2',title='Pasilla PCA: log1p normalized counts');ax.legend();fig.tight_layout();fig.savefig(out/'pca.png',dpi=150);plt.close(fig)
     selected=log.var(axis=0).nlargest(30).index
     z=log[selected].T

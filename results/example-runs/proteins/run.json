@@ -1,0 +1,33 @@
+{
+  "project": "proteins",
+  "created_utc": "20260915T180743Z-c0a2b9",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "bioinformatics-lab": "0.1.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "biopython": "1.88",
+    "pydeseq2": "0.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "git_commit": "b49d14f3ba151a78d4f6dd930075ef9c519e220d",
+  "working_tree_dirty": true,
+  "parameters": {
+    "contact_cutoff_angstrom": 8
+  },
+  "inputs": [
+    {
+      "path": "datasets\\raw\\P01308.fasta",
+      "sha256": "ec55929cdb69371f89213f4b08a19808c115fc8225ed92b09dd93d15571b5584",
+      "bytes": 182
+    },
+    {
+      "path": "datasets\\raw\\1CRN.pdb",
+      "sha256": "42199a30a0701864a2a5cc76cd7f35cc544cd0e65fbcf63e03c166543249b811",
+      "bytes": 49491
+    }
+  ]
+}

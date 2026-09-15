@@ -19,3 +19,7 @@ README, məlumat siyasəti, töhfə qaydaları, modul struktur və mərhələ iz
 ## Stage 5 — Projects
 
 Beş modular Python layihəsi, CLI, deterministic testlər, 30 layihəlik kataloq, beş notebook, UniProt/PDB nümunəsi və raw sequencing workflow-ları quruldu. Python testləri keçdi; raw workflow-ların real icrası Linux mühitindən asılıdır.
+
+## Stage 6 — Experiments
+
+Altı real data mənbəyi üçün kartlar və hash manifest yaradıldı. Beş əsas layihə və əlavə protein analizi icra edildi; beş notebook başdan sona işlədildi. Machine-readable run snapshot-ları saxlanıldı. Test sayı 14-ə çatdı. Bash workflow-ları sintaksis yoxlamasından keçdi, real xam read icrası edilmədi.

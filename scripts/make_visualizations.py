@@ -30,7 +30,12 @@ def main():
     starts=list(range(0,len(seq)-199,100));vals=[gc_content(seq[s:s+200]) for s in starts]
     fig,ax=plt.subplots(figsize=(9,4));ax.plot(starts,vals,c='#157f83');ax.set(xlabel='0-based window start',ylabel='GC fraction',title='Real PhiX NC_001422.1: 200 nt windows, 100 nt step');save(fig,'sequence.png')
     variants=__import__('pandas').read_csv(latest('variants')/'variants.csv')
-    fig,ax=plt.subplots(figsize=(9,3));ax.hlines(1,variants.pos.min(),variants.pos.max(),color='#667780',lw=6);ax.scatter(variants.pos,np.ones(len(variants)),s=7,c=np.where(variants.type.eq('SNV'),'#157f83','#d9654b'));ax.set(yticks=[],xlabel='VCF 1-based position',title='GIAB HG001 genomic prefix: variants on '+str(variants.chrom.iloc[0]));save(fig,'chromosome.png')
+    fig,ax=plt.subplots(figsize=(9,3))
+    for row,(kind,color) in enumerate([('SNV','#157f83'),('indel','#d9654b')]):
+        ax.hlines(row,variants.pos.min(),variants.pos.max(),color='#dbe3e5',lw=3,zorder=1)
+        positions=variants.loc[variants.type.eq(kind),'pos']
+        ax.scatter(positions,np.full(len(positions),row),marker='|',s=50,c=color,zorder=3)
+    ax.set(yticks=[0,1],yticklabels=['SNV','indel'],ylim=(-.5,1.5),xlabel='VCF 1-based position',title='GIAB HG001 genomic prefix: variants on '+str(variants.chrom.iloc[0]));save(fig,'chromosome.png')
     for src,dst in [('pca.png','pca.png'),('heatmap.png','heatmap.png'),('volcano.png','volcano.png')]:shutil.copy2(latest('rnaseq')/src,OUT/dst)
     X=StandardScaler().fit_transform(load_breast_cancer().data);y=load_breast_cancer().target
     from umap import UMAP

@@ -1,0 +1,29 @@
+{
+  "project": "variants",
+  "created_utc": "20260915T181455Z-24d5a4",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "bioinformatics-lab": "0.1.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "biopython": "1.88",
+    "pydeseq2": "0.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "git_commit": "c6f9b2f4d6a8048b03a292a0b20feb446305e54d",
+  "working_tree_dirty": true,
+  "parameters": {
+    "min_qual": 20,
+    "require_pass": true
+  },
+  "inputs": [
+    {
+      "path": "datasets\\raw\\giab_hg001_first1000.vcf",
+      "sha256": "d40781c1f8502777cb111a11cf0d8e0670fe8066e6d0f6c967aa6a1d20a5162a",
+      "bytes": 547467
+    }
+  ]
+}

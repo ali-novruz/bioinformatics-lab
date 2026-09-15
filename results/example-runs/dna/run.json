@@ -1,0 +1,26 @@
+{
+  "project": "dna",
+  "created_utc": "20260915T181549Z-90d88f",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "bioinformatics-lab": "0.1.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "biopython": "1.88",
+    "pydeseq2": "0.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "git_commit": "c6f9b2f4d6a8048b03a292a0b20feb446305e54d",
+  "working_tree_dirty": true,
+  "parameters": {},
+  "inputs": [
+    {
+      "path": "datasets\\raw\\NC_001422.1.fasta",
+      "sha256": "caa155c83967cc080f4f188f14f1f28c18d77448e87c3d00d3579ed348f4de2a",
+      "bytes": 5520
+    }
+  ]
+}
