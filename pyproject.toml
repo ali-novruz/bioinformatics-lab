@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bioinformatics-lab"
+version = "0.1.0"
+description = "Reproducible personal bioinformatics research laboratory"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2,<3", "pandas>=2.2,<4", "scipy>=1.12,<2", "matplotlib>=3.9,<4", "biopython>=1.84,<2", "scikit-learn>=1.4,<2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "nbformat>=5,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8"]
+research = ["pydeseq2==0.5.4", "statsmodels>=0.14,<1", "umap-learn>=0.5,<1", "networkx>=3,<4"]
+hts = ["pysam>=0.22,<1; sys_platform != 'win32'"]
+
+[project.scripts]
+biolab = "biolab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

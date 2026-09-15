@@ -1,0 +1,14 @@
+name: biolab-raw
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - bwa=0.7.18
+  - samtools=1.21
+  - bcftools=1.21
+  - fastqc=0.12.1
+  - multiqc=1.27
+  - cutadapt=4.9
+  - star=2.7.11b
+  - subread=2.0.6

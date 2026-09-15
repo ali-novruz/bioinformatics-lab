@@ -1,0 +1,8 @@
+##fileformat=VCFv4.2
+##contig=<ID=toy,length=100>
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	s1	s2
+toy	5	.	A	G	50	PASS	.	GT	0/1	1/1
+toy	10	.	C	T,A	40	PASS	.	GT	1|2	./.
+toy	20	.	A	AT	30	PASS	.	GT	0/1	0/0
+toy	30	.	G	C	.	.	.	GT	./.	0/1

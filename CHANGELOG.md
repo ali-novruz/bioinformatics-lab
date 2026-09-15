@@ -15,3 +15,7 @@ README, məlumat siyasəti, töhfə qaydaları, modul struktur və mərhələ iz
 ## Stage 4 — Research Papers
 
 11 primary-source research note və təkrar istifadə edilən research/experiment şablonları yaradıldı. İki qeyd abstract/metadata səviyyəsindədir; tam mətn review-u kimi göstərilmir.
+
+## Stage 5 — Projects
+
+Beş modular Python layihəsi, CLI, deterministic testlər, 30 layihəlik kataloq, beş notebook, UniProt/PDB nümunəsi və raw sequencing workflow-ları quruldu. Python testləri keçdi; raw workflow-ların real icrası Linux mühitindən asılıdır.
