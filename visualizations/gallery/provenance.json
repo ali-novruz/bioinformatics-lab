@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "exploratory_embeddings": "All WDBC samples standardized together for visualization ONLY; never fed back into classifier evaluation",
+  "sources": {
+    "sequence": "NC_001422.1",
+    "chromosome": "GIAB first 1000 VCF records; not whole chromosome",
+    "pca_heatmap_volcano": "real pasilla PyDESeq2 run",
+    "umap_tsne": "real WDBC morphology",
+    "manhattan": "synthetic",
+    "phylogenetic_tree": "illustrative Newick",
+    "protein_structure_contact": "real PDB 1CRN",
+    "pathway": "conceptual synthetic network"
+  }
+}

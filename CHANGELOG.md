@@ -23,3 +23,7 @@ Beş modular Python layihəsi, CLI, deterministic testlər, 30 layihəlik katalo
 ## Stage 6 — Experiments
 
 Altı real data mənbəyi üçün kartlar və hash manifest yaradıldı. Beş əsas layihə və əlavə protein analizi icra edildi; beş notebook başdan sona işlədildi. Machine-readable run snapshot-ları saxlanıldı. Test sayı 14-ə çatdı. Bash workflow-ları sintaksis yoxlamasından keçdi, real xam read icrası edilmədi.
+
+## Stage 7 — Findings
+
+Faktiki metriklərdən nəticə hesabatı, biological/statistical interpretation və məhdudiyyətlər yaradıldı. 12 qrafik vizual yoxlanıldı; real/sintetik statusları başlıqlarda yazıldı. Run manifest-lərinə source-file SHA-256 əlavə edildi və notebook-lar son kodla yenidən icra olundu.

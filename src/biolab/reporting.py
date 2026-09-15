@@ -16,5 +16,7 @@ def new_run(root,project,inputs=(),parameters=None):
         except PackageNotFoundError:pass
     commit=subprocess.run(['git','rev-parse','HEAD'],cwd=root,capture_output=True,text=True)
     dirty=subprocess.run(['git','status','--porcelain'],cwd=root,capture_output=True,text=True)
-    write_json(out/'run.json',{'project':project,'created_utc':stamp,'python':platform.python_version(),'platform':platform.platform(),'packages':packages,'git_commit':commit.stdout.strip() if commit.returncode==0 else None,'working_tree_dirty':bool(dirty.stdout.strip()),'parameters':parameters or {},'inputs':[{'path':str(Path(p).relative_to(root)),'sha256':hashlib.sha256(Path(p).read_bytes()).hexdigest(),'bytes':Path(p).stat().st_size} for p in inputs]})
+    code_files=sorted(list((Path(root)/'src').rglob('*.py'))+list((Path(root)/'scripts').glob('*.py')))
+    source_hashes={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in code_files}
+    write_json(out/'run.json',{'project':project,'created_utc':stamp,'python':platform.python_version(),'platform':platform.platform(),'packages':packages,'git_commit':commit.stdout.strip() if commit.returncode==0 else None,'working_tree_dirty':bool(dirty.stdout.strip()),'source_files_sha256':source_hashes,'parameters':parameters or {},'inputs':[{'path':str(Path(p).relative_to(root)),'sha256':hashlib.sha256(Path(p).read_bytes()).hexdigest(),'bytes':Path(p).stat().st_size} for p in inputs]})
     return out
