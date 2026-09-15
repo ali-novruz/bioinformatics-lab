@@ -24,8 +24,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Set up Conda for Bioconda tools
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          auto-activate-base: true
+          channels: conda-forge,bioconda
+          channel-priority: strict
       - name: Install small-genome bioinformatics tools
-        run: sudo apt-get update && sudo apt-get install -y bwa samtools bcftools cutadapt star subread
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bwa samtools bcftools cutadapt subread
+          conda install -y -c conda-forge -c bioconda star=2.7.11b
       - name: Check shell scripts
         run: bash -n workflows/variants.sh workflows/rnaseq.sh
       - name: Run paired-read variant workflow on fixture
