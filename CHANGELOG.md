@@ -27,3 +27,7 @@ Altı real data mənbəyi üçün kartlar və hash manifest yaradıldı. Beş ə
 ## Stage 7 — Findings
 
 Faktiki metriklərdən nəticə hesabatı, biological/statistical interpretation və məhdudiyyətlər yaradıldı. 12 qrafik vizual yoxlanıldı; real/sintetik statusları başlıqlarda yazıldı. Run manifest-lərinə source-file SHA-256 əlavə edildi və notebook-lar son kodla yenidən icra olundu.
+
+## Stage 8 — New Research
+
+9 mini literature review, 6 test edilə bilən research question və 10 advanced experiment protocol əlavə edildi. Hazır baseline-lar ilə gələcək iş arasındakı sərhəd STATUS-da qeyd olundu. Repository private GitHub layihəsi kimi hazırlandı; raw/large data Git-dən kənarda saxlanıldı.
