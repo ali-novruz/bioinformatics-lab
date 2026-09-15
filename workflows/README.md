@@ -2,6 +2,8 @@
 
 **Status:** Bash workflow-ları yazılıb və sintaksis yoxlaması nəzərdə tutulub; bu Windows host-da işlək Linux/Docker olmadığı üçün real sequencing icrası edilməyib. Python VCF və RNA count analizləri ayrıca faktiki icra olunub. Bunları qarışdırmayın.
 
+GitHub Actions Linux smoke job-u bu workflow-ları kiçik sintetik reference/read-lərlə icra edir. Bu job production-scale performance və biological accuracy benchmark-ı deyil, komandaların işləkliyini yoxlayan regression testidir. Windows/local yoxlaması üçün `SKIP_QC=1 SKIP_MULTIQC=1` mühit dəyişənləri ilə ağır report addımlarını keçmək mümkündür.
+
 ## Genomics — paired-end DNA
 
 ```bash

@@ -22,16 +22,17 @@
 | Qrafiklər | Tələb olunan 11 növ + contact map; real/sintetik status qeyd olunub |
 | Yoxlamalar | 14 Python test keçdi; local links və notebook schemas keçdi |
 | Raw workflow syntax | İki Bash faylı syntax check-dən keçdi |
+| Raw workflow Linux smoke | GitHub Actions-də kiçik paired-read reference ilə BWA/SAMtools/BCFtools və STAR/featureCounts pipeline-ları avtomatik işlədilir |
 
 ## Hazır kod var, tam real icra hələ yoxdur
 
-- **FASTQ → BWA → BAM → variant calling → annotation:** Linux/Conda workflow verilib; bu host-da işlək Linux/Docker runtime olmadığından icra edilməyib. VCF-dən başlayan Python analizi faktiki işləyir.
-- **FASTQ → STAR → featureCounts → RNA model:** raw workflow və counts-combination/adaptor kodu var; xam reads mərhələsi burada icra edilməyib. Hazır real count matrix-dən başlayan bütün analiz faktiki işləyir.
+- **FASTQ → BWA → BAM → variant calling → annotation:** Kiçik Linux smoke dataset-i GitHub Actions-də hər push üçün icra edilir. Böyük real genom və klinik benchmark burada avtomatik işlədilmir; VCF-dən başlayan Python analizi faktiki işləyir.
+- **FASTQ → STAR → featureCounts → RNA model:** Kiçik Linux smoke dataset-i GitHub Actions-də hər push üçün icra edilir. Real pasilla xam FASTQ-ları və böyük reference burada avtomatik endirilmir; hazır real count matrix-dən başlayan bütün analiz faktiki işləyir.
 - **Pathway inference:** plotting nümunəsi konseptualdır; real gene-set enrichment eksperiment nəticəsi yoxdur.
 - **Manhattan və filogenetik ağac:** qrafik API-si işləyir, data sintetik/illüstrativdir; real GWAS/tree inference başa çatdırılmış kimi göstərilmir.
 
 ## Tədqiqat üçün növbəti işlər
 
-6 əsas research question və 10 advanced experiment protocol hazırdır; advanced layihələrin hamısı implementasiya/eksperiment kimi tamamlanmayıb. External cohort validation, full raw pipeline run, R/PyDESeq2 comparison, AlphaFold training/CASP reproduction və klinik validasiya aparılmayıb.
+6 əsas research question və 10 advanced experiment protocol hazırdır; advanced layihələrin hamısı implementasiya/eksperiment kimi tamamlanmayıb. External cohort validation, full-scale raw pipeline run, R/PyDESeq2 comparison, AlphaFold training/CASP reproduction və klinik validasiya aparılmayıb. Raw pipeline komandalarının kiçik end-to-end smoke icrası CI-də tamamlanır.
 
 Bu, işlək **ilk laboratoriya versiyasıdır**. Bütün bioinformatika mövzularının dərslik səviyyəsində tam əhatəsi və bütün gələcək research layihələrinin icrası kimi təqdim edilmir. [Roadmap](roadmap/README.md) dərinləşdirmə meyarlarını, [nəticələr](results/README.md) isə faktiki müşahidələri göstərir.

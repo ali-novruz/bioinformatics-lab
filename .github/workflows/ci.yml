@@ -18,3 +18,44 @@ jobs:
       - run: python scripts/check_repository.py
       - run: python scripts/run_projects.py --project alignment
       - run: python scripts/run_projects.py --project dna
+
+  raw-workflow-smoke:
+    name: Linux raw-read smoke workflows
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install small-genome bioinformatics tools
+        run: sudo apt-get update && sudo apt-get install -y bwa samtools bcftools cutadapt star subread
+      - name: Check shell scripts
+        run: bash -n workflows/variants.sh workflows/rnaseq.sh
+      - name: Run paired-read variant workflow on fixture
+        env:
+          SKIP_QC: '1'
+          SKIP_MULTIQC: '1'
+          THREADS: '2'
+        run: |
+          mkdir -p /tmp/biolab-raw
+          gzip -c datasets/fixtures/raw-smoke/reads_R1.fastq > /tmp/biolab-raw/R1.fastq.gz
+          gzip -c datasets/fixtures/raw-smoke/reads_R2.fastq > /tmp/biolab-raw/R2.fastq.gz
+          bash workflows/variants.sh datasets/fixtures/raw-smoke/reference.fa /tmp/biolab-raw/R1.fastq.gz /tmp/biolab-raw/R2.fastq.gz smoke /tmp/biolab-raw/variants 1
+          test -s /tmp/biolab-raw/variants/filtered.vcf.gz
+          test -s /tmp/biolab-raw/variants/variant_stats.txt
+      - name: Run paired-read RNA workflow on fixture
+        env:
+          SKIP_QC: '1'
+          SKIP_MULTIQC: '1'
+          THREADS: '2'
+          STAR_SA_INDEX_NBASES: '2'
+        run: |
+          mkdir -p /tmp/biolab-raw
+          gzip -c datasets/fixtures/raw-smoke/reads_R1.fastq > /tmp/biolab-raw/R1-rna.fastq.gz
+          gzip -c datasets/fixtures/raw-smoke/reads_R2.fastq > /tmp/biolab-raw/R2-rna.fastq.gz
+          bash workflows/rnaseq.sh datasets/fixtures/raw-smoke/reference.fa datasets/fixtures/raw-smoke/genes.gtf /tmp/biolab-raw/R1-rna.fastq.gz /tmp/biolab-raw/R2-rna.fastq.gz smoke-rna /tmp/biolab-raw/rnaseq 0
+          test -s /tmp/biolab-raw/rnaseq/smoke-rna.counts.tsv
+          grep -q 'toy_gene' /tmp/biolab-raw/rnaseq/smoke-rna.counts.tsv
+      - name: Upload smoke outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-workflow-smoke
+          path: /tmp/biolab-raw

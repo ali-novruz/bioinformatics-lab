@@ -17,9 +17,10 @@ python -m pytest
 python scripts/fetch_data.py --dataset all
 python scripts/run_projects.py --project all
 python scripts/make_visualizations.py
+python scripts/check_repository.py
 ```
 
-İlk iki layihə və testlər şəbəkəsiz işləyir. Real məlumatların ilk endirilməsi internet tələb edir. RNA-seq sayım analizi Python ilə işləyir; xam FASTQ üçün əlavə Linux/WSL/Conda alətləri lazımdır. Tam quraşdırma: [SETUP.md](SETUP.md). Faktiki icra vəziyyəti: [STATUS.md](STATUS.md).
+İlk iki layihə və testlər şəbəkəsiz işləyir. Real məlumatların ilk endirilməsi internet tələb edir. RNA-seq sayım analizi Python ilə işləyir; xam FASTQ üçün əlavə Linux/WSL/Conda alətləri lazımdır. Kiçik xam-read smoke testi GitHub Actions Linux mühitində hər push-da işləyir. Tam quraşdırma: [SETUP.md](SETUP.md). Faktiki icra vəziyyəti: [STATUS.md](STATUS.md).
 
 ## Repository xəritəsi
 

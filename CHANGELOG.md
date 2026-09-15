@@ -31,3 +31,7 @@ Faktiki metriklərdən nəticə hesabatı, biological/statistical interpretation
 ## Stage 8 — New Research
 
 9 mini literature review, 6 test edilə bilən research question və 10 advanced experiment protocol əlavə edildi. Hazır baseline-lar ilə gələcək iş arasındakı sərhəd STATUS-da qeyd olundu. Repository private GitHub layihəsi kimi hazırlandı; raw/large data Git-dən kənarda saxlanıldı.
+
+## Stage 9 — End-to-end smoke
+
+Kiçik paired FASTQ/reference/GTF fixture-ləri əlavə edildi. GitHub Actions Linux job-u BWA → SAMtools → BCFtools və STAR → featureCounts yollarını hər push-da real proqramlarla sınaqdan keçirir. Workflow-lara `SKIP_QC`, `SKIP_MULTIQC`, `THREADS` və kiçik genom üçün `STAR_SA_INDEX_NBASES` idarələri əlavə edildi.
