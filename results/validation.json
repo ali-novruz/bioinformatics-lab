@@ -1,0 +1,49 @@
+{
+  "local_tests": "14 passed",
+  "raw_workflows": "Bash syntax passed; Linux end-to-end execution not performed",
+  "notebooks": [
+    {
+      "notebook": "notebooks\\experiments\\02-alignment.ipynb",
+      "code_cells": 2,
+      "all_code_executed": true,
+      "errors": 0
+    },
+    {
+      "notebook": "notebooks\\experiments\\03-variants.ipynb",
+      "code_cells": 2,
+      "all_code_executed": true,
+      "errors": 0
+    },
+    {
+      "notebook": "notebooks\\experiments\\04-rnaseq.ipynb",
+      "code_cells": 2,
+      "all_code_executed": true,
+      "errors": 0
+    },
+    {
+      "notebook": "notebooks\\experiments\\05-ml.ipynb",
+      "code_cells": 2,
+      "all_code_executed": true,
+      "errors": 0
+    },
+    {
+      "notebook": "notebooks\\exploratory-analysis\\01-dna.ipynb",
+      "code_cells": 2,
+      "all_code_executed": true,
+      "errors": 0
+    }
+  ],
+  "example_run_source_fingerprints": "all match current Python files",
+  "captured_git_commits": "all reachable ancestors of delivery",
+  "source_files_sha256": {
+    "src\\biolab\\__init__.py": "e4b2f4dabe9b91e14c6c463ce8b80296c72a42afb9627900fffbe5e117339947",
+    "src\\biolab\\cli.py": "fab5005084ea1dfb858d668736be05a1d0163b00b931bb59c941226d9a904970",
+    "src\\biolab\\genomics.py": "49facb3fbfbb7c65f2c90b95da61950c18ee3621063b017b03edc735ad5c2078",
+    "src\\biolab\\io.py": "614986f1711c4c7b13bf713139a9f77dacebc606b7ee561dbf976e296b97494e",
+    "src\\biolab\\ml.py": "21d9ea6e617de9fabfd98d98783b3051da87511b7b4a77d14db1e7f2789593a4",
+    "src\\biolab\\reporting.py": "5e43ad6f2cecef82f688d22115954651f0777fcbe702484b5a8277dd8ba8ccef",
+    "src\\biolab\\sequence.py": "551e409bae16be6f2e8842d3d1a1ae59bae51cfc9f0b5984501771998604a8b4",
+    "src\\biolab\\statistics.py": "fea2ac43cb15c45475a189edfffdbd7739241727b855e938041334b91664ea3b",
+    "src\\biolab\\transcriptomics.py": "97460555bc89558ed9ebf68759d574102644adfb7c8fb82e2c677f96a09c8112"
+  }
+}
