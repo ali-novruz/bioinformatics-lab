@@ -22,6 +22,10 @@ jobs:
   raw-workflow-smoke:
     name: Linux raw-read smoke workflows
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash -el {0}
     steps:
       - uses: actions/checkout@v4
       - name: Set up Conda for Bioconda tools
@@ -37,31 +41,25 @@ jobs:
           conda install -y -c conda-forge -c bioconda star=2.7.11b
       - name: Check shell scripts
         run: bash -n workflows/variants.sh workflows/rnaseq.sh
+      - name: Generate reproducible fixture
+        run: python scripts/create_raw_fixture.py --output /tmp/biolab-raw/fixture
       - name: Run paired-read variant workflow on fixture
         env:
           SKIP_QC: '1'
           SKIP_MULTIQC: '1'
           THREADS: '2'
         run: |
-          mkdir -p /tmp/biolab-raw
-          gzip -c datasets/fixtures/raw-smoke/reads_R1.fastq > /tmp/biolab-raw/R1.fastq.gz
-          gzip -c datasets/fixtures/raw-smoke/reads_R2.fastq > /tmp/biolab-raw/R2.fastq.gz
-          bash workflows/variants.sh datasets/fixtures/raw-smoke/reference.fa /tmp/biolab-raw/R1.fastq.gz /tmp/biolab-raw/R2.fastq.gz smoke /tmp/biolab-raw/variants 1
-          test -s /tmp/biolab-raw/variants/filtered.vcf.gz
-          test -s /tmp/biolab-raw/variants/variant_stats.txt
+          bash workflows/variants.sh /tmp/biolab-raw/fixture/reference.fa /tmp/biolab-raw/fixture/R1.fastq.gz /tmp/biolab-raw/fixture/R2.fastq.gz smoke /tmp/biolab-raw/variants 1
       - name: Run paired-read RNA workflow on fixture
         env:
           SKIP_QC: '1'
           SKIP_MULTIQC: '1'
           THREADS: '2'
-          STAR_SA_INDEX_NBASES: '2'
+          STAR_SA_INDEX_NBASES: '4'
+          SJDB_OVERHANG: '100'
         run: |
-          mkdir -p /tmp/biolab-raw
-          gzip -c datasets/fixtures/raw-smoke/reads_R1.fastq > /tmp/biolab-raw/R1-rna.fastq.gz
-          gzip -c datasets/fixtures/raw-smoke/reads_R2.fastq > /tmp/biolab-raw/R2-rna.fastq.gz
-          bash workflows/rnaseq.sh datasets/fixtures/raw-smoke/reference.fa datasets/fixtures/raw-smoke/genes.gtf /tmp/biolab-raw/R1-rna.fastq.gz /tmp/biolab-raw/R2-rna.fastq.gz smoke-rna /tmp/biolab-raw/rnaseq 0
-          test -s /tmp/biolab-raw/rnaseq/smoke-rna.counts.tsv
-          grep -q 'toy_gene' /tmp/biolab-raw/rnaseq/smoke-rna.counts.tsv
+          bash workflows/rnaseq.sh /tmp/biolab-raw/fixture/reference.fa /tmp/biolab-raw/fixture/genes.gtf /tmp/biolab-raw/fixture/R1.fastq.gz /tmp/biolab-raw/fixture/R2.fastq.gz smoke-rna /tmp/biolab-raw/rnaseq 0
+          python scripts/validate_raw_fixture.py /tmp/biolab-raw
       - name: Upload smoke outputs
         if: always()
         uses: actions/upload-artifact@v4

@@ -1,4 +1,0 @@
-##gtf-version 2.2
-toy	smoke	gene	1	240	.	+	.	gene_id "toy_gene";
-toy	smoke	transcript	1	240	.	+	.	gene_id "toy_gene"; transcript_id "toy_tx";
-toy	smoke	exon	1	240	.	+	.	gene_id "toy_gene"; transcript_id "toy_tx"; exon_number "1";

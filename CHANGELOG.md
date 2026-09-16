@@ -35,3 +35,7 @@ Faktiki metriklərdən nəticə hesabatı, biological/statistical interpretation
 ## Stage 9 — End-to-end smoke
 
 Kiçik paired FASTQ/reference/GTF fixture-ləri əlavə edildi. GitHub Actions Linux job-u BWA → SAMtools → BCFtools və STAR → featureCounts yollarını hər push-da real proqramlarla sınaqdan keçirir. Workflow-lara `SKIP_QC`, `SKIP_MULTIQC`, `THREADS` və kiçik genom üçün `STAR_SA_INDEX_NBASES` idarələri əlavə edildi.
+
+## Stage 10 — Repository hygiene
+
+CITATION.cff, issue şablonları və pull request checklist əlavə edildi. Üçüncü tərəf mənbələrinin istifadə şərtləri DATA_POLICY-də saxlanılır.

@@ -69,4 +69,4 @@ Python, Biopython, NumPy, pandas, SciPy, matplotlib, scikit-learn, statsmodels, 
 
 [STATUS](STATUS.md) icra edilmiş işləri, [CHANGELOG](CHANGELOG.md) səkkiz qurulma mərhələsini, [roadmap](roadmap/README.md) isə keçid meyarlarını saxlayır. Sonrakı elmi prioritetlər: müstəqil cohort validasiyası, variant truth-set benchmark, single-cell donor-aware analiz və multi-omics inteqrasiyası.
 
-Töhfə vermək: [CONTRIBUTING.md](CONTRIBUTING.md). Mənbə və data istifadəsi: [DATA_POLICY.md](DATA_POLICY.md).
+Töhfə vermək: [CONTRIBUTING.md](CONTRIBUTING.md). Mənbə və data istifadəsi: [DATA_POLICY.md](DATA_POLICY.md). Citation məlumatı: [CITATION.cff](CITATION.cff).
