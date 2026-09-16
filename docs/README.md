@@ -15,3 +15,7 @@
 - [Bioinformatika üçün statistika](statistics/README.md)
 
 Hər modulda anlayış, metod, praktik yoxlama, məhdudiyyət və yeni araşdırma sualı var. “Advanced” mövzular giriş və metod seçimi səviyyəsindədir; ayrıca uzunmüddətli layihələrdə dərinləşdirilir.
+
+## Mənbəli praktikum
+
+[UNEC dərsləri və praktika proqramı](unec/README.md).

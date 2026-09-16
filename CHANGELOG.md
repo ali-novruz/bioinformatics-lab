@@ -54,3 +54,11 @@ repoda saxlanıldı. 300,000 RNA read pair və 84 model gene analiz edildi.
 
 Repo giriş bələdçisi, data kartları və nəticə keçidləri yeniləndi.
 GitHub Actions komponentləri cari release commit-lərinə sabitləşdirildi.
+
+## 2026-09-16 — UNEC praktikum və PDF kitabxanası
+
+- 68 faylın inventarı, 61 unikal mənbə və 7 təkrar qeydi.
+- 8 Azərbaycan dilli dərs, 15 həftəlik plan, 24 cavablı tapşırıq və mənbə düzəlişləri.
+- Dörd orijinal kitab PDF-i, mənşə/lisenziya qeydləri və ayrıca praktikum PDF-i.
+- Khan gen ifadəsi modeli, real RNA SQLite kataloqu və biostatistika simulyasiyası.
+- Üç saxlanmış icra, altıncı icra edilmiş notebook və 6 yeni regression test.

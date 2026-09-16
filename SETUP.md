@@ -54,3 +54,15 @@ python scripts/run_raw_examples.py --output results/runs/raw-examples-001
 - Checksum mismatch: fayl dəyişib; əvvəlki nəticəni dəyişmiş input-la eyni saymayın.
 - RNA model convergence xəbərdarlığı: design rank, az count, outlier və replikatları audit edin; xəbərdarlığı gizlətməyin.
 - `pysam` Windows: HTS işlərini Linux/WSL-də edin; Python text VCF analizinə bu paket lazım deyil.
+
+## UNEC laboratoriyaları
+
+```bash
+python scripts/run_study_database.py
+python scripts/run_biostatistics_lab.py
+python scripts/fetch_khan.py
+python scripts/run_expression_ml.py
+python scripts/check_learning_assets.py
+```
+
+İlk iki laboratoriya şəbəkəsizdir. Khan ilk endirmədə internet tələb edir. PDF-i yenidən yaratmaq üçün ayrıca `pip install reportlab`, sonra `python scripts/build_study_guide.py` işlədin. Arial və ya DejaVu Sans şriftləri lazımdır; lazım gəlsə `--font-dir` verin. Hazır PDF-i oxumaq üçün əlavə Python paketi lazım deyil.

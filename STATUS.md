@@ -18,14 +18,18 @@
 | RNA-seq | Real pasilla counts ilə PyDESeq2 modeli işlədi |
 | Disease Classification | Real WDBC morphology data-da sızmasız training CV və holdout test işlədi |
 | Protein nümunələri | UniProt P01308 və PDB 1CRN ayrıca analiz edildi |
-| Notebook-lar | 5/5 başdan sona icra edildi |
+| Notebook-lar | 6/6 başdan sona icra edildi |
 | Qrafiklər | Tələb olunan 11 növ + contact map; real/sintetik status qeyd olunub |
-| Yoxlamalar | 16 Python test; local links və notebook schemas keçdi |
+| Yoxlamalar | 22 Python test; local links və notebook schemas keçdi |
 | Raw workflow syntax | İki Bash faylı syntax check-dən keçdi |
 | Raw workflow Linux smoke | Keçdi: məlum tək PASS SNV və 422/422 gene-assigned fragment |
 | Real xam RNA-seq | GSE110004: 6 sample, 300,000 pair; FastQC → STAR → featureCounts → PyDESeq2; 84 tested gene və 3 qrafik |
 | Xarici xam DNA nümunəsi | nf-core/sarek fixture: QC → trimming → BWA → BCFtools; 32 variant record, 27 PASS |
 | İcra sübutları | [Raw nəticələr və QC](results/raw-examples/README.md), [positive control](results/linux-smoke/README.md) |
+
+## Yeni UNEC praktikumu
+
+68 fayl kataloqlaşdırılıb (61 unikal, 7 tam təkrar). 8 dərs, 15 həftəlik plan, 24 cavablı tapşırıq, 4 kitab PDF-i və ayrıca praktikum PDF-i əlavə olunub. Üç yeni layihə işlədilib: Khan gen ifadəsində 19/20 düzgün test proqnozu; SQLite-da 744 ölçmə; sintetik null testlərində 47 nominal/0 BH seçimi. [Dərslər və mənbələr](docs/unec/README.md), [nəticələr](results/course-projects/README.md).
 
 ## İcranın əhatəsi və qalan iş
 

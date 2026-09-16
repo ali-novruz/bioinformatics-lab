@@ -1,0 +1,41 @@
+{
+  "revision": "a1f4e43ca88d4c9a6f186930181d628b9270015d",
+  "files": [
+    {
+      "kind": "dataset",
+      "path": "datasets/raw/khan/Khan_xtrain.csv",
+      "url": "https://raw.githubusercontent.com/intro-stat-learning/ISLP/a1f4e43ca88d4c9a6f186930181d628b9270015d/ISLP/data/Khan_xtrain.csv",
+      "bytes": 1512553,
+      "sha256": "12148ef490588eb8ac9de3edc89551962a0499bfe78f39726ad58d8d72fd8e90",
+      "retrieved": "2026-09-16",
+      "changes": "none"
+    },
+    {
+      "kind": "dataset",
+      "path": "datasets/raw/khan/Khan_xtest.csv",
+      "url": "https://raw.githubusercontent.com/intro-stat-learning/ISLP/a1f4e43ca88d4c9a6f186930181d628b9270015d/ISLP/data/Khan_xtest.csv",
+      "bytes": 619501,
+      "sha256": "f620e7c092bebd62697c48d0eb586a94533aea9cc98b2ecb65a8c8c2bfe2d05d",
+      "retrieved": "2026-09-16",
+      "changes": "none"
+    },
+    {
+      "kind": "dataset",
+      "path": "datasets/raw/khan/Khan_ytrain.csv",
+      "url": "https://raw.githubusercontent.com/intro-stat-learning/ISLP/a1f4e43ca88d4c9a6f186930181d628b9270015d/ISLP/data/Khan_ytrain.csv",
+      "bytes": 130,
+      "sha256": "ac58f9c840e9e7c47bd17494cf0fe23e7fc9b5371e0d54c1a2a6038f45f637ab",
+      "retrieved": "2026-09-16",
+      "changes": "none"
+    },
+    {
+      "kind": "dataset",
+      "path": "datasets/raw/khan/Khan_ytest.csv",
+      "url": "https://raw.githubusercontent.com/intro-stat-learning/ISLP/a1f4e43ca88d4c9a6f186930181d628b9270015d/ISLP/data/Khan_ytest.csv",
+      "bytes": 44,
+      "sha256": "92fe0d43b0bb8351873102ca3651a39766c3708da37cf30042fa0fdc58ba01eb",
+      "retrieved": "2026-09-16",
+      "changes": "none"
+    }
+  ]
+}

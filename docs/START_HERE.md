@@ -29,3 +29,6 @@ Sintetik test metodun texniki işləməsini yoxlayır. Real dataset analizi isə
 yalnız seçilmiş nümunə, dizayn və fərziyyələr çərçivəsində elmi nəticə verir.
 Hər yeni dataset üçün yeni accession/manifest və eksperiment qeydi yaradın.
 
+## UNEC materialları ilə davam
+
+[Praktikum](unec/README.md) təqdim etdiyiniz dərsləri 8 mövzu, 24 tapşırıq və üç icra olunan layihə ilə bağlayır. [PDF kitabxanasından](../resources/books/README.md) mövzuya uyğun oxu seçin.

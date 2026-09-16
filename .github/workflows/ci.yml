@@ -17,8 +17,15 @@ jobs:
       - run: python -m pytest
       - run: python scripts/check_repository.py
       - run: python scripts/check_snapshot.py
+      - run: python scripts/check_learning_assets.py
       - run: python scripts/run_projects.py --project alignment
       - run: python scripts/run_projects.py --project dna
+      - name: Run course laboratories
+        if: matrix.python-version == '3.12'
+        run: |
+          python scripts/run_study_database.py
+          python scripts/run_biostatistics_lab.py
+          python scripts/run_expression_ml.py
 
   raw-workflow-smoke:
     name: Linux raw-read smoke workflows

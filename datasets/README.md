@@ -25,3 +25,7 @@
 ## Fixture-lər
 
 `fixtures/toy.fasta` və `fixtures/toy.vcf` tam sintetik, repoda yaradılmış test nümunələridir. Bunlardan biological discovery çıxarılmır. Bütün nəticələr data tipini bildirir.
+
+## Gen ifadəsi benchmark
+
+[Khan mikroarray məlumat kartı](public-datasets/khan.md). `python scripts/fetch_khan.py` sabit revision-dan dörd CSV endirir və hash-ləri yoxlayır.

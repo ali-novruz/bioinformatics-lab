@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "kind": "book",
+      "path": "resources/books/pdf/think-stats-2e.pdf",
+      "url": "https://greenteapress.com/thinkstats2/thinkstats2.pdf",
+      "title": "Think Stats, second edition",
+      "author": "Allen B. Downey",
+      "license": "CC BY-NC-SA 4.0",
+      "source_page": "https://greenteapress.com/wp/think-stats-2e/",
+      "bytes": 2090830,
+      "sha256": "272d5c33b81447227ac58d37e0343a2e9266714ed13702f1d5d0333c67660f02",
+      "retrieved": "2026-09-16",
+      "changes": "none",
+      "pages": 264
+    },
+    {
+      "kind": "book",
+      "path": "resources/books/pdf/mit-computational-biology.pdf",
+      "url": "https://ocw.mit.edu/ans7870/6/6.047/f15/MIT6_047F15_Compiled.pdf",
+      "title": "Computational Biology: Genomes, Networks, Evolution",
+      "author": "Manolis Kellis and course contributors",
+      "license": "MIT OCW CC BY-NC-SA 4.0; preserve embedded third-party notices",
+      "source_page": "https://ocw.mit.edu/courses/6-047-computational-biology-fall-2015/pages/open-textbook/",
+      "bytes": 43478050,
+      "sha256": "3f2e786b4e7e4c0c630c0565262544b532ea141442cfc25a99b3beab186a0621",
+      "retrieved": "2026-09-16",
+      "changes": "none",
+      "pages": 547
+    },
+    {
+      "kind": "user-supplied-book",
+      "path": "resources/unec/pdf/statistika-az-2015.pdf",
+      "original_filename": "UNEC__1789524230.pdf",
+      "title": "Statistika",
+      "author": "F. N. Əliyev, C. İ. Mikayilov, Y. N. Əliyev",
+      "bytes": 20030756,
+      "sha256": "9bbdc6f66a58bf667c6d042a87c3ebeecd7cea14cecee0ad05e760f662c6d705",
+      "pages": 246,
+      "license": "User-supplied study copy; no open redistribution license established; original rights retained",
+      "changes": "none",
+      "retrieved": "2026-09-16"
+    },
+    {
+      "kind": "user-supplied-book",
+      "path": "resources/unec/pdf/data-science-machine-learning-2022.pdf",
+      "original_filename": "UNEC__1789524117.pdf",
+      "title": "Data Science and Machine Learning: Mathematical and Statistical Methods",
+      "author": "Dirk P. Kroese, Zdravko I. Botev, Thomas Taimre, Radislav Vaisman",
+      "bytes": 20999225,
+      "sha256": "296d5f68396abdadc3cdf85a2f3e78212ff7a3c4ffacb61a5bca7cf04a67d221",
+      "pages": 533,
+      "license": "User-supplied study copy; no open redistribution license established; original rights retained",
+      "changes": "none",
+      "retrieved": "2026-09-16"
+    }
+  ]
+}

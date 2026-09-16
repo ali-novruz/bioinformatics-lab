@@ -1,0 +1,62 @@
+{
+  "project": "biostatistics-lab",
+  "created_utc": "20260916T081648Z-4dfad7",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "bioinformatics-lab": "0.1.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "biopython": "1.88",
+    "pydeseq2": "0.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "git_commit": "81fbd300433724f2e3e0387e4090b9768ea0c80f",
+  "working_tree_dirty": true,
+  "source_files_sha256": {
+    "scripts\\analyze_counts.py": "8ee2fdedbb222f902d352d04e222d78a00219aad99061e5bc69d96f552ea5eef",
+    "scripts\\build_study_guide.py": "f2b92e54603a45c108b0a50b2410018718cba166c17a4c8c7b22588e8775fc03",
+    "scripts\\check_learning_assets.py": "b224122024e76f465ef625db3462d414509c7731afdfa2634bfda3f137eb39b1",
+    "scripts\\check_repository.py": "89d1dc01dfe4531030b97cc36cb0aa7a3c5a6b96e81ff9814476da55c7e024ca",
+    "scripts\\check_snapshot.py": "8e87fccd2da374e177aac7edaf6769bf23ccbcec84841cf70e5d92129fa9c64c",
+    "scripts\\combine_counts.py": "2abb9fc2c5f5bec07a699558ffd46dd862d1a0954faf2a68f1bd1a78c2dcf61f",
+    "scripts\\create_raw_fixture.py": "82d700f166a0bf70b43a854487edf13f06174288e6bb3ba32540cf8026e40d34",
+    "scripts\\fetch_data.py": "31d5acfc5fad6ad611a6fa347d98d00911a21a98fd61c35cdb50fe62e551b2af",
+    "scripts\\fetch_khan.py": "7935354eb839d1bf3c84bee6477f1ca21c7b1b93b417f2a09d244ae65f97f319",
+    "scripts\\fetch_raw_examples.py": "c54c4235de86ff3c2e0e067453e3ceabce086a6393e8418e0c617da57361248e",
+    "scripts\\make_visualizations.py": "f80a2eecbc7fee09ac26337836b22185c5a65d77ca302f6558531b25afa5e1a7",
+    "scripts\\protein_project.py": "e0e1da7404c31e679ab5bc8b8527439bc4dcf48880eb3a616dfeddaa9276d176",
+    "scripts\\run_biostatistics_lab.py": "96660f99b28fbc03d7a7e0b62a08121b0bb6b69cebfd2c32d5789d1969455fdd",
+    "scripts\\run_expression_ml.py": "ecda5fb05fb4b34019aec562d2ef1bcc691b8a31e6579d4836838b104c20e60f",
+    "scripts\\run_projects.py": "a6dcb54d3e43026c4d5a8da21326ff3c356e99b1cff3d48387b9b451aa17c3db",
+    "scripts\\run_raw_examples.py": "2e336276e329a78d9e61afe996fb614a765a9e7ea7ea582b18145d92b1535de4",
+    "scripts\\run_study_database.py": "7bd664549275b8d0a4398b85df855fd31ba97b80a7d47ab8140b59947f8a444b",
+    "scripts\\validate_raw_fixture.py": "5b32d3e4733d3fe19ba3760fd46e543946ef90befb2375c65265bfac498bbc22",
+    "src\\biolab\\__init__.py": "e4b2f4dabe9b91e14c6c463ce8b80296c72a42afb9627900fffbe5e117339947",
+    "src\\biolab\\cli.py": "fab5005084ea1dfb858d668736be05a1d0163b00b931bb59c941226d9a904970",
+    "src\\biolab\\expression_ml.py": "ce534bf4431cfe607dc541ddd969336eddfd4bdbee46b378c77b43918f595568",
+    "src\\biolab\\genomics.py": "49facb3fbfbb7c65f2c90b95da61950c18ee3621063b017b03edc735ad5c2078",
+    "src\\biolab\\io.py": "614986f1711c4c7b13bf713139a9f77dacebc606b7ee561dbf976e296b97494e",
+    "src\\biolab\\ml.py": "21d9ea6e617de9fabfd98d98783b3051da87511b7b4a77d14db1e7f2789593a4",
+    "src\\biolab\\reporting.py": "5e43ad6f2cecef82f688d22115954651f0777fcbe702484b5a8277dd8ba8ccef",
+    "src\\biolab\\sequence.py": "551e409bae16be6f2e8842d3d1a1ae59bae51cfc9f0b5984501771998604a8b4",
+    "src\\biolab\\statistics.py": "fea2ac43cb15c45475a189edfffdbd7739241727b855e938041334b91664ea3b",
+    "src\\biolab\\study_database.py": "246f38c86a4afe85b1e55cabffa788f5306b09ab8db828b0ece18e5c4e95636b",
+    "src\\biolab\\transcriptomics.py": "97460555bc89558ed9ebf68759d574102644adfb7c8fb82e2c677f96a09c8112"
+  },
+  "parameters": {
+    "seed": 20260916,
+    "null_genes": 1000,
+    "samples_per_group": 20,
+    "data_types": "real RNA library summaries + explicitly synthetic null experiment"
+  },
+  "inputs": [
+    {
+      "path": "results\\raw-examples\\rna-model\\counts.tsv",
+      "sha256": "7e4fbe8a0f7b4ae4aea6a451908536bfc8b4f7eb1b49c58c86312b9844fcdca1",
+      "bytes": 3123
+    }
+  ]
+}

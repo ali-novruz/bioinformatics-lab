@@ -9,3 +9,7 @@ Hər notebook **Problem → Theory → Data → Method → Code → Result → I
 - [Disease classification](experiments/05-ml.ipynb)
 
 Paket və real dataset-ləri əvvəlcədən quraşdırın. Notebook yeni run qovluğu yaradır. Çıxışlar təkrar icrada dəyişərsə versiya, checksum, parametr və random seed-i müqayisə edin.
+
+## UNEC nəticələrinin yoxlanması
+
+[06-unec-practice.ipynb](experiments/06-unec-practice.ipynb): saxlanmış proqnozlardan metriklər, real SQLite sorğusu və null simulyasiyasının təkrar icrası. Başdan sona işlədilib.

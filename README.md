@@ -79,3 +79,7 @@ Python, Biopython, NumPy, pandas, SciPy, matplotlib, scikit-learn, statsmodels, 
 [STATUS](STATUS.md) icra edilmiş işləri, [CHANGELOG](CHANGELOG.md) qurulma mərhələlərini, [roadmap](roadmap/README.md) isə keçid meyarlarını saxlayır. Sonrakı elmi prioritetlər: müstəqil cohort validasiyası, variant truth-set benchmark, single-cell donor-aware analiz və multi-omics inteqrasiyası.
 
 Töhfə vermək: [CONTRIBUTING.md](CONTRIBUTING.md). Mənbə və data istifadəsi: [DATA_POLICY.md](DATA_POLICY.md). Citation məlumatı: [CITATION.cff](CITATION.cff).
+
+## UNEC praktikum paketi
+
+[8 dərs və 15 həftəlik proqram](docs/unec/README.md), [68 fayllıq mənbə kataloqu](resources/unec/README.md), [4 PDF kitab](resources/books/README.md) və [24 cavablı tapşırıq](docs/unec/exercises.md) əlavə olunub. Üç yeni işlək layihə gen ifadəsi təsnifatı, real RNA sayımları üçün SQLite və çoxsaylı statistik testləri əhatə edir. [Nəticələr](results/course-projects/README.md) · [PDF praktikum](resources/unec/bioinformatika-praktikum.pdf).

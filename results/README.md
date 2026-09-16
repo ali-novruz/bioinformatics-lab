@@ -48,3 +48,7 @@ RNA nəticəsi seçilmiş negative-binomial model və FDR assumptions-a şərtli
 ## Fayllar və təkrar icra
 
 [Example run snapshots](example-runs) metadata, metrik və kiçik cədvəlləri saxlayır. Full derived tables `results/runs/` altında yaradılır, Git-ə daxil edilmir. [Qrafik qalereyası](../visualizations/README.md) data tipini göstərir. `run.json` commit-i və working-tree dirty statusunu olduğu kimi saxlayır; yaradılma zamanı bütün sonrakı sənədlər hələ commit edilməmiş ola bilər.
+
+## UNEC praktik nəticələri
+
+[Üç yeni layihənin nəticələri və mənşə qeydləri](course-projects/README.md).

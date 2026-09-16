@@ -1,0 +1,72 @@
+{
+  "dataset": "Khan et al. (2001), ISLP four-class microarray subset",
+  "data_type": "real processed gene-expression microarray values; not raw counts",
+  "features": 2308,
+  "train_samples": 63,
+  "test_samples": 20,
+  "train_class_counts": {
+    "1": 8,
+    "2": 23,
+    "3": 12,
+    "4": 20
+  },
+  "test_class_counts": {
+    "1": 3,
+    "2": 6,
+    "3": 6,
+    "4": 5
+  },
+  "selected_parameters": {
+    "classifier__C": 0.01,
+    "select__k": 25
+  },
+  "selected_cv_balanced_accuracy": 1.0,
+  "dummy_cv_balanced_accuracy": 0.25,
+  "test_accuracy": 0.95,
+  "test_balanced_accuracy": 0.9583333333333334,
+  "test_macro_f1": 0.9545454545454546,
+  "dummy_test_balanced_accuracy": 0.25,
+  "class_order": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "confusion_matrix": [
+    [
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5
+    ]
+  ],
+  "limitations": [
+    "Twenty held-out tissue samples from a historical benchmark; not early-detection or screening evidence.",
+    "Source values were processed before distribution; upstream preprocessing independence cannot be established here.",
+    "V1..V2308 are dataset column identifiers, not verified gene symbols.",
+    "Cross-validation score is used for model selection and is not an unbiased generalization estimate.",
+    "Published test split is not a prospective or external-cohort validation."
+  ],
+  "test_accuracy_bootstrap_95_conditional": [
+    0.85,
+    1.0
+  ]
+}
