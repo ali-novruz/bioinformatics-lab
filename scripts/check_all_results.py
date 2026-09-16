@@ -1,7 +1,7 @@
 """Validate every published run, immutable snapshot and example input."""
 from pathlib import Path
 import hashlib,json
-from biolab.provenance import verify_sources
+from biolab.provenance import verify_sources,verify_outputs
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -13,6 +13,7 @@ def main():
         record=json.loads(record_path.read_text(encoding='utf-8'))
         if not record.get('source_files_sha256'):continue
         summary=verify_sources(ROOT,record)
+        verify_outputs(record_path.parent,record)
         record_count+=1;archived+=summary['archived'];current+=summary['current']
     manifests=[ROOT/'datasets/examples/manifest.json']
     for manifest in manifests:

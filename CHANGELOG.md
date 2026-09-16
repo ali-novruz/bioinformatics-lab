@@ -1,5 +1,14 @@
 # Dəyişikliklər
 
+## Research audit — 2026-09-16
+
+Custom RNA başlıqları və annotasiya ilə count merge düzəldildi. Registry, data
+və research graph yoxlamaları; suite/run əlaqələri, command/runtime/status və
+output checksum-ları əlavə edildi. 57 test, correctness lint, offline/integration
+CI ayrımı və bütün notebook-ları işlədən giriş var. Khan nested CV/99 permutation
+və GO exhaustive singleton control icra edildi; yeni nəticələr ayrıca saxlanır.
+[Audit və məhdudiyyətlər](docs/RESEARCH_AUDIT.md).
+
 ## Stage 1 — Repository Architecture
 
 README, məlumat siyasəti, töhfə qaydaları, modul struktur və mərhələ izləmə sistemi yaradıldı.

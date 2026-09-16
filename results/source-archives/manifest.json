@@ -5,6 +5,12 @@
       "commit": "cbcbffba350180af31af9f8b665a481ca0837f67",
       "sha256": "9ba00e204e2c38dbafbfb6c0b06503a0a9b3d299462269da296beb8cf667a8d9",
       "purpose": "Immutable source bytes for previously published results; never execute archive code"
+    },
+    {
+      "path": "results/source-archives/fda0c35.zip",
+      "commit": "fda0c35f0930dbc794eec1a8ac9076bafd4b0d8d",
+      "sha256": "730b6ba894f27a617d3c29c56af1c83a7a33dd0b8416f94d84ec7e9c7c11ce5d",
+      "purpose": "Immutable pre-audit source and configuration; never execute archive code"
     }
   ]
 }

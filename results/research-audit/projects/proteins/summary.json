@@ -1,0 +1,33 @@
+{
+  "uniprot_accession": "P01308",
+  "protein": "human insulin precursor",
+  "sequence_length": 110,
+  "composition": {
+    "M": 2,
+    "A": 10,
+    "L": 20,
+    "W": 2,
+    "R": 5,
+    "P": 6,
+    "G": 12,
+    "D": 2,
+    "F": 3,
+    "V": 6,
+    "N": 3,
+    "Q": 7,
+    "H": 2,
+    "C": 6,
+    "S": 5,
+    "E": 8,
+    "Y": 4,
+    "T": 3,
+    "K": 2,
+    "I": 2
+  },
+  "pdb": "1CRN",
+  "structure_protein": "crambin; NOT the insulin sequence",
+  "chain": "A",
+  "ca_residues": 46,
+  "undirected_ca_contacts_lt8A": 203,
+  "contact_definition": "all nonidentical CA pairs <8 Angstrom, including sequence neighbours; not chemical bonds"
+}

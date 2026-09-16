@@ -18,9 +18,9 @@
 | RNA-seq | Real pasilla counts ilə PyDESeq2 modeli işlədi |
 | Disease Classification | Real WDBC morphology data-da sızmasız training CV və holdout test işlədi |
 | Protein nümunələri | UniProt P01308 və PDB 1CRN ayrıca analiz edildi |
-| Notebook-lar | 7/7 başdan sona icra edildi |
+| Notebook-lar | 8/8 hesablaması tamamlandı; təkrar icra girişi `scripts/validate_notebooks.py` |
 | Qrafiklər | Tələb olunan 11 növ + contact map; real/sintetik status qeyd olunub |
-| Yoxlamalar | 43 Python test; local links və notebook schemas keçdi |
+| Yoxlamalar | 57 Python test; correctness lint, local links, notebook schemas, registry/data/research graph yoxlamaları |
 | Raw workflow syntax | İki Bash faylı syntax check-dən keçdi |
 | Raw workflow Linux smoke | Keçdi: məlum tək PASS SNV və 422/422 gene-assigned fragment |
 | Real xam RNA-seq | GSE110004: 6 sample, 300,000 pair; FastQC → STAR → featureCounts → PyDESeq2; 84 tested gene və 3 qrafik |
@@ -34,6 +34,10 @@
 ## Tam layihə yoxlaması
 
 12 layihə vahid `python scripts/lab.py run all` əmri ilə uğurla işlədilib. GO enrichment, filogeniya və dairəvi ORF axtarışı əlavə olunub. VCF sample/FORMAT yoxlaması, SQL kimlikləri və cache-reference uyğunluğu düzəldilib. [Audit](docs/REPOSITORY_AUDIT.md) və [icra sübutları](results/expanded-projects/README.md).
+
+## Son tənqidi audit
+
+Custom RNA plot başlıqları, annotasiya uyğunsuzluğu ilə count merge, suite/run əlaqəsi və output bütövlüyü düzəldildi. İki mövcud analizdə yeni control icra edildi: Khan nested balanced accuracy 0.99, 99 permutation p=0.01, selection Jaccard 0.2569; GO-da 84 mümkün singleton-un heç biri BH<0.05 vermədi. [Tənqidi hesabat](docs/RESEARCH_AUDIT.md) və [yeni nəticə snapshot-u](results/research-audit/README.md).
 
 ## İcranın əhatəsi və qalan iş
 

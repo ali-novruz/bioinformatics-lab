@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    {"id":"raw-rna","status":"executed","path":"results/raw-examples/rna-model/differential_expression.csv"},
+    {"id":"sgd","status":"source","path":"datasets/examples/manifest.json"},
+    {"id":"go-analysis","status":"executed","path":"results/expanded-projects/go-enrichment/summary.json"},
+    {"id":"go-control","status":"executed","path":"results/research-audit/enrichment-control/summary.json"},
+    {"id":"khan","status":"source","path":"datasets/khan-manifest.json"},
+    {"id":"expression-model","status":"executed","path":"results/course-projects/gene-expression-ml/summary.json"},
+    {"id":"expression-control","status":"executed","path":"results/research-audit/expression-control/summary.json"}
+  ],
+  "edges": [
+    {"from":"raw-rna","to":"go-analysis","relation":"finite-padj gene universe and FDR-selected foreground"},
+    {"from":"sgd","to":"go-analysis","relation":"versioned biological-process term membership"},
+    {"from":"go-analysis","to":"go-control","relation":"zero discoveries motivates exhaustive singleton sensitivity"},
+    {"from":"raw-rna","to":"go-control","relation":"reuse exact frozen gene universe"},
+    {"from":"sgd","to":"go-control","relation":"reuse the same term family"},
+    {"from":"khan","to":"expression-model","relation":"published train/test split"},
+    {"from":"expression-model","to":"expression-control","relation":"high score motivates a post-hoc robustness audit"},
+    {"from":"khan","to":"expression-control","relation":"only the 63 training samples are computational inputs"}
+  ]
+}

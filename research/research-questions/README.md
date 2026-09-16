@@ -1,5 +1,9 @@
 # Tədqiqat sualları
 
+İcra edilmiş iki konkret sınaq və onlardan yaranan növbəti suallar:
+[GO singleton çatımlılığı və Khan model/feature sabitliyi](../../experiments/controls/README.md).
+[Maşınla yoxlanan input→analiz→control əlaqələri](../graph.json).
+
 - [Variant prioriteti və xəstəlik riski](variant-risk.md)
 - [Expression pattern-dən disease classification](expression-disease.md)
 - [Cancer subtype identification](cancer-subtypes.md)

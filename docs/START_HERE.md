@@ -11,6 +11,7 @@
 | Xam FASTQ-dan nəticə almaq | [Xam workflow təlimatı](../workflows/README.md) | Linux alətləri, QC, mapping və analiz |
 | Hazır nəticəni oxumaq | [Nəticələr](../results/README.md) və [STATUS](../STATUS.md) | İcra edilmiş iş və sübut səviyyəsi |
 | Yeni tədqiqat seçmək | [30 layihə](../projects/IDEAS.md) və [suallar](../research/research-questions/README.md) | Hipotez, input, metod və qiymətləndirmə |
+| Nəticəni tənqidi yoxlamaq | [Control təcrübələri](../experiments/controls/README.md) və [audit](RESEARCH_AUDIT.md) | Nested CV, mənfi nəzarət və FDR çatımlılığı |
 
 ## Faylların məntiqi
 

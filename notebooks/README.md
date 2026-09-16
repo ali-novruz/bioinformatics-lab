@@ -17,3 +17,12 @@ Paket və real dataset-ləri əvvəlcədən quraşdırın. Notebook yeni run qov
 ## Yeni analizlər
 
 [07-expanded-projects.ipynb](experiments/07-expanded-projects.ipynb): real GO enrichment, filogenetik distance və ORF koordinatlarının yoxlanması.
+
+## Tənqidi control nəticələri
+
+[08-research-controls.ipynb](experiments/08-research-controls.ipynb): GO singleton p-lərini xüsusi formuldan, nested-CV score və permutation p-ni saxlanmış cədvəldən yenidən hesablayır. 99-permutation model fit-i ayrıca `scripts/run_controls.py` ilə icra olunur.
+
+Bütün notebook-ları təkrar yoxlamaq: `python scripts/validate_notebooks.py`.
+Yeni icra nüsxələri `results/runs/notebook-validation/` daxilində saxlanır;
+əvvəlki notebook output-ları dəyişdirilmir. İlk beş notebook modeli/analizi
+işlədir, 06–08 isə yuxarıda göstərilən həcmdə saxlanmış nəticələri yenidən yoxlayır.

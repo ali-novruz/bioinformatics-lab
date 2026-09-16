@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-16",
+  "pytest": {
+    "passed": 57,
+    "failed": 0
+  },
+  "ruff": "passed E9/F63/F7/F82",
+  "suite": {
+    "passed": 12,
+    "failed": 0,
+    "seconds": 42.0010893
+  },
+  "notebooks": [
+    {
+      "source": "notebooks/experiments/02-alignment.ipynb",
+      "executed_copy_sha256": "c488865d75f53e5341c7503216d4a260c84d94be1b8d65beb7a12197a51cf27e",
+      "executed_code_cells": 2,
+      "cell_errors": 0
+    },
+    {
+      "source": "notebooks/experiments/03-variants.ipynb",
+      "executed_copy_sha256": "88df71b6c4e24f2bdbf3a504af4c0f54759347f5a3eb82b922249562d75db43a",
+      "executed_code_cells": 2,
+      "cell_errors": 0
+    },
+    {
+      "source": "notebooks/experiments/04-rnaseq.ipynb",
+      "executed_copy_sha256": "ccdccad1b40a890ef6d4d0945121c2ef4a420d199415cd6f2146a8e7eb853d59",
+      "executed_code_cells": 2,
+      "cell_errors": 0
+    },
+    {
+      "source": "notebooks/experiments/05-ml.ipynb",
+      "executed_copy_sha256": "1cd638fdd10debb296c045c853ea4eab0a12efdaa33ada1f8fe72bf350ff8921",
+      "executed_code_cells": 2,
+      "cell_errors": 0
+    },
+    {
+      "source": "notebooks/experiments/06-unec-practice.ipynb",
+      "executed_copy_sha256": "2fbaa3b26638454e2893b00f833b5b50893226ff6e3aeb48db5d4adfb7678e1d",
+      "executed_code_cells": 4,
+      "cell_errors": 0
+    },
+    {
+      "source": "notebooks/experiments/07-expanded-projects.ipynb",
+      "executed_copy_sha256": "f4d4cec9cea7cd0b3b11d6e61fe4afd9c5f2d6870eec0df74ad33f561c320e0a",
+      "executed_code_cells": 4,
+      "cell_errors": 0
+    },
+    {
+      "source": "notebooks/experiments/08-research-controls.ipynb",
+      "executed_copy_sha256": "905d490c3f9e8ca73d217f30e5ebb5d442b041fc527275ce3dcec51e30dfbbb5",
+      "executed_code_cells": 3,
+      "cell_errors": 0
+    },
+    {
+      "source": "notebooks/exploratory-analysis/01-dna.ipynb",
+      "executed_copy_sha256": "f6d92cb491dbc5b6cb5439dff3d29658b551b50e24b6f910aaa5b4af839d74d4",
+      "executed_code_cells": 2,
+      "cell_errors": 0
+    }
+  ],
+  "visualization_gallery": "regenerated successfully; real/synthetic labels retained",
+  "repository_health": "registry/data hashes/research graph/Markdown/notebook schemas passed",
+  "published_provenance": "38 runs verified before adding custom RNA copy; current and archived source hashes checked",
+  "custom_rnaseq": {
+    "samples": 6,
+    "tested_genes": 84,
+    "fdr_discoveries": 1,
+    "fdr_and_abs_lfc_gt1": 0,
+    "plot_dataset": "GSE110004 yeast chrI",
+    "plot_design": "~ condition"
+  },
+  "windows_notebook_runtime_notes": "Jupyter emitted transport/event-loop warnings and a libzmq shutdown assertion. Notebook execution returned exit 0; all eight saved copies have executed cells and zero cell-error outputs. Clean Linux execution is separately checked in CI.",
+  "ci": "Fresh-checkout GitHub validation is reported by the commit check; no future CI success assumed here."
+}

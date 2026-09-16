@@ -1,0 +1,259 @@
+{
+  "status": "complete",
+  "selected": [
+    "dna",
+    "alignment",
+    "variants",
+    "rnaseq",
+    "ml",
+    "proteins",
+    "expression-ml",
+    "database",
+    "statistics",
+    "enrichment",
+    "phylogeny",
+    "orfs"
+  ],
+  "skipped_requires_download": [],
+  "projects": [
+    {
+      "id": "dna",
+      "exit_code": 0,
+      "log": "dna.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\fetch_data.py",
+          "--dataset",
+          "phix"
+        ],
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\run_projects.py",
+          "--project",
+          "dna"
+        ]
+      ],
+      "elapsed_seconds": 1.8405975999994553,
+      "run_paths": [
+        "results/runs/dna/20260916T133612Z-db1777"
+      ],
+      "error": null
+    },
+    {
+      "id": "alignment",
+      "exit_code": 0,
+      "log": "alignment.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\run_projects.py",
+          "--project",
+          "alignment"
+        ]
+      ],
+      "elapsed_seconds": 1.660707299997739,
+      "run_paths": [
+        "results/runs/alignment/20260916T133614Z-56c0e2"
+      ],
+      "error": null
+    },
+    {
+      "id": "variants",
+      "exit_code": 0,
+      "log": "variants.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\fetch_data.py",
+          "--dataset",
+          "giab"
+        ],
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\run_projects.py",
+          "--project",
+          "variants"
+        ]
+      ],
+      "elapsed_seconds": 1.8062984999996843,
+      "run_paths": [
+        "results/runs/variants/20260916T133615Z-42d514"
+      ],
+      "error": null
+    },
+    {
+      "id": "rnaseq",
+      "exit_code": 0,
+      "log": "rnaseq.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\fetch_data.py",
+          "--dataset",
+          "pasilla"
+        ],
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\run_projects.py",
+          "--project",
+          "rnaseq"
+        ]
+      ],
+      "elapsed_seconds": 18.524745900002017,
+      "run_paths": [
+        "results/runs/rnaseq/20260916T133617Z-eea0bc"
+      ],
+      "error": null
+    },
+    {
+      "id": "ml",
+      "exit_code": 0,
+      "log": "ml.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\run_projects.py",
+          "--project",
+          "ml"
+        ]
+      ],
+      "elapsed_seconds": 4.260629100004735,
+      "run_paths": [
+        "results/runs/ml/20260916T133636Z-78c498"
+      ],
+      "error": null
+    },
+    {
+      "id": "proteins",
+      "exit_code": 0,
+      "log": "proteins.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\fetch_data.py",
+          "--dataset",
+          "uniprot"
+        ],
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\fetch_data.py",
+          "--dataset",
+          "pdb"
+        ],
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\protein_project.py"
+        ]
+      ],
+      "elapsed_seconds": 1.005690300000424,
+      "run_paths": [
+        "results/runs/proteins/20260916T133639Z-083e04"
+      ],
+      "error": null
+    },
+    {
+      "id": "expression-ml",
+      "exit_code": 0,
+      "log": "expression-ml.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\run_expression_ml.py"
+        ]
+      ],
+      "elapsed_seconds": 5.559982899998431,
+      "run_paths": [
+        "results/runs/gene-expression-ml/20260916T133641Z-6b0300"
+      ],
+      "error": null
+    },
+    {
+      "id": "database",
+      "exit_code": 0,
+      "log": "database.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\run_study_database.py"
+        ]
+      ],
+      "elapsed_seconds": 0.4682623000044259,
+      "run_paths": [
+        "results/runs/study-database/20260916T133645Z-2b4116"
+      ],
+      "error": null
+    },
+    {
+      "id": "statistics",
+      "exit_code": 0,
+      "log": "statistics.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\run_biostatistics_lab.py"
+        ]
+      ],
+      "elapsed_seconds": 1.590324700002384,
+      "run_paths": [
+        "results/runs/biostatistics-lab/20260916T133647Z-e136ac"
+      ],
+      "error": null
+    },
+    {
+      "id": "enrichment",
+      "exit_code": 0,
+      "log": "enrichment.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\run_extensions.py",
+          "--project",
+          "enrichment"
+        ]
+      ],
+      "elapsed_seconds": 1.7529869000063627,
+      "run_paths": [
+        "results/runs/go-enrichment/20260916T133648Z-8ba41e"
+      ],
+      "error": null
+    },
+    {
+      "id": "phylogeny",
+      "exit_code": 0,
+      "log": "phylogeny.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\run_extensions.py",
+          "--project",
+          "phylogeny"
+        ]
+      ],
+      "elapsed_seconds": 1.7907963000034215,
+      "run_paths": [
+        "results/runs/phylogeny/20260916T133650Z-0233d8"
+      ],
+      "error": null
+    },
+    {
+      "id": "orfs",
+      "exit_code": 0,
+      "log": "orfs.log",
+      "commands": [
+        [
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\work\\venv\\Scripts\\python.exe",
+          "C:\\Users\\nevin\\Documents\\Codex\\2026-09-15\\github-plugin-github-openai-curated-remote\\outputs\\bioinformatics-lab\\scripts\\run_extensions.py",
+          "--project",
+          "orfs"
+        ]
+      ],
+      "elapsed_seconds": 1.7071648000055575,
+      "run_paths": [
+        "results/runs/orf-discovery/20260916T133652Z-198974"
+      ],
+      "error": null
+    }
+  ],
+  "elapsed_seconds": 42.001089299999876
+}

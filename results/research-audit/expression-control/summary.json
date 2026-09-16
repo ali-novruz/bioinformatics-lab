@@ -1,0 +1,38 @@
+{
+  "training_samples": 63,
+  "test_samples_opened": 0,
+  "mean_outer_balanced_accuracy": 0.99,
+  "fold_balanced_accuracy": [
+    1.0,
+    0.95,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "dummy_balanced_accuracy": 0.25,
+  "effect_above_dummy": 0.74,
+  "permutations": 99,
+  "permutation_pvalue": 0.01,
+  "null_mean": 0.24193602693602692,
+  "null_central_95_range": [
+    0.1375,
+    0.36212500000000003
+  ],
+  "minimum_pvalue_resolution": 0.01,
+  "mean_pairwise_selected_probe_jaccard": 0.25690877529311373,
+  "selected_probe_counts": [
+    25,
+    500,
+    100,
+    100,
+    25
+  ],
+  "scope": "Training-only nested CV and full-pipeline permutation control; post-hoc robustness audit",
+  "limitations": [
+    "Outer folds share training data: fold range is not a confidence interval.",
+    "The null range describes permutation scores, not uncertainty of clinical performance.",
+    "Unknown donor dependence or upstream preprocessing can violate exchangeability; no external cohort.",
+    "Selection overlap is descriptive and is not a gene-level biomarker claim.",
+    "99 permutations give coarse 0.01 p-value resolution; this protocol was written before this audit run but after earlier benchmark results."
+  ]
+}

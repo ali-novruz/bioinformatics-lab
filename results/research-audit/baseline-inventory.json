@@ -1,0 +1,4030 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 135,
+    "sha256": "6f381f3891c4e3b235e4257165f95702e6784fe10ee940692b0708799cafc9fb",
+    "category": ".gitattributes"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug-report.md",
+    "bytes": 262,
+    "sha256": "6821b902223a966918aa77e7922e273d92c39a454becd3122ff1c8978bad77e7",
+    "category": ".github",
+    "lines": 18
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/research-question.md",
+    "bytes": 327,
+    "sha256": "1edc3e3482feb4a460e316bf731770936e2166a849a83bd8236e315810919289",
+    "category": ".github",
+    "lines": 22
+  },
+  {
+    "path": ".github/PULL_REQUEST_TEMPLATE.md",
+    "bytes": 643,
+    "sha256": "5c17e450d81f4f7df9a624c99eda2f73638c38540d57f17c1f153bf2975ea451",
+    "category": ".github",
+    "lines": 26
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "bytes": 3559,
+    "sha256": "c7167a882cd5e462ee15051b28fb305de5dacc19999c40768f0472096a97040c",
+    "category": ".github",
+    "lines": 87
+  },
+  {
+    "path": ".github/workflows/raw-examples.yml",
+    "bytes": 1916,
+    "sha256": "54f5c2f660dba68ba0b260f4ba02f3e161d15cc9c9332fbc487c599607d60be6",
+    "category": ".github",
+    "lines": 50
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 193,
+    "sha256": "c750965860d7bf39cdbea6299d06e5d9ec44c749272b808d818a8ba6cd94241e",
+    "category": ".gitignore"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 4605,
+    "sha256": "b4cf49b5f37fb6112b36160bf7c2d43f103912060405f6bfe8ee8a3efc262692",
+    "category": "CHANGELOG.md",
+    "lines": 73
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 451,
+    "sha256": "4d80a46a878c9bc3bbffb957f3569b38ff375bbe76810ded946ad1ea07ae837e",
+    "category": "CITATION.cff",
+    "lines": 16
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 1054,
+    "sha256": "c39e0da285b4833d0ed42ef790a48df2135c3a9837a2bb6a27a91a32a914b8d5",
+    "category": "CONTRIBUTING.md",
+    "lines": 12
+  },
+  {
+    "path": "DATA_POLICY.md",
+    "bytes": 1856,
+    "sha256": "0ee3fdd36fc58b10d19809b706ba434466d9bdc58fb58172ef7a79e8398e4fd4",
+    "category": "DATA_POLICY.md",
+    "lines": 13
+  },
+  {
+    "path": "README.md",
+    "bytes": 6503,
+    "sha256": "ce019e38bd4e083005c6dec637b49bea2ff842560f2261b1cda167f0612df481",
+    "category": "README.md",
+    "lines": 89
+  },
+  {
+    "path": "SETUP.md",
+    "bytes": 3675,
+    "sha256": "04b21541c1d110bfb1e29d061f4f7fd2991108fb7c0838ae95af405d8bb19424",
+    "category": "SETUP.md",
+    "lines": 72
+  },
+  {
+    "path": "STATUS.md",
+    "bytes": 4585,
+    "sha256": "a774f8fe714f9b0701a8a8bdb31ee676cc95a3e536d9d3879d0e080dd4bfeeb8",
+    "category": "STATUS.md",
+    "lines": 49
+  },
+  {
+    "path": "datasets/README.md",
+    "bytes": 2389,
+    "sha256": "a9f5f0e92a5ea8e1cbf92fbf99207caa88ebcb12e10e0a8191683f99b54fb30d",
+    "category": "datasets",
+    "lines": 35
+  },
+  {
+    "path": "datasets/examples/README.md",
+    "bytes": 2574,
+    "sha256": "decf65b7e7b46481704aa55764115b237d51e5c14fb51b1f19d9024a0119be8c",
+    "category": "datasets",
+    "lines": 21
+  },
+  {
+    "path": "datasets/examples/enrichment/sgd_go_slim_chrI.tsv",
+    "bytes": 17394,
+    "sha256": "cdabebe24a92623cedfd0797273e3dd342312d126831f4706545fd9c7213a9d0",
+    "category": "datasets"
+  },
+  {
+    "path": "datasets/examples/manifest.json",
+    "bytes": 1554,
+    "sha256": "b0bcbea4e2f140306d32b39721b639750a917e34c9fb61b82dab658afba5f749",
+    "category": "datasets",
+    "shape": [
+      "retrieved",
+      "files"
+    ]
+  },
+  {
+    "path": "datasets/examples/orfs/NC_001422.1.fasta",
+    "bytes": 5520,
+    "sha256": "caa155c83967cc080f4f188f14f1f28c18d77448e87c3d00d3579ed348f4de2a",
+    "category": "datasets"
+  },
+  {
+    "path": "datasets/examples/phylogeny/LICENSE.biopython",
+    "bytes": 3267,
+    "sha256": "11d1ebcaad2eb9f0f09a3df1deb4aca99a4da366ae9ae70f828c7447a24de453",
+    "category": "datasets"
+  },
+  {
+    "path": "datasets/examples/phylogeny/opuntia.aln",
+    "bytes": 2482,
+    "sha256": "89bb44cc2339f48b7aa4fec3278e85e6d331eafeb921c95d7e499543510267e1",
+    "category": "datasets"
+  },
+  {
+    "path": "datasets/fixtures/raw-smoke/README.md",
+    "bytes": 577,
+    "sha256": "353ec54fa2be4adef82255fcfd7e074800064a9e688b6d8e8c11a559d2d0b4ad",
+    "category": "datasets",
+    "lines": 10
+  },
+  {
+    "path": "datasets/fixtures/toy.fasta",
+    "bytes": 106,
+    "sha256": "97032aab84f693c02e01c9e57ee32cf13a661569ce41d86c02c45919ac126ccb",
+    "category": "datasets"
+  },
+  {
+    "path": "datasets/fixtures/toy.vcf",
+    "bytes": 297,
+    "sha256": "c2e4a40cee61987df2ee210cc7a111788791f016a3fb2e19f8a41830435160f8",
+    "category": "datasets"
+  },
+  {
+    "path": "datasets/khan-manifest.json",
+    "bytes": 1689,
+    "sha256": "a295054c126f18f1bf7fac466636f13cc179da792b29d596ec11da4e4d9e3cfe",
+    "category": "datasets",
+    "shape": [
+      "revision",
+      "files"
+    ]
+  },
+  {
+    "path": "datasets/public-datasets/giab.md",
+    "bytes": 1399,
+    "sha256": "e6194ca1f27fbdadc5edf2c861e671c8b4afa2c92e7ea82444d6cb7b532b47b8",
+    "category": "datasets",
+    "lines": 24
+  },
+  {
+    "path": "datasets/public-datasets/khan.md",
+    "bytes": 2299,
+    "sha256": "952e99a0a12831c83a447e69e62071fbdc4e2ff42772223fead11ff2802b6ff5",
+    "category": "datasets",
+    "lines": 25
+  },
+  {
+    "path": "datasets/public-datasets/pasilla.md",
+    "bytes": 1612,
+    "sha256": "b1a70ae420e5ddc3733d10e301007ba8bb2dde77cf3650df4859d62cf8c3c904",
+    "category": "datasets",
+    "lines": 24
+  },
+  {
+    "path": "datasets/public-datasets/pdb.md",
+    "bytes": 1052,
+    "sha256": "319257b9eb1e38194fd69b77b22ec7e1dbabc0e537f19962a438b2bf714dc606",
+    "category": "datasets",
+    "lines": 24
+  },
+  {
+    "path": "datasets/public-datasets/phix.md",
+    "bytes": 1102,
+    "sha256": "fe581b311e27e5427739fda40444216f4184d0db1eed9823141ec05abb477358",
+    "category": "datasets",
+    "lines": 24
+  },
+  {
+    "path": "datasets/public-datasets/raw-rnaseq.md",
+    "bytes": 2955,
+    "sha256": "e38c146a087fbd50db3facf4bb0e5f76314a0b466b9e814c84fc061228c6db99",
+    "category": "datasets",
+    "lines": 56
+  },
+  {
+    "path": "datasets/public-datasets/raw-variants.md",
+    "bytes": 1529,
+    "sha256": "da4dde78e5ddc61c8326cb32d326de11f26926f936e01a7978c2da22692a02aa",
+    "category": "datasets",
+    "lines": 27
+  },
+  {
+    "path": "datasets/public-datasets/uniprot.md",
+    "bytes": 1104,
+    "sha256": "a1283deab200fe4f13907be33d9b63dad21766c70316807ade9c45b6dc4e0e26",
+    "category": "datasets",
+    "lines": 24
+  },
+  {
+    "path": "datasets/public-datasets/wdbc.md",
+    "bytes": 1337,
+    "sha256": "f2ac9cf66b22df6799620ce5ebed2d825b2dee9f8cde503872db66380f62c715",
+    "category": "datasets",
+    "lines": 24
+  },
+  {
+    "path": "datasets/raw-examples-manifest.json",
+    "bytes": 9196,
+    "sha256": "07b39e770fca4bdec1c35de8152b442b36a1d81c55689203bbbcf7263f1f2d90",
+    "category": "datasets",
+    "shape": [
+      "schema_version",
+      "source_repository",
+      "revisions",
+      "files"
+    ]
+  },
+  {
+    "path": "datasets/raw-rnaseq-samples.csv",
+    "bytes": 468,
+    "sha256": "295de0ccc3aede428c2c984f1588df2d0146b44c8b21684c55f471afcb6bfc90",
+    "category": "datasets"
+  },
+  {
+    "path": "datasets/reference-manifest.json",
+    "bytes": 2475,
+    "sha256": "db52cae61465d560411e9aa8521d604e7cd14c5dc1b24b6fae4d83e7905e574b",
+    "category": "datasets",
+    "shape": [
+      "pasilla_gene_counts.tsv",
+      "pasilla_sample_annotation.csv",
+      "NC_001422.1.fasta",
+      "giab_hg001_first1000.vcf",
+      "P01308.fasta",
+      "1CRN.pdb"
+    ]
+  },
+  {
+    "path": "docs/README.md",
+    "bytes": 1164,
+    "sha256": "cda250159fcea09c68e069317e36f474b6b9fcd8fef731db0bfa0c409fa472b3",
+    "category": "docs",
+    "lines": 21
+  },
+  {
+    "path": "docs/REPOSITORY_AUDIT.md",
+    "bytes": 3371,
+    "sha256": "f68c59174f9d4991c21739f492c80711e504f54599ec1c3d6333c2b025944e71",
+    "category": "docs",
+    "lines": 32
+  },
+  {
+    "path": "docs/START_HERE.md",
+    "bytes": 2321,
+    "sha256": "ebe25398cf3a21742d957dea1986ca369fdce29a0496fdbe3bce6a9ab75a46ef",
+    "category": "docs",
+    "lines": 35
+  },
+  {
+    "path": "docs/computational-biology/README.md",
+    "bytes": 1488,
+    "sha256": "ba56394d36bd99be76131cd49762cd0bdc28de2d96d6e6cd129f3a09fa41536f",
+    "category": "docs",
+    "lines": 17
+  },
+  {
+    "path": "docs/data-formats/README.md",
+    "bytes": 442,
+    "sha256": "ff06d1c4896cb23a0de550c55034fc18fc9d124dac0ec9834854a9fad4b86205",
+    "category": "docs",
+    "lines": 14
+  },
+  {
+    "path": "docs/data-formats/bam.md",
+    "bytes": 1249,
+    "sha256": "2e9938ddd8fc65dc1acb8a1806b02b9e4d531852946713ebc5201352c5ee78db",
+    "category": "docs",
+    "lines": 30
+  },
+  {
+    "path": "docs/data-formats/bed.md",
+    "bytes": 1250,
+    "sha256": "a92db8a7c708f46257d7fc247c83549832b3b6a32e3eb3b53628c06e7b1dd873",
+    "category": "docs",
+    "lines": 30
+  },
+  {
+    "path": "docs/data-formats/cram.md",
+    "bytes": 1276,
+    "sha256": "2e86191ea5d329af2a8824bc121423e2db812e95d5e66896b50b79806b7aed5c",
+    "category": "docs",
+    "lines": 29
+  },
+  {
+    "path": "docs/data-formats/fasta.md",
+    "bytes": 1229,
+    "sha256": "9e078648a71dada9486d46d24ec3df1d82b473bfc1765653b192469590d34f8a",
+    "category": "docs",
+    "lines": 31
+  },
+  {
+    "path": "docs/data-formats/fastq.md",
+    "bytes": 1259,
+    "sha256": "01afad7a0cac60f1700a165dfca59643ec29e4ba48ada7121dd916d56e1a55b8",
+    "category": "docs",
+    "lines": 32
+  },
+  {
+    "path": "docs/data-formats/gff.md",
+    "bytes": 1413,
+    "sha256": "feb6116cc4486090d9ad33db744a8d7cf740c9eba69cc2bc4ce3dcd1e31003a7",
+    "category": "docs",
+    "lines": 32
+  },
+  {
+    "path": "docs/data-formats/gtf.md",
+    "bytes": 1323,
+    "sha256": "9b528a0c2adc6ac4971bca350d122e36339b8251d502421a270d9dfd8a81901f",
+    "category": "docs",
+    "lines": 29
+  },
+  {
+    "path": "docs/data-formats/pdb.md",
+    "bytes": 1457,
+    "sha256": "cb1a04ab9d06b3ee67749df628e01a640e8ff760c66d92ea6af4176d4821e802",
+    "category": "docs",
+    "lines": 29
+  },
+  {
+    "path": "docs/data-formats/sam.md",
+    "bytes": 1333,
+    "sha256": "709e0561e942b2c7241849132628ee41ec72a3d0fa71e83d6811f6880c17e2d9",
+    "category": "docs",
+    "lines": 32
+  },
+  {
+    "path": "docs/data-formats/vcf.md",
+    "bytes": 1412,
+    "sha256": "5bbbc02fa7cd847cb4af751f2f89fe02e3b4652ad170c527271333a00831807f",
+    "category": "docs",
+    "lines": 33
+  },
+  {
+    "path": "docs/fundamentals/README.md",
+    "bytes": 1621,
+    "sha256": "03d375f450e92ac8b1a8e65ca807f7b19b8a0975d107082c794b360e5177be11",
+    "category": "docs",
+    "lines": 19
+  },
+  {
+    "path": "docs/genetics/README.md",
+    "bytes": 1373,
+    "sha256": "971208ca153068b3054e1be551d3ac0d2c7dc709a1921e55adc71bd3f29937d1",
+    "category": "docs",
+    "lines": 16
+  },
+  {
+    "path": "docs/genomics/README.md",
+    "bytes": 2440,
+    "sha256": "fb4a3256e7fb58b6b3febf6f898e90aeea64a5442afae65b5f3bf2bd0fde240c",
+    "category": "docs",
+    "lines": 23
+  },
+  {
+    "path": "docs/machine-learning/README.md",
+    "bytes": 2816,
+    "sha256": "6f5e3dc15541a9c8cd9faaeb3dd9d40648fdadde72ac2a8439c5afaf1fbbc927",
+    "category": "docs",
+    "lines": 26
+  },
+  {
+    "path": "docs/molecular-biology/README.md",
+    "bytes": 9652,
+    "sha256": "6da2822b9edb846c72f3a531eeb1ce760f85c3a5b6a696dd29ecb0cc60bb8c89",
+    "category": "docs",
+    "lines": 203
+  },
+  {
+    "path": "docs/proteomics/README.md",
+    "bytes": 1950,
+    "sha256": "66ad57915dd42427ee817e0a154ab60d7e4f2ac7f0114cf990c3f11a6b4d6dbf",
+    "category": "docs",
+    "lines": 20
+  },
+  {
+    "path": "docs/sequence-analysis/README.md",
+    "bytes": 3326,
+    "sha256": "a440dc298c78b67e23dbd8dc5a53ae16765077c8fe56ee92663f1df942b62fbf",
+    "category": "docs",
+    "lines": 29
+  },
+  {
+    "path": "docs/statistics/README.md",
+    "bytes": 2863,
+    "sha256": "5d48173879f932c72952b6545990eb87e8d8b086b2d4678721700712cd86a3be",
+    "category": "docs",
+    "lines": 26
+  },
+  {
+    "path": "docs/structural-bioinformatics/README.md",
+    "bytes": 2063,
+    "sha256": "954b2b3083b048fe68a9ec934c118ae4e7a165eec2b441e09c07243bcf87be28",
+    "category": "docs",
+    "lines": 20
+  },
+  {
+    "path": "docs/systems-biology/README.md",
+    "bytes": 1489,
+    "sha256": "a7efc2d95127f602e287e7435416c5ae5de8188c58073a54d3e72f1ea899c9b4",
+    "category": "docs",
+    "lines": 17
+  },
+  {
+    "path": "docs/transcriptomics/README.md",
+    "bytes": 2290,
+    "sha256": "fd611f08a1d45a93867c5360e8bdb39eefbed58f9418fa17de7531f819f2f760",
+    "category": "docs",
+    "lines": 23
+  },
+  {
+    "path": "docs/unec/README.md",
+    "bytes": 1838,
+    "sha256": "addef5fda2548fdc6ff072812d85008e7e85672cb1b66cf2640091e0e7e4b214",
+    "category": "docs",
+    "lines": 22
+  },
+  {
+    "path": "docs/unec/course-plan.md",
+    "bytes": 2253,
+    "sha256": "5f25a1b6b60794bef5659f8c3e1fd5abb8e9e143ce883158bcad22892ddfbf22",
+    "category": "docs",
+    "lines": 32
+  },
+  {
+    "path": "docs/unec/errata.md",
+    "bytes": 3231,
+    "sha256": "d7eddfc9412bbd6820997456a90043be5e04f100f29eff0e5554480f59e85e80",
+    "category": "docs",
+    "lines": 28
+  },
+  {
+    "path": "docs/unec/exercises.md",
+    "bytes": 3595,
+    "sha256": "60d1775f788120cd662cdd570ed4a6afdb168af44085dca3a8f01d65e77f404e",
+    "category": "docs",
+    "lines": 67
+  },
+  {
+    "path": "docs/unec/handbook.md",
+    "bytes": 16923,
+    "sha256": "03a6bfe63fdc813729cf524e5e0d044215d80518484c506001655e7ffaf2a380",
+    "category": "docs",
+    "lines": 132
+  },
+  {
+    "path": "experiments/README.md",
+    "bytes": 1358,
+    "sha256": "e40f78ed3453a72656dc32648e71ec85dea453977c6b0230bbd3f5484b9672f2",
+    "category": "experiments",
+    "lines": 18
+  },
+  {
+    "path": "experiments/advanced/cancer-genomics-pipeline/experiment-001.md",
+    "bytes": 1106,
+    "sha256": "6c6d6d4ea4e30c8f2f8c7d1ea99760ebce9257e6788937b5ca26bbd148ac5dda",
+    "category": "experiments",
+    "lines": 26
+  },
+  {
+    "path": "experiments/advanced/disease-gene-discovery/experiment-001.md",
+    "bytes": 1098,
+    "sha256": "365de784fa75b381e64e0ef2cbf4c165126ae70ece9a457f36b0411b18c2a888",
+    "category": "experiments",
+    "lines": 26
+  },
+  {
+    "path": "experiments/advanced/drug-response-prediction/experiment-001.md",
+    "bytes": 1116,
+    "sha256": "7233a00370b279bc4f42f57e8b8eea2ca63d6e26279b473a59db6341d5d0ae7d",
+    "category": "experiments",
+    "lines": 26
+  },
+  {
+    "path": "experiments/advanced/metagenomic-novel-taxa/experiment-001.md",
+    "bytes": 1093,
+    "sha256": "2031ffddc9903ef9e1274884fb315d021f414e89b0b6f83544f5aa61bcf61cf9",
+    "category": "experiments",
+    "lines": 26
+  },
+  {
+    "path": "experiments/advanced/microbiome-association-study/experiment-001.md",
+    "bytes": 1124,
+    "sha256": "835703a1a74cee265bc3de829ed1528f7b09da0dcf76397b1172381a0f8b0903",
+    "category": "experiments",
+    "lines": 26
+  },
+  {
+    "path": "experiments/advanced/multi-omics-integration/experiment-001.md",
+    "bytes": 1108,
+    "sha256": "87c7384b5b41ce1f22553312a953dcaf65065a3f0165d2ba92c65a7075e02f24",
+    "category": "experiments",
+    "lines": 26
+  },
+  {
+    "path": "experiments/advanced/protein-function-prediction/experiment-001.md",
+    "bytes": 1096,
+    "sha256": "7fe3f04fddd377303b240361d3f2d91f132806b469b4018d8c279db8d2255453",
+    "category": "experiments",
+    "lines": 26
+  },
+  {
+    "path": "experiments/advanced/rare-disease-prioritization/experiment-001.md",
+    "bytes": 1119,
+    "sha256": "a694c93578e114fe49413d886de16c6afd93a92cfab86dff80e18f0531a3e92c",
+    "category": "experiments",
+    "lines": 26
+  },
+  {
+    "path": "experiments/advanced/single-cell-rna-seq-analysis/experiment-001.md",
+    "bytes": 1080,
+    "sha256": "5173cd481f49827cf013cb023dfad9650c8ed9d3a08fde08d29740079bcd7644",
+    "category": "experiments",
+    "lines": 26
+  },
+  {
+    "path": "experiments/advanced/variant-pathogenicity-prediction/experiment-001.md",
+    "bytes": 1079,
+    "sha256": "57aff7fa1024d3508a74dd53f56a3d108d9f0a261ff67e516392df8345fac184",
+    "category": "experiments",
+    "lines": 26
+  },
+  {
+    "path": "experiments/baseline-001.md",
+    "bytes": 1807,
+    "sha256": "bc0a1d8d6def4801081b7718ac9eac6867d859e1f099242754e29296d4e5c98b",
+    "category": "experiments",
+    "lines": 26
+  },
+  {
+    "path": "experiments/raw-002.md",
+    "bytes": 1953,
+    "sha256": "39a84dfabb2fec47044a9eb528995df9af4bd5a64c973256f6ef174d46c56d54",
+    "category": "experiments",
+    "lines": 39
+  },
+  {
+    "path": "notebooks/README.md",
+    "bytes": 1067,
+    "sha256": "170a46d807217acbc49e7a458f877122f09ffe654a02110a53f28e6383f9c7ee",
+    "category": "notebooks",
+    "lines": 19
+  },
+  {
+    "path": "notebooks/experiments/02-alignment.ipynb",
+    "bytes": 5124,
+    "sha256": "39183760bc5ae0ea8b46238d18e3afbd5047d5dd321f4c43da071655174f3e3d",
+    "category": "notebooks",
+    "cells": 10,
+    "executed": true
+  },
+  {
+    "path": "notebooks/experiments/03-variants.ipynb",
+    "bytes": 34186,
+    "sha256": "09a584074948fe94d95d136840d0add4684ed5f08a2e4668b61e5046a2366168",
+    "category": "notebooks",
+    "cells": 10,
+    "executed": true
+  },
+  {
+    "path": "notebooks/experiments/04-rnaseq.ipynb",
+    "bytes": 281654,
+    "sha256": "b3243de944ef71bc0ebcb024f92af23893e88d186fcaca386b093007cc9218da",
+    "category": "notebooks",
+    "cells": 10,
+    "executed": true
+  },
+  {
+    "path": "notebooks/experiments/05-ml.ipynb",
+    "bytes": 90395,
+    "sha256": "e313facb59f78d0927335603c96537417522ad6605085ae9940e64c2927b16f2",
+    "category": "notebooks",
+    "cells": 10,
+    "executed": true
+  },
+  {
+    "path": "notebooks/experiments/06-unec-practice.ipynb",
+    "bytes": 93926,
+    "sha256": "a7c6067aa24d82f43b104f9c5717f3899e3d829799dfd70675b990d5f1885b6f",
+    "category": "notebooks",
+    "cells": 9,
+    "executed": true
+  },
+  {
+    "path": "notebooks/experiments/07-expanded-projects.ipynb",
+    "bytes": 120210,
+    "sha256": "9c60ad29638b1cf2e342129eb76d4e72fcdaf0740942bc8062bb168097a5f35e",
+    "category": "notebooks",
+    "cells": 9,
+    "executed": true
+  },
+  {
+    "path": "notebooks/exploratory-analysis/01-dna.ipynb",
+    "bytes": 34309,
+    "sha256": "b3d17c9778cfdab1b25af9094a948bf7d6d35537c4c4ca822ddd1f723c874a4c",
+    "category": "notebooks",
+    "cells": 10,
+    "executed": true
+  },
+  {
+    "path": "projects/IDEAS.md",
+    "bytes": 41387,
+    "sha256": "63488da4f7adf52944b8f5bdd14f4885b7803183c7c7f40fabab68eb6faa140b",
+    "category": "projects",
+    "lines": 843
+  },
+  {
+    "path": "projects/README.md",
+    "bytes": 2452,
+    "sha256": "e4155966b72518a75aa42f0135a0f1bb2ad16010c8926abfdc2449b387c8347f",
+    "category": "projects",
+    "lines": 32
+  },
+  {
+    "path": "projects/advanced/README.md",
+    "bytes": 317,
+    "sha256": "043c0a3492197b29acb1915115065d45269ac991811053d0386084cc3520352b",
+    "category": "projects",
+    "lines": 3
+  },
+  {
+    "path": "projects/beginner/README.md",
+    "bytes": 635,
+    "sha256": "de3a3a5dfb0bd140c54eaf5ae27f09883ccbbb96b2392c707a34107661b39cb8",
+    "category": "projects",
+    "lines": 9
+  },
+  {
+    "path": "projects/beginner/biostatistics-lab/README.md",
+    "bytes": 1293,
+    "sha256": "79b4b590dd1ec5a7ee1f15d2bbaed0e037e03a8e76bbd632e5a1383ed1743407",
+    "category": "projects",
+    "lines": 17
+  },
+  {
+    "path": "projects/beginner/dna-analyzer/README.md",
+    "bytes": 1283,
+    "sha256": "487319317c9928f24146adf7ef7058e36362e7663045b5e2bedd1394879daff4",
+    "category": "projects",
+    "lines": 25
+  },
+  {
+    "path": "projects/beginner/orf-discovery/README.md",
+    "bytes": 2052,
+    "sha256": "a42f4a2d88e3cacdfc4a46b4f0d23559108a48cac03d0e82d280f21b8cdd7aae",
+    "category": "projects",
+    "lines": 19
+  },
+  {
+    "path": "projects/beginner/sequence-alignment/README.md",
+    "bytes": 1209,
+    "sha256": "1c9912b8e8c2797ea7120000fef6101554d29738e9b886345f8e2b5a43ea33d7",
+    "category": "projects",
+    "lines": 25
+  },
+  {
+    "path": "projects/beginner/study-database/README.md",
+    "bytes": 1425,
+    "sha256": "91444542075d64cb1318575da203d71452142fdae5add96945efa8c665417477",
+    "category": "projects",
+    "lines": 17
+  },
+  {
+    "path": "projects/intermediate/README.md",
+    "bytes": 831,
+    "sha256": "c67849d5492e2bb03fd6a4c0c185f86c7dd25896f5546e163cc54d1b9aa7acfb",
+    "category": "projects",
+    "lines": 11
+  },
+  {
+    "path": "projects/intermediate/disease-classification/README.md",
+    "bytes": 1410,
+    "sha256": "309f308153d7dd391f634f2260027a5b4759dc7352f201c2e238833a18ddd316",
+    "category": "projects",
+    "lines": 25
+  },
+  {
+    "path": "projects/intermediate/gene-expression-ml/README.md",
+    "bytes": 2351,
+    "sha256": "c59f3f9c17f30442e557d6e7ac22ab9810ef5588b2809ae17d176daee6967b10",
+    "category": "projects",
+    "lines": 36
+  },
+  {
+    "path": "projects/intermediate/go-enrichment/README.md",
+    "bytes": 2333,
+    "sha256": "375d371a6436f674d06da4fa7af058e3a7fbced27d7d17b59c8057bf2ec00217",
+    "category": "projects",
+    "lines": 27
+  },
+  {
+    "path": "projects/intermediate/phylogeny/README.md",
+    "bytes": 2067,
+    "sha256": "17cb0d7b3d4fccfeea1880f15ec057a17a63d9ee3685fb0fce0262f4de9fb162",
+    "category": "projects",
+    "lines": 25
+  },
+  {
+    "path": "projects/intermediate/protein-analysis/README.md",
+    "bytes": 1221,
+    "sha256": "ba3b4dc6c4a885f07e7b52559d07d5d4ac828ec8e4e75eb06cdee79f13e083d9",
+    "category": "projects",
+    "lines": 13
+  },
+  {
+    "path": "projects/intermediate/rnaseq/README.md",
+    "bytes": 1470,
+    "sha256": "028d2b691f76bcc91aa0baed4774cf12698bd5ac1e4e4cabd12d1405d678d002",
+    "category": "projects",
+    "lines": 25
+  },
+  {
+    "path": "projects/intermediate/variant-analysis/README.md",
+    "bytes": 1331,
+    "sha256": "a35fdb52cf66ea7ac174bfadd2e468ffbeabd201e870c63761705f059e4571a7",
+    "category": "projects",
+    "lines": 25
+  },
+  {
+    "path": "projects/registry.json",
+    "bytes": 2343,
+    "sha256": "1684e02914a9e481e0195f3f5811c3967bf6a71e44dc43e9a04c421701e69990",
+    "category": "projects",
+    "shape": [
+      "projects"
+    ]
+  },
+  {
+    "path": "projects/research-projects/README.md",
+    "bytes": 326,
+    "sha256": "2da318502bf27a7a46cc91ab11fc15fd1d73e063cf7757ca1eb59e5dd5c94d89",
+    "category": "projects",
+    "lines": 3
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 796,
+    "sha256": "5219ec02e65f45f176d766d30d7eac1a333be7f57a8ce387963f2ffb535fa6b9",
+    "category": "pyproject.toml",
+    "lines": 25
+  },
+  {
+    "path": "requirements-tested.txt",
+    "bytes": 1832,
+    "sha256": "f5eae4bcc5df06e7e4e67d44bbe11f82917787cb439e443f162abde6ab305fec",
+    "category": "requirements-tested.txt",
+    "lines": 91
+  },
+  {
+    "path": "research/findings/README.md",
+    "bytes": 619,
+    "sha256": "eb6621439f903847517ad1946d01a0664eab45b8d1d3087a49d69b06bb6d4164",
+    "category": "research",
+    "lines": 10
+  },
+  {
+    "path": "research/literature-reviews/README.md",
+    "bytes": 642,
+    "sha256": "a1bdb277722acb3ebb36bff0b0d78a8ec69d744086f813ce944f41ee85248a12",
+    "category": "research",
+    "lines": 13
+  },
+  {
+    "path": "research/literature-reviews/ai-drug-discovery.md",
+    "bytes": 1252,
+    "sha256": "bd84cfe954efc9a819955aa8f95b78c9aa14b4e0e2b618f641a1de2668145e9f",
+    "category": "research",
+    "lines": 18
+  },
+  {
+    "path": "research/literature-reviews/cancer-genomics.md",
+    "bytes": 1332,
+    "sha256": "f1f3e84258469d133c563523b1ce1415626b89d44eeb52409e17ed2b9dac8e16",
+    "category": "research",
+    "lines": 18
+  },
+  {
+    "path": "research/literature-reviews/metagenomics.md",
+    "bytes": 1293,
+    "sha256": "272cbc8f39671ddfb0ce341bba471d319566fc19fef117ea7d8747bfaf3a1bc0",
+    "category": "research",
+    "lines": 18
+  },
+  {
+    "path": "research/literature-reviews/microbiome.md",
+    "bytes": 1300,
+    "sha256": "8f050c7074e5bbc15dbfa2c807b7b84cf7ef0bfdca2e03da0fbf224b7216a3d3",
+    "category": "research",
+    "lines": 18
+  },
+  {
+    "path": "research/literature-reviews/ml-cancer-diagnosis.md",
+    "bytes": 1357,
+    "sha256": "904972e68a25515e7c806f7f06affe8adeddcbf6504dd3797bd09e51c42382bc",
+    "category": "research",
+    "lines": 18
+  },
+  {
+    "path": "research/literature-reviews/protein-structure.md",
+    "bytes": 1273,
+    "sha256": "fba53cf660fd3b96aaf39537e78b006aa7064819fdf7ad3af2d7a5894a2f9af5",
+    "category": "research",
+    "lines": 18
+  },
+  {
+    "path": "research/literature-reviews/rna-methods.md",
+    "bytes": 1317,
+    "sha256": "24359989eff3a929694c174fadc3509c2390cd470c343423502ff437ecf502a3",
+    "category": "research",
+    "lines": 19
+  },
+  {
+    "path": "research/literature-reviews/single-cell.md",
+    "bytes": 1265,
+    "sha256": "b379249a212e3ec58042642b73512eda57aa04112e84c252f5ae034bcd0f7e04",
+    "category": "research",
+    "lines": 19
+  },
+  {
+    "path": "research/literature-reviews/variant-calling.md",
+    "bytes": 1399,
+    "sha256": "f996c143245e953fc0456bef2b29e4321abf6f80ed892fd71ad9004ad8d7b884",
+    "category": "research",
+    "lines": 20
+  },
+  {
+    "path": "research/papers/README.md",
+    "bytes": 2466,
+    "sha256": "9e873bd216f5133fe446dd460d5df103eb38b6434d3fca47bce8aee7811bf59a",
+    "category": "research",
+    "lines": 19
+  },
+  {
+    "path": "research/papers/alphafold2.md",
+    "bytes": 2021,
+    "sha256": "970f92ff5016fbf9dc4ea386fe4987c1d9c6f85a2fa9380b052137b68cb02087",
+    "category": "research",
+    "lines": 67
+  },
+  {
+    "path": "research/papers/antibiotic-ai.md",
+    "bytes": 1947,
+    "sha256": "c8b612bea37cb264a2aea8d162da026c458fb949eb6cd5394eae657868b9467c",
+    "category": "research",
+    "lines": 67
+  },
+  {
+    "path": "research/papers/blast.md",
+    "bytes": 2119,
+    "sha256": "b6261af9dce622bccea7aba743dbb71b638a9ba7de6843df473a3bc644914158",
+    "category": "research",
+    "lines": 67
+  },
+  {
+    "path": "research/papers/bwa.md",
+    "bytes": 1993,
+    "sha256": "9fdc0d7efd4034830cb98833ee9b330c7bc604dd87701cf29b502065a1ecfd84",
+    "category": "research",
+    "lines": 67
+  },
+  {
+    "path": "research/papers/deepvariant.md",
+    "bytes": 1886,
+    "sha256": "9840635988c519b015e587bc340dba674449c2ef49f82c736efe8548288b4a7d",
+    "category": "research",
+    "lines": 67
+  },
+  {
+    "path": "research/papers/deseq2.md",
+    "bytes": 2066,
+    "sha256": "5ae7168c2436e53c45a9b09d28079efd7ce69a082177c82ad7cb5d739df454a6",
+    "category": "research",
+    "lines": 67
+  },
+  {
+    "path": "research/papers/gatk.md",
+    "bytes": 1974,
+    "sha256": "a247c5c866b0d1049b8201b3ecd420df12a443b521974313bbce3e59d604d34a",
+    "category": "research",
+    "lines": 67
+  },
+  {
+    "path": "research/papers/kraken2.md",
+    "bytes": 1860,
+    "sha256": "b9df30bb24e88c1914400edf22b387a41e21fe2cd44467916a595f91d0b13df2",
+    "category": "research",
+    "lines": 67
+  },
+  {
+    "path": "research/papers/salmon.md",
+    "bytes": 2054,
+    "sha256": "0ecdec1f448df330a0e10d3fc9388d959063fb23d909d603149d59b151f78b63",
+    "category": "research",
+    "lines": 67
+  },
+  {
+    "path": "research/papers/seurat.md",
+    "bytes": 2002,
+    "sha256": "5736deb94b59d6924396ff982fc97fe30d912726c44fcc9fade02de190fe4f4e",
+    "category": "research",
+    "lines": 67
+  },
+  {
+    "path": "research/papers/tcga-cdr.md",
+    "bytes": 1900,
+    "sha256": "67f5021f4f41fa9cc02bb890aae9efcb0276d6b01f4044d2a0934e88a1a9af89",
+    "category": "research",
+    "lines": 67
+  },
+  {
+    "path": "research/research-notes/README.md",
+    "bytes": 366,
+    "sha256": "1993d55c7688df4be702355419e7b322a7ccbac3ae2bbb961fcc365c04229de6",
+    "category": "research",
+    "lines": 3
+  },
+  {
+    "path": "research/research-questions/README.md",
+    "bytes": 619,
+    "sha256": "a191f4fdb0795a9887eb1dd4a093c31b11d197c9a96f33ef5a88931ee89c3b41",
+    "category": "research",
+    "lines": 10
+  },
+  {
+    "path": "research/research-questions/cancer-subtypes.md",
+    "bytes": 962,
+    "sha256": "15927172ab3244306e8161b73ff7173d5b70368eb9e826c40b98424108f16ddb",
+    "category": "research",
+    "lines": 43
+  },
+  {
+    "path": "research/research-questions/expression-disease.md",
+    "bytes": 1041,
+    "sha256": "2c1824ff4a649098b94fbacc15a42bf32c7681bbc09fc7cb3e1abd0595618707",
+    "category": "research",
+    "lines": 43
+  },
+  {
+    "path": "research/research-questions/genomics-ml.md",
+    "bytes": 988,
+    "sha256": "382085a32a6ef683b07c96054df91539165559a318e33a69c26d5a0a5a2f400c",
+    "category": "research",
+    "lines": 43
+  },
+  {
+    "path": "research/research-questions/protein-function.md",
+    "bytes": 1007,
+    "sha256": "10d280c71457682f5511f92d85549ef0698d9b352b46709ee79cefa71316a3ce",
+    "category": "research",
+    "lines": 43
+  },
+  {
+    "path": "research/research-questions/rare-disease.md",
+    "bytes": 964,
+    "sha256": "f3f15d3d4917c2d0eb0b648c1a69c8fa9dc59133647b391589545ac6b341f426",
+    "category": "research",
+    "lines": 43
+  },
+  {
+    "path": "research/research-questions/variant-risk.md",
+    "bytes": 1067,
+    "sha256": "5560a52324e2990f6eec3a557120025ba9bcd9e03356afb2645bc74902885644",
+    "category": "research",
+    "lines": 43
+  },
+  {
+    "path": "research/templates/experiment.md",
+    "bytes": 1120,
+    "sha256": "cf179a83b8c4743b94342bb4b29ba239a16d28021d05b4ab8e55583126ba4856",
+    "category": "research",
+    "lines": 51
+  },
+  {
+    "path": "research/templates/paper.md",
+    "bytes": 1766,
+    "sha256": "298f73dd68c4347485be9f48c807c1a997d4ce30009a2bf2ff1a1e60d1b535cd",
+    "category": "research",
+    "lines": 83
+  },
+  {
+    "path": "research/templates/project.md",
+    "bytes": 1116,
+    "sha256": "2be7a4cbd22c028c5b2bf7a4380ef196afcf4d091a2c9a4a370b6c6081700b63",
+    "category": "research",
+    "lines": 51
+  },
+  {
+    "path": "research/templates/question.md",
+    "bytes": 960,
+    "sha256": "b7c964ef4d7debeda04e93504fdcc0e7ff851521adea564d3a5475816dc36819",
+    "category": "research",
+    "lines": 43
+  },
+  {
+    "path": "resources/README.md",
+    "bytes": 505,
+    "sha256": "f4bb83cf804ae2006ff4defa1e72d6bd6c6358f2ba55c2e2e1a440ccadfe1d45",
+    "category": "resources",
+    "lines": 13
+  },
+  {
+    "path": "resources/SOURCE_AUDIT.md",
+    "bytes": 4652,
+    "sha256": "61401453a62b1a1a1fe07b8187f9cc01d0c48168baed0c71b93e2cf0db5bc4c4",
+    "category": "resources",
+    "lines": 35
+  },
+  {
+    "path": "resources/books/README.md",
+    "bytes": 4238,
+    "sha256": "6e8f00db10eaa00eaab40d27150e70c2747d69a3be918fa7113bc4826bf4fdc9",
+    "category": "resources",
+    "lines": 33
+  },
+  {
+    "path": "resources/books/pdf-manifest.json",
+    "bytes": 2449,
+    "sha256": "3e2069a454c3f9dc604dc291ad907e356368f4e3f13328ba9c99fd8c5c87a40b",
+    "category": "resources",
+    "shape": [
+      "books"
+    ]
+  },
+  {
+    "path": "resources/books/pdf/mit-computational-biology.pdf",
+    "bytes": 43478050,
+    "sha256": "3f2e786b4e7e4c0c630c0565262544b532ea141442cfc25a99b3beab186a0621",
+    "category": "resources"
+  },
+  {
+    "path": "resources/books/pdf/think-stats-2e.pdf",
+    "bytes": 2090830,
+    "sha256": "272d5c33b81447227ac58d37e0343a2e9266714ed13702f1d5d0333c67660f02",
+    "category": "resources"
+  },
+  {
+    "path": "resources/courses/README.md",
+    "bytes": 905,
+    "sha256": "2183adb73e3eb2bf6ea3e4b8935162f4917cfa4e046c6c392305424b7e9c2b12",
+    "category": "resources",
+    "lines": 9
+  },
+  {
+    "path": "resources/databases/README.md",
+    "bytes": 1369,
+    "sha256": "4c2040ecd97cd307f079eac169745f8b2c0939ee3c8181032553cbddb5b7c875",
+    "category": "resources",
+    "lines": 20
+  },
+  {
+    "path": "resources/databases/clinvar.md",
+    "bytes": 951,
+    "sha256": "f3035de1746241104a799cefbfccc6878de220aed2bd43c20f1aef6424f18712",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/dbsnp.md",
+    "bytes": 857,
+    "sha256": "56160ee20cc5ac47ebf64d9376d869affa469a32ac452738747da73744267d4f",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/ena.md",
+    "bytes": 832,
+    "sha256": "a6344e3d57f7e1f0f11b6c2cd19ff46ed4d0b53db7e7b90a086ee40fec220796",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/ensembl.md",
+    "bytes": 864,
+    "sha256": "126022bff29c2cbec13a4ea357459dcde7d39f4f2a8d47be45f2c5e8112ba2ae",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/genbank.md",
+    "bytes": 836,
+    "sha256": "5a10fefeb67601cc71ba92b391a8c6aa4deecd7e4fed1e4269759af6b0f9f52a",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/geo.md",
+    "bytes": 851,
+    "sha256": "24bb0db6ca2465a09f994f816d44487c38de8cc0e2b34e971cc34a3e09661e71",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/gtex.md",
+    "bytes": 871,
+    "sha256": "a3a72feb696dadf750e44f8db6f597b31c874f095f348a02f841bf355fadbb81",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/kegg.md",
+    "bytes": 840,
+    "sha256": "62da7fc92811a983c9b054240f1f490563297b4fd1273cff394b9b28eea257c1",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/ncbi.md",
+    "bytes": 958,
+    "sha256": "5695ae8101cbaeae49ac6a856db1c5958fbde7579564586ed8f547a84c1a0d2b",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/omim.md",
+    "bytes": 893,
+    "sha256": "62108a0a1e086358dc08e4f49e93dca0a7f9a43bb112b4cd0b1e5f8ab8b7aeac",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/pdb.md",
+    "bytes": 887,
+    "sha256": "b5008208b6e346fbe4c012c715462baa49d7b87afe2667700ba71842015401b8",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/pubmed.md",
+    "bytes": 876,
+    "sha256": "bb4ba71c045b9f2270851fb00092e350db40547692f08355d7357fd40a921e1c",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/reactome.md",
+    "bytes": 862,
+    "sha256": "6cf2a7684449d697cdeaa4c6eb19b5cb8924c78a033c7da7774ad1daf339fd7f",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/sra.md",
+    "bytes": 836,
+    "sha256": "474747d03348152472951e031fab9f2c391029f35ff090e9a3ebe91a9a70e5ad",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/string.md",
+    "bytes": 846,
+    "sha256": "c287a27a7630e769d0419e70292a967e30c1d17a74e9c3e1f36cca38742e9ca2",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/tcga.md",
+    "bytes": 920,
+    "sha256": "bd928f4641b4530c3b390adfa6775370cf0cc23429d3dbe55bab25711432a6ae",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/ucsc-genome-browser.md",
+    "bytes": 880,
+    "sha256": "c34a87551795cd55aba79d3e4a39fc51592ff7a24bacde78045fa2dc211f2976",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/databases/uniprot.md",
+    "bytes": 836,
+    "sha256": "a834afe0814765f10bee161863a4fc3b159a48132061401fb60a6da654cd7212",
+    "category": "resources",
+    "lines": 16
+  },
+  {
+    "path": "resources/papers/README.md",
+    "bytes": 240,
+    "sha256": "9ddc86553f2286a81277c787e4bde00df11c42451dc9a85a55927009982c78bd",
+    "category": "resources",
+    "lines": 3
+  },
+  {
+    "path": "resources/tools/README.md",
+    "bytes": 2789,
+    "sha256": "51615e47ea382b447a4db897d0bac940ad9a4b96970738bf6bcb90235e50eea4",
+    "category": "resources",
+    "lines": 33
+  },
+  {
+    "path": "resources/unec/README.md",
+    "bytes": 3527,
+    "sha256": "5d0d9e88b8234631b651fc980821bbe03c097f919758ed64dfcaedefb933a88d",
+    "category": "resources",
+    "lines": 32
+  },
+  {
+    "path": "resources/unec/bioinformatika-praktikum.pdf",
+    "bytes": 109834,
+    "sha256": "269c647214d9583a0c3af0470ca5014a5181023e8c6f9be76514d36cae561eaf",
+    "category": "resources"
+  },
+  {
+    "path": "resources/unec/catalog.csv",
+    "bytes": 14166,
+    "sha256": "ae4092d09bd51c710f75ed5fd30cc9539b59de4922b343e7d7c801b31d672bd1",
+    "category": "resources"
+  },
+  {
+    "path": "resources/unec/catalog.json",
+    "bytes": 31965,
+    "sha256": "fd56ea759e46e2c2680c0f8df99baad49359eb0338329ea9607eef943afc8c9e",
+    "category": "resources",
+    "shape": [
+      "files",
+      "total",
+      "byte_unique",
+      "method",
+      "text_equivalent_pair"
+    ]
+  },
+  {
+    "path": "resources/unec/pdf/data-science-machine-learning-2022.pdf",
+    "bytes": 20999225,
+    "sha256": "296d5f68396abdadc3cdf85a2f3e78212ff7a3c4ffacb61a5bca7cf04a67d221",
+    "category": "resources"
+  },
+  {
+    "path": "resources/unec/pdf/statistika-az-2015.pdf",
+    "bytes": 20030756,
+    "sha256": "9bbdc6f66a58bf667c6d042a87c3ebeecd7cea14cecee0ad05e760f662c6d705",
+    "category": "resources"
+  },
+  {
+    "path": "results/README.md",
+    "bytes": 4945,
+    "sha256": "75078a94295731e98dfeb78f4e7c5a65296367d6172803ce2d838a158878bd51",
+    "category": "results",
+    "lines": 58
+  },
+  {
+    "path": "results/course-projects/README.md",
+    "bytes": 1608,
+    "sha256": "beb3fe5c1131db41b22b00e47e910cb92280326e6d5556d2ea1219ee3dcf60bd",
+    "category": "results",
+    "lines": 19
+  },
+  {
+    "path": "results/course-projects/biostatistics-lab/library_sizes.csv",
+    "bytes": 122,
+    "sha256": "8f6d3e3139fda38bc9cc9dd262625df6814d1e12806788f6409e1ac0b8582f92",
+    "category": "results"
+  },
+  {
+    "path": "results/course-projects/biostatistics-lab/multiple_testing.png",
+    "bytes": 35281,
+    "sha256": "fa6da611b07f9ced92195b34262f685009f7e617d8ba1fd45c07fc46e72021fd",
+    "category": "results"
+  },
+  {
+    "path": "results/course-projects/biostatistics-lab/null_tests.csv",
+    "bytes": 42158,
+    "sha256": "3d5b49f244b3ebc02dd0e376b746940bf65b7854c0072b85931b0245d732abdb",
+    "category": "results"
+  },
+  {
+    "path": "results/course-projects/biostatistics-lab/run.json",
+    "bytes": 3857,
+    "sha256": "cf5421c2fda4199ca0a5f729608d8d9dccd9aa58e86f91a0c378898ede791b73",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/course-projects/biostatistics-lab/summary.json",
+    "bytes": 496,
+    "sha256": "a0b40c4c869920df56f4df3182f14859614dba418445002c8fb3c9f843523d9d",
+    "category": "results",
+    "shape": [
+      "simulation",
+      "uncorrected_p_below_005",
+      "bh_adjusted_p_below_005",
+      "expected_uncorrected_false_positives_if_calibrated",
+      "library_mean",
+      "library_median",
+      "library_sample_sd",
+      "interpretation"
+    ]
+  },
+  {
+    "path": "results/course-projects/gene-expression-ml/classification_report.json",
+    "bytes": 736,
+    "sha256": "3093384a29bce97ccf45dadfadeb475d2cf9a65e61749c0a58581b3c98507814",
+    "category": "results",
+    "shape": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "accuracy",
+      "macro avg",
+      "weighted avg"
+    ]
+  },
+  {
+    "path": "results/course-projects/gene-expression-ml/comparison.png",
+    "bytes": 24571,
+    "sha256": "234f59eccf101e7df3a24b2db24a6d8ce600b6697a2b5c4ddb41a03be13fd56d",
+    "category": "results"
+  },
+  {
+    "path": "results/course-projects/gene-expression-ml/confusion_matrix.png",
+    "bytes": 25403,
+    "sha256": "5a9806db5a462474191c22535e7a6a94b1223263510f55b99949ccdfd06c9a81",
+    "category": "results"
+  },
+  {
+    "path": "results/course-projects/gene-expression-ml/cv_results.csv",
+    "bytes": 2147,
+    "sha256": "fdaf5fae6ce3c0e6cfc57f25d3a062b36511f84abffe315fa88a9c96fda91e22",
+    "category": "results"
+  },
+  {
+    "path": "results/course-projects/gene-expression-ml/predictions.csv",
+    "bytes": 267,
+    "sha256": "437d8238cf452e4fb35af70d5f7eb63f6b7597cb044b5b16ef7d10b765bf358c",
+    "category": "results"
+  },
+  {
+    "path": "results/course-projects/gene-expression-ml/run.json",
+    "bytes": 4450,
+    "sha256": "9bbc6654c3b6e51464a90194179330d45fb3c145cda4307d1e87971bf36c5a40",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/course-projects/gene-expression-ml/selected_probes.csv",
+    "bytes": 625,
+    "sha256": "61b8135ed15d6d525edefae96cec6f69133f343d4cce1a72f2c97783aa77bc4b",
+    "category": "results"
+  },
+  {
+    "path": "results/course-projects/gene-expression-ml/summary.json",
+    "bytes": 1544,
+    "sha256": "86de84c6a8863dc8e8b66c23bb69f8f1dba8e40b156db926dc6ea5fff45ed133",
+    "category": "results",
+    "shape": [
+      "dataset",
+      "data_type",
+      "features",
+      "train_samples",
+      "test_samples",
+      "train_class_counts",
+      "test_class_counts",
+      "selected_parameters",
+      "selected_cv_balanced_accuracy",
+      "dummy_cv_balanced_accuracy",
+      "test_accuracy",
+      "test_balanced_accuracy",
+      "test_macro_f1",
+      "dummy_test_balanced_accuracy",
+      "class_order",
+      "confusion_matrix",
+      "limitations",
+      "test_accuracy_bootstrap_95_conditional"
+    ]
+  },
+  {
+    "path": "results/course-projects/snapshot.json",
+    "bytes": 2069,
+    "sha256": "f953d34799fad65bd54c5a0a31ad26186515c9af0188b72b3e0d0ccb26e498dc",
+    "category": "results",
+    "shape": [
+      "created",
+      "text_normalization",
+      "sha256"
+    ]
+  },
+  {
+    "path": "results/course-projects/study-database/laboratory.sqlite",
+    "bytes": 77824,
+    "sha256": "2f36aeff50b949d629d3ce87a3ee6a05db74084f126bf20afd9c7146745c3fee",
+    "category": "results"
+  },
+  {
+    "path": "results/course-projects/study-database/library_sizes.csv",
+    "bytes": 195,
+    "sha256": "f766e075383bd1fb3b343a05c0cef64bb572ca2ad9ddf625e026a6678abbc13b",
+    "category": "results"
+  },
+  {
+    "path": "results/course-projects/study-database/queries.sql",
+    "bytes": 211,
+    "sha256": "a9c4d4c46941c9cd5843073fd781b171e8b175ece069d03338c7dfa51b58ffc9",
+    "category": "results"
+  },
+  {
+    "path": "results/course-projects/study-database/run.json",
+    "bytes": 3933,
+    "sha256": "32c292cebd558ecd51594f5514bb995d1ca30356e8896060d2629292a31fbdcc",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/course-projects/study-database/summary.json",
+    "bytes": 118,
+    "sha256": "a9b68fb3c062605274b4dd1587e60b1d47ede51d512e6508825f66d16c46a2e4",
+    "category": "results",
+    "shape": [
+      "samples",
+      "genes",
+      "count_records",
+      "integrity_check",
+      "foreign_key_violations"
+    ]
+  },
+  {
+    "path": "results/example-runs/alignment/run.json",
+    "bytes": 2237,
+    "sha256": "fb60ffe814636130494aa3c006b2940991a013d61ee4231f7ce2d0fc24fdd075",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/example-runs/alignment/summary.json",
+    "bytes": 678,
+    "sha256": "5dd00c39d5407d7667637956af2d1ef8e280df620a63ad24bdf238f03b9287ef",
+    "category": "results",
+    "shape": [
+      "data",
+      "alignments"
+    ]
+  },
+  {
+    "path": "results/example-runs/dna/run.json",
+    "bytes": 2343,
+    "sha256": "96254a5319addaa142aa9c0c4cdbc3c0bde8eef8d04291748d2259a82dc3c069",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/example-runs/dna/summary.json",
+    "bytes": 12505,
+    "sha256": "bdc60cca6b9284bcc4e8cf5cf8cbe9bf5b446406795458d57c918964981a8a15",
+    "category": "results",
+    "shape": [
+      "source",
+      "real_data",
+      "records"
+    ]
+  },
+  {
+    "path": "results/example-runs/ml/cv.csv",
+    "bytes": 270,
+    "sha256": "b3ab9c4136f1a62cec01b56d60737a3d367f5d06858114c6fc77399b498f1fd6",
+    "category": "results"
+  },
+  {
+    "path": "results/example-runs/ml/predictions.csv",
+    "bytes": 4242,
+    "sha256": "55d245953c295a47440c71447e087e2c222bcdb1f782a6438fc2d5235a8df910",
+    "category": "results"
+  },
+  {
+    "path": "results/example-runs/ml/run.json",
+    "bytes": 2234,
+    "sha256": "5953b2f675e83abb17e4b69da3f58323af86843bdeffe91c57f09757160a34e6",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/example-runs/ml/split.csv",
+    "bytes": 6026,
+    "sha256": "26176a6e5ca2badb951438088bb21be66623b207e0f38dba4f5f12f2e0b6f041",
+    "category": "results"
+  },
+  {
+    "path": "results/example-runs/ml/summary.json",
+    "bytes": 976,
+    "sha256": "dc735dfefcfd4000814e1a356114971741f4dee4d07678728f81ae63d7852ea5",
+    "category": "results",
+    "shape": [
+      "dataset",
+      "features",
+      "samples",
+      "train_samples",
+      "test_samples",
+      "positive_class",
+      "seed",
+      "selected_using",
+      "selected_model",
+      "test_roc_auc",
+      "test_pr_auc",
+      "test_balanced_accuracy",
+      "test_brier",
+      "sensitivity",
+      "specificity",
+      "confusion_matrix",
+      "test_auc_bootstrap_95",
+      "dataset_canonical_csv_sha256"
+    ]
+  },
+  {
+    "path": "results/example-runs/proteins/run.json",
+    "bytes": 2543,
+    "sha256": "fd9b02bc9c97d3e7496a4ea23bc04e00d9636f8d2166472b87aaf4c3d285fa2a",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/example-runs/proteins/summary.json",
+    "bytes": 669,
+    "sha256": "ea00451267f358e08122deb23b0341ebed9e4a460cbb408ee8f2ed6356311312",
+    "category": "results",
+    "shape": [
+      "uniprot_accession",
+      "protein",
+      "sequence_length",
+      "composition",
+      "pdb",
+      "structure_protein",
+      "chain",
+      "ca_residues",
+      "undirected_ca_contacts_lt8A",
+      "contact_definition"
+    ]
+  },
+  {
+    "path": "results/example-runs/rnaseq/metadata.csv",
+    "bytes": 449,
+    "sha256": "69eeb71e38e54b8f280aa9b8ede6875050b8f3d1d66db2848478ef11e1cda2ad",
+    "category": "results"
+  },
+  {
+    "path": "results/example-runs/rnaseq/run.json",
+    "bytes": 2593,
+    "sha256": "1f8a4c3fb89cb5fa9b7ef1ccb54e3cae6fab7456ee7662a136d593b105804a09",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/example-runs/rnaseq/summary.json",
+    "bytes": 447,
+    "sha256": "034cb0bd6f4b84529643d7e16e54634768f76589faa33109a5ab1e27b6a9789c",
+    "category": "results",
+    "shape": [
+      "input_genes",
+      "tested_genes",
+      "samples",
+      "design",
+      "contrast",
+      "prefilter",
+      "significant_fdr_005",
+      "significant_fdr_005_abs_lfc_gt1",
+      "missing_padj",
+      "lfc_shrinkage",
+      "implementation"
+    ]
+  },
+  {
+    "path": "results/example-runs/rnaseq/top25_genes.csv",
+    "bytes": 3383,
+    "sha256": "ab4475842e549494f22111056833e863f91d404a0b4739ff31cf4adccd037973",
+    "category": "results"
+  },
+  {
+    "path": "results/example-runs/variants/first20_alleles.csv",
+    "bytes": 867,
+    "sha256": "e110f2ae475401e6cd8a9f6a5266b254c8a075b16329e280b28d4d7e01692b06",
+    "category": "results"
+  },
+  {
+    "path": "results/example-runs/variants/run.json",
+    "bytes": 2407,
+    "sha256": "5d40785566b58210b46dfd233885bcc4cbef49a4fdb04f80c7e912db99f0166d",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/example-runs/variants/summary.json",
+    "bytes": 266,
+    "sha256": "170fd3f315fa4950a2d8ae604a9ac228541b8b515893820547bda635869c3c94",
+    "category": "results",
+    "shape": [
+      "input_records",
+      "retained_alleles",
+      "excluded_records",
+      "types",
+      "transitions",
+      "transversions",
+      "ti_tv",
+      "min_qual",
+      "require_PASS"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/README.md",
+    "bytes": 2543,
+    "sha256": "c60f725da7528ad2f3bd6c7a84272047756a4a2f9fca6590eb864f457ff7158d",
+    "category": "results",
+    "lines": 41
+  },
+  {
+    "path": "results/expanded-projects/alignment/run.json",
+    "bytes": 4263,
+    "sha256": "84b2763dd81fe294fde2651767d0cca3b03981683444ded8c1d75ff12625b242",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/alignment/summary.json",
+    "bytes": 649,
+    "sha256": "09ef398bc029ac1e17e754e74976944652e00d8f3da4c0b91b72027bcadefa8d",
+    "category": "results",
+    "shape": [
+      "data",
+      "alignments"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/biostatistics-lab/library_sizes.csv",
+    "bytes": 122,
+    "sha256": "8f6d3e3139fda38bc9cc9dd262625df6814d1e12806788f6409e1ac0b8582f92",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/biostatistics-lab/multiple_testing.png",
+    "bytes": 35281,
+    "sha256": "fa6da611b07f9ced92195b34262f685009f7e617d8ba1fd45c07fc46e72021fd",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/biostatistics-lab/null_tests.csv",
+    "bytes": 42158,
+    "sha256": "3d5b49f244b3ebc02dd0e376b746940bf65b7854c0072b85931b0245d732abdb",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/biostatistics-lab/run.json",
+    "bytes": 4556,
+    "sha256": "c8b1380c79fea8cd129ac265072bd8a93f3f90c6c1fefa5c1ca301dcfbbabbfa",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/biostatistics-lab/summary.json",
+    "bytes": 496,
+    "sha256": "a0b40c4c869920df56f4df3182f14859614dba418445002c8fb3c9f843523d9d",
+    "category": "results",
+    "shape": [
+      "simulation",
+      "uncorrected_p_below_005",
+      "bh_adjusted_p_below_005",
+      "expected_uncorrected_false_positives_if_calibrated",
+      "library_mean",
+      "library_median",
+      "library_sample_sd",
+      "interpretation"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/dna/gc.png",
+    "bytes": 22246,
+    "sha256": "1e4dac40b290f16d7246608b492906695143ff2e9c4422317e4cba38cc10dd03",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/dna/run.json",
+    "bytes": 4366,
+    "sha256": "10645926474dd3f7e53b7b3aa00d8a2efc7f4cbdfc431a11b651c0c156f7dc5f",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/dna/summary.json",
+    "bytes": 12419,
+    "sha256": "69cff0be38d52b06f259842f588b4313c7c9a191e39f49ab5e9556b616e382e8",
+    "category": "results",
+    "shape": [
+      "source",
+      "real_data",
+      "records"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/gene-expression-ml/classification_report.json",
+    "bytes": 736,
+    "sha256": "3093384a29bce97ccf45dadfadeb475d2cf9a65e61749c0a58581b3c98507814",
+    "category": "results",
+    "shape": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "accuracy",
+      "macro avg",
+      "weighted avg"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/gene-expression-ml/comparison.png",
+    "bytes": 24571,
+    "sha256": "234f59eccf101e7df3a24b2db24a6d8ce600b6697a2b5c4ddb41a03be13fd56d",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/gene-expression-ml/confusion_matrix.png",
+    "bytes": 25403,
+    "sha256": "5a9806db5a462474191c22535e7a6a94b1223263510f55b99949ccdfd06c9a81",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/gene-expression-ml/cv_results.csv",
+    "bytes": 2154,
+    "sha256": "61ae694a1016f8b0cad1079be6a60083ac9613a95d4f6c3b467950c670659fc2",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/gene-expression-ml/predictions.csv",
+    "bytes": 267,
+    "sha256": "437d8238cf452e4fb35af70d5f7eb63f6b7597cb044b5b16ef7d10b765bf358c",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/gene-expression-ml/run.json",
+    "bytes": 5149,
+    "sha256": "fe0f8f1066a620594571d0e570c5e1002e2048edfd01eb18527dd7775cf0f615",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/gene-expression-ml/selected_probes.csv",
+    "bytes": 625,
+    "sha256": "61b8135ed15d6d525edefae96cec6f69133f343d4cce1a72f2c97783aa77bc4b",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/gene-expression-ml/summary.json",
+    "bytes": 1544,
+    "sha256": "86de84c6a8863dc8e8b66c23bb69f8f1dba8e40b156db926dc6ea5fff45ed133",
+    "category": "results",
+    "shape": [
+      "dataset",
+      "data_type",
+      "features",
+      "train_samples",
+      "test_samples",
+      "train_class_counts",
+      "test_class_counts",
+      "selected_parameters",
+      "selected_cv_balanced_accuracy",
+      "dummy_cv_balanced_accuracy",
+      "test_accuracy",
+      "test_balanced_accuracy",
+      "test_macro_f1",
+      "dummy_test_balanced_accuracy",
+      "class_order",
+      "confusion_matrix",
+      "limitations",
+      "test_accuracy_bootstrap_95_conditional"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/go-enrichment/enrichment.csv",
+    "bytes": 5521,
+    "sha256": "9747d1f3df5074fe81af7aada6a04132a322c8fb050801b302b9031fd2341fb9",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/go-enrichment/enrichment.png",
+    "bytes": 58223,
+    "sha256": "7983fb57db3f484b7bef03d44ac9327051c888e07d6907e3c572f549d86dcae1",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/go-enrichment/run.json",
+    "bytes": 4792,
+    "sha256": "821e0e7ba625c2a5fe6c7ad7b1df3b580a0b99e12d4a049d577e6cd686bfae80",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/go-enrichment/selected_genes.csv",
+    "bytes": 16,
+    "sha256": "58a99139e57ca78d4002b7bb25e469324a8ba8b959e3b6909502cc3ad3a6217a",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/go-enrichment/summary.json",
+    "bytes": 469,
+    "sha256": "ef7e4e78c6c1027c338c41d57a95fe5dd5294149c57acd7dd41a7d2213a72e14",
+    "category": "results",
+    "shape": [
+      "real_data",
+      "universe_genes",
+      "foreground_genes",
+      "annotated_universe_genes",
+      "unannotated_universe_genes",
+      "tested_terms",
+      "significant_terms_fdr_005",
+      "scope",
+      "limitations"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/go-enrichment/universe.csv",
+    "bytes": 686,
+    "sha256": "168fe02548a8522cb4404d67599dcb17d3c97c6a808f6af03256ca2a0f869ee2",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/ml/confusion.png",
+    "bytes": 26126,
+    "sha256": "37832f77f17df841bae702e89e1720c8008aca2f18012d3a72ce535dac9723f7",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/ml/cv.csv",
+    "bytes": 266,
+    "sha256": "98a198e716b8d544d8ead5c14de6f0b255263f6cd237baf4e1fd91c970b656cc",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/ml/predictions.csv",
+    "bytes": 4098,
+    "sha256": "9b57903cc246aa9b01fcec719509cad9fbc5ef99320b6c1082cc2aea5e6cec24",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/ml/roc.png",
+    "bytes": 37264,
+    "sha256": "f8e70b339e0662eb105998a23ee08cc2f3a2f91f70334ef6dcfaa0b366863efa",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/ml/run.json",
+    "bytes": 4260,
+    "sha256": "46e7ad3a5e116ec6dad7fa881dd831c09a3397a3b8f8b2f05fa82932b21929bd",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/ml/split.csv",
+    "bytes": 5456,
+    "sha256": "a4fd6120b31f9fa30d001d270944ebe5565af8fea53db35fd4c62c6364eb6d83",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/ml/summary.json",
+    "bytes": 942,
+    "sha256": "d48e8cf9c1da233cd1ab6a40d9ad7b47dc2d48f83b714aca412b96f07fe98319",
+    "category": "results",
+    "shape": [
+      "dataset",
+      "features",
+      "samples",
+      "train_samples",
+      "test_samples",
+      "positive_class",
+      "seed",
+      "selected_using",
+      "selected_model",
+      "test_roc_auc",
+      "test_pr_auc",
+      "test_balanced_accuracy",
+      "test_brier",
+      "sensitivity",
+      "specificity",
+      "confusion_matrix",
+      "test_auc_bootstrap_95",
+      "dataset_canonical_csv_sha256"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/orf-discovery/orfs.csv",
+    "bytes": 6154,
+    "sha256": "7526a1451ed6e87f8b40cc035a875bb4e745326f99601a324c56cd035f99d5c1",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/orf-discovery/orfs.json",
+    "bytes": 48259,
+    "sha256": "9c2adaf29f6e8ea037ac0d092b90a3ee793a21bd5b2a296b5519ca9586398571",
+    "category": "results",
+    "shape": "list[114]"
+  },
+  {
+    "path": "results/expanded-projects/orf-discovery/orfs.png",
+    "bytes": 30904,
+    "sha256": "c53229409ce72898d2c41d58f657055c50a2af669746ddffc89977a40cbeb35d",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/orf-discovery/proteins.fasta",
+    "bytes": 20171,
+    "sha256": "d5ccaf731319b855cdeb1be6181750c231d289f4072577bf01368d02f19898f3",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/orf-discovery/run.json",
+    "bytes": 4546,
+    "sha256": "d366f4a8799a263a542e60fd9da3fddf08087346b5f4010a5007d3b5e9b5e46f",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/orf-discovery/summary.json",
+    "bytes": 421,
+    "sha256": "1cd5c8dbcb79245dca6f84e4e9c9ab2f89410a84637e471d88a450f4755a7d51",
+    "category": "results",
+    "shape": [
+      "accession",
+      "length_nt",
+      "candidate_orfs",
+      "plus_strand",
+      "minus_strand",
+      "origin_spanning",
+      "longest_aa",
+      "scope",
+      "limitations"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/phylogeny/alignment_columns.csv",
+    "bytes": 1333,
+    "sha256": "672ed0591a2c5293b95eebd90003f0c4be1aa4c097208e78f49f9e99fe4edb5b",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/phylogeny/bootstrap_splits.json",
+    "bytes": 158,
+    "sha256": "646ec4250d8cda4cc6f908b18dd79e24a2a1bfae9c284dd43cde6f9c7d689ece",
+    "category": "results",
+    "shape": [
+      "AF191658.1;AF191659.1",
+      "AF191658.1;AF191659.1;AF191661.1",
+      "AF191663.1;AF191664.1;AF191665.1",
+      "AF191663.1;AF191665.1"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/phylogeny/distances.csv",
+    "bytes": 975,
+    "sha256": "5ecd55932c9ddca9a8656593b2e7a5d0ae07d619c5605131c33b47475a44a4d1",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/phylogeny/run.json",
+    "bytes": 4555,
+    "sha256": "19d2dff1a35327ca8e852bf5a45a7101eadff75e3fe1635b69592dd4bc7eee96",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/phylogeny/summary.json",
+    "bytes": 527,
+    "sha256": "754329cdd2952e8e43ccdfc4d4404e8a936220112b4f246c46c3faada9f60d70",
+    "category": "results",
+    "shape": [
+      "real_sequence_fragments",
+      "taxa",
+      "alignment_columns",
+      "complete_columns",
+      "removed_columns",
+      "variable_complete_columns",
+      "bootstrap_replicates",
+      "negative_branch_lengths",
+      "scope",
+      "limitations"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/phylogeny/tree.nwk",
+    "bytes": 215,
+    "sha256": "2424c4ddae0f2f833823f3630ed432bb5d61114145d063167395a7ab269be40d",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/phylogeny/tree.png",
+    "bytes": 45234,
+    "sha256": "eb462e4adbdc484a0e4fb7d09392667f8b053b8e6c5709ee1b4435c945c442de",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/proteins/ca_distances.csv",
+    "bytes": 52900,
+    "sha256": "a25bc7db8554a6fb164d98fb34f72fb27a77ac70e0ccde093886bb29f79ba50f",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/proteins/contact_map.png",
+    "bytes": 44751,
+    "sha256": "1773bcc327ee7dbbe26dd5c91283e035f722d3bf89412311895429d3aeac7d48",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/proteins/protein_structure.png",
+    "bytes": 179949,
+    "sha256": "4109debe6d7b0d68f3de67e64671add42187e6cf4d9c8f91fe819c0b7af90fc7",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/proteins/run.json",
+    "bytes": 4560,
+    "sha256": "339fd2504a3cf6287cae314d857fc04dd78e48bc66b0234424c560200108217c",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/proteins/summary.json",
+    "bytes": 636,
+    "sha256": "24955e50c84a0ce60519799995ca514293db766b9cb9b3701e17908893258f8e",
+    "category": "results",
+    "shape": [
+      "uniprot_accession",
+      "protein",
+      "sequence_length",
+      "composition",
+      "pdb",
+      "structure_protein",
+      "chain",
+      "ca_residues",
+      "undirected_ca_contacts_lt8A",
+      "contact_definition"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/rnaseq/differential_expression.csv",
+    "bytes": 1247449,
+    "sha256": "91b4ba488c96d30c3b4457cfebf824a57531833789f08d9fd1d8e8687a1d6b7b",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/rnaseq/heatmap.png",
+    "bytes": 97178,
+    "sha256": "031ba67950a9f1b8e14b3e8060b79c0e01d3f2ad31c50800ca2b90e7627f6e77",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/rnaseq/metadata.csv",
+    "bytes": 441,
+    "sha256": "e9ebe542071d81e35e4a2cf25229ef3e3f4949ce65796cd7bcf1e84d515066c5",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/rnaseq/normalized_counts.csv",
+    "bytes": 1378541,
+    "sha256": "7b1bad472987129a74e0a88181dd685380a7d8f0548bb510c72808cc0c9189cb",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/rnaseq/pca.png",
+    "bytes": 39143,
+    "sha256": "cae6a57c623bd529d7b834779cea84bee6f9acc7a1cb15b7c25dfa83570d0122",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/rnaseq/run.json",
+    "bytes": 4609,
+    "sha256": "5b181430add717dcb60aa3b2bce67455f26f92e9a8d8bc4a528eb7b9e07e53bb",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/rnaseq/summary.json",
+    "bytes": 434,
+    "sha256": "f01712ec0eaa0d870e020030674e8735ee232b64fd76b8714f3a619700de3ebc",
+    "category": "results",
+    "shape": [
+      "input_genes",
+      "tested_genes",
+      "samples",
+      "design",
+      "contrast",
+      "prefilter",
+      "significant_fdr_005",
+      "significant_fdr_005_abs_lfc_gt1",
+      "missing_padj",
+      "lfc_shrinkage",
+      "implementation"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/rnaseq/volcano.png",
+    "bytes": 70681,
+    "sha256": "010e79a25856a659d0b0406feb28286a2cef6b4a97ace3e707db25d4da47ebb4",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/snapshot.json",
+    "bytes": 7951,
+    "sha256": "9221d9f3df9a76b701e7c87b3b7dcde5bd5e59b37f03fa880aa1f18332fae322",
+    "category": "results",
+    "shape": [
+      "created",
+      "sha256"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/study-database/laboratory.sqlite",
+    "bytes": 77824,
+    "sha256": "0032c6652540db04cd3196001e48ba154117271caa1e742c00527cc7123dbd0d",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/study-database/library_sizes.csv",
+    "bytes": 195,
+    "sha256": "f766e075383bd1fb3b343a05c0cef64bb572ca2ad9ddf625e026a6678abbc13b",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/study-database/queries.sql",
+    "bytes": 211,
+    "sha256": "a9c4d4c46941c9cd5843073fd781b171e8b175ece069d03338c7dfa51b58ffc9",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/study-database/run.json",
+    "bytes": 4632,
+    "sha256": "8065c5fec35503a396b38aab445d3417b226cf0b86579586aa7de5e88931f585",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/study-database/summary.json",
+    "bytes": 118,
+    "sha256": "a9b68fb3c062605274b4dd1587e60b1d47ede51d512e6508825f66d16c46a2e4",
+    "category": "results",
+    "shape": [
+      "samples",
+      "genes",
+      "count_records",
+      "integrity_check",
+      "foreign_key_violations"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/suite/alignment.log",
+    "bytes": 177,
+    "sha256": "3c5043d5fc6486feae19ecae8753aa1502a549d2dee568f65c03c06a526df594",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/suite/database.log",
+    "bytes": 270,
+    "sha256": "9de574c49760aeb5e0e932a887f9caabc6f438a565193d0431fdc21874eefd1e",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/suite/dna.log",
+    "bytes": 165,
+    "sha256": "9310f932e2c1971d3c2aac0ab642b87aa3905c414c1b0e8131fb520e26224666",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/suite/enrichment.log",
+    "bytes": 633,
+    "sha256": "28fd42df03cbbb98ff4bc110cc5e0137e1325f714d96bb10dc9bdcbdf6154be3",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/suite/expression-ml.log",
+    "bytes": 1750,
+    "sha256": "1f703649e6173d2e3ccc05fc922908ee73f19670cb10b94577a58db2cfa5475e",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/suite/ml.log",
+    "bytes": 163,
+    "sha256": "ec303bd37f3cd8d66de8bc455e151ed2778f3c2b8709c961964c985f03db84aa",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/suite/orfs.log",
+    "bytes": 585,
+    "sha256": "b13e76141eef85d4b57683140512cba71fca30258ca8b1ad8b6f4673c6b4970f",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/suite/phylogeny.log",
+    "bytes": 687,
+    "sha256": "3b43c85b2863090fe4a2e05e142e062fe34a08ac930a0bcd1840b57340392350",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/suite/proteins.log",
+    "bytes": 158,
+    "sha256": "75b36f75be84829a120a55e68ad820f1060846f0982451eac9d0413b88930b57",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/suite/rnaseq.log",
+    "bytes": 171,
+    "sha256": "c115eb3f44ac305e8332c2d0db7844b17611c6a437e8a62b32f2f717f3ce6664",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/suite/run.json",
+    "bytes": 4413,
+    "sha256": "03e8950167e7b4ae039b633a74de7ccbb501c3649c82f80d4b319a14086cd4d2",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/suite/statistics.log",
+    "bytes": 645,
+    "sha256": "105e67f3defb4b765617d49ad0eca023f4809627a8e3d3beac849dfe59644dc3",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/suite/suite.json",
+    "bytes": 1296,
+    "sha256": "a65538e12717465f290c97e3459b13b7539f06b24addd2c617491095abc2bf9d",
+    "category": "results",
+    "shape": [
+      "selected",
+      "skipped_requires_download",
+      "projects"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/suite/variants.log",
+    "bytes": 175,
+    "sha256": "3d8c7bb177c477ec2dfd3a6d6a5f0e16e23ea9f178858db8c14de205d5edfd1d",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/variants/run.json",
+    "bytes": 4428,
+    "sha256": "79b009ccc3ec79718817e1fb0a8042bb7bb84840d14f8e8288b696a3f9fbb842",
+    "category": "results",
+    "shape": [
+      "project",
+      "created_utc",
+      "python",
+      "platform",
+      "packages",
+      "git_commit",
+      "working_tree_dirty",
+      "source_files_sha256",
+      "parameters",
+      "inputs"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/variants/summary.json",
+    "bytes": 252,
+    "sha256": "5ae2819249717cc5879c25dc0f7ccf512e803cab27f862366039504da897bccf",
+    "category": "results",
+    "shape": [
+      "input_records",
+      "retained_alleles",
+      "excluded_records",
+      "types",
+      "transitions",
+      "transversions",
+      "ti_tv",
+      "min_qual",
+      "require_PASS"
+    ]
+  },
+  {
+    "path": "results/expanded-projects/variants/variant_types.png",
+    "bytes": 21988,
+    "sha256": "e07f93d82d5e65d7249b268acc0b09603ce2e290d10d1afa9e68a8c2d4f208f3",
+    "category": "results"
+  },
+  {
+    "path": "results/expanded-projects/variants/variants.csv",
+    "bytes": 39754,
+    "sha256": "0ee65e22913af5bbcb113f13bbac620306f9026cfd1451127b02705c7b6de30c",
+    "category": "results"
+  },
+  {
+    "path": "results/linux-smoke/README.md",
+    "bytes": 683,
+    "sha256": "86bb8001de8e23057d55ab9aba81ffcd16b3574ac8fc103066c412a6319994ad",
+    "category": "results",
+    "lines": 13
+  },
+  {
+    "path": "results/linux-smoke/fixture/truth.json",
+    "bytes": 192,
+    "sha256": "4a78a8bf8637b57709ad5da8e35b4c3c379225f5a478a7cff2ecd813387b9c50",
+    "category": "results",
+    "shape": [
+      "kind",
+      "seed",
+      "chrom",
+      "position",
+      "ref",
+      "alt",
+      "pairs",
+      "gene"
+    ]
+  },
+  {
+    "path": "results/linux-smoke/provenance.json",
+    "bytes": 241,
+    "sha256": "02e84dd10f85713d18bc271d7f1597c06f73a6b1b40d49dac8c93b98a0947513",
+    "category": "results",
+    "shape": [
+      "run_url",
+      "commit",
+      "evidence"
+    ]
+  },
+  {
+    "path": "results/linux-smoke/rnaseq/smoke-rna.Log.final.out",
+    "bytes": 1968,
+    "sha256": "d883bc6addfb2666d91116123211ee9a7dbae4221ba636681015abc2a480e03c",
+    "category": "results"
+  },
+  {
+    "path": "results/linux-smoke/rnaseq/smoke-rna.counts.tsv",
+    "bytes": 415,
+    "sha256": "060ec1ee18c19ac3ec019a702ab70c01dfc22803dcbef44417b77230da32b8df",
+    "category": "results"
+  },
+  {
+    "path": "results/linux-smoke/validation.json",
+    "bytes": 87,
+    "sha256": "cc8d48655076d9910ecfbd422627711091bb05457aff7ee898b942f0b00a2a00",
+    "category": "results",
+    "shape": [
+      "variant_matches_truth",
+      "assigned_fragments",
+      "input_pairs"
+    ]
+  },
+  {
+    "path": "results/linux-smoke/variants/flagstat.txt",
+    "bytes": 475,
+    "sha256": "51987ba05ffbe3f192657157a18f6b4c78e19b9f2f40558e64d2a1d7c6e46b9e",
+    "category": "results",
+    "lines": 16
+  },
+  {
+    "path": "results/linux-smoke/variants/variant_stats.txt",
+    "bytes": 2750,
+    "sha256": "33bafdd6719208a6923a3858cbf02456ab5c4a893133a170bd97d228298a9e8a",
+    "category": "results",
+    "lines": 62
+  },
+  {
+    "path": "results/raw-examples/README.md",
+    "bytes": 4397,
+    "sha256": "100f13d840dc0c5d51bddcaf2a1e24b9f4dc0236952367f4889252cafc73c9ba",
+    "category": "results",
+    "lines": 88
+  },
+  {
+    "path": "results/raw-examples/conda-explicit.txt",
+    "bytes": 3385,
+    "sha256": "e4a3ed327ab96259673b53acc58a8b1e40fe53597413e8f94eba0b53276afeed",
+    "category": "results",
+    "lines": 45
+  },
+  {
+    "path": "results/raw-examples/input-manifest.json",
+    "bytes": 9011,
+    "sha256": "7cb11a88ba32caa2ba31102086cbb961c2f06090891d08ef0444e116ef1de720",
+    "category": "results",
+    "shape": [
+      "schema_version",
+      "source_repository",
+      "revisions",
+      "files"
+    ]
+  },
+  {
+    "path": "results/raw-examples/python-environment.txt",
+    "bytes": 1948,
+    "sha256": "e04bdd439a1ba1e90e7b5a6e54d23f50b35db26097cd8826b6462a3192d5b34e",
+    "category": "results",
+    "lines": 97
+  },
+  {
+    "path": "results/raw-examples/qc_summary.tsv",
+    "bytes": 14904,
+    "sha256": "b11163ab7c89afa66acb354d72d55e4d69b868bf01116360dfce3ac2d3fb9bf7",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rna-model/counts.tsv",
+    "bytes": 3123,
+    "sha256": "7e4fbe8a0f7b4ae4aea6a451908536bfc8b4f7eb1b49c58c86312b9844fcdca1",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rna-model/differential_expression.csv",
+    "bytes": 10458,
+    "sha256": "4e13f2e2ca7c0bed2472d57ad5e783e351fbc3b8873719951ee07b1886f86c8f",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rna-model/heatmap.png",
+    "bytes": 108653,
+    "sha256": "651b639cf310fe782477c22e8b14286826a3fcb69121fd71f3616f660f530e06",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rna-model/metadata.csv",
+    "bytes": 467,
+    "sha256": "d3690914c53281c351234dcc060c85af66a994467a1d318cb9c5ba08a0f35c76",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rna-model/normalized_counts.csv",
+    "bytes": 9972,
+    "sha256": "edafb63cc87e49477dd5667e65085c6bb331910289bb95f498fa8f483090b81b",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rna-model/pca.png",
+    "bytes": 48388,
+    "sha256": "13c2cdfbbc6fa07d128ab115fcde7ba3664f85db5c2949fcfdecc00b25738186",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rna-model/summary.json",
+    "bytes": 1669,
+    "sha256": "8e01d0cc2c814916a316af2865ecbdd1609467bc3259e4ff2708fa2d858c7fa3",
+    "category": "results",
+    "shape": [
+      "input_genes",
+      "tested_genes",
+      "samples",
+      "design",
+      "contrast",
+      "prefilter",
+      "significant_fdr_005",
+      "significant_fdr_005_abs_lfc_gt1",
+      "missing_padj",
+      "lfc_shrinkage",
+      "implementation",
+      "dataset",
+      "biological_contrast",
+      "limitation",
+      "mapping",
+      "assigned_fragments"
+    ]
+  },
+  {
+    "path": "results/raw-examples/rna-model/volcano.png",
+    "bytes": 48775,
+    "sha256": "627926ef66d1e805b17805a4ee9d6f67bb7638b194a9c6f0d9f829c95828e42f",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357073/SRR6357073.Log.final.out",
+    "bytes": 1987,
+    "sha256": "087856dbb2ec04fa1de100b4ac9c994a5934fb05f07269bd3aa4cd2c519345d1",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357073/SRR6357073.counts.tsv",
+    "bytes": 4594,
+    "sha256": "416f1c7b1310b20933a2faadfb0e0699c023f2c1a519192e37536bb99dad7803",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357073/SRR6357073.counts.tsv.summary",
+    "bytes": 427,
+    "sha256": "a2fc7df6f6484f056f9f12eb224f12e0caa70e9910f8b0bbc936465b5c08be89",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357073/STAR.version.txt",
+    "bytes": 8,
+    "sha256": "576fbf9acc5a4e3bfaac9345654fc49c8dbe02ed89748b24cd7b1f0b740e0054",
+    "category": "results",
+    "lines": 1
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357073/inputs.sha256",
+    "bytes": 668,
+    "sha256": "964978cfa8026a77354bad6b504685e9ce141c91402226200034d66d7fe2c2dc",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357074/SRR6357074.Log.final.out",
+    "bytes": 1988,
+    "sha256": "8b6a757e7acbe3e7a840e1bdf7baf32ed3f7355816fccdce3dbb8ccd14e1c6c9",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357074/SRR6357074.counts.tsv",
+    "bytes": 4594,
+    "sha256": "e4b72db7c25a602e8d712cfe7aa69690c15542bc576287d87c7879e6aefebbeb",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357074/SRR6357074.counts.tsv.summary",
+    "bytes": 427,
+    "sha256": "135b5a7078fe7465a25f4bb30618cd3ac873ff04b0075cfbb6c65fedad5f8b93",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357074/STAR.version.txt",
+    "bytes": 8,
+    "sha256": "576fbf9acc5a4e3bfaac9345654fc49c8dbe02ed89748b24cd7b1f0b740e0054",
+    "category": "results",
+    "lines": 1
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357074/inputs.sha256",
+    "bytes": 668,
+    "sha256": "f5e6d4b87bbd6971fe1d7c815ab9114d3a155b181154fa65cf0952947c0d75c4",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357075/SRR6357075.Log.final.out",
+    "bytes": 1987,
+    "sha256": "b49f5e0015b03278a16022cdcf9f3974f2a7489e46b3d9f7e46a1a314892537e",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357075/SRR6357075.counts.tsv",
+    "bytes": 4602,
+    "sha256": "f298e333c6d0e4932e6b80b4d8c79cdb8810be085ec17c42a74a1911478071cd",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357075/SRR6357075.counts.tsv.summary",
+    "bytes": 427,
+    "sha256": "36232b141f298d66cc4e8607f8d751512af497b8ead8371aaba0b3b82a5cab6f",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357075/STAR.version.txt",
+    "bytes": 8,
+    "sha256": "576fbf9acc5a4e3bfaac9345654fc49c8dbe02ed89748b24cd7b1f0b740e0054",
+    "category": "results",
+    "lines": 1
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357075/inputs.sha256",
+    "bytes": 668,
+    "sha256": "45b4a28b42980a3027f6aeccb4447ee3fc68b986aad72e2ef8cb181154baca40",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357076/SRR6357076.Log.final.out",
+    "bytes": 1988,
+    "sha256": "9e1cd41fed5f74814ff0c1f7c1d3a9b1ed3ccf56f68802cd18696ceda76262a2",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357076/SRR6357076.counts.tsv",
+    "bytes": 4594,
+    "sha256": "894d3ceedfd1e139317ab9868f5752246404dd0e82fca72f7e6af7c23f1f2843",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357076/SRR6357076.counts.tsv.summary",
+    "bytes": 427,
+    "sha256": "55fa7a0ea670f90c0ced8e0b3eb2c902b8ebc03017e5ffc4746ceac09bb3c345",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357076/STAR.version.txt",
+    "bytes": 8,
+    "sha256": "576fbf9acc5a4e3bfaac9345654fc49c8dbe02ed89748b24cd7b1f0b740e0054",
+    "category": "results",
+    "lines": 1
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357076/inputs.sha256",
+    "bytes": 668,
+    "sha256": "34504fc122c7b35eed427429c65085f5eb9e6fd9ef8d78920b3dd1caadd5b34a",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357077/SRR6357077.Log.final.out",
+    "bytes": 1988,
+    "sha256": "f0e37e78ef4b56c6ab1910be6eb0986558e8b173c6084ee9fbd3b60fcf471e96",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357077/SRR6357077.counts.tsv",
+    "bytes": 4594,
+    "sha256": "3ad190614d892e5954d7ee17d966c575784f8faa823e7eaa2437ae793999537a",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357077/SRR6357077.counts.tsv.summary",
+    "bytes": 427,
+    "sha256": "cfe5c94b9cd6c578dcc1fce58ce75541c6c3a247c3c484c0089f24dcecbb7a3a",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357077/STAR.version.txt",
+    "bytes": 8,
+    "sha256": "576fbf9acc5a4e3bfaac9345654fc49c8dbe02ed89748b24cd7b1f0b740e0054",
+    "category": "results",
+    "lines": 1
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357077/inputs.sha256",
+    "bytes": 668,
+    "sha256": "512afab8666e856a8ddb13d2d84a0fbe2882043328616a8659c3fe8ebb06a2b4",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357078/SRR6357078.Log.final.out",
+    "bytes": 1987,
+    "sha256": "7c46184c97ae9c7bee33cbe06eae2811f5b8ba63d4a096a26798fcb7bfa397cb",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357078/SRR6357078.counts.tsv",
+    "bytes": 4596,
+    "sha256": "784e73a3b5ead87ca240d17678fda1f036a176e6ede7288f9d0605b4f6a8da9c",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357078/SRR6357078.counts.tsv.summary",
+    "bytes": 427,
+    "sha256": "4313b37017a3708dceccb81d2ee46df0a53ccd043c445e4ca6a01f308628a33e",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357078/STAR.version.txt",
+    "bytes": 8,
+    "sha256": "576fbf9acc5a4e3bfaac9345654fc49c8dbe02ed89748b24cd7b1f0b740e0054",
+    "category": "results",
+    "lines": 1
+  },
+  {
+    "path": "results/raw-examples/rnaseq/SRR6357078/inputs.sha256",
+    "bytes": 668,
+    "sha256": "01c7cb446cdf6eef8c507caa409ea071d2af639349ee14dbfabe81c088154597",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/run.json",
+    "bytes": 2390,
+    "sha256": "1ee2c92fa1e35e7a43448fcf3d72f01ad8a934b6c2cf525d7a0a2ac0a20fd49d",
+    "category": "results",
+    "shape": [
+      "git_commit",
+      "github_run_id",
+      "python",
+      "source_files_sha256"
+    ]
+  },
+  {
+    "path": "results/raw-examples/snapshot.json",
+    "bytes": 6379,
+    "sha256": "6c1b870d05444c2eefed4bd8491927d4d6539eea8c8bbb6b36379cafe86191b6",
+    "category": "results",
+    "shape": [
+      "github_run_url",
+      "source_commit",
+      "artifact",
+      "retention_days",
+      "snapshot",
+      "sha256"
+    ]
+  },
+  {
+    "path": "results/raw-examples/system-packages.txt",
+    "bytes": 122,
+    "sha256": "9cdf5b5f9cea1e690fbea5df3eb9d41891bbea81e7554367a7a889e8c089aed4",
+    "category": "results",
+    "lines": 6
+  },
+  {
+    "path": "results/raw-examples/validation.json",
+    "bytes": 2144,
+    "sha256": "db9481b7fab343f9963a727cd521d42d6a5d96aa377c5e3a6732c6a22f5a373f",
+    "category": "results",
+    "shape": [
+      "variants",
+      "rnaseq"
+    ]
+  },
+  {
+    "path": "results/raw-examples/variants/annotation_status.txt",
+    "bytes": 99,
+    "sha256": "a118b855f4122aa5549bd047c4f4e43d8d4ee6dba6658bfaca1724dd49e1d1c6",
+    "category": "results",
+    "lines": 1
+  },
+  {
+    "path": "results/raw-examples/variants/bcftools.version.txt",
+    "bytes": 230,
+    "sha256": "850f0badbc28890a2221fd4f92fe0cddcc1e4de165f8c9b68001be3e93a66aaa",
+    "category": "results",
+    "lines": 6
+  },
+  {
+    "path": "results/raw-examples/variants/cutadapt.txt",
+    "bytes": 887,
+    "sha256": "a3bc78a65cc9e77bbe2d99b54bfb98ecebfd206e3363f028fe2337eef8389542",
+    "category": "results",
+    "lines": 22
+  },
+  {
+    "path": "results/raw-examples/variants/filtered.vcf.gz",
+    "bytes": 2766,
+    "sha256": "033237d3923544629c61d8b3777b8dc18bcc9c0e92d9022e6b1847daa335cbae",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/variants/filtered.vcf.gz.tbi",
+    "bytes": 106,
+    "sha256": "cdc039d660f3b5409a3060e1e72dc55a3f19f309844f0e7ccb0b2f3c4b420b66",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/variants/flagstat.txt",
+    "bytes": 485,
+    "sha256": "75225cabb99bd286a066c25c63f29e7e50225c7e94cba88ef93d4af7c1662eb5",
+    "category": "results",
+    "lines": 16
+  },
+  {
+    "path": "results/raw-examples/variants/inputs.sha256",
+    "bytes": 392,
+    "sha256": "d8ba2994363108439642a39a018dce6600186fa8e0da850ce2895bf772cb37d6",
+    "category": "results"
+  },
+  {
+    "path": "results/raw-examples/variants/samtools.version.txt",
+    "bytes": 2022,
+    "sha256": "66be34887cfa1a5af82815258dd871efd0c202e7e624c218585cb27b13dea309",
+    "category": "results",
+    "encoding_note": "Non-UTF8 artifact; indexed by byte hash, text decoded with replacement for inventory",
+    "lines": 29
+  },
+  {
+    "path": "results/raw-examples/variants/summary.json",
+    "bytes": 320,
+    "sha256": "e8be88a822c16250acf7827d1e56e7d45c0feee248c3b45242be5c5f398951b1",
+    "category": "results",
+    "shape": [
+      "dataset",
+      "mapped_reads",
+      "variant_records",
+      "pass_records",
+      "annotation",
+      "limitation"
+    ]
+  },
+  {
+    "path": "results/raw-examples/variants/variant_stats.txt",
+    "bytes": 4274,
+    "sha256": "271969647fca8a2ed76c1a5cf893b920138775a9ee688541d868a7b7a0e49236",
+    "category": "results",
+    "lines": 122
+  },
+  {
+    "path": "results/source-archives/README.md",
+    "bytes": 821,
+    "sha256": "390f860e0fe3880d2fe7f897b432edb2958ed85c8d9433f4cd00b082a916d069",
+    "category": "results",
+    "lines": 7
+  },
+  {
+    "path": "results/source-archives/cbcbffb.zip",
+    "bytes": 39677,
+    "sha256": "9ba00e204e2c38dbafbfb6c0b06503a0a9b3d299462269da296beb8cf667a8d9",
+    "category": "results"
+  },
+  {
+    "path": "results/source-archives/manifest.json",
+    "bytes": 336,
+    "sha256": "ee061d666a1c412e3a51a1ee4955d379a27201da6f7937da50846448eb18d4c8",
+    "category": "results",
+    "shape": [
+      "archives"
+    ]
+  },
+  {
+    "path": "results/validation.json",
+    "bytes": 3203,
+    "sha256": "8ac4ca35051c9a32d7bd2625d24ebe2ce93121787c1b56d3a18515d954cb2219",
+    "category": "results",
+    "shape": [
+      "local_tests",
+      "project_suite",
+      "raw_workflows",
+      "raw_run_url",
+      "raw_snapshot_hashes",
+      "notebooks",
+      "example_run_source_fingerprints",
+      "captured_git_commits",
+      "source_files_sha256"
+    ]
+  },
+  {
+    "path": "roadmap/README.md",
+    "bytes": 4345,
+    "sha256": "0e9b8b72c633043f066ea21ea8ba38b29e7ebf0fccb72f0aa700d4312cbb1cd3",
+    "category": "roadmap",
+    "lines": 93
+  },
+  {
+    "path": "scripts/analyze_counts.py",
+    "bytes": 1266,
+    "sha256": "8ee2fdedbb222f902d352d04e222d78a00219aad99061e5bc69d96f552ea5eef",
+    "category": "scripts",
+    "lines": 18,
+    "functions": [],
+    "imports": [
+      "import argparse",
+      "from pathlib import Path",
+      "import pandas as pd",
+      "from biolab.transcriptomics import differential_expression",
+      "from biolab.reporting import new_run, write_json",
+      "from run_projects import plot_expression",
+      "import hashlib"
+    ]
+  },
+  {
+    "path": "scripts/build_study_guide.py",
+    "bytes": 8358,
+    "sha256": "f2b92e54603a45c108b0a50b2410018718cba166c17a4c8c7b22588e8775fc03",
+    "category": "scripts",
+    "lines": 140,
+    "functions": [
+      "main",
+      "inline",
+      "para",
+      "markdown",
+      "footer"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "import argparse",
+      "import html",
+      "import json",
+      "import re",
+      "from reportlab.lib import colors",
+      "from reportlab.lib.enums import TA_LEFT",
+      "from reportlab.lib.pagesizes import A4",
+      "from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet",
+      "from reportlab.pdfbase import pdfmetrics",
+      "from reportlab.pdfbase.ttfonts import TTFont",
+      "from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Table, TableStyle, Preformatted, KeepTogether"
+    ]
+  },
+  {
+    "path": "scripts/check_all_results.py",
+    "bytes": 1491,
+    "sha256": "f7b7f52b59eaa30a6ecab2820a2ef158acb43c9c7880cb45b40db406c8ee4b89",
+    "category": "scripts",
+    "lines": 30,
+    "functions": [
+      "main"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "import hashlib, json",
+      "from biolab.provenance import verify_sources"
+    ]
+  },
+  {
+    "path": "scripts/check_learning_assets.py",
+    "bytes": 1649,
+    "sha256": "2792304f238b4148346b12932fd4a0264d1fbbd6001f9740024751e712bc20f6",
+    "category": "scripts",
+    "lines": 41,
+    "functions": [
+      "digest",
+      "main"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "import hashlib",
+      "import json",
+      "from biolab.provenance import verify_sources"
+    ]
+  },
+  {
+    "path": "scripts/check_repository.py",
+    "bytes": 1125,
+    "sha256": "89d1dc01dfe4531030b97cc36cb0aa7a3c5a6b96e81ff9814476da55c7e024ca",
+    "category": "scripts",
+    "lines": 21,
+    "functions": [],
+    "imports": [
+      "from pathlib import Path",
+      "import re, sys, json",
+      "from urllib.parse import unquote",
+      "import nbformat"
+    ]
+  },
+  {
+    "path": "scripts/check_snapshot.py",
+    "bytes": 846,
+    "sha256": "8e87fccd2da374e177aac7edaf6769bf23ccbcec84841cf70e5d92129fa9c64c",
+    "category": "scripts",
+    "lines": 22,
+    "functions": [
+      "check_snapshot"
+    ],
+    "imports": [
+      "import hashlib",
+      "import json",
+      "from pathlib import Path"
+    ]
+  },
+  {
+    "path": "scripts/combine_counts.py",
+    "bytes": 1255,
+    "sha256": "2abb9fc2c5f5bec07a699558ffd46dd862d1a0954faf2a68f1bd1a78c2dcf61f",
+    "category": "scripts",
+    "lines": 21,
+    "functions": [],
+    "imports": [
+      "import argparse",
+      "from pathlib import Path",
+      "import pandas as pd"
+    ]
+  },
+  {
+    "path": "scripts/create_raw_fixture.py",
+    "bytes": 1764,
+    "sha256": "82d700f166a0bf70b43a854487edf13f06174288e6bb3ba32540cf8026e40d34",
+    "category": "scripts",
+    "lines": 39,
+    "functions": [
+      "create_fixture"
+    ],
+    "imports": [
+      "import argparse",
+      "import gzip",
+      "import json",
+      "import random",
+      "from pathlib import Path"
+    ]
+  },
+  {
+    "path": "scripts/fetch_data.py",
+    "bytes": 5142,
+    "sha256": "52672f61babf66d53a119854093f78ad3a83bbe5c4cb8f7ed4587b07d69c5538",
+    "category": "scripts",
+    "lines": 86,
+    "functions": [
+      "request",
+      "digest",
+      "save",
+      "intact",
+      "fetch"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "import argparse, gzip, hashlib, json, tarfile, io, urllib.request",
+      "from datetime import datetime, timezone"
+    ]
+  },
+  {
+    "path": "scripts/fetch_khan.py",
+    "bytes": 973,
+    "sha256": "7935354eb839d1bf3c84bee6477f1ca21c7b1b93b417f2a09d244ae65f97f319",
+    "category": "scripts",
+    "lines": 29,
+    "functions": [
+      "fetch"
+    ],
+    "imports": [
+      "import hashlib",
+      "import json",
+      "from pathlib import Path",
+      "import urllib.request"
+    ]
+  },
+  {
+    "path": "scripts/fetch_raw_examples.py",
+    "bytes": 1966,
+    "sha256": "c54c4235de86ff3c2e0e067453e3ceabce086a6393e8418e0c617da57361248e",
+    "category": "scripts",
+    "lines": 46,
+    "functions": [
+      "fetch"
+    ],
+    "imports": [
+      "import argparse",
+      "import hashlib",
+      "import json",
+      "import time",
+      "import urllib.request",
+      "from pathlib import Path"
+    ]
+  },
+  {
+    "path": "scripts/lab.py",
+    "bytes": 2769,
+    "sha256": "bf35d467ee8f2035f0c0c20dea204f62a6d1dca2a8f7b79ae9d05e2c0ccbdf20",
+    "category": "scripts",
+    "lines": 54,
+    "functions": [
+      "main"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "import argparse",
+      "import importlib.util",
+      "import json",
+      "import subprocess",
+      "import sys",
+      "from biolab.reporting import new_run, write_json"
+    ]
+  },
+  {
+    "path": "scripts/make_visualizations.py",
+    "bytes": 4693,
+    "sha256": "f80a2eecbc7fee09ac26337836b22185c5a65d77ca302f6558531b25afa5e1a7",
+    "category": "scripts",
+    "lines": 59,
+    "functions": [
+      "latest",
+      "save",
+      "main"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "import json, shutil",
+      "import matplotlib",
+      "import matplotlib.pyplot as plt",
+      "import numpy as np",
+      "from sklearn.datasets import load_breast_cancer",
+      "from sklearn.preprocessing import StandardScaler",
+      "from sklearn.manifold import TSNE",
+      "from Bio import Phylo",
+      "from io import StringIO",
+      "from biolab.io import read_fasta",
+      "from biolab.sequence import gc_content",
+      "from umap import UMAP",
+      "import networkx as nx"
+    ]
+  },
+  {
+    "path": "scripts/protein_project.py",
+    "bytes": 2224,
+    "sha256": "e0e1da7404c31e679ab5bc8b8527439bc4dcf48880eb3a616dfeddaa9276d176",
+    "category": "scripts",
+    "lines": 30,
+    "functions": [
+      "run"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "from collections import Counter",
+      "import matplotlib",
+      "import matplotlib.pyplot as plt",
+      "import numpy as np",
+      "from Bio import SeqIO",
+      "from Bio.PDB import PDBParser",
+      "from biolab.reporting import new_run, write_json"
+    ]
+  },
+  {
+    "path": "scripts/run_biostatistics_lab.py",
+    "bytes": 2450,
+    "sha256": "96660f99b28fbc03d7a7e0b62a08121b0bb6b69cebfd2c32d5789d1969455fdd",
+    "category": "scripts",
+    "lines": 46,
+    "functions": [],
+    "imports": [
+      "from pathlib import Path",
+      "import numpy as np",
+      "import pandas as pd",
+      "import matplotlib",
+      "import matplotlib.pyplot as plt",
+      "from scipy.stats import ttest_ind",
+      "from biolab.statistics import benjamini_hochberg",
+      "from biolab.reporting import new_run, write_json"
+    ]
+  },
+  {
+    "path": "scripts/run_expression_ml.py",
+    "bytes": 5254,
+    "sha256": "ecda5fb05fb4b34019aec562d2ef1bcc691b8a31e6579d4836838b104c20e60f",
+    "category": "scripts",
+    "lines": 87,
+    "functions": [
+      "main"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "import json",
+      "import matplotlib",
+      "import matplotlib.pyplot as plt",
+      "import numpy as np",
+      "import pandas as pd",
+      "from sklearn.dummy import DummyClassifier",
+      "from sklearn.metrics import accuracy_score, balanced_accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay, f1_score",
+      "from sklearn.model_selection import cross_val_score, StratifiedKFold",
+      "from biolab.expression_ml import load_khan, fit_training_only",
+      "from biolab.reporting import new_run, write_json",
+      "from fetch_khan import fetch"
+    ]
+  },
+  {
+    "path": "scripts/run_extensions.py",
+    "bytes": 6914,
+    "sha256": "cc8d13c232ae9dcb1973d73116efca1812cd3f832d45c8349a7179ff2b0acc2a",
+    "category": "scripts",
+    "lines": 104,
+    "functions": [
+      "enrichment",
+      "phylogeny",
+      "orfs"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "import argparse, json",
+      "import matplotlib",
+      "import matplotlib.pyplot as plt",
+      "import numpy as np",
+      "import pandas as pd",
+      "from Bio import AlignIO, Phylo, SeqIO",
+      "from biolab.enrichment import over_representation",
+      "from biolab.phylogeny import alignment_matrix, bootstrap_tree",
+      "from biolab.orfs import find_orfs",
+      "from biolab.reporting import new_run, write_json"
+    ]
+  },
+  {
+    "path": "scripts/run_projects.py",
+    "bytes": 6165,
+    "sha256": "a6dcb54d3e43026c4d5a8da21326ff3c356e99b1cff3d48387b9b451aa17c3db",
+    "category": "scripts",
+    "lines": 98,
+    "functions": [
+      "run_dna",
+      "run_alignment",
+      "run_variants",
+      "plot_expression",
+      "run_rnaseq",
+      "run_ml"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "import argparse",
+      "import matplotlib",
+      "import matplotlib.pyplot as plt",
+      "import numpy as np",
+      "import pandas as pd",
+      "from sklearn.decomposition import PCA",
+      "from sklearn.metrics import RocCurveDisplay, ConfusionMatrixDisplay",
+      "from biolab.io import read_fasta",
+      "from biolab.sequence import sequence_summary, align",
+      "from biolab.genomics import analyze_vcf",
+      "from biolab.transcriptomics import load_pasilla, differential_expression",
+      "from biolab.ml import disease_classification",
+      "from biolab.reporting import new_run, write_json",
+      "from Bio.Align import PairwiseAligner"
+    ]
+  },
+  {
+    "path": "scripts/run_raw_examples.py",
+    "bytes": 8582,
+    "sha256": "2e336276e329a78d9e61afe996fb614a765a9e7ea7ea582b18145d92b1535de4",
+    "category": "scripts",
+    "lines": 158,
+    "functions": [
+      "run",
+      "save_json",
+      "rna_plots",
+      "rna_example",
+      "variant_example"
+    ],
+    "imports": [
+      "import argparse",
+      "import csv",
+      "import gzip",
+      "import hashlib",
+      "import json",
+      "import os",
+      "from pathlib import Path",
+      "import shutil",
+      "import subprocess",
+      "import sys",
+      "import matplotlib",
+      "import matplotlib.pyplot as plt",
+      "import numpy as np",
+      "import pandas as pd",
+      "from sklearn.decomposition import PCA",
+      "from biolab.transcriptomics import differential_expression",
+      "from fetch_raw_examples import fetch"
+    ]
+  },
+  {
+    "path": "scripts/run_study_database.py",
+    "bytes": 1288,
+    "sha256": "7bd664549275b8d0a4398b85df855fd31ba97b80a7d47ab8140b59947f8a444b",
+    "category": "scripts",
+    "lines": 26,
+    "functions": [],
+    "imports": [
+      "from pathlib import Path",
+      "import sqlite3",
+      "import pandas as pd",
+      "from biolab.reporting import new_run, write_json",
+      "from biolab.study_database import build_catalog"
+    ]
+  },
+  {
+    "path": "scripts/validate_raw_fixture.py",
+    "bytes": 1499,
+    "sha256": "5b32d3e4733d3fe19ba3760fd46e543946ef90befb2375c65265bfac498bbc22",
+    "category": "scripts",
+    "lines": 31,
+    "functions": [
+      "validate"
+    ],
+    "imports": [
+      "import argparse",
+      "import csv",
+      "import json",
+      "import subprocess",
+      "from pathlib import Path"
+    ]
+  },
+  {
+    "path": "src/biolab/__init__.py",
+    "bytes": 105,
+    "sha256": "e4b2f4dabe9b91e14c6c463ce8b80296c72a42afb9627900fffbe5e117339947",
+    "category": "src",
+    "lines": 2,
+    "functions": [],
+    "imports": []
+  },
+  {
+    "path": "src/biolab/cli.py",
+    "bytes": 1223,
+    "sha256": "fab5005084ea1dfb858d668736be05a1d0163b00b931bb59c941226d9a904970",
+    "category": "src",
+    "lines": 22,
+    "functions": [
+      "main"
+    ],
+    "imports": [
+      "import argparse, json",
+      "from pathlib import Path",
+      "from .sequence import align, sequence_summary",
+      "from .io import read_fasta",
+      "from .genomics import analyze_vcf"
+    ]
+  },
+  {
+    "path": "src/biolab/enrichment.py",
+    "bytes": 1599,
+    "sha256": "51516a96a5d5e9b35699e6636b7aeb31538b6fd6379aa7ed013dc5cd57789c47",
+    "category": "src",
+    "lines": 28,
+    "functions": [
+      "over_representation"
+    ],
+    "imports": [
+      "import pandas as pd",
+      "from scipy.stats import hypergeom",
+      "from .statistics import benjamini_hochberg"
+    ]
+  },
+  {
+    "path": "src/biolab/expression_ml.py",
+    "bytes": 2350,
+    "sha256": "ce534bf4431cfe607dc541ddd969336eddfd4bdbee46b378c77b43918f595568",
+    "category": "src",
+    "lines": 52,
+    "functions": [
+      "load_khan",
+      "expression_pipeline",
+      "fit_training_only"
+    ],
+    "imports": [
+      "import numpy as np",
+      "import pandas as pd",
+      "from sklearn.feature_selection import SelectKBest, VarianceThreshold, f_classif",
+      "from sklearn.model_selection import GridSearchCV, StratifiedKFold",
+      "from sklearn.pipeline import Pipeline",
+      "from sklearn.preprocessing import StandardScaler",
+      "from sklearn.svm import LinearSVC"
+    ]
+  },
+  {
+    "path": "src/biolab/genomics.py",
+    "bytes": 2203,
+    "sha256": "49facb3fbfbb7c65f2c90b95da61950c18ee3621063b017b03edc735ad5c2078",
+    "category": "src",
+    "lines": 42,
+    "functions": [
+      "variant_type",
+      "allele_counts",
+      "analyze_vcf"
+    ],
+    "imports": [
+      "from collections import Counter",
+      "import re",
+      "import pandas as pd",
+      "from .io import read_vcf"
+    ]
+  },
+  {
+    "path": "src/biolab/io.py",
+    "bytes": 3565,
+    "sha256": "b428005066420810e4faceca8fc7cc9a252984b7b9bfb426e2f185ae370aeafd",
+    "category": "src",
+    "lines": 65,
+    "functions": [
+      "text_open",
+      "read_fasta",
+      "read_vcf"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "import gzip",
+      "import math",
+      "from Bio import SeqIO",
+      "from .sequence import clean_dna"
+    ]
+  },
+  {
+    "path": "src/biolab/ml.py",
+    "bytes": 3323,
+    "sha256": "21d9ea6e617de9fabfd98d98783b3051da87511b7b4a77d14db1e7f2789593a4",
+    "category": "src",
+    "lines": 41,
+    "functions": [
+      "disease_classification"
+    ],
+    "imports": [
+      "import numpy as np",
+      "import hashlib",
+      "import pandas as pd",
+      "from sklearn.datasets import load_breast_cancer",
+      "from sklearn.model_selection import train_test_split, StratifiedKFold, cross_validate",
+      "from sklearn.pipeline import make_pipeline",
+      "from sklearn.impute import SimpleImputer",
+      "from sklearn.preprocessing import StandardScaler",
+      "from sklearn.linear_model import LogisticRegression",
+      "from sklearn.ensemble import RandomForestClassifier",
+      "from sklearn.dummy import DummyClassifier",
+      "from sklearn.metrics import roc_auc_score, average_precision_score, balanced_accuracy_score, confusion_matrix, brier_score_loss",
+      "from .statistics import bootstrap_auc"
+    ]
+  },
+  {
+    "path": "src/biolab/orfs.py",
+    "bytes": 1720,
+    "sha256": "a6659d8cddf3cdcdf34a06893ab97dee062491323f4b6e527a0ab3ffa3cad3d0",
+    "category": "src",
+    "lines": 28,
+    "functions": [
+      "find_orfs"
+    ],
+    "imports": [
+      "from Bio.Seq import Seq",
+      "from .sequence import clean_dna, reverse_complement"
+    ]
+  },
+  {
+    "path": "src/biolab/phylogeny.py",
+    "bytes": 2245,
+    "sha256": "b90807f536aad58f1d04b5ea5004ea48e34b690d19fdee17921e9f9463cd56fb",
+    "category": "src",
+    "lines": 51,
+    "functions": [
+      "alignment_matrix",
+      "nj_tree",
+      "canonical_split",
+      "tree_splits",
+      "bootstrap_tree"
+    ],
+    "imports": [
+      "from collections import Counter",
+      "import numpy as np",
+      "from Bio.Phylo.TreeConstruction import DistanceMatrix, DistanceTreeConstructor"
+    ]
+  },
+  {
+    "path": "src/biolab/provenance.py",
+    "bytes": 1374,
+    "sha256": "3ac743841c83cd582d8b63764d3be025ae96f2dcee05a66c3bd42a6c235f2f01",
+    "category": "src",
+    "lines": 33,
+    "functions": [
+      "verify_sources"
+    ],
+    "imports": [
+      "import hashlib",
+      "import json",
+      "from pathlib import Path",
+      "import zipfile"
+    ]
+  },
+  {
+    "path": "src/biolab/reporting.py",
+    "bytes": 1711,
+    "sha256": "5e43ad6f2cecef82f688d22115954651f0777fcbe702484b5a8277dd8ba8ccef",
+    "category": "src",
+    "lines": 22,
+    "functions": [
+      "write_json",
+      "new_run"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "from datetime import datetime, timezone",
+      "from importlib.metadata import version, PackageNotFoundError",
+      "import hashlib, json, platform, uuid, subprocess"
+    ]
+  },
+  {
+    "path": "src/biolab/sequence.py",
+    "bytes": 5467,
+    "sha256": "551e409bae16be6f2e8842d3d1a1ae59bae51cfc9f0b5984501771998604a8b4",
+    "category": "src",
+    "lines": 123,
+    "functions": [
+      "clean_dna",
+      "reverse_complement",
+      "gc_content",
+      "motif_positions",
+      "sequence_summary",
+      "align",
+      "kmer_counts",
+      "motif_enrichment",
+      "seed_search",
+      "identity",
+      "to_dict"
+    ],
+    "imports": [
+      "from collections import Counter",
+      "from dataclasses import dataclass, asdict",
+      "from itertools import product",
+      "import math",
+      "import re"
+    ]
+  },
+  {
+    "path": "src/biolab/statistics.py",
+    "bytes": 1404,
+    "sha256": "fea2ac43cb15c45475a189edfffdbd7739241727b855e938041334b91664ea3b",
+    "category": "src",
+    "lines": 25,
+    "functions": [
+      "benjamini_hochberg",
+      "bootstrap_auc"
+    ],
+    "imports": [
+      "import numpy as np",
+      "from sklearn.metrics import roc_auc_score"
+    ]
+  },
+  {
+    "path": "src/biolab/study_database.py",
+    "bytes": 3179,
+    "sha256": "f1ca3ff13ea270e4a28d927653fe9e553455f30ac3a4f375f684d124d0343255",
+    "category": "src",
+    "lines": 67,
+    "functions": [
+      "initialize",
+      "build_catalog"
+    ],
+    "imports": [
+      "import csv",
+      "import hashlib",
+      "import sqlite3",
+      "from pathlib import Path"
+    ]
+  },
+  {
+    "path": "src/biolab/transcriptomics.py",
+    "bytes": 2694,
+    "sha256": "97460555bc89558ed9ebf68759d574102644adfb7c8fb82e2c677f96a09c8112",
+    "category": "src",
+    "lines": 36,
+    "functions": [
+      "validate_counts",
+      "load_pasilla",
+      "differential_expression"
+    ],
+    "imports": [
+      "import numpy as np",
+      "import pandas as pd",
+      "from pydeseq2.dds import DeseqDataSet",
+      "from pydeseq2.ds import DeseqStats"
+    ]
+  },
+  {
+    "path": "tests/test_course_projects.py",
+    "bytes": 1952,
+    "sha256": "6b4f880f48a1ee2b652175ff81a223c86808c85e57371b7de0a18cdb9cee8c15",
+    "category": "tests",
+    "lines": 39,
+    "functions": [
+      "test_feature_selection_and_scaling_stay_inside_training_folds",
+      "test_sql_rejects_invalid_relationships_and_counts",
+      "test_sql_rejects_duplicate_sample_gene_counts"
+    ],
+    "imports": [
+      "import sqlite3",
+      "import numpy as np",
+      "import pytest",
+      "from sklearn.model_selection import StratifiedKFold, cross_validate",
+      "from biolab.expression_ml import expression_pipeline",
+      "from biolab.study_database import initialize"
+    ]
+  },
+  {
+    "path": "tests/test_data.py",
+    "bytes": 2016,
+    "sha256": "64d299d77e06b6b1f40f24137286a2c2294efd165137d26abc110bb8cfa57157",
+    "category": "tests",
+    "lines": 45,
+    "functions": [
+      "test_vcf_genotypes_filters_and_multiallelic",
+      "test_empty_vcf_rejected",
+      "test_duplicate_fasta_rejected",
+      "test_bh_known_values_and_order",
+      "test_counts_alignment_and_validation"
+    ],
+    "imports": [
+      "from pathlib import Path",
+      "import numpy as np",
+      "import pandas as pd",
+      "import pytest",
+      "from biolab.io import read_fasta, read_vcf",
+      "from biolab.genomics import analyze_vcf, allele_counts, variant_type",
+      "from biolab.statistics import benjamini_hochberg",
+      "from biolab.transcriptomics import validate_counts"
+    ]
+  },
+  {
+    "path": "tests/test_extensions.py",
+    "bytes": 2832,
+    "sha256": "ca331922c77d3f492207c5eda8bae221efb0288cd4a34cd627c512fba2d8c1ab",
+    "category": "tests",
+    "lines": 68,
+    "functions": [
+      "test_enrichment_matches_fisher_and_tests_zero_overlap_terms",
+      "test_empty_selection_and_unmeasured_selected_gene",
+      "test_orf_stops_at_first_stop_and_translates_correctly",
+      "test_circular_orf_coordinates_reconstruct_translation",
+      "test_ambiguous_or_empty_orf_input_rejected",
+      "test_phylogeny_known_split_and_complete_deletion",
+      "test_uninformative_alignment_rejected"
+    ],
+    "imports": [
+      "import numpy as np",
+      "import pytest",
+      "from scipy.stats import fisher_exact",
+      "from Bio.Seq import Seq",
+      "from Bio.SeqRecord import SeqRecord",
+      "from biolab.enrichment import over_representation",
+      "from biolab.orfs import find_orfs",
+      "from biolab.phylogeny import alignment_matrix, bootstrap_tree, canonical_split"
+    ]
+  },
+  {
+    "path": "tests/test_input_regressions.py",
+    "bytes": 1737,
+    "sha256": "4384a17b2859df3d70c44bef3e60d7d923c511c74cffc83576aded19ce738b42",
+    "category": "tests",
+    "lines": 50,
+    "functions": [
+      "test_malformed_vcf_sample_layout_is_rejected",
+      "test_omitted_trailing_format_value_is_missing",
+      "test_sql_requires_nonempty_sample_identifiers",
+      "test_sql_replicate_is_integer",
+      "test_missing_historical_source_is_not_silently_accepted"
+    ],
+    "imports": [
+      "import json",
+      "import sqlite3",
+      "import pytest",
+      "from biolab.io import read_vcf",
+      "from biolab.provenance import verify_sources",
+      "from biolab.study_database import initialize"
+    ]
+  },
+  {
+    "path": "tests/test_ml.py",
+    "bytes": 999,
+    "sha256": "59657acbc66571c87011f07f63cbc6339256d623d9f67dde240cfccd6ee40597",
+    "category": "tests",
+    "lines": 21,
+    "functions": [
+      "test_heldout_split_and_report_contract",
+      "test_bootstrap_binary_guard_and_perfect_ranking"
+    ],
+    "imports": [
+      "import numpy as np",
+      "import pytest",
+      "from biolab.statistics import bootstrap_auc",
+      "from biolab.ml import disease_classification"
+    ]
+  },
+  {
+    "path": "tests/test_raw_inputs.py",
+    "bytes": 2401,
+    "sha256": "6555035846ac2a6189b6757f0bffd801f1223b9d3b825b56cdd33fe2b81e0f22",
+    "category": "tests",
+    "lines": 60,
+    "functions": [
+      "load_script",
+      "test_generated_pairs_are_valid_fastq_with_matching_names",
+      "test_existing_raw_input_corruption_is_rejected_without_download",
+      "test_cache_and_local_manifest_cannot_override_reference",
+      "unexpected_download"
+    ],
+    "imports": [
+      "import gzip",
+      "import hashlib",
+      "import importlib.util",
+      "import json",
+      "from pathlib import Path",
+      "from Bio import SeqIO",
+      "import pytest"
+    ]
+  },
+  {
+    "path": "tests/test_sequence.py",
+    "bytes": 2097,
+    "sha256": "1ba8539f4c4ebdf6e9fad7072c7ad3bf3630512fbbf7ddbd7fb712efe043f1b0",
+    "category": "tests",
+    "lines": 46,
+    "functions": [
+      "test_iupac_reverse_complement",
+      "test_gc_missing_and_ambiguous",
+      "test_overlapping_motif",
+      "test_dp_exhaustive_against_biopython",
+      "test_empty_and_limits",
+      "test_motif_background_and_seed"
+    ],
+    "imports": [
+      "import itertools",
+      "import pytest",
+      "from Bio.Align import PairwiseAligner",
+      "from Bio.Seq import Seq",
+      "from biolab.sequence import clean_dna, reverse_complement, gc_content, motif_positions, align, motif_enrichment, seed_search"
+    ]
+  },
+  {
+    "path": "visualizations/README.md",
+    "bytes": 1729,
+    "sha256": "67632467c696d3225bb04ba0bbf6962beb0fd55b017e49bae6e9fda478316b2a",
+    "category": "visualizations",
+    "lines": 53
+  },
+  {
+    "path": "visualizations/gallery/chromosome.png",
+    "bytes": 31159,
+    "sha256": "956202c72037636539793b3fc69a3592bd1ffac02f9293548a5c91519443b2de",
+    "category": "visualizations"
+  },
+  {
+    "path": "visualizations/gallery/contact_map.png",
+    "bytes": 44751,
+    "sha256": "1773bcc327ee7dbbe26dd5c91283e035f722d3bf89412311895429d3aeac7d48",
+    "category": "visualizations"
+  },
+  {
+    "path": "visualizations/gallery/heatmap.png",
+    "bytes": 97178,
+    "sha256": "031ba67950a9f1b8e14b3e8060b79c0e01d3f2ad31c50800ca2b90e7627f6e77",
+    "category": "visualizations"
+  },
+  {
+    "path": "visualizations/gallery/manhattan.png",
+    "bytes": 96675,
+    "sha256": "6373d402aec6041f401005362b14c3903ddd9b316beb8705379838eff4555b50",
+    "category": "visualizations"
+  },
+  {
+    "path": "visualizations/gallery/pathway.png",
+    "bytes": 28288,
+    "sha256": "526d90f8e01d4ee7f3e0d8120f74c0b7734833bc1cb83f8311f406b9cd415e15",
+    "category": "visualizations"
+  },
+  {
+    "path": "visualizations/gallery/pca.png",
+    "bytes": 39143,
+    "sha256": "cae6a57c623bd529d7b834779cea84bee6f9acc7a1cb15b7c25dfa83570d0122",
+    "category": "visualizations"
+  },
+  {
+    "path": "visualizations/gallery/phylogenetic_tree.png",
+    "bytes": 26591,
+    "sha256": "1ad89daed4efd222f1d0230921b716708c501acf534d1142195d7ab1c23c8c5b",
+    "category": "visualizations"
+  },
+  {
+    "path": "visualizations/gallery/protein_structure.png",
+    "bytes": 179949,
+    "sha256": "4109debe6d7b0d68f3de67e64671add42187e6cf4d9c8f91fe819c0b7af90fc7",
+    "category": "visualizations"
+  },
+  {
+    "path": "visualizations/gallery/provenance.json",
+    "bytes": 560,
+    "sha256": "cba5c7f873898b8b4aec78646c35d89108b6282d7daa1dbef34de7f5cf968772",
+    "category": "visualizations",
+    "shape": [
+      "seed",
+      "exploratory_embeddings",
+      "sources"
+    ]
+  },
+  {
+    "path": "visualizations/gallery/sequence.png",
+    "bytes": 79369,
+    "sha256": "c5a0bfcb94bb705ace86180c6ae7ef335150f623248790691e569348a30f15bf",
+    "category": "visualizations"
+  },
+  {
+    "path": "visualizations/gallery/tsne.png",
+    "bytes": 64612,
+    "sha256": "59046788e22e722a9e7e1d3076691fd83bfd454d67a1467a9b5d2020a6fa9746",
+    "category": "visualizations"
+  },
+  {
+    "path": "visualizations/gallery/umap.png",
+    "bytes": 74069,
+    "sha256": "5acfb88152098e551e1ca9586d6cb159126ae73c594e0c86bb4b8bbacd29547b",
+    "category": "visualizations"
+  },
+  {
+    "path": "visualizations/gallery/volcano.png",
+    "bytes": 70681,
+    "sha256": "010e79a25856a659d0b0406feb28286a2cef6b4a97ace3e707db25d4da47ebb4",
+    "category": "visualizations"
+  },
+  {
+    "path": "workflows/README.md",
+    "bytes": 4583,
+    "sha256": "5e4c3ea4c9073a8071185d78e16e77ed7e3d25488d3ba5a5c9a03dd94f0cd78d",
+    "category": "workflows",
+    "lines": 52
+  },
+  {
+    "path": "workflows/environment.yml",
+    "bytes": 224,
+    "sha256": "082a31d0281e076229f47b763c38b0fd4ab74fab0ca042da83d3f1fae798be2b",
+    "category": "workflows",
+    "lines": 14
+  },
+  {
+    "path": "workflows/rnaseq.sh",
+    "bytes": 2109,
+    "sha256": "087f5d702d544ff65ec5dba9d436671b0e8b589ecff427a4b09135f895d95a66",
+    "category": "workflows",
+    "lines": 29
+  },
+  {
+    "path": "workflows/variants.sh",
+    "bytes": 3321,
+    "sha256": "e7aae494d6559fab769b9654e00efb78074ae565efb1392c325a91a7431b9fba",
+    "category": "workflows",
+    "lines": 49
+  }
+]

@@ -1,5 +1,8 @@
 # Repo auditi və layihələrin tamamlanması
 
+Bu, əvvəlki 43-test/7-notebook mərhələsinin tarixli qeydidir. Cari tənqidi baxış,
+elmi nəzarətlər və validation: [RESEARCH_AUDIT.md](RESEARCH_AUDIT.md).
+
 Tarix: 2026-09-16. Audit kod girişlərini, data mənşəyini, layihə icrasını, sənəd keçidlərini və saxlanmış nəticələri əhatə edir.
 
 ## Tapılan və düzəldilən problemlər

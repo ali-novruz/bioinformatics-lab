@@ -1,0 +1,11 @@
+{
+  "real_data": true,
+  "universe_genes": 84,
+  "foreground_genes": 1,
+  "annotated_universe_genes": 67,
+  "unannotated_universe_genes": 17,
+  "tested_terms": 62,
+  "significant_terms_fdr_005": 0,
+  "scope": "GO-slim biological-process over-representation; chrI subsample; no pathway activation inference",
+  "limitations": "One DE gene; low power. Unannotated measured genes remain in the universe. Overlapping GO terms induce dependence; exploratory BH analysis."
+}

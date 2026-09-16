@@ -1,0 +1,13 @@
+{
+  "input_genes": 124,
+  "tested_genes": 84,
+  "samples": 6,
+  "design": "~ condition",
+  "contrast": "treated / untreated",
+  "prefilter": "total count >= 10 across all samples",
+  "significant_fdr_005": 1,
+  "significant_fdr_005_abs_lfc_gt1": 0,
+  "missing_padj": 0,
+  "lfc_shrinkage": "not applied; unshrunken coefficients",
+  "implementation": "PyDESeq2 0.5.4, not a byte-identical reproduction of R DESeq2"
+}

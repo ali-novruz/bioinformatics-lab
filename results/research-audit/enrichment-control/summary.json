@@ -1,0 +1,12 @@
+{
+  "universe_genes": 84,
+  "eligible_terms": 62,
+  "observed_foreground_genes": 1,
+  "singletons_with_any_discovery": 0,
+  "minimum_attainable_padj": 0.27678571428571425,
+  "observed_min_padj": [
+    0.27678571428571425
+  ],
+  "scope": "Exhaustive singleton attainability under a fixed gene universe and GO-slim term family; not power across biological effect sizes",
+  "limitations": "Uniform gene selection is not a biological null model; annotation coverage and term dependence remain. No thresholds changed."
+}

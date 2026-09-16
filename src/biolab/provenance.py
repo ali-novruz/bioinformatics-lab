@@ -5,6 +5,24 @@ from pathlib import Path
 import zipfile
 
 
+def verify_outputs(out,record):
+    """New sealed runs declare all output bytes; older records remain readable."""
+    out=Path(out).resolve()
+    hashes=record.get('outputs_sha256')
+    if hashes is None:
+        return 0
+    for name,expected in hashes.items():
+        path=(out/name).resolve()
+        if not path.is_relative_to(out) or not path.is_file():
+            raise ValueError(f'Missing or invalid recorded output: {name}')
+        if hashlib.sha256(path.read_bytes()).hexdigest()!=expected:
+            raise ValueError(f'Output checksum mismatch: {name}')
+    actual={p.relative_to(out).as_posix() for p in out.rglob('*') if p.is_file() and p.name!='run.json'}
+    if actual!=set(hashes):
+        raise ValueError('Unrecorded outputs in sealed run')
+    return len(hashes)
+
+
 def verify_sources(root, record):
     root = Path(root)
     manifest = root / 'results/source-archives/manifest.json'

@@ -24,7 +24,7 @@ python scripts/make_visualizations.py
 python scripts/check_repository.py
 ```
 
-İlk iki layihə və testlər şəbəkəsiz işləyir. Real məlumatların ilk endirilməsi internet tələb edir. RNA-seq sayım analizi Python ilə işləyir; xam FASTQ üçün əlavə Linux/WSL/Conda alətləri lazımdır. Kiçik xam-read smoke testi GitHub Actions Linux mühitində hər push-da işləyir. Tam quraşdırma: [SETUP.md](SETUP.md). Faktiki icra vəziyyəti: [STATUS.md](STATUS.md).
+Səkkiz layihə `python scripts/lab.py run all --offline` ilə şəbəkəsiz işləyir. Qalan dörd layihənin ilk endirilməsi internet tələb edir. RNA-seq sayım analizi Python ilə işləyir; xam FASTQ üçün əlavə Linux/WSL/Conda alətləri lazımdır. Offline CI hər push/PR-də, endirməli integration və Linux smoke isə main push və manual icrada işləyir. Tam quraşdırma: [SETUP.md](SETUP.md). Faktiki icra vəziyyəti: [STATUS.md](STATUS.md).
 
 ## Repository xəritəsi
 
@@ -87,3 +87,7 @@ Töhfə vermək: [CONTRIBUTING.md](CONTRIBUTING.md). Mənbə və data istifadəs
 ## Tam layihə paketi
 
 [12 işlək layihə](projects/README.md) vahid başladıcısı ilə idarə olunur. Yeni real analizlər: GO-slim enrichment, bootstrap filogeniya və dairəvi genom ORF axtarışı. [Yenidən baxış və düzəlişlər](docs/REPOSITORY_AUDIT.md), [saxlanmış icra hesabatı](results/expanded-projects/README.md).
+
+## Tənqidi elmi audit
+
+[12 baxış üzrə audit](docs/RESEARCH_AUDIT.md) mövcud nəticələri nəzarət təcrübələri ilə sınayır: Khan training-only nested CV və 99 label permutation; GO üçün bütün 84 singleton seçiminin statistik çatımlılığı. [Faktiki nəticələr](results/research-audit/README.md) və [təkrar icra](experiments/controls/README.md). Yeni probe stability nəticəsi yüksək prediction score-un sabit biomarker siyahısı olmadığını göstərir.

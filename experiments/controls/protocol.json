@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "seed": 20260916,
+  "expression": {
+    "outer_folds": 5,
+    "inner_folds": 3,
+    "permutations": 99,
+    "k_grid": [25, 100, 500],
+    "C_grid": [0.01, 0.1, 1.0],
+    "statistic": "mean outer-fold balanced accuracy",
+    "data": "Khan_xtrain.csv and Khan_ytrain.csv only; never open the test files",
+    "null": "Unrestricted training-label permutations preserving class counts, refitting all preprocessing and inner selection",
+    "decision": "Exploratory permutation p <= 0.05; no clinical inference or test-cohort retuning"
+  },
+  "enrichment": {
+    "alpha": 0.05,
+    "min_term_size": 2,
+    "universe": "finite adjusted-p genes in frozen raw RNA result",
+    "statistic": "minimum BH-adjusted p and discovery count for each possible size-one foreground",
+    "decision": "If no singleton yields BH < 0.05, no possible singleton discovery under this fixed universe and term family"
+  }
+}

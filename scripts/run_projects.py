@@ -53,7 +53,7 @@ def run_variants():
     ax.set(ylabel='Retained ALT alleles',title='GIAB HG001: first 1000 records only');fig.tight_layout();fig.savefig(out/'variant_types.png',dpi=150);plt.close(fig)
     return out
 
-def plot_expression(res,norm,meta,out):
+def plot_expression(res,norm,meta,out,*,dataset='Pasilla',design='~ type + condition'):
     log=np.log1p(norm)
     coords=PCA(n_components=2,svd_solver='full').fit_transform(log)
     fig,ax=plt.subplots(figsize=(7,5))
@@ -62,7 +62,7 @@ def plot_expression(res,norm,meta,out):
         ax.scatter(coords[mask,0],coords[mask,1],label=group,s=65)
     for idx,name in enumerate(log.index):ax.annotate(name,(coords[idx,0],coords[idx,1]),fontsize=7,xytext=(4,4),textcoords='offset points')
     ax.margins(x=.2,y=.15)
-    ax.set(xlabel='PC1',ylabel='PC2',title='Pasilla PCA: log1p normalized counts');ax.legend();fig.tight_layout();fig.savefig(out/'pca.png',dpi=150);plt.close(fig)
+    ax.set(xlabel='PC1',ylabel='PC2',title=f'{dataset} PCA: log1p normalized counts');ax.legend();fig.tight_layout();fig.savefig(out/'pca.png',dpi=150);plt.close(fig)
     selected=log.var(axis=0).nlargest(30).index
     z=log[selected].T
     z=z.sub(z.mean(axis=1),axis=0).div(z.std(axis=1).replace(0,1),axis=0)
@@ -70,7 +70,7 @@ def plot_expression(res,norm,meta,out):
     ax.set_xticks(range(len(z.columns)),z.columns,rotation=45,ha='right');ax.set_yticks(range(len(z)),z.index,fontsize=7);ax.set_title('Top 30 variable genes; row z-score');fig.colorbar(im,ax=ax);fig.tight_layout();fig.savefig(out/'heatmap.png',dpi=150);plt.close(fig)
     valid=res.dropna(subset=['padj','log2FoldChange']);sig=(valid.padj<.05)&(valid.log2FoldChange.abs()>1)
     fig,ax=plt.subplots(figsize=(7,5));ax.scatter(valid.log2FoldChange,-np.log10(valid.padj.clip(lower=1e-300)),c=np.where(sig,'#c23b4a','#75878b'),s=7,alpha=.6)
-    ax.axhline(-np.log10(.05),ls='--',c='black',lw=.7);ax.set(xlabel='log2FC treated / untreated (unshrunken)',ylabel='-log10 adjusted p',title='Pasilla: type + condition');fig.tight_layout();fig.savefig(out/'volcano.png',dpi=150);plt.close(fig)
+    ax.axhline(-np.log10(.05),ls='--',c='black',lw=.7);ax.set(xlabel='log2FC treated / untreated (unshrunken)',ylabel='-log10 adjusted p',title=f'{dataset}: {design}');fig.tight_layout();fig.savefig(out/'volcano.png',dpi=150);plt.close(fig)
     return coords
 
 def run_rnaseq():

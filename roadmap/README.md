@@ -78,8 +78,8 @@ Vaxt şəxsi tempə bağlıdır. Statistikanın əsaslarını Phase 2-dən paral
 
 - Öyrən: Pipeline, CV, holdout, grouped splits, calibration.
 - Oxu: [docs/machine-learning/README.md](../docs/machine-learning/README.md).
-- Tamamla: WDBC baseline və expression layihə protokolu.
-- Keçid meyarı: Leakage-siz train/CV/test sərhədini nümayiş etdirmək.
+- Tamamla: WDBC baseline, işlək Khan expression layihəsi və [nəzarət təcrübələri](../experiments/controls/README.md).
+- Keçid meyarı: Leakage-siz train/inner-CV/outer-CV/test sərhədini nümayiş etdirmək; prediction score ilə probe sabitliyini ayırmaq.
 - Sübut: commit + notebook + qısa nəticə qeydi.
 - Status: öyrənən tərəfindən qiymətləndiriləcək.
 

@@ -1,5 +1,8 @@
 # Eksperiment tarixçəsi
 
+Son icra: [mövcud iddiaları sınayan GO və Khan nəzarət təcrübələri](controls/README.md).
+Parametrlər, input/source hash, runtime və nəticələr ayrıca saxlanır.
+
 Real ilkin run-lar [baseline log](baseline-001.md) daxilindədir. Tam machine-readable parametrlər və metriklər `results/example-runs/` altında saxlanır. Yeni run-lar `results/runs/` daxilində unikal ad alır.
 
 ## Advanced layihə protokolları

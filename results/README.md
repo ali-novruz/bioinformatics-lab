@@ -1,5 +1,7 @@
 # İlkin tədqiqat nəticələri
 
+**Son audit:** [Khan nested CV + 99 permutation, GO singleton control və 12 layihə icrası](research-audit/README.md). [Tənqidi şərh və qalan boşluqlar](../docs/RESEARCH_AUDIT.md).
+
 Yeni: [Linux-da xam FASTQ-dan real RNA və xarici DNA nəticələri](raw-examples/README.md).
 Altı RNA sample-ında 300,000 read pair işləndi; 84 gen modelə daxil oldu.
 [Sintetik positive control](linux-smoke/README.md) ayrıca pipeline doğrulamasıdır.

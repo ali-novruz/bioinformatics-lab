@@ -10,7 +10,7 @@ requires-python = ">=3.11"
 dependencies = ["numpy>=2,<3", "pandas>=2.2,<4", "scipy>=1.12,<2", "matplotlib>=3.9,<4", "biopython>=1.84,<2", "scikit-learn>=1.4,<2"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8,<10", "nbformat>=5,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8"]
+dev = ["pytest>=8,<10", "nbformat>=5,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8", "ruff>=0.9,<1"]
 research = ["pydeseq2==0.5.4", "statsmodels>=0.14,<1", "umap-learn>=0.5,<1", "networkx>=3,<4"]
 hts = ["pysam>=0.22,<1; sys_platform != 'win32'"]
 
@@ -23,3 +23,7 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+
+[tool.ruff.lint]
+# Correctness checks only; do not reformat the teaching notebooks and scripts.
+select = ["E9", "F63", "F7", "F82"]
