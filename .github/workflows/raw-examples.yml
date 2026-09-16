@@ -1,0 +1,50 @@
+name: Real raw-read examples
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  raw-examples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python and STAR
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          python-version: '3.12'
+          activate-environment: biolab
+          auto-activate-base: false
+          channels: conda-forge,bioconda
+          channel-priority: strict
+      - name: Install bioinformatics tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bwa samtools bcftools cutadapt subread fastqc
+          conda install -y -c conda-forge -c bioconda star=2.7.11b
+          python -m pip install -e '.[research]' 'multiqc>=1.27,<2'
+      - name: Run pinned raw examples and validate evidence
+        run: python scripts/run_raw_examples.py --output /tmp/biolab-examples
+      - name: Record installed system packages
+        if: always()
+        run: |
+          mkdir -p /tmp/biolab-examples
+          dpkg-query -W bwa samtools bcftools cutadapt subread fastqc > /tmp/biolab-examples/system-packages.txt
+          conda list --explicit > /tmp/biolab-examples/conda-explicit.txt
+      - name: Upload evidence and reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-examples
+          retention-days: 14
+          path: |
+            /tmp/biolab-examples
+            !/tmp/biolab-examples/**/index/**
+            !/tmp/biolab-examples/**/*.bam
+            !/tmp/biolab-examples/**/*.bai
+            !/tmp/biolab-examples/**/*.fastq.gz
+            !/tmp/biolab-examples/**/*.fq.gz
+

@@ -1,0 +1,8 @@
+sample_id,condition,biological_replicate,type,source_condition,geo_sample
+SRR6357073,untreated,1,paired-end,Rap1-AID uninduced,GSM2879621
+SRR6357074,untreated,2,paired-end,Rap1-AID uninduced,GSM2879622
+SRR6357075,untreated,3,paired-end,Rap1-AID uninduced,GSM2879623
+SRR6357076,treated,1,paired-end,Rap1-AID IAA 30 minutes,GSM2879624
+SRR6357077,treated,2,paired-end,Rap1-AID IAA 30 minutes,GSM2879625
+SRR6357078,treated,3,paired-end,Rap1-AID IAA 30 minutes,GSM2879626
+
