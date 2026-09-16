@@ -66,3 +66,7 @@ python scripts/check_learning_assets.py
 ```
 
 İlk iki laboratoriya şəbəkəsizdir. Khan ilk endirmədə internet tələb edir. PDF-i yenidən yaratmaq üçün ayrıca `pip install reportlab`, sonra `python scripts/build_study_guide.py` işlədin. Arial və ya DejaVu Sans şriftləri lazımdır; lazım gəlsə `--font-dir` verin. Hazır PDF-i oxumaq üçün əlavə Python paketi lazım deyil.
+
+## Vahid layihə başladıcısı
+
+`python scripts/lab.py list` bütün işlək layihələri göstərir. `python scripts/lab.py run all --offline` 8 layihəni, `python scripts/lab.py run all` bütün 12 layihəni işlədir. Tam rejim üçün yuxarıdakı `[dev,research]` quraşdırılması lazımdır. Köhnə layihə skriptləri də işləməyə davam edir. `python scripts/check_all_results.py` bütün saxlanmış nəticələri, kiçik real girişləri və tarixi mənbə kodunu yoxlayır.

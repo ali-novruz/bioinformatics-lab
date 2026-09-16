@@ -18,8 +18,8 @@ python -m venv .venv
 # Linux/macOS: source .venv/bin/activate
 python -m pip install -e ".[dev,research]"
 python -m pytest
-python scripts/fetch_data.py --dataset all
-python scripts/run_projects.py --project all
+python scripts/lab.py list
+python scripts/lab.py run all
 python scripts/make_visualizations.py
 python scripts/check_repository.py
 ```
@@ -35,7 +35,7 @@ python scripts/check_repository.py
 | [research/papers](research/papers/README.md) | Mənbəsi yoxlanmış məqalə təhlilləri |
 | [research/literature-reviews](research/literature-reviews/README.md) | Metod müqayisələri və açıq problemlər |
 | [research/research-questions](research/research-questions/README.md) | Sınaqdan keçirilə bilən hipotezlər |
-| [projects](projects/README.md) | 30 layihə ideyası və 5 işlək əsas layihə |
+| [projects](projects/README.md) | 12 işlək layihə, vahid başladıcı və 30 gələcək eksperiment ideyası |
 | [datasets](datasets/README.md) | Məlumat kartları, endirmə və provenance |
 | [src](src/biolab) | Təkrar istifadə olunan Python paketi |
 | [notebooks](notebooks/README.md) | Problem–nəticə–interpretasiya ardıcıllığı |
@@ -83,3 +83,7 @@ Töhfə vermək: [CONTRIBUTING.md](CONTRIBUTING.md). Mənbə və data istifadəs
 ## UNEC praktikum paketi
 
 [8 dərs və 15 həftəlik proqram](docs/unec/README.md), [68 fayllıq mənbə kataloqu](resources/unec/README.md), [4 PDF kitab](resources/books/README.md) və [24 cavablı tapşırıq](docs/unec/exercises.md) əlavə olunub. Üç yeni işlək layihə gen ifadəsi təsnifatı, real RNA sayımları üçün SQLite və çoxsaylı statistik testləri əhatə edir. [Nəticələr](results/course-projects/README.md) · [PDF praktikum](resources/unec/bioinformatika-praktikum.pdf).
+
+## Tam layihə paketi
+
+[12 işlək layihə](projects/README.md) vahid başladıcısı ilə idarə olunur. Yeni real analizlər: GO-slim enrichment, bootstrap filogeniya və dairəvi genom ORF axtarışı. [Yenidən baxış və düzəlişlər](docs/REPOSITORY_AUDIT.md), [saxlanmış icra hesabatı](results/expanded-projects/README.md).

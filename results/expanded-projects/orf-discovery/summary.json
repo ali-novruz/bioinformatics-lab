@@ -1,0 +1,11 @@
+{
+  "accession": "NC_001422.1",
+  "length_nt": 5386,
+  "candidate_orfs": 114,
+  "plus_strand": 93,
+  "minus_strand": 21,
+  "origin_spanning": 24,
+  "longest_aa": 522,
+  "scope": "Real circular PhiX174 genome; canonical ORF candidates, not confirmed gene annotations",
+  "limitations": "ATG starts only; no alternative starts, coding potential, splicing or experimental expression evidence. Nested candidates retained."
+}

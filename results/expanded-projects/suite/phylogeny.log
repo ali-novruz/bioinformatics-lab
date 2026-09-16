@@ -1,0 +1,14 @@
+C:\Users\nevin\Documents\Codex\2026-09-15\github-plugin-github-openai-curated-remote\outputs\bioinformatics-lab\results\runs\phylogeny\20260916T130125Z-15f7c1
+{
+  "real_sequence_fragments": true,
+  "taxa": 7,
+  "alignment_columns": 156,
+  "complete_columns": 146,
+  "removed_columns": 10,
+  "variable_complete_columns": 8,
+  "bootstrap_replicates": 200,
+  "negative_branch_lengths": 0,
+  "scope": "Seven short Opuntia fragments from Biopython tutorial; not a full species phylogeny; no ancestral root inferred",
+  "limitations": "Short alignment, limited signal, site independence assumed in bootstrap. NJ can yield negative lengths; raw lengths are preserved, not silently clipped."
+}
+

@@ -1,0 +1,1922 @@
+[
+  {
+    "strand": "+",
+    "oriented_start0": 16,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        16,
+        136
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 120,
+    "length_aa": 39,
+    "stop_codon": "TGA",
+    "protein": "MTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 50,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        50,
+        221
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 171,
+    "length_aa": 56,
+    "stop_codon": "TGA",
+    "protein": "MSRKIILIKQELLLLVYELNRSGLLAENEKIRPILAQLEKLLLCDLSPSTNDSVKN"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 132,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        132,
+        393
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 261,
+    "length_aa": 86,
+    "stop_codon": "TGA",
+    "protein": "MRKFDLSLRSSRSSYFATFRHQLTILSKTDALDEEKWLNMLGTFVKDWFRYESHFVHGRDSLVDILKERGLLSESDAVQPLIGKKS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 229,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        229,
+        331
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 102,
+    "length_aa": 33,
+    "stop_codon": "TAA",
+    "protein": "MRRSGLICLARSSRTGLDMSHILFMVEILLLTF"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 249,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        249,
+        393
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 144,
+    "length_aa": 47,
+    "stop_codon": "TGA",
+    "protein": "MLGTFVKDWFRYESHFVHGRDSLVDILKERGLLSESDAVQPLIGKKS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 389,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        389,
+        848
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 459,
+    "length_aa": 152,
+    "stop_codon": "TAA",
+    "protein": "MSQVTEQSVRFQTALASIKLIQASAVLDLTEDDFDFLTSNKVWIATDRSRARRCVEACVYGTLDFVGYPRFPAPVEFIAAVIAYYVHPVNIQTACLIMEGAEFTENIINGVERPVKAAELFAFTLRVRAGNTDVLTDAEENVRQKLRAEGVM"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 567,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        567,
+        843
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 276,
+    "length_aa": 91,
+    "stop_codon": "TGA",
+    "protein": "MVRWTLWDTLAFLLLLSLLLPSLLIMFIPSTFKRPVSSWKALNLRKTLLMASSVRLKPLNCSRLPCVYAQETLTFLLTQKKTCVKNYVRKE"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 642,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        642,
+        843
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 201,
+    "length_aa": 66,
+    "stop_codon": "TGA",
+    "protein": "MFIPSTFKRPVSSWKALNLRKTLLMASSVRLKPLNCSRLPCVYAQETLTFLLTQKKTCVKNYVRKE"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 680,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        680,
+        848
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 168,
+    "length_aa": 55,
+    "stop_codon": "TAA",
+    "protein": "MEGAEFTENIINGVERPVKAAELFAFTLRVRAGNTDVLTDAEENVRQKLRAEGVM"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 714,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        714,
+        843
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 129,
+    "length_aa": 42,
+    "stop_codon": "TGA",
+    "protein": "MASSVRLKPLNCSRLPCVYAQETLTFLLTQKKTCVKNYVRKE"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 847,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        847,
+        964
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 117,
+    "length_aa": 38,
+    "stop_codon": "TAA",
+    "protein": "MSKGKKRSGARPGRPQPLRGTKGKRKGARLWYVGGQQF"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1000,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1000,
+        2284
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 1284,
+    "length_aa": 427,
+    "stop_codon": "TGA",
+    "protein": "MSNIQTGAERMPHDLSHLGFLAGQIGRLITISTTPVIAGDSFEMDAVGALRLSPLRRGLAIDSTVDIFTFYVPHRHVYGEQWIKFMKDGVNATPLPTVNTTGYIDHAAFLGTINPDTNKIPKHLFQGYLNIYNNYFKAPWMPDRTEANPNELNQDDARYGFRCCHLKNIWTAPLPPETELSRQMTTSTTSIDIMGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1030,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1030,
+        2284
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 1254,
+    "length_aa": 417,
+    "stop_codon": "TGA",
+    "protein": "MPHDLSHLGFLAGQIGRLITISTTPVIAGDSFEMDAVGALRLSPLRRGLAIDSTVDIFTFYVPHRHVYGEQWIKFMKDGVNATPLPTVNTTGYIDHAAFLGTINPDTNKIPKHLFQGYLNIYNNYFKAPWMPDRTEANPNELNQDDARYGFRCCHLKNIWTAPLPPETELSRQMTTSTTSIDIMGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1037,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        1037,
+        1196
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 159,
+    "length_aa": 52,
+    "stop_codon": "TAG",
+    "protein": "MTFPILASLLVRLVVLLPFQLLRLSLATPSRWTPLALSVFLHCVVALLLTLL"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1129,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1129,
+        2284
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 1155,
+    "length_aa": 384,
+    "stop_codon": "TGA",
+    "protein": "MDAVGALRLSPLRRGLAIDSTVDIFTFYVPHRHVYGEQWIKFMKDGVNATPLPTVNTTGYIDHAAFLGTINPDTNKIPKHLFQGYLNIYNNYFKAPWMPDRTEANPNELNQDDARYGFRCCHLKNIWTAPLPPETELSRQMTTSTTSIDIMGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1255,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1255,
+        2284
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 1029,
+    "length_aa": 342,
+    "stop_codon": "TGA",
+    "protein": "MKDGVNATPLPTVNTTGYIDHAAFLGTINPDTNKIPKHLFQGYLNIYNNYFKAPWMPDRTEANPNELNQDDARYGFRCCHLKNIWTAPLPPETELSRQMTTSTTSIDIMGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1262,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        1262,
+        1388
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 126,
+    "length_aa": 41,
+    "stop_codon": "TGA",
+    "protein": "MVLMPLLSRLLTLLVILTMPLFLARLTLIPIKSLSICFRVI"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1271,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        1271,
+        1388
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 117,
+    "length_aa": 38,
+    "stop_codon": "TGA",
+    "protein": "MPLLSRLLTLLVILTMPLFLARLTLIPIKSLSICFRVI"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1420,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1420,
+        2284
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 864,
+    "length_aa": 287,
+    "stop_codon": "TGA",
+    "protein": "MPDRTEANPNELNQDDARYGFRCCHLKNIWTAPLPPETELSRQMTTSTTSIDIMGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1448,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        1448,
+        1553
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 105,
+    "length_aa": 34,
+    "stop_codon": "TGA",
+    "protein": "MSLIKMMLVMVSVAAISKTFGLLRFLLRLSFLAK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1549,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1549,
+        2284
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 735,
+    "length_aa": 244,
+    "stop_codon": "TGA",
+    "protein": "MTTSTTSIDIMGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1579,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1579,
+        2284
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 705,
+    "length_aa": 234,
+    "stop_codon": "TGA",
+    "protein": "MGLQAAYANLHTDQERDYFMQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1598,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        1598,
+        1775
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 177,
+    "length_aa": 58,
+    "stop_codon": "TAG",
+    "protein": "MLICILTKNVITSCSVTMMLFLHLEVKPLMTLTTVLYLSCALISGHLAMMLMELTKRR"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1636,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1636,
+        2284
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 648,
+    "length_aa": 215,
+    "stop_codon": "TGA",
+    "protein": "MQRYHDVISSFGGKTSYDADNRPLLVMRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1649,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        1649,
+        1775
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 126,
+    "length_aa": 41,
+    "stop_codon": "TAG",
+    "protein": "MMLFLHLEVKPLMTLTTVLYLSCALISGHLAMMLMELTKRR"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1652,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        1652,
+        1775
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 123,
+    "length_aa": 40,
+    "stop_codon": "TAG",
+    "protein": "MLFLHLEVKPLMTLTTVLYLSCALISGHLAMMLMELTKRR"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1714,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1714,
+        2284
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 570,
+    "length_aa": 189,
+    "stop_codon": "TGA",
+    "protein": "MRSNLWASGYDVDGTDQTSLGQFSGRVQQTYKHSVPRFFVPEHGTMFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1849,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1849,
+        2284
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 435,
+    "length_aa": 144,
+    "stop_codon": "TGA",
+    "protein": "MFTLALVRFPPTATKEIQYLNAKGALTYTDIAGDPVLYGNLPPREISMKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1990,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1990,
+        2284
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 294,
+    "length_aa": 97,
+    "stop_codon": "TGA",
+    "protein": "MKDVFRSGDSSKKFKIAEGQWYRYAPSYVSPAYHLLEGFPFIQEPPSGDLQERVLIRHHDYDQCFQSVQLLQWNSQVKFNVTVYRNLPTTRDSIMTS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 1997,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        1997,
+        2234
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 237,
+    "length_aa": 78,
+    "stop_codon": "TGA",
+    "protein": "MFSVLVIRLRSLRLLRVSGIVMRLRMFLLLITFLKASHSFRNRLLVICKNAYLFATMIMTSVSSPFSCCSGIVRLNLM"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 2060,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        2060,
+        2234
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 174,
+    "length_aa": 57,
+    "stop_codon": "TGA",
+    "protein": "MRLRMFLLLITFLKASHSFRNRLLVICKNAYLFATMIMTSVSSPFSCCSGIVRLNLM"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 2072,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        2072,
+        2234
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 162,
+    "length_aa": 53,
+    "stop_codon": "TGA",
+    "protein": "MFLLLITFLKASHSFRNRLLVICKNAYLFATMIMTSVSSPFSCCSGIVRLNLM"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 2394,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        2394,
+        2922
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 528,
+    "length_aa": 175,
+    "stop_codon": "TGA",
+    "protein": "MFQTFISRHNSNFFSDKLVLTSVTPASSAPVLQTPKATSSTLYFDSLTVNAGNGGFLHCIQMDTSVNAANQVVSVGADIAFDADPKFFACLVRFESSSVPTTLPTAYDVYPLNGRHDGGYYTVKDCVTIDVLPRTPGNNVYVGFMVWSNFTATKCRGLVSLNQVIKEIICLQPLK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 2542,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        2542,
+        2731
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 189,
+    "length_aa": 62,
+    "stop_codon": "TGA",
+    "protein": "MLVMVVFFIAFRWIHLSTPLIRLFLLVLILLLMPTLNFLPVWFALSLLRFRLPSRLPMMFIL"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 2551,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        2551,
+        2731
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 180,
+    "length_aa": 59,
+    "stop_codon": "TGA",
+    "protein": "MVVFFIAFRWIHLSTPLIRLFLLVLILLLMPTLNFLPVWFALSLLRFRLPSRLPMMFIL"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 2577,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        2577,
+        2922
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 345,
+    "length_aa": 114,
+    "stop_codon": "TGA",
+    "protein": "MDTSVNAANQVVSVGADIAFDADPKFFACLVRFESSSVPTTLPTAYDVYPLNGRHDGGYYTVKDCVTIDVLPRTPGNNVYVGFMVWSNFTATKCRGLVSLNQVIKEIICLQPLK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 2638,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        2638,
+        2731
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 93,
+    "length_aa": 30,
+    "stop_codon": "TGA",
+    "protein": "MPTLNFLPVWFALSLLRFRLPSRLPMMFIL"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 2826,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        2826,
+        2922
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 96,
+    "length_aa": 31,
+    "stop_codon": "TGA",
+    "protein": "MVWSNFTATKCRGLVSLNQVIKEIICLQPLK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 2930,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        2930,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 987,
+    "length_aa": 328,
+    "stop_codon": "TAA",
+    "protein": "MFGAIAGGIASALAGGAMSKLFGGGQKAASGGIQGDVLATDNNTVGMGDAGIKSAIQGSNVPNPDEAAPSFVSGAMAKAGKGLLEGTLQAGTSAVSDKLLDLVGLGGKSAADKGKDTRDYLAAAFPELNAWERAGADASSAGMVDAGFENQKELTKMQLDNQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 2981,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        2981,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 936,
+    "length_aa": 311,
+    "stop_codon": "TAA",
+    "protein": "MSKLFGGGQKAASGGIQGDVLATDNNTVGMGDAGIKSAIQGSNVPNPDEAAPSFVSGAMAKAGKGLLEGTLQAGTSAVSDKLLDLVGLGGKSAADKGKDTRDYLAAAFPELNAWERAGADASSAGMVDAGFENQKELTKMQLDNQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3068,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3068,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 849,
+    "length_aa": 282,
+    "stop_codon": "TAA",
+    "protein": "MGDAGIKSAIQGSNVPNPDEAAPSFVSGAMAKAGKGLLEGTLQAGTSAVSDKLLDLVGLGGKSAADKGKDTRDYLAAAFPELNAWERAGADASSAGMVDAGFENQKELTKMQLDNQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3075,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3075,
+        3684
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 609,
+    "length_aa": 202,
+    "stop_codon": "TGA",
+    "protein": "MLVLNLPFKALMFLTLMRPPLVLFLVLWLKLVKDFLKVRCRLALLPFLISCLIWLDLVASLPLIKERILVIILLLHFLSLMLGSVLVLMLPLLVWLTPDLRIKKSLLKCNWTIRKRLPRCKMRLKKRLLAFSRRLHARIRKTRYMHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3108,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3108,
+        3684
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 576,
+    "length_aa": 191,
+    "stop_codon": "TGA",
+    "protein": "MFLTLMRPPLVLFLVLWLKLVKDFLKVRCRLALLPFLISCLIWLDLVASLPLIKERILVIILLLHFLSLMLGSVLVLMLPLLVWLTPDLRIKKSLLKCNWTIRKRLPRCKMRLKKRLLAFSRRLHARIRKTRYMHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3123,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3123,
+        3684
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 561,
+    "length_aa": 186,
+    "stop_codon": "TGA",
+    "protein": "MRPPLVLFLVLWLKLVKDFLKVRCRLALLPFLISCLIWLDLVASLPLIKERILVIILLLHFLSLMLGSVLVLMLPLLVWLTPDLRIKKSLLKCNWTIRKRLPRCKMRLKKRLLAFSRRLHARIRKTRYMHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3155,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3155,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 762,
+    "length_aa": 253,
+    "stop_codon": "TAA",
+    "protein": "MAKAGKGLLEGTLQAGTSAVSDKLLDLVGLGGKSAADKGKDTRDYLAAAFPELNAWERAGADASSAGMVDAGFENQKELTKMQLDNQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3315,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3315,
+        3684
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 369,
+    "length_aa": 122,
+    "stop_codon": "TGA",
+    "protein": "MLGSVLVLMLPLLVWLTPDLRIKKSLLKCNWTIRKRLPRCKMRLKKRLLAFSRRLHARIRKTRYMHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3339,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3339,
+        3684
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 345,
+    "length_aa": 114,
+    "stop_codon": "TGA",
+    "protein": "MLPLLVWLTPDLRIKKSLLKCNWTIRKRLPRCKMRLKKRLLAFSRRLHARIRKTRYMHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3356,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3356,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 561,
+    "length_aa": 186,
+    "stop_codon": "TAA",
+    "protein": "MVDAGFENQKELTKMQLDNQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3398,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3398,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 519,
+    "length_aa": 172,
+    "stop_codon": "TAA",
+    "protein": "MQLDNQKEIAEMQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3431,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3431,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 486,
+    "length_aa": 161,
+    "stop_codon": "TAA",
+    "protein": "MQNETQKEIAGIQSATSRQNTKDQVYAQNEMLAYQQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3438,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3438,
+        3684
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 246,
+    "length_aa": 81,
+    "stop_codon": "TGA",
+    "protein": "MRLKKRLLAFSRRLHARIRKTRYMHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3507,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3507,
+        3684
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 177,
+    "length_aa": 58,
+    "stop_codon": "TGA",
+    "protein": "MHKMRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3516,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3516,
+        3684
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 168,
+    "length_aa": 55,
+    "stop_codon": "TGA",
+    "protein": "MRCLLINRRSLLLALRLLWKTPIFPSNSRFPRLCAKCLLKLKRLVSILPMTKSKK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3521,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3521,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 396,
+    "length_aa": 131,
+    "stop_codon": "TAA",
+    "protein": "MLAYQQKESTARVASIMENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3569,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3569,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 348,
+    "length_aa": 115,
+    "stop_codon": "TAA",
+    "protein": "MENTNLSKQQQVSEIMRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3614,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3614,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 303,
+    "length_aa": 100,
+    "stop_codon": "TAA",
+    "protein": "MRQMLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3623,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3623,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 294,
+    "length_aa": 97,
+    "stop_codon": "TAA",
+    "protein": "MLTQAQTAGQYFTNDQIKEMTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3680,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3680,
+        3917
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 237,
+    "length_aa": 78,
+    "stop_codon": "TAA",
+    "protein": "MTRKVSAEVDLVHQQTQNQRYGSSHIGATAKDISNVVTDAASGVVDIFHGIDKAVADTWNNFWKDGKADGIGSNLSRK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3741,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3741,
+        3930
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 189,
+    "length_aa": 62,
+    "stop_codon": "TGA",
+    "protein": "MALLILALLQRIFLMSSLMLLLVWLIFFMVLIKLLPILGTISGKTVKLMVLALICLGNNRQD"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3783,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3783,
+        3930
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 147,
+    "length_aa": 48,
+    "stop_codon": "TGA",
+    "protein": "MSSLMLLLVWLIFFMVLIKLLPILGTISGKTVKLMVLALICLGNNRQD"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3795,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3795,
+        3930
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 135,
+    "length_aa": 44,
+    "stop_codon": "TGA",
+    "protein": "MLLLVWLIFFMVLIKLLPILGTISGKTVKLMVLALICLGNNRQD"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3825,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3825,
+        3930
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 105,
+    "length_aa": 34,
+    "stop_codon": "TGA",
+    "protein": "MVLIKLLPILGTISGKTVKLMVLALICLGNNRQD"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3945,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3945,
+        4263
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 318,
+    "length_aa": 105,
+    "stop_codon": "TAA",
+    "protein": "MFSCLQILEAFLWFVLITLLNVTLIILTLSVSRLLNLLLRLVAFLLFLNPQCLASISRWITASSSWKRFCLFVCRALSSIMVICMLTAIRLLLTFVMSLYLLLRS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3953,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3953,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 1569,
+    "length_aa": 522,
+    "stop_codon": "TGA",
+    "protein": "MPPNLGGFFMVRSYYPSECHADYFDFERIEALKPAIEACGISTLSQSPMLGFHKQMDNRIKLLEEILSFRMQGVEFDNGDMYVDGHKAASDVRDEFVSVTEKLMDELAQCYNVLPQLDINNTIDHRPEGDEKWFLENEKTVTQFCRKLAAERPLKDIRDEYNYPKKKGIKDECSRLLEASTMKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 3980,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3980,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 1542,
+    "length_aa": 513,
+    "stop_codon": "TGA",
+    "protein": "MVRSYYPSECHADYFDFERIEALKPAIEACGISTLSQSPMLGFHKQMDNRIKLLEEILSFRMQGVEFDNGDMYVDGHKAASDVRDEFVSVTEKLMDELAQCYNVLPQLDINNTIDHRPEGDEKWFLENEKTVTQFCRKLAAERPLKDIRDEYNYPKKKGIKDECSRLLEASTMKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4097,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4097,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 1425,
+    "length_aa": 474,
+    "stop_codon": "TGA",
+    "protein": "MLGFHKQMDNRIKLLEEILSFRMQGVEFDNGDMYVDGHKAASDVRDEFVSVTEKLMDELAQCYNVLPQLDINNTIDHRPEGDEKWFLENEKTVTQFCRKLAAERPLKDIRDEYNYPKKKGIKDECSRLLEASTMKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4118,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4118,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 1404,
+    "length_aa": 467,
+    "stop_codon": "TGA",
+    "protein": "MDNRIKLLEEILSFRMQGVEFDNGDMYVDGHKAASDVRDEFVSVTEKLMDELAQCYNVLPQLDINNTIDHRPEGDEKWFLENEKTVTQFCRKLAAERPLKDIRDEYNYPKKKGIKDECSRLLEASTMKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4163,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4163,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 1359,
+    "length_aa": 452,
+    "stop_codon": "TGA",
+    "protein": "MQGVEFDNGDMYVDGHKAASDVRDEFVSVTEKLMDELAQCYNVLPQLDINNTIDHRPEGDEKWFLENEKTVTQFCRKLAAERPLKDIRDEYNYPKKKGIKDECSRLLEASTMKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4193,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4193,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 1329,
+    "length_aa": 442,
+    "stop_codon": "TGA",
+    "protein": "MYVDGHKAASDVRDEFVSVTEKLMDELAQCYNVLPQLDINNTIDHRPEGDEKWFLENEKTVTQFCRKLAAERPLKDIRDEYNYPKKKGIKDECSRLLEASTMKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4262,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4262,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 1260,
+    "length_aa": 419,
+    "stop_codon": "TGA",
+    "protein": "MDELAQCYNVLPQLDINNTIDHRPEGDEKWFLENEKTVTQFCRKLAAERPLKDIRDEYNYPKKKGIKDECSRLLEASTMKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4496,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4496,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 1026,
+    "length_aa": 341,
+    "stop_codon": "TGA",
+    "protein": "MKSRRGFAIQRLMNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4532,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4532,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 990,
+    "length_aa": 329,
+    "stop_codon": "TGA",
+    "protein": "MNAMRQAHADGWFIVFDTLTLADDRLEAFYDNPNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4541,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4541,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 981,
+    "length_aa": 326,
+    "stop_codon": "TGA",
+    "protein": "MRQAHADGWFIVFDTLTLADDRLEAFYDNPNALRDYFRDIGRMVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4620,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        4620,
+        4857
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 237,
+    "length_aa": 78,
+    "stop_codon": "TAA",
+    "protein": "MIIPMLCVTIFVILVVWFLLPRVARLMIHTPTAISIFVCLSMVQLMAVFISMRCTLCGHFLQVALTLILVVGYAIAAS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4632,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        4632,
+        4857
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 225,
+    "length_aa": 74,
+    "stop_codon": "TAA",
+    "protein": "MLCVTIFVILVVWFLLPRVARLMIHTPTAISIFVCLSMVQLMAVFISMRCTLCGHFLQVALTLILVVGYAIAAS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4667,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4667,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 855,
+    "length_aa": 284,
+    "stop_codon": "TGA",
+    "protein": "MVLAAEGRKANDSHADCYQYFCVPEYGTANGRLHFHAVHFMRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4698,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        4698,
+        4857
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 159,
+    "length_aa": 52,
+    "stop_codon": "TAA",
+    "protein": "MIHTPTAISIFVCLSMVQLMAVFISMRCTLCGHFLQVALTLILVVGYAIAAS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4743,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        4743,
+        4857
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 114,
+    "length_aa": 37,
+    "stop_codon": "TAA",
+    "protein": "MVQLMAVFISMRCTLCGHFLQVALTLILVVGYAIAAS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4755,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        4755,
+        4857
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 102,
+    "length_aa": 33,
+    "stop_codon": "TAA",
+    "protein": "MAVFISMRCTLCGHFLQVALTLILVVGYAIAAS"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4787,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4787,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 735,
+    "length_aa": 244,
+    "stop_codon": "TGA",
+    "protein": "MRTLPTGSVDPNFGRRVRNRRQLNSLQNTWPYGYSMPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4881,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        4881,
+        5064
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 183,
+    "length_aa": 60,
+    "stop_codon": "TAG",
+    "protein": "MVTVCPSQFATRRTLFHVLVGCGLLMLKVSRLKLPVIWLLVSMWLNTLTKSQIWTLLLKV"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4892,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4892,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 630,
+    "length_aa": 209,
+    "stop_codon": "TGA",
+    "protein": "MPIAVRYTQDAFSRSGWLWPVDAKGEPLKATSYMAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4956,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        4956,
+        5064
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 108,
+    "length_aa": 35,
+    "stop_codon": "TAG",
+    "protein": "MLKVSRLKLPVIWLLVSMWLNTLTKSQIWTLLLKV"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 4991,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        4991,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 531,
+    "length_aa": 176,
+    "stop_codon": "TGA",
+    "protein": "MAVGFYVAKYVNKKSDMDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 5039,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        5039,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 483,
+    "length_aa": 160,
+    "stop_codon": "TGA",
+    "protein": "MDLAAKGLGAKEWNNSLKTKLSLLPKKLFRIRMSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 5074,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        5074,
+        5386
+      ],
+      [
+        0,
+        51
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 363,
+    "length_aa": 120,
+    "stop_codon": "TGA",
+    "protein": "MEQLTKNQAVATSQEAVQNQNEPQLRDENAHNDKSVHGVLNPTYQAGLRRDAVQPDIEAERKKRDEIEAGKSYCSRRFGGATCDDKSAQIYARFDKNDWRIQPAEFYRFHDAEVNTFGYF"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 5135,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        5135,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 387,
+    "length_aa": 128,
+    "stop_codon": "TGA",
+    "protein": "MSRNFGMKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 5153,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        5153,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 369,
+    "length_aa": 122,
+    "stop_codon": "TGA",
+    "protein": "MKMLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 5159,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        5159,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 363,
+    "length_aa": 120,
+    "stop_codon": "TGA",
+    "protein": "MLTMTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 5168,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        5168,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 354,
+    "length_aa": 117,
+    "stop_codon": "TGA",
+    "protein": "MTNLSTECLIQLTKLGYDATPFNQILKQNAKREMRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 5267,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        5267,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 255,
+    "length_aa": 84,
+    "stop_codon": "TGA",
+    "protein": "MRLRLGKVTVADVLAAQPVTTNLLKFMRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 5345,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        5345,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 177,
+    "length_aa": 58,
+    "stop_codon": "TGA",
+    "protein": "MRASIKMIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "+",
+    "oriented_start0": 5363,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        5363,
+        5386
+      ],
+      [
+        0,
+        136
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 159,
+    "length_aa": 52,
+    "stop_codon": "TGA",
+    "protein": "MIGVSNLQSFIASMTQKLTLSDISDESKNYLDKAGITTACLRIKSKWTAGGK"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 1175,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3920,
+        4211
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 291,
+    "length_aa": 96,
+    "stop_codon": "TGA",
+    "protein": "MAVNIHITIIELNALHTKRQNLFQELDAVIHLLMEAKHWGLRKSRNATSLNSRFKSLDTLKVKIISVTFRRVIRTNHKKASKIWRHENIQLGGCQS"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 1274,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3920,
+        4112
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 192,
+    "length_aa": 63,
+    "stop_codon": "TGA",
+    "protein": "MEAKHWGLRKSRNATSLNSRFKSLDTLKVKIISVTFRRVIRTNHKKASKIWRHENIQLGGCQS"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 1431,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        3823,
+        3955
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 132,
+    "length_aa": 43,
+    "stop_codon": "TGA",
+    "protein": "MKTYNWEGVNPDGYFLDKLEPIPSALPSFQKLFQVSATALSIP"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 1559,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        3710,
+        3827
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 117,
+    "length_aa": 38,
+    "stop_codon": "TAA",
+    "protein": "MKNINHTRSSISDDIRNILCSSANMRRAIPLILRLLMN"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 2083,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        3159,
+        3303
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 144,
+    "length_aa": 47,
+    "stop_codon": "TAG",
+    "protein": "MQQQDNHEYPFLYQRQTCHQVQPNQATYQKRQKCQPATYLQEVLYQL"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 2644,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        2517,
+        2742
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 225,
+    "length_aa": 74,
+    "stop_codon": "TAA",
+    "protein": "MATIQRINIIGSREGSRNRRRLKANQTGKKFRVGIKSNISTNRNNLISGVDRCIHLNAMKKTTITSINRQTIKI"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 2990,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        2303,
+        2396
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 93,
+    "length_aa": 30,
+    "stop_codon": "TAA",
+    "protein": "MIKLLSRKPTALRLVNPSAAKIKIFTASAL"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 3219,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        1771,
+        2167
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 396,
+    "length_aa": 131,
+    "stop_codon": "TAA",
+    "protein": "MVANKYAFLQITRRRFLNEWEAFKKVISRRNIRRRITIPLTLSNLKLLRRITRTENILHRNFTRRQVAIQNRVASNIGISQSTFSVKVLNLFSRSRRKTNKRKSKHSAMLRNKETRHRMFIGLLNTTRKLA"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 3735,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        1093,
+        1651
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 558,
+    "length_aa": 185,
+    "stop_codon": "TGA",
+    "protein": "MVTLHEVITFLVSMQISISSLQTHNVNRCGRSRHLARKLSLRRKRSSPNVFEMAATETITSIILIKLIRVSLGTVRHPRRFKIVVIDIQITLKQMLRDFIGIRVNRAKKSGMVNITSSVNSRERSGINTILHELNPLFTINVTMRDIKSKNVYSRVNSKATTQWRKTESANGVHLEGVASDNRSS"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 3774,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        1093,
+        1612
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 519,
+    "length_aa": 172,
+    "stop_codon": "TGA",
+    "protein": "MQISISSLQTHNVNRCGRSRHLARKLSLRRKRSSPNVFEMAATETITSIILIKLIRVSLGTVRHPRRFKIVVIDIQITLKQMLRDFIGIRVNRAKKSGMVNITSSVNSRERSGINTILHELNPLFTINVTMRDIKSKNVYSRVNSKATTQWRKTESANGVHLEGVASDNRSS"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 3808,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1473,
+        1578
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 105,
+    "length_aa": 34,
+    "stop_codon": "TAA",
+    "protein": "MSIDVVEVVIWRESSVSGGSGAVQMFLRWQQRKP"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 3891,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        1093,
+        1495
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 402,
+    "length_aa": 133,
+    "stop_codon": "TGA",
+    "protein": "MAATETITSIILIKLIRVSLGTVRHPRRFKIVVIDIQITLKQMLRDFIGIRVNRAKKSGMVNITSSVNSRERSGINTILHELNPLFTINVTMRDIKSKNVYSRVNSKATTQWRKTESANGVHLEGVASDNRSS"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 4017,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        1093,
+        1369
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 276,
+    "length_aa": 91,
+    "stop_codon": "TGA",
+    "protein": "MLRDFIGIRVNRAKKSGMVNITSSVNSRERSGINTILHELNPLFTINVTMRDIKSKNVYSRVNSKATTQWRKTESANGVHLEGVASDNRSS"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 4068,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        1093,
+        1318
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 225,
+    "length_aa": 74,
+    "stop_codon": "TGA",
+    "protein": "MVNITSSVNSRERSGINTILHELNPLFTINVTMRDIKSKNVYSRVNSKATTQWRKTESANGVHLEGVASDNRSS"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 4164,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        1093,
+        1222
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 129,
+    "length_aa": 42,
+    "stop_codon": "TGA",
+    "protein": "MRDIKSKNVYSRVNSKATTQWRKTESANGVHLEGVASDNRSS"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 4186,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        1068,
+        1200
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 132,
+    "length_aa": 43,
+    "stop_codon": "TGA",
+    "protein": "MSTVESIARPRRNGERRRAPTASISKESPAITGVVEMVIRRPI"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 4335,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        817,
+        1051
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 234,
+    "length_aa": 77,
+    "stop_codon": "TGA",
+    "protein": "MGKVMRHTLGASLNIRHNLSSSKGPKPLQLKLLTTYIPKTSAFTLAFSTSQRLRTTRASARTFFTFRHYITPSARNF"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 4347,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        817,
+        1039
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 222,
+    "length_aa": 73,
+    "stop_codon": "TGA",
+    "protein": "MRHTLGASLNIRHNLSSSKGPKPLQLKLLTTYIPKTSAFTLAFSTSQRLRTTRASARTFFTFRHYITPSARNF"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 4736,
+    "frame_offset": 2,
+    "segments0": [
+      [
+        473,
+        650
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 177,
+    "length_aa": 58,
+    "stop_codon": "TAA",
+    "protein": "MNIISNDGSNKLNRSRKARVSHKVQRTINASLNAATSTRAVSSNPNFVTRQKIEIIFG"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 4995,
+    "frame_offset": 0,
+    "segments0": [
+      [
+        277,
+        391
+      ]
+    ],
+    "wraps_origin": false,
+    "length_nt_with_stop": 114,
+    "length_aa": 37,
+    "stop_codon": "TAA",
+    "protein": "MISYLLVVEQHRTQIVIHALLKCQQENLYHEQNVTHI"
+  },
+  {
+    "strand": "-",
+    "oriented_start0": 5368,
+    "frame_offset": 1,
+    "segments0": [
+      [
+        0,
+        18
+      ],
+      [
+        5215,
+        5386
+      ]
+    ],
+    "wraps_origin": true,
+    "length_nt_with_stop": 189,
+    "length_aa": 62,
+    "stop_codon": "TAA",
+    "protein": "MEAIKLCRLDTPIIFIEARINLSRFVVTGCAAKTSATVTFPSLNLISLFAFCFNIWLNGVAS"
+  }
+]

@@ -13,3 +13,7 @@ Paket və real dataset-ləri əvvəlcədən quraşdırın. Notebook yeni run qov
 ## UNEC nəticələrinin yoxlanması
 
 [06-unec-practice.ipynb](experiments/06-unec-practice.ipynb): saxlanmış proqnozlardan metriklər, real SQLite sorğusu və null simulyasiyasının təkrar icrası. Başdan sona işlədilib.
+
+## Yeni analizlər
+
+[07-expanded-projects.ipynb](experiments/07-expanded-projects.ipynb): real GO enrichment, filogenetik distance və ORF koordinatlarının yoxlanması.

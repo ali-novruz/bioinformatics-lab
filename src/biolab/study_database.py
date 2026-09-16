@@ -6,11 +6,11 @@ from pathlib import Path
 
 SCHEMA = """
 CREATE TABLE sample (
- sample_id TEXT PRIMARY KEY,
+ sample_id TEXT NOT NULL PRIMARY KEY CHECK(length(trim(sample_id)) > 0),
  condition TEXT NOT NULL CHECK(condition IN ('treated','untreated')),
- biological_replicate INTEGER NOT NULL CHECK(biological_replicate > 0)
+ biological_replicate INTEGER NOT NULL CHECK(typeof(biological_replicate)='integer' AND biological_replicate > 0)
 );
-CREATE TABLE gene (gene_id TEXT PRIMARY KEY);
+CREATE TABLE gene (gene_id TEXT NOT NULL PRIMARY KEY CHECK(length(trim(gene_id)) > 0));
 CREATE TABLE gene_count (
  sample_id TEXT NOT NULL REFERENCES sample(sample_id),
  gene_id TEXT NOT NULL REFERENCES gene(gene_id),

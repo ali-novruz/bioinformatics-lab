@@ -29,3 +29,7 @@
 ## Gen ifadəsi benchmark
 
 [Khan mikroarray məlumat kartı](public-datasets/khan.md). `python scripts/fetch_khan.py` sabit revision-dan dörd CSV endirir və hash-ləri yoxlayır.
+
+## Offline real girişlər
+
+[Opuntia alignment, SGD GO-slim alt dəsti və PhiX174](examples/README.md) kiçik, mənşəyi və hash-i qeyd olunmuş girişlərdir.

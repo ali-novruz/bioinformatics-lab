@@ -38,10 +38,14 @@ def intact(names):
     manifest=RAW/'provenance.json'
     if not manifest.exists():return False
     records=json.loads(manifest.read_text())
+    baseline_path=ROOT/'datasets/reference-manifest.json'
+    baseline=json.loads(baseline_path.read_text()) if baseline_path.exists() else {}
     for n in names:
         p=RAW/n
         if not p.exists() or n not in records:return False
         if digest(p.read_bytes())!=records[n]['sha256']:raise ValueError(f'Checksum mismatch: {n}')
+        if n in baseline and digest(p.read_bytes())!=baseline[n]['sha256']:
+            raise ValueError(f'Cached input differs from reference snapshot: {n}')
     return True
 
 def fetch(dataset):

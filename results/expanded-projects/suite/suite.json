@@ -1,0 +1,79 @@
+{
+  "selected": [
+    "dna",
+    "alignment",
+    "variants",
+    "rnaseq",
+    "ml",
+    "proteins",
+    "expression-ml",
+    "database",
+    "statistics",
+    "enrichment",
+    "phylogeny",
+    "orfs"
+  ],
+  "skipped_requires_download": [],
+  "projects": [
+    {
+      "id": "dna",
+      "exit_code": 0,
+      "log": "dna.log"
+    },
+    {
+      "id": "alignment",
+      "exit_code": 0,
+      "log": "alignment.log"
+    },
+    {
+      "id": "variants",
+      "exit_code": 0,
+      "log": "variants.log"
+    },
+    {
+      "id": "rnaseq",
+      "exit_code": 0,
+      "log": "rnaseq.log"
+    },
+    {
+      "id": "ml",
+      "exit_code": 0,
+      "log": "ml.log"
+    },
+    {
+      "id": "proteins",
+      "exit_code": 0,
+      "log": "proteins.log"
+    },
+    {
+      "id": "expression-ml",
+      "exit_code": 0,
+      "log": "expression-ml.log"
+    },
+    {
+      "id": "database",
+      "exit_code": 0,
+      "log": "database.log"
+    },
+    {
+      "id": "statistics",
+      "exit_code": 0,
+      "log": "statistics.log"
+    },
+    {
+      "id": "enrichment",
+      "exit_code": 0,
+      "log": "enrichment.log"
+    },
+    {
+      "id": "phylogeny",
+      "exit_code": 0,
+      "log": "phylogeny.log"
+    },
+    {
+      "id": "orfs",
+      "exit_code": 0,
+      "log": "orfs.log"
+    }
+  ]
+}

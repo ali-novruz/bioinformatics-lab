@@ -1,0 +1,34 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer, UCI DOI 10.24432/C5DW2B",
+  "features": "30 nuclear morphology features; NOT gene expression",
+  "samples": 569,
+  "train_samples": 426,
+  "test_samples": 143,
+  "positive_class": "malignant",
+  "seed": 42,
+  "selected_using": "training-only 5-fold mean AUROC",
+  "selected_model": "logistic",
+  "test_roc_auc": 0.9962264150943396,
+  "test_pr_auc": 0.9942992040793095,
+  "test_balanced_accuracy": 0.9567085953878407,
+  "test_brier": 0.02244056563937386,
+  "sensitivity": 0.9245283018867925,
+  "specificity": 0.9888888888888889,
+  "confusion_matrix": [
+    [
+      89,
+      1
+    ],
+    [
+      4,
+      49
+    ]
+  ],
+  "test_auc_bootstrap_95": {
+    "low": 0.9887258686214185,
+    "high": 1.0,
+    "valid_replicates": 1000,
+    "scope": "fixed fitted model, held-out samples only"
+  },
+  "dataset_canonical_csv_sha256": "bb27ae0af4bf4751f079b541401f84a335c9a76cf33a4223dbf45a31b81ad38d"
+}

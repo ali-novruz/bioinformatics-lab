@@ -62,3 +62,12 @@ GitHub Actions komponentləri cari release commit-lərinə sabitləşdirildi.
 - Dörd orijinal kitab PDF-i, mənşə/lisenziya qeydləri və ayrıca praktikum PDF-i.
 - Khan gen ifadəsi modeli, real RNA SQLite kataloqu və biostatistika simulyasiyası.
 - Üç saxlanmış icra, altıncı icra edilmiş notebook və 6 yeni regression test.
+
+## 2026-09-16 — Layihə auditi və genişləndirmə
+
+- VCF-də duplicate sample, səhv FORMAT və artıq sample sahələri səssiz qəbul edilmir.
+- SQLite NULL/boş sample kimliklərini və kəsr replicate nömrələrini rədd edir.
+- Lokal cache və onun manifesti referens hash-i əvəz edə bilmir.
+- Real GO-slim enrichment, bootstrap filogeniya və origin-aware ORF axtarışı əlavə edilib.
+- 12 layihə üçün vahid başladıcı, bütün layihələrin icra logları, 7-ci notebook və 43 test.
+- Tarixi mənbə arxivi köhnə nəticələri dəyişdirmədən cari kodun inkişafına imkan verir.

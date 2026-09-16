@@ -2,6 +2,7 @@
 from pathlib import Path
 import hashlib
 import json
+from biolab.provenance import verify_sources
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -32,8 +33,7 @@ def main():
         assert digest(base / name) == expected, name
     for run in base.glob('*/run.json'):
         record = json.loads(run.read_text(encoding='utf-8'))
-        for name, expected in record['source_files_sha256'].items():
-            assert digest(ROOT / name.replace('\\', '/')) == expected, (run, name)
+        verify_sources(ROOT, record)
     print(f'{len(files)} source records, {len(books)} original PDFs, {len(snapshot["sha256"])} result hashes and recorded source hashes verified')
 
 

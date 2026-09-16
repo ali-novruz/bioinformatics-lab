@@ -1,0 +1,29 @@
+{
+  "retrieved": "2026-09-16",
+  "files": [
+    {
+      "path": "datasets/examples/phylogeny/opuntia.aln",
+      "sha256": "89bb44cc2339f48b7aa4fec3278e85e6d331eafeb921c95d7e499543510267e1",
+      "bytes": 2482,
+      "source_url": "https://raw.githubusercontent.com/biopython/biopython/5bbc6c12c505301f2d681f932c30fdb8fcbe9a6e/Tests/Clustalw/opuntia.aln",
+      "source_sha256": "89bb44cc2339f48b7aa4fec3278e85e6d331eafeb921c95d7e499543510267e1",
+      "transformation": "LF-normalized tutorial alignment, no sequence edits"
+    },
+    {
+      "path": "datasets/examples/enrichment/sgd_go_slim_chrI.tsv",
+      "sha256": "cdabebe24a92623cedfd0797273e3dd342312d126831f4706545fd9c7213a9d0",
+      "bytes": 17394,
+      "source_url": "https://downloads.yeastgenome.org/curation/literature/go_slim_mapping.tab",
+      "source_sha256": "625fdef266cb7410a7c08225009544df293260d57574c73fb83894b6dc428f75",
+      "transformation": "Rows matching 124 measured gene IDs; biological-process aspect only; GO root removed; selected five fields; deduplicated; sorted GO/gene; UTF-8 LF"
+    },
+    {
+      "path": "datasets/examples/orfs/NC_001422.1.fasta",
+      "sha256": "caa155c83967cc080f4f188f14f1f28c18d77448e87c3d00d3579ed348f4de2a",
+      "bytes": 5520,
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_001422.1&rettype=fasta&retmode=text",
+      "source_sha256": "caa155c83967cc080f4f188f14f1f28c18d77448e87c3d00d3579ed348f4de2a",
+      "transformation": "Unmodified prior verified reference input"
+    }
+  ]
+}

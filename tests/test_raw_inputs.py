@@ -1,5 +1,6 @@
 """Regression checks for malformed FASTQ and silently changed downloaded inputs."""
 import gzip
+import hashlib
 import importlib.util
 import json
 from pathlib import Path
@@ -46,3 +47,14 @@ def test_existing_raw_input_corruption_is_rejected_without_download(tmp_path, mo
     monkeypatch.setattr(downloader.urllib.request, 'urlopen', unexpected_download)
     with pytest.raises(ValueError, match='Existing input changed'):
         downloader.fetch('rnaseq', tmp_path)
+
+
+def test_cache_and_local_manifest_cannot_override_reference(tmp_path, monkeypatch):
+    downloader=load_script('fetch_data')
+    monkeypatch.setattr(downloader,'RAW',tmp_path)
+    name='NC_001422.1.fasta'
+    corrupt=b'>changed\nACGT\n'
+    (tmp_path/name).write_bytes(corrupt)
+    (tmp_path/'provenance.json').write_text(json.dumps({name:{'sha256':hashlib.sha256(corrupt).hexdigest()}}))
+    with pytest.raises(ValueError,match='reference snapshot'):
+        downloader.intact([name])

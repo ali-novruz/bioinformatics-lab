@@ -1,6 +1,6 @@
 # 30 bioinformatika layihəsi
 
-10 beginner, 10 intermediate, 10 advanced/research. Bunların hamısı hazır proqram deyil; beş əsas işlək layihə ayrıca göstərilir.
+10 beginner, 10 intermediate, 10 advanced/research. Bunların hamısı hazır proqram deyil; [12 işlək layihənin dəqiq kataloqu](README.md) ayrıca göstərilir.
 
 ## 01. DNA Sequence Analyzer
 

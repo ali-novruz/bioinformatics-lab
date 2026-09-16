@@ -52,3 +52,7 @@ RNA nəticəsi seçilmiş negative-binomial model və FDR assumptions-a şərtli
 ## UNEC praktik nəticələri
 
 [Üç yeni layihənin nəticələri və mənşə qeydləri](course-projects/README.md).
+
+## Tam layihə auditi və yeni analizlər
+
+[12 layihənin icra hesabatı və üç yeni analiz](expanded-projects/README.md).

@@ -1,0 +1,29 @@
+{
+  "data": "synthetic teaching sequences",
+  "alignments": [
+    {
+      "query": "ACGTTGA-C",
+      "target": "AC-TTGACC",
+      "score": 10.0,
+      "query_start": 0,
+      "query_end": 8,
+      "target_start": 0,
+      "target_end": 8,
+      "mode": "global",
+      "identity_all_alignment_columns": 0.7777777777777778,
+      "biopython_score": 10.0
+    },
+    {
+      "query": "ACGTTGAC",
+      "target": "AC-TTGAC",
+      "score": 12.0,
+      "query_start": 0,
+      "query_end": 8,
+      "target_start": 0,
+      "target_end": 7,
+      "mode": "local",
+      "identity_all_alignment_columns": 0.875,
+      "biopython_score": 12.0
+    }
+  ]
+}

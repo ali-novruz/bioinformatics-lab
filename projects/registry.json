@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {"id":"dna","title":"DNA Sequence Analyzer","script":"run_projects.py","args":["--project","dna"],"offline":true,"fetch":["phix"],"docs":"projects/beginner/dna-analyzer/README.md"},
+    {"id":"alignment","title":"Sequence Alignment","script":"run_projects.py","args":["--project","alignment"],"offline":true,"fetch":[],"docs":"projects/beginner/sequence-alignment/README.md"},
+    {"id":"variants","title":"GIAB Variant Analysis","script":"run_projects.py","args":["--project","variants"],"offline":false,"fetch":["giab"],"docs":"projects/intermediate/variant-analysis/README.md"},
+    {"id":"rnaseq","title":"Pasilla RNA-seq","script":"run_projects.py","args":["--project","rnaseq"],"offline":false,"fetch":["pasilla"],"research":true,"docs":"projects/intermediate/rnaseq/README.md"},
+    {"id":"ml","title":"WDBC Disease Classification","script":"run_projects.py","args":["--project","ml"],"offline":true,"fetch":[],"docs":"projects/intermediate/disease-classification/README.md"},
+    {"id":"proteins","title":"Protein Sequence and Structure","script":"protein_project.py","args":[],"offline":false,"fetch":["uniprot","pdb"],"docs":"projects/intermediate/protein-analysis/README.md"},
+    {"id":"expression-ml","title":"Khan Gene Expression","script":"run_expression_ml.py","args":[],"offline":false,"fetch":[],"docs":"projects/intermediate/gene-expression-ml/README.md"},
+    {"id":"database","title":"RNA SQLite Catalog","script":"run_study_database.py","args":[],"offline":true,"fetch":[],"docs":"projects/beginner/study-database/README.md"},
+    {"id":"statistics","title":"Biostatistics Lab","script":"run_biostatistics_lab.py","args":[],"offline":true,"fetch":[],"docs":"projects/beginner/biostatistics-lab/README.md"},
+    {"id":"enrichment","title":"Real GO-slim Enrichment","script":"run_extensions.py","args":["--project","enrichment"],"offline":true,"fetch":[],"docs":"projects/intermediate/go-enrichment/README.md"},
+    {"id":"phylogeny","title":"Opuntia Phylogeny","script":"run_extensions.py","args":["--project","phylogeny"],"offline":true,"fetch":[],"docs":"projects/intermediate/phylogeny/README.md"},
+    {"id":"orfs","title":"Circular Genome ORF Discovery","script":"run_extensions.py","args":["--project","orfs"],"offline":true,"fetch":[],"docs":"projects/beginner/orf-discovery/README.md"}
+  ]
+}
