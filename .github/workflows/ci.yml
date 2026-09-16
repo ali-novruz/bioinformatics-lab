@@ -9,8 +9,8 @@ jobs:
       matrix:
         python-version: ['3.11', '3.12']
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: ${{ matrix.python-version }}
       - run: python -m pip install -e '.[dev]'
@@ -27,11 +27,14 @@ jobs:
       run:
         shell: bash -el {0}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Set up Conda for Bioconda tools
-        uses: conda-incubator/setup-miniconda@v3
+        uses: conda-incubator/setup-miniconda@8ee1f361103df19b6f8c8655fd3967a8ecb162d5 # v4.0.1
         with:
-          auto-activate-base: true
+          activate-environment: biolab-smoke
+          python-version: '3.12'
+          auto-activate: false
+          conda-remove-defaults: true
           channels: conda-forge,bioconda
           channel-priority: strict
       - name: Install small-genome bioinformatics tools
@@ -62,7 +65,7 @@ jobs:
           python scripts/validate_raw_fixture.py /tmp/biolab-raw
       - name: Upload smoke outputs
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: raw-workflow-smoke
           path: /tmp/biolab-raw

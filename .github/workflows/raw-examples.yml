@@ -11,13 +11,14 @@ jobs:
       run:
         shell: bash -el {0}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Set up Python and STAR
-        uses: conda-incubator/setup-miniconda@v3
+        uses: conda-incubator/setup-miniconda@8ee1f361103df19b6f8c8655fd3967a8ecb162d5 # v4.0.1
         with:
           python-version: '3.12'
           activate-environment: biolab
-          auto-activate-base: false
+          auto-activate: false
+          conda-remove-defaults: true
           channels: conda-forge,bioconda
           channel-priority: strict
       - name: Install bioinformatics tools
@@ -36,7 +37,7 @@ jobs:
           conda list --explicit > /tmp/biolab-examples/conda-explicit.txt
       - name: Upload evidence and reports
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: raw-examples
           retention-days: 14
@@ -47,4 +48,3 @@ jobs:
             !/tmp/biolab-examples/**/*.bai
             !/tmp/biolab-examples/**/*.fastq.gz
             !/tmp/biolab-examples/**/*.fq.gz
-
