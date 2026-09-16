@@ -1,0 +1,56 @@
+{
+  "input_genes": 124,
+  "tested_genes": 84,
+  "samples": 6,
+  "design": "~ condition",
+  "contrast": "treated / untreated",
+  "prefilter": "total count >= 10 across all samples",
+  "significant_fdr_005": 1,
+  "significant_fdr_005_abs_lfc_gt1": 0,
+  "missing_padj": 0,
+  "lfc_shrinkage": "not applied; unshrunken coefficients",
+  "implementation": "PyDESeq2 0.5.4, not a byte-identical reproduction of R DESeq2",
+  "dataset": "GSE110004, nf-core chromosome I subsample",
+  "biological_contrast": "Rap1-AID + IAA 30 minutes / Rap1-AID uninduced",
+  "limitation": "Chromosome-targeted subsampling; not genome-wide inference or reproduction of the full paper",
+  "mapping": {
+    "SRR6357073": {
+      "input_pairs": 50000,
+      "uniquely_mapped_pairs": 41369,
+      "uniquely_mapped_percent": "82.74%"
+    },
+    "SRR6357074": {
+      "input_pairs": 50000,
+      "uniquely_mapped_pairs": 41835,
+      "uniquely_mapped_percent": "83.67%"
+    },
+    "SRR6357075": {
+      "input_pairs": 50000,
+      "uniquely_mapped_pairs": 42241,
+      "uniquely_mapped_percent": "84.48%"
+    },
+    "SRR6357076": {
+      "input_pairs": 50000,
+      "uniquely_mapped_pairs": 42489,
+      "uniquely_mapped_percent": "84.98%"
+    },
+    "SRR6357077": {
+      "input_pairs": 50000,
+      "uniquely_mapped_pairs": 42348,
+      "uniquely_mapped_percent": "84.70%"
+    },
+    "SRR6357078": {
+      "input_pairs": 50000,
+      "uniquely_mapped_pairs": 42221,
+      "uniquely_mapped_percent": "84.44%"
+    }
+  },
+  "assigned_fragments": {
+    "SRR6357073": 38989,
+    "SRR6357074": 39241,
+    "SRR6357075": 39727,
+    "SRR6357076": 40069,
+    "SRR6357077": 39847,
+    "SRR6357078": 39824
+  }
+}

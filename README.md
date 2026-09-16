@@ -1,5 +1,9 @@
 # Bioinformatics Research Lab
 
+[![Validate lab](https://github.com/ali-novruz/bioinformatics-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/ali-novruz/bioinformatics-lab/actions/workflows/ci.yml)
+
+[Buradan başlayın](docs/START_HERE.md) · [İcra vəziyyəti](STATUS.md) · [Nəticələr](results/README.md) · [30 layihə](projects/IDEAS.md)
+
 **Öyrən → kodlaşdır → real data ilə yoxla → nəticəni izah et → yeni sual yarat.**
 
 Azərbaycan dilində şəxsi bioinformatika laboratoriyası: biologiyanın əsaslarından reproducible tədqiqat layihələrinə qədər. Kod və standart terminlər ingiliscədir. Bu repo birdəfəlik konspekt deyil; hər eksperiment məlumatın mənşəyini, parametrləri, nəticələri və məhdudiyyətləri saxlayır.
@@ -48,6 +52,11 @@ python scripts/check_repository.py
 4. [RNA-Seq Gene Expression](projects/intermediate/rnaseq/README.md): real pasilla count matrix, dizayn kovariatı, PyDESeq2, PCA, heatmap və volcano.
 5. [Disease Classification](projects/intermediate/disease-classification/README.md): real Wisconsin breast cancer məlumatı, sızmasız cross-validation, ayrıca test dəsti və etibar intervalı.
 
+**Xam məlumatla işləyən əlavə icra:** altı real yeast RNA-seq sample-ında
+FASTQ → FastQC → STAR → featureCounts → PyDESeq2 → qrafiklər tamamlanıb.
+Xarici DNA test dəstində FASTQ → trimming → BWA → variant calling də işlədi.
+[Nəticələr və təkrar icra](results/raw-examples/README.md).
+
 ## Tədqiqat istiqamətləri
 
 Genomics, transcriptomics, proteomics, sequence analysis, structural bioinformatics, systems biology, computational biology və machine learning. [Layihə kataloqu](projects/IDEAS.md) bu sahələri beginner → intermediate → research ardıcıllığına bağlayır.
@@ -67,6 +76,6 @@ Python, Biopython, NumPy, pandas, SciPy, matplotlib, scikit-learn, statsmodels, 
 
 ## İnkişaf və gələcək iş
 
-[STATUS](STATUS.md) icra edilmiş işləri, [CHANGELOG](CHANGELOG.md) səkkiz qurulma mərhələsini, [roadmap](roadmap/README.md) isə keçid meyarlarını saxlayır. Sonrakı elmi prioritetlər: müstəqil cohort validasiyası, variant truth-set benchmark, single-cell donor-aware analiz və multi-omics inteqrasiyası.
+[STATUS](STATUS.md) icra edilmiş işləri, [CHANGELOG](CHANGELOG.md) qurulma mərhələlərini, [roadmap](roadmap/README.md) isə keçid meyarlarını saxlayır. Sonrakı elmi prioritetlər: müstəqil cohort validasiyası, variant truth-set benchmark, single-cell donor-aware analiz və multi-omics inteqrasiyası.
 
 Töhfə vermək: [CONTRIBUTING.md](CONTRIBUTING.md). Mənbə və data istifadəsi: [DATA_POLICY.md](DATA_POLICY.md). Citation məlumatı: [CITATION.cff](CITATION.cff).

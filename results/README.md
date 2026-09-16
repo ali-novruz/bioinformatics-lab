@@ -1,5 +1,9 @@
 # İlkin tədqiqat nəticələri
 
+Yeni: [Linux-da xam FASTQ-dan real RNA və xarici DNA nəticələri](raw-examples/README.md).
+Altı RNA sample-ında 300,000 read pair işləndi; 84 gen modelə daxil oldu.
+[Sintetik positive control](linux-smoke/README.md) ayrıca pipeline doğrulamasıdır.
+
 Bu hesabat faktiki local run-lardan avtomatik çıxarılan metriklərə əsaslanır. Məqalələrin orijinal benchmark-larının reproduksiyası deyil.
 
 | Analiz | Faktiki nəticə | Nə deməkdir? |

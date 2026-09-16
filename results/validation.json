@@ -1,6 +1,8 @@
 {
-  "local_tests": "14 passed",
-  "raw_workflows": "Bash syntax passed; Linux end-to-end execution not performed",
+  "local_tests": "16 passed (14 original + 2 raw-input regression tests)",
+  "raw_workflows": "Linux positive control and real RNA/external DNA runs passed",
+  "raw_run_url": "https://github.com/ali-novruz/bioinformatics-lab/actions/runs/35045137065",
+  "raw_snapshot_hashes": "all match",
   "notebooks": [
     {
       "notebook": "notebooks\\experiments\\02-alignment.ipynb",
@@ -33,7 +35,7 @@
       "errors": 0
     }
   ],
-  "example_run_source_fingerprints": "all match current Python files",
+  "example_run_source_fingerprints": "all recorded Python source hashes match current files",
   "captured_git_commits": "all reachable ancestors of delivery",
   "source_files_sha256": {
     "src\\biolab\\__init__.py": "e4b2f4dabe9b91e14c6c463ce8b80296c72a42afb9627900fffbe5e117339947",

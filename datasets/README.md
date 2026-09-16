@@ -6,6 +6,8 @@
 - [Wisconsin Diagnostic Breast Cancer](public-datasets/wdbc.md)
 - [Human insulin precursor sequence](public-datasets/uniprot.md)
 - [Crambin crystal structure](public-datasets/pdb.md)
+- [GSE110004 real xam RNA-seq — altı sample](public-datasets/raw-rnaseq.md)
+- [nf-core/sarek xarici DNA workflow nümunəsi](public-datasets/raw-variants.md)
 
 ## Böyük gələcək dataset-lər
 

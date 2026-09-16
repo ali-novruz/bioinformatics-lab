@@ -1,0 +1,29 @@
+samtools 1.19.2
+Using htslib 1.19
+Copyright (C) 2024 Genome Research Ltd.
+
+Samtools compilation details:
+    Features:       build=configure curses=yes 
+    CC:             gcc
+    CPPFLAGS:       -frelease  -Wdate-time -D_FORTIFY_SOURCE=3
+    CFLAGS:         -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=«BUILDPATH»=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=«BUILDPATH»=/usr/src/samtools-1.19.2-1build2
+    LDFLAGS:        -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -Wl,-z,relro -Wl,-z,now
+    HTSDIR:         
+    LIBS:           
+    CURSES_LIB:     -lcurses
+
+HTSlib compilation details:
+    Features:       build=configure libcurl=yes S3=yes GCS=yes libdeflate=yes lzma=yes bzip2=yes plugins=yes plugin-path=/usr/local/lib/htslib:/usr/local/libexec/htslib:/usr/lib/x86_64-linux-gnu/htslib: htscodecs=1.6.0
+    CC:             gcc
+    CPPFLAGS:       -I. -DSAMTOOLS=1 -Wdate-time -D_FORTIFY_SOURCE=3
+    CFLAGS:         -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer  -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/htslib-TVzaVS/htslib-1.19+ds=/usr/src/htslib-1.19+ds-1.1build3 -ffat-lto-objects -ffat-lto-objects
+    LDFLAGS:        -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -Wl,-z,relro -Wl,-z,now -Wl,-flto -fvisibility=hidden -ffat-lto-objects -fvisibility=hidden -rdynamic
+
+HTSlib URL scheme handlers present:
+    built-in:	 preload, data, file
+    S3 Multipart Upload:	 s3w, s3w+https, s3w+http
+    Amazon S3:	 s3+https, s3+http, s3
+    Google Cloud Storage:	 gs+http, gs+https, gs
+    libcurl:	 imaps, pop3, gophers, http, smb, gopher, sftp, ftps, imap, rtmpte, smtp, smtps, rtsp, rtmpe, scp, ftp, telnet, mqtt, rtmp, ldap, https, ldaps, rtmps, rtmpt, pop3s, rtmpts, tftp, smbs, dict
+    crypt4gh-needed:	 crypt4gh
+    mem:	 mem

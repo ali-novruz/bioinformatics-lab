@@ -39,3 +39,18 @@ Kiçik paired FASTQ/reference/GTF fixture-ləri əlavə edildi. GitHub Actions L
 ## Stage 10 — Repository hygiene
 
 CITATION.cff, issue şablonları və pull request checklist əlavə edildi. Üçüncü tərəf mənbələrinin istifadə şərtləri DATA_POLICY-də saxlanılır.
+
+## Stage 11 — Verified Linux runs (2026-09-16)
+
+İlk smoke fixture-dəki FASTQ keyfiyyət uzunluğu xətası və təkrarlanan reference
+əvəz edildi. Deterministik positive control bir məlum PASS variant və 422
+assigned fragment tələb edir; Linux-da keçdi. İki regression test əlavə edildi.
+
+25 fayl immutable Git revision və SHA-256 ilə sabitləşdirildi. Altı real
+GSE110004 RNA-seq sample-ında FASTQ-dan PyDESeq2 və üç qrafikə qədər yol
+tamamlandı. Xarici nf-core/sarek DNA fixture-i 32 variant verdi (27 PASS).
+FastQC statusları, input/source hashes, tool versiyaları və kiçik nəticələr
+repoda saxlanıldı. 300,000 RNA read pair və 84 model gene analiz edildi.
+
+Repo giriş bələdçisi, data kartları və nəticə keçidləri yeniləndi.
+GitHub Actions komponentləri cari release commit-lərinə sabitləşdirildi.

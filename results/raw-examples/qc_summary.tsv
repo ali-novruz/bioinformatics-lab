@@ -1,0 +1,165 @@
+report	file	module	status
+rnaseq/SRR6357073/qc/SRR6357073_1_fastqc.zip	SRR6357073_1.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357073/qc/SRR6357073_1_fastqc.zip	SRR6357073_1.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357073/qc/SRR6357073_1_fastqc.zip	SRR6357073_1.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357073/qc/SRR6357073_1_fastqc.zip	SRR6357073_1.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357073/qc/SRR6357073_1_fastqc.zip	SRR6357073_1.fastq.gz	Per sequence GC content	WARN
+rnaseq/SRR6357073/qc/SRR6357073_1_fastqc.zip	SRR6357073_1.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357073/qc/SRR6357073_1_fastqc.zip	SRR6357073_1.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357073/qc/SRR6357073_1_fastqc.zip	SRR6357073_1.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357073/qc/SRR6357073_1_fastqc.zip	SRR6357073_1.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357073/qc/SRR6357073_1_fastqc.zip	SRR6357073_1.fastq.gz	Adapter Content	PASS
+rnaseq/SRR6357073/qc/SRR6357073_2_fastqc.zip	SRR6357073_2.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357073/qc/SRR6357073_2_fastqc.zip	SRR6357073_2.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357073/qc/SRR6357073_2_fastqc.zip	SRR6357073_2.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357073/qc/SRR6357073_2_fastqc.zip	SRR6357073_2.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357073/qc/SRR6357073_2_fastqc.zip	SRR6357073_2.fastq.gz	Per sequence GC content	PASS
+rnaseq/SRR6357073/qc/SRR6357073_2_fastqc.zip	SRR6357073_2.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357073/qc/SRR6357073_2_fastqc.zip	SRR6357073_2.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357073/qc/SRR6357073_2_fastqc.zip	SRR6357073_2.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357073/qc/SRR6357073_2_fastqc.zip	SRR6357073_2.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357073/qc/SRR6357073_2_fastqc.zip	SRR6357073_2.fastq.gz	Adapter Content	PASS
+rnaseq/SRR6357074/qc/SRR6357074_1_fastqc.zip	SRR6357074_1.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357074/qc/SRR6357074_1_fastqc.zip	SRR6357074_1.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357074/qc/SRR6357074_1_fastqc.zip	SRR6357074_1.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357074/qc/SRR6357074_1_fastqc.zip	SRR6357074_1.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357074/qc/SRR6357074_1_fastqc.zip	SRR6357074_1.fastq.gz	Per sequence GC content	WARN
+rnaseq/SRR6357074/qc/SRR6357074_1_fastqc.zip	SRR6357074_1.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357074/qc/SRR6357074_1_fastqc.zip	SRR6357074_1.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357074/qc/SRR6357074_1_fastqc.zip	SRR6357074_1.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357074/qc/SRR6357074_1_fastqc.zip	SRR6357074_1.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357074/qc/SRR6357074_1_fastqc.zip	SRR6357074_1.fastq.gz	Adapter Content	PASS
+rnaseq/SRR6357074/qc/SRR6357074_2_fastqc.zip	SRR6357074_2.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357074/qc/SRR6357074_2_fastqc.zip	SRR6357074_2.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357074/qc/SRR6357074_2_fastqc.zip	SRR6357074_2.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357074/qc/SRR6357074_2_fastqc.zip	SRR6357074_2.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357074/qc/SRR6357074_2_fastqc.zip	SRR6357074_2.fastq.gz	Per sequence GC content	WARN
+rnaseq/SRR6357074/qc/SRR6357074_2_fastqc.zip	SRR6357074_2.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357074/qc/SRR6357074_2_fastqc.zip	SRR6357074_2.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357074/qc/SRR6357074_2_fastqc.zip	SRR6357074_2.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357074/qc/SRR6357074_2_fastqc.zip	SRR6357074_2.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357074/qc/SRR6357074_2_fastqc.zip	SRR6357074_2.fastq.gz	Adapter Content	PASS
+rnaseq/SRR6357075/qc/SRR6357075_1_fastqc.zip	SRR6357075_1.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357075/qc/SRR6357075_1_fastqc.zip	SRR6357075_1.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357075/qc/SRR6357075_1_fastqc.zip	SRR6357075_1.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357075/qc/SRR6357075_1_fastqc.zip	SRR6357075_1.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357075/qc/SRR6357075_1_fastqc.zip	SRR6357075_1.fastq.gz	Per sequence GC content	WARN
+rnaseq/SRR6357075/qc/SRR6357075_1_fastqc.zip	SRR6357075_1.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357075/qc/SRR6357075_1_fastqc.zip	SRR6357075_1.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357075/qc/SRR6357075_1_fastqc.zip	SRR6357075_1.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357075/qc/SRR6357075_1_fastqc.zip	SRR6357075_1.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357075/qc/SRR6357075_1_fastqc.zip	SRR6357075_1.fastq.gz	Adapter Content	PASS
+rnaseq/SRR6357075/qc/SRR6357075_2_fastqc.zip	SRR6357075_2.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357075/qc/SRR6357075_2_fastqc.zip	SRR6357075_2.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357075/qc/SRR6357075_2_fastqc.zip	SRR6357075_2.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357075/qc/SRR6357075_2_fastqc.zip	SRR6357075_2.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357075/qc/SRR6357075_2_fastqc.zip	SRR6357075_2.fastq.gz	Per sequence GC content	WARN
+rnaseq/SRR6357075/qc/SRR6357075_2_fastqc.zip	SRR6357075_2.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357075/qc/SRR6357075_2_fastqc.zip	SRR6357075_2.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357075/qc/SRR6357075_2_fastqc.zip	SRR6357075_2.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357075/qc/SRR6357075_2_fastqc.zip	SRR6357075_2.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357075/qc/SRR6357075_2_fastqc.zip	SRR6357075_2.fastq.gz	Adapter Content	PASS
+rnaseq/SRR6357076/qc/SRR6357076_1_fastqc.zip	SRR6357076_1.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357076/qc/SRR6357076_1_fastqc.zip	SRR6357076_1.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357076/qc/SRR6357076_1_fastqc.zip	SRR6357076_1.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357076/qc/SRR6357076_1_fastqc.zip	SRR6357076_1.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357076/qc/SRR6357076_1_fastqc.zip	SRR6357076_1.fastq.gz	Per sequence GC content	WARN
+rnaseq/SRR6357076/qc/SRR6357076_1_fastqc.zip	SRR6357076_1.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357076/qc/SRR6357076_1_fastqc.zip	SRR6357076_1.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357076/qc/SRR6357076_1_fastqc.zip	SRR6357076_1.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357076/qc/SRR6357076_1_fastqc.zip	SRR6357076_1.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357076/qc/SRR6357076_1_fastqc.zip	SRR6357076_1.fastq.gz	Adapter Content	PASS
+rnaseq/SRR6357076/qc/SRR6357076_2_fastqc.zip	SRR6357076_2.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357076/qc/SRR6357076_2_fastqc.zip	SRR6357076_2.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357076/qc/SRR6357076_2_fastqc.zip	SRR6357076_2.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357076/qc/SRR6357076_2_fastqc.zip	SRR6357076_2.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357076/qc/SRR6357076_2_fastqc.zip	SRR6357076_2.fastq.gz	Per sequence GC content	WARN
+rnaseq/SRR6357076/qc/SRR6357076_2_fastqc.zip	SRR6357076_2.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357076/qc/SRR6357076_2_fastqc.zip	SRR6357076_2.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357076/qc/SRR6357076_2_fastqc.zip	SRR6357076_2.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357076/qc/SRR6357076_2_fastqc.zip	SRR6357076_2.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357076/qc/SRR6357076_2_fastqc.zip	SRR6357076_2.fastq.gz	Adapter Content	PASS
+rnaseq/SRR6357077/qc/SRR6357077_1_fastqc.zip	SRR6357077_1.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357077/qc/SRR6357077_1_fastqc.zip	SRR6357077_1.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357077/qc/SRR6357077_1_fastqc.zip	SRR6357077_1.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357077/qc/SRR6357077_1_fastqc.zip	SRR6357077_1.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357077/qc/SRR6357077_1_fastqc.zip	SRR6357077_1.fastq.gz	Per sequence GC content	WARN
+rnaseq/SRR6357077/qc/SRR6357077_1_fastqc.zip	SRR6357077_1.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357077/qc/SRR6357077_1_fastqc.zip	SRR6357077_1.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357077/qc/SRR6357077_1_fastqc.zip	SRR6357077_1.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357077/qc/SRR6357077_1_fastqc.zip	SRR6357077_1.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357077/qc/SRR6357077_1_fastqc.zip	SRR6357077_1.fastq.gz	Adapter Content	PASS
+rnaseq/SRR6357077/qc/SRR6357077_2_fastqc.zip	SRR6357077_2.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357077/qc/SRR6357077_2_fastqc.zip	SRR6357077_2.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357077/qc/SRR6357077_2_fastqc.zip	SRR6357077_2.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357077/qc/SRR6357077_2_fastqc.zip	SRR6357077_2.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357077/qc/SRR6357077_2_fastqc.zip	SRR6357077_2.fastq.gz	Per sequence GC content	WARN
+rnaseq/SRR6357077/qc/SRR6357077_2_fastqc.zip	SRR6357077_2.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357077/qc/SRR6357077_2_fastqc.zip	SRR6357077_2.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357077/qc/SRR6357077_2_fastqc.zip	SRR6357077_2.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357077/qc/SRR6357077_2_fastqc.zip	SRR6357077_2.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357077/qc/SRR6357077_2_fastqc.zip	SRR6357077_2.fastq.gz	Adapter Content	PASS
+rnaseq/SRR6357078/qc/SRR6357078_1_fastqc.zip	SRR6357078_1.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357078/qc/SRR6357078_1_fastqc.zip	SRR6357078_1.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357078/qc/SRR6357078_1_fastqc.zip	SRR6357078_1.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357078/qc/SRR6357078_1_fastqc.zip	SRR6357078_1.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357078/qc/SRR6357078_1_fastqc.zip	SRR6357078_1.fastq.gz	Per sequence GC content	WARN
+rnaseq/SRR6357078/qc/SRR6357078_1_fastqc.zip	SRR6357078_1.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357078/qc/SRR6357078_1_fastqc.zip	SRR6357078_1.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357078/qc/SRR6357078_1_fastqc.zip	SRR6357078_1.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357078/qc/SRR6357078_1_fastqc.zip	SRR6357078_1.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357078/qc/SRR6357078_1_fastqc.zip	SRR6357078_1.fastq.gz	Adapter Content	PASS
+rnaseq/SRR6357078/qc/SRR6357078_2_fastqc.zip	SRR6357078_2.fastq.gz	Basic Statistics	PASS
+rnaseq/SRR6357078/qc/SRR6357078_2_fastqc.zip	SRR6357078_2.fastq.gz	Per base sequence quality	PASS
+rnaseq/SRR6357078/qc/SRR6357078_2_fastqc.zip	SRR6357078_2.fastq.gz	Per sequence quality scores	PASS
+rnaseq/SRR6357078/qc/SRR6357078_2_fastqc.zip	SRR6357078_2.fastq.gz	Per base sequence content	FAIL
+rnaseq/SRR6357078/qc/SRR6357078_2_fastqc.zip	SRR6357078_2.fastq.gz	Per sequence GC content	WARN
+rnaseq/SRR6357078/qc/SRR6357078_2_fastqc.zip	SRR6357078_2.fastq.gz	Per base N content	PASS
+rnaseq/SRR6357078/qc/SRR6357078_2_fastqc.zip	SRR6357078_2.fastq.gz	Sequence Length Distribution	PASS
+rnaseq/SRR6357078/qc/SRR6357078_2_fastqc.zip	SRR6357078_2.fastq.gz	Sequence Duplication Levels	FAIL
+rnaseq/SRR6357078/qc/SRR6357078_2_fastqc.zip	SRR6357078_2.fastq.gz	Overrepresented sequences	WARN
+rnaseq/SRR6357078/qc/SRR6357078_2_fastqc.zip	SRR6357078_2.fastq.gz	Adapter Content	PASS
+variants/qc_clean/R1.clean_fastqc.zip	R1.clean.fq.gz	Basic Statistics	PASS
+variants/qc_clean/R1.clean_fastqc.zip	R1.clean.fq.gz	Per base sequence quality	PASS
+variants/qc_clean/R1.clean_fastqc.zip	R1.clean.fq.gz	Per tile sequence quality	PASS
+variants/qc_clean/R1.clean_fastqc.zip	R1.clean.fq.gz	Per sequence quality scores	PASS
+variants/qc_clean/R1.clean_fastqc.zip	R1.clean.fq.gz	Per base sequence content	PASS
+variants/qc_clean/R1.clean_fastqc.zip	R1.clean.fq.gz	Per sequence GC content	FAIL
+variants/qc_clean/R1.clean_fastqc.zip	R1.clean.fq.gz	Per base N content	PASS
+variants/qc_clean/R1.clean_fastqc.zip	R1.clean.fq.gz	Sequence Length Distribution	WARN
+variants/qc_clean/R1.clean_fastqc.zip	R1.clean.fq.gz	Sequence Duplication Levels	PASS
+variants/qc_clean/R1.clean_fastqc.zip	R1.clean.fq.gz	Overrepresented sequences	WARN
+variants/qc_clean/R1.clean_fastqc.zip	R1.clean.fq.gz	Adapter Content	PASS
+variants/qc_clean/R2.clean_fastqc.zip	R2.clean.fq.gz	Basic Statistics	PASS
+variants/qc_clean/R2.clean_fastqc.zip	R2.clean.fq.gz	Per base sequence quality	PASS
+variants/qc_clean/R2.clean_fastqc.zip	R2.clean.fq.gz	Per tile sequence quality	PASS
+variants/qc_clean/R2.clean_fastqc.zip	R2.clean.fq.gz	Per sequence quality scores	PASS
+variants/qc_clean/R2.clean_fastqc.zip	R2.clean.fq.gz	Per base sequence content	PASS
+variants/qc_clean/R2.clean_fastqc.zip	R2.clean.fq.gz	Per sequence GC content	FAIL
+variants/qc_clean/R2.clean_fastqc.zip	R2.clean.fq.gz	Per base N content	PASS
+variants/qc_clean/R2.clean_fastqc.zip	R2.clean.fq.gz	Sequence Length Distribution	WARN
+variants/qc_clean/R2.clean_fastqc.zip	R2.clean.fq.gz	Sequence Duplication Levels	PASS
+variants/qc_clean/R2.clean_fastqc.zip	R2.clean.fq.gz	Overrepresented sequences	WARN
+variants/qc_clean/R2.clean_fastqc.zip	R2.clean.fq.gz	Adapter Content	PASS
+variants/qc_raw/R1_fastqc.zip	R1.fastq.gz	Basic Statistics	PASS
+variants/qc_raw/R1_fastqc.zip	R1.fastq.gz	Per base sequence quality	FAIL
+variants/qc_raw/R1_fastqc.zip	R1.fastq.gz	Per tile sequence quality	WARN
+variants/qc_raw/R1_fastqc.zip	R1.fastq.gz	Per sequence quality scores	PASS
+variants/qc_raw/R1_fastqc.zip	R1.fastq.gz	Per base sequence content	PASS
+variants/qc_raw/R1_fastqc.zip	R1.fastq.gz	Per sequence GC content	FAIL
+variants/qc_raw/R1_fastqc.zip	R1.fastq.gz	Per base N content	PASS
+variants/qc_raw/R1_fastqc.zip	R1.fastq.gz	Sequence Length Distribution	PASS
+variants/qc_raw/R1_fastqc.zip	R1.fastq.gz	Sequence Duplication Levels	PASS
+variants/qc_raw/R1_fastqc.zip	R1.fastq.gz	Overrepresented sequences	WARN
+variants/qc_raw/R1_fastqc.zip	R1.fastq.gz	Adapter Content	PASS
+variants/qc_raw/R2_fastqc.zip	R2.fastq.gz	Basic Statistics	PASS
+variants/qc_raw/R2_fastqc.zip	R2.fastq.gz	Per base sequence quality	FAIL
+variants/qc_raw/R2_fastqc.zip	R2.fastq.gz	Per tile sequence quality	WARN
+variants/qc_raw/R2_fastqc.zip	R2.fastq.gz	Per sequence quality scores	PASS
+variants/qc_raw/R2_fastqc.zip	R2.fastq.gz	Per base sequence content	PASS
+variants/qc_raw/R2_fastqc.zip	R2.fastq.gz	Per sequence GC content	FAIL
+variants/qc_raw/R2_fastqc.zip	R2.fastq.gz	Per base N content	PASS
+variants/qc_raw/R2_fastqc.zip	R2.fastq.gz	Sequence Length Distribution	PASS
+variants/qc_raw/R2_fastqc.zip	R2.fastq.gz	Sequence Duplication Levels	PASS
+variants/qc_raw/R2_fastqc.zip	R2.fastq.gz	Overrepresented sequences	WARN
+variants/qc_raw/R2_fastqc.zip	R2.fastq.gz	Adapter Content	PASS

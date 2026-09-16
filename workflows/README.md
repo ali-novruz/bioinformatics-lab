@@ -1,8 +1,27 @@
 # Xam data-dan analizə
 
-**Status:** Bash workflow-ları yazılıb və sintaksis yoxlaması nəzərdə tutulub; bu Windows host-da işlək Linux/Docker olmadığı üçün real sequencing icrası edilməyib. Python VCF və RNA count analizləri ayrıca faktiki icra olunub. Bunları qarışdırmayın.
+**Status:** Linux positive-control sınağı keçib: tək məlum variant düzgün tapılıb, 422/422 fragment genə sayılıb. [İcra sübutu](https://github.com/ali-novruz/bioinformatics-lab/actions/runs/35044952917). Real və xarici dataset icralarının nəticələri [STATUS](../STATUS.md)-da saxlanılır.
 
-GitHub Actions Linux smoke job-u bu workflow-ları kiçik sintetik reference/read-lərlə icra edir. Bu job production-scale performance və biological accuracy benchmark-ı deyil, komandaların işləkliyini yoxlayan regression testidir. Windows/local yoxlaması üçün `SKIP_QC=1 SKIP_MULTIQC=1` mühit dəyişənləri ilə ağır report addımlarını keçmək mümkündür.
+GitHub Actions Linux smoke job-u hər push-da deterministik sintetik reference/read-lərlə variant truth-u və assigned count hədlərini yoxlayır. Bu, production-scale performance benchmark-ı deyil. `SKIP_QC=1 SKIP_MULTIQC=1` yalnız hesabat addımlarını keçir; BWA/STAR üçün yenə Linux alətləri lazımdır.
+
+## Sabit kiçik dataset-lərlə tam icra
+
+```bash
+python -m pip install -e '.[research]' 'multiqc>=1.27,<2'
+python scripts/run_raw_examples.py --output results/runs/raw-examples-001
+```
+
+FastQC, STAR, featureCounts, BWA, SAMtools, BCFtools və Cutadapt PATH-da olmalıdır.
+Skript 25 hash-yoxlanmış faylı (təxminən 28.5 MB) endirir. Altı real yeast RNA
+sample-ı və ayrıca xarici DNA test dataset-i işləyir. Bütün QC/MultiQC addımları açıqdır.
+Mövcud output qovluğu üzərinə yazılmır.
+
+GitHub-da **Actions → Real raw-read examples → Run workflow** eyni işi Linux-da
+icra edir. Artifact-də tool versiyaları, input/source hash-ləri, QC hesabatları,
+counts, VCF və qrafiklər saxlanılır; böyük BAM/index/FASTQ çıxarılıb.
+Artifact saxlanma müddəti 14 gündür; daimi kiçik nəticələr repoda ayrıca saxlanılır.
+[RNA data kartı](../datasets/public-datasets/raw-rnaseq.md) və
+[DNA data kartı](../datasets/public-datasets/raw-variants.md) interpretasiya şərtlərini göstərir.
 
 ## Genomics — paired-end DNA
 

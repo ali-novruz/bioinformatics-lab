@@ -1,0 +1,8 @@
+{
+  "dataset": "nf-core/sarek tiny normal, five lanes",
+  "mapped_reads": 5139,
+  "variant_records": 32,
+  "pass_records": 27,
+  "annotation": "not run: no compatible GFF3 supplied",
+  "limitation": "External integration fixture; donor provenance and truth set not established; not a biological or clinical benchmark"
+}

@@ -33,7 +33,19 @@ Linux/WSL və Conda/Mamba tələb olunur:
 conda env create -f workflows/environment.yml
 conda activate biolab-raw
 ```
-Bu mühit burada yaradılıb işlədilməyib. Genome index böyük RAM/disk tələb edə bilər; kiçik genomla başlayın. [Workflow təlimatı](workflows/README.md) input və parametr şərtlərini verir.
+Bu Conda YAML alternativ lokal quraşdırma reseptidir; CI-də yoxlanmış quraşdırma
+[raw-examples.yml](.github/workflows/raw-examples.yml)-dəki Conda + Ubuntu + pip
+addımlarıdır. Artifact faktiki versiyaları saxlayır. Genome index böyük RAM/disk
+tələb edə bilər; kiçik genomla başlayın. [Workflow təlimatı](workflows/README.md)
+input və parametr şərtlərini verir.
+
+Windows-da Linux quraşdırmadan sınaq üçün GitHub-da **Actions → Real raw-read
+examples → Run workflow** seçin. Linux olan maşında eyni icra:
+
+```bash
+python -m pip install -e '.[research]' 'multiqc>=1.27,<2'
+python scripts/run_raw_examples.py --output results/runs/raw-examples-001
+```
 
 ## Tipik problemlər
 

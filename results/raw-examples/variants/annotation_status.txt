@@ -1,0 +1,1 @@
+Consequence annotation NOT RUN: provide compatible GFF3, or run VEP/SnpEff with matching assembly.

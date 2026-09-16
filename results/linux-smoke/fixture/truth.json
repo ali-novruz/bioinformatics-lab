@@ -1,0 +1,10 @@
+{
+  "kind": "synthetic software fixture; not biological evidence",
+  "seed": 20260916,
+  "chrom": "toy",
+  "position": 2500,
+  "ref": "A",
+  "alt": "C",
+  "pairs": 422,
+  "gene": "toy_gene"
+}

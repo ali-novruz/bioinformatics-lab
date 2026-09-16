@@ -1,0 +1,37 @@
+                                 Started job on |	Sep 16 01:46:27
+                             Started mapping on |	Sep 16 01:46:27
+                                    Finished on |	Sep 16 01:46:52
+       Mapping speed, Million of reads per hour |	7.20
+
+                          Number of input reads |	50000
+                      Average input read length |	202
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |	42489
+                        Uniquely mapped reads % |	84.98%
+                          Average mapped length |	199.67
+                       Number of splices: Total |	580
+            Number of splices: Annotated (sjdb) |	331
+                       Number of splices: GT/AG |	458
+                       Number of splices: GC/AG |	1
+                       Number of splices: AT/AC |	3
+               Number of splices: Non-canonical |	118
+                      Mismatch rate per base, % |	0.83%
+                         Deletion rate per base |	0.02%
+                        Deletion average length |	1.18
+                        Insertion rate per base |	0.00%
+                       Insertion average length |	1.09
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |	924
+             % of reads mapped to multiple loci |	1.85%
+        Number of reads mapped to too many loci |	0
+             % of reads mapped to too many loci |	0.00%
+                                  UNMAPPED READS:
+  Number of reads unmapped: too many mismatches |	0
+       % of reads unmapped: too many mismatches |	0.00%
+            Number of reads unmapped: too short |	3217
+                 % of reads unmapped: too short |	6.43%
+                Number of reads unmapped: other |	3370
+                     % of reads unmapped: other |	6.74%
+                                  CHIMERIC READS:
+                       Number of chimeric reads |	0
+                            % of chimeric reads |	0.00%

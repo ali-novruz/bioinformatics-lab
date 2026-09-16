@@ -17,7 +17,9 @@ RNA 1113 FDR discoveries; WDBC AUROC 0.996226; VCF 1003 ALT alleles. Ətraflı n
 ## Observations
 VCF record/ALT sayları fərqlidir; RNA library type kovariatı var; ML morphology cohort-dur.
 ## Errors
-Python layihələri uğurla tamamlandı. Notebook runtime Windows event-loop/transport xəbərdarlığı verdi; execution error olmadı. Raw BWA/STAR workflow-ları Linux/Docker runtime olmadığı üçün icra edilmədi. Firecrawl rate limit olduqda qalan mənbələr sonrakı sorğuda alındı.
+Python layihələri uğurla tamamlandı. Notebook runtime Windows event-loop/transport xəbərdarlığı verdi; execution error olmadı. Bu ilkin icrada raw BWA/STAR workflow-ları Linux/Docker runtime olmadığı üçün icra edilmədi. Firecrawl rate limit olduqda qalan mənbələr sonrakı sorğuda alındı.
+
+2026-09-16 yeniləməsi: [raw-002](raw-002.md) Linux-da xam workflow-ları sonradan uğurla icra etdi; bu ilkin qeyd həmin tarixin müşahidəsini saxlayır.
 ## Interpretation
 Pipeline-lar təkrar icra olunan baseline yaradır; original papers benchmark-ları reproduce edilməyib. Məhdudiyyətlər results/README.md-də.
 ## Next Experiment

@@ -1,0 +1,29 @@
+{
+  "git_commit": "1a5428c2f19a75e979a2b2fe1e0b8ce74ba9d28f",
+  "github_run_id": "35045137065",
+  "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+  "source_files_sha256": {
+    "scripts/run_projects.py": "a6dcb54d3e43026c4d5a8da21326ff3c356e99b1cff3d48387b9b451aa17c3db",
+    "scripts/analyze_counts.py": "8ee2fdedbb222f902d352d04e222d78a00219aad99061e5bc69d96f552ea5eef",
+    "scripts/fetch_raw_examples.py": "c54c4235de86ff3c2e0e067453e3ceabce086a6393e8418e0c617da57361248e",
+    "scripts/fetch_data.py": "31d5acfc5fad6ad611a6fa347d98d00911a21a98fd61c35cdb50fe62e551b2af",
+    "scripts/check_repository.py": "89d1dc01dfe4531030b97cc36cb0aa7a3c5a6b96e81ff9814476da55c7e024ca",
+    "scripts/make_visualizations.py": "f80a2eecbc7fee09ac26337836b22185c5a65d77ca302f6558531b25afa5e1a7",
+    "scripts/run_raw_examples.py": "2e336276e329a78d9e61afe996fb614a765a9e7ea7ea582b18145d92b1535de4",
+    "scripts/combine_counts.py": "2abb9fc2c5f5bec07a699558ffd46dd862d1a0954faf2a68f1bd1a78c2dcf61f",
+    "scripts/validate_raw_fixture.py": "5b32d3e4733d3fe19ba3760fd46e543946ef90befb2375c65265bfac498bbc22",
+    "scripts/create_raw_fixture.py": "82d700f166a0bf70b43a854487edf13f06174288e6bb3ba32540cf8026e40d34",
+    "scripts/protein_project.py": "e0e1da7404c31e679ab5bc8b8527439bc4dcf48880eb3a616dfeddaa9276d176",
+    "workflows/variants.sh": "e7aae494d6559fab769b9654e00efb78074ae565efb1392c325a91a7431b9fba",
+    "workflows/rnaseq.sh": "087f5d702d544ff65ec5dba9d436671b0e8b589ecff427a4b09135f895d95a66",
+    "src/biolab/sequence.py": "551e409bae16be6f2e8842d3d1a1ae59bae51cfc9f0b5984501771998604a8b4",
+    "src/biolab/__init__.py": "e4b2f4dabe9b91e14c6c463ce8b80296c72a42afb9627900fffbe5e117339947",
+    "src/biolab/statistics.py": "fea2ac43cb15c45475a189edfffdbd7739241727b855e938041334b91664ea3b",
+    "src/biolab/transcriptomics.py": "97460555bc89558ed9ebf68759d574102644adfb7c8fb82e2c677f96a09c8112",
+    "src/biolab/genomics.py": "49facb3fbfbb7c65f2c90b95da61950c18ee3621063b017b03edc735ad5c2078",
+    "src/biolab/io.py": "614986f1711c4c7b13bf713139a9f77dacebc606b7ee561dbf976e296b97494e",
+    "src/biolab/reporting.py": "5e43ad6f2cecef82f688d22115954651f0777fcbe702484b5a8277dd8ba8ccef",
+    "src/biolab/cli.py": "fab5005084ea1dfb858d668736be05a1d0163b00b931bb59c941226d9a904970",
+    "src/biolab/ml.py": "21d9ea6e617de9fabfd98d98783b3051da87511b7b4a77d14db1e7f2789593a4"
+  }
+}

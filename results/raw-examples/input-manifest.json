@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "source_repository": "https://github.com/nf-core/test-datasets",
+  "revisions": {
+    "rnaseq": "e07c1b158d1c4c9ea7978959d31e651098bec581",
+    "variants": "24cdbea48c4415a29f668a724ce602fef8fed813"
+  },
+  "files": [
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/genome.fa",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/reference/genome.fa",
+      "sha256": "df70973809f672aa58a414fef3f01e0e465bf26f10159174a616b0dee2d458e1",
+      "bytes": 234058
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/genes.gtf",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/reference/genes.gtf",
+      "sha256": "8d9e66311d90f14517cdb8683066d4b376547ea7c2153b05b510fb9ba7988835",
+      "bytes": 204286
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357073_1.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357073_1.fastq.gz",
+      "sha256": "c564e722216fb74116b237cc88d76cd33cf198216fb01fd9febd735a4503d18f",
+      "bytes": 2253497
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357073_2.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357073_2.fastq.gz",
+      "sha256": "599adca68abe6a6116802fb2134104cfcc545d397edb49c070e4a443831226f8",
+      "bytes": 2282958
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357074_1.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357074_1.fastq.gz",
+      "sha256": "4070413e6493a5c4bd01f9f123ccfa0ed1c449cf2f9618acf6c21b110bbd2c4e",
+      "bytes": 2289662
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357074_2.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357074_2.fastq.gz",
+      "sha256": "74d337290dde789a8992e7fcd57e3aa5550f43ff736d2bf5d8dcff44c0cde996",
+      "bytes": 2271106
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357075_1.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357075_1.fastq.gz",
+      "sha256": "b527be22d1862fcda1d5a038e66bdb1afdca5de3236d3e042669c6f515a14a39",
+      "bytes": 2207238
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357075_2.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357075_2.fastq.gz",
+      "sha256": "aa7c234979c8e7db7732b80cf1fcde6d484ac9e8f2b1e94429c1b8fe6b87a669",
+      "bytes": 2199360
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357076_1.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357076_1.fastq.gz",
+      "sha256": "1ba6b60cd24c8abf1db57dec5a13b23eeb35beece6193af8ce6f9bac4fd4546f",
+      "bytes": 2268588
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357076_2.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357076_2.fastq.gz",
+      "sha256": "4a04e6de648091eb42d703f67489d87e929544af478ce5e28b0c790f79a82a5d",
+      "bytes": 2250281
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357077_1.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357077_1.fastq.gz",
+      "sha256": "0c347027e547a4dc823e367f5474c8c9d71e19d2a6f258056c1b60bbb18c8074",
+      "bytes": 2193777
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357077_2.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357077_2.fastq.gz",
+      "sha256": "30732b850d29ea3ffcfc8bd25d1dc312ba68452e17778e66bc57515baebbda00",
+      "bytes": 2194219
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357078_1.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357078_1.fastq.gz",
+      "sha256": "dbcdc552d470f9aa49fab697615cb6be9b223ad0c21ef5f65bd9e0d1b4f7f29f",
+      "bytes": 2208999
+    },
+    {
+      "dataset": "rnaseq",
+      "path": "rnaseq/SRR6357078_2.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/e07c1b158d1c4c9ea7978959d31e651098bec581/testdata/GSE110004/SRR6357078_2.fastq.gz",
+      "sha256": "2afebab71ed1642f468230c677d7cc2b62c34646144c8b20f7b4a0da86b94432",
+      "bytes": 2221027
+    },
+    {
+      "dataset": "variants",
+      "path": "variants/reference.fa",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/24cdbea48c4415a29f668a724ce602fef8fed813/reference/human_g1k_v37_decoy.small.fasta",
+      "sha256": "e6da32e7a11739023a513ec4f4bf32a96d13a0cb7cbb2b64c2367bca3ca550ff",
+      "bytes": 818613
+    },
+    {
+      "dataset": "variants",
+      "path": "variants/tiny_n_L001_R1_xxx.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/24cdbea48c4415a29f668a724ce602fef8fed813/testdata/tiny/normal/tiny_n_L001_R1_xxx.fastq.gz",
+      "sha256": "f30c6fc07ec1e0b39fcb75b10993bafba5c15fa8f921cda8420bfd50480968a1",
+      "bytes": 45010
+    },
+    {
+      "dataset": "variants",
+      "path": "variants/tiny_n_L001_R2_xxx.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/24cdbea48c4415a29f668a724ce602fef8fed813/testdata/tiny/normal/tiny_n_L001_R2_xxx.fastq.gz",
+      "sha256": "72992beff1ed767f98c925473c7859f0372847dcac994035bfdd1de0a651d114",
+      "bytes": 47703
+    },
+    {
+      "dataset": "variants",
+      "path": "variants/tiny_n_L002_R1_xxx.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/24cdbea48c4415a29f668a724ce602fef8fed813/testdata/tiny/normal/tiny_n_L002_R1_xxx.fastq.gz",
+      "sha256": "df0719aa59ee3c0e76064691c8a1e14b8728ddc14241f7a648a07b6f9370287d",
+      "bytes": 45431
+    },
+    {
+      "dataset": "variants",
+      "path": "variants/tiny_n_L002_R2_xxx.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/24cdbea48c4415a29f668a724ce602fef8fed813/testdata/tiny/normal/tiny_n_L002_R2_xxx.fastq.gz",
+      "sha256": "ccda5d2c931da22f9784611e3fb1e800b1a283df871a3ea3af211ef39111b45b",
+      "bytes": 47941
+    },
+    {
+      "dataset": "variants",
+      "path": "variants/tiny_n_L004_R1_xxx.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/24cdbea48c4415a29f668a724ce602fef8fed813/testdata/tiny/normal/tiny_n_L004_R1_xxx.fastq.gz",
+      "sha256": "6566ba4e2cb83095c39da57984ca60368f06a6ddd7bb3e434a70dc2d1e4fd570",
+      "bytes": 44140
+    },
+    {
+      "dataset": "variants",
+      "path": "variants/tiny_n_L004_R2_xxx.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/24cdbea48c4415a29f668a724ce602fef8fed813/testdata/tiny/normal/tiny_n_L004_R2_xxx.fastq.gz",
+      "sha256": "517db75ea02f3fa6e33dc946debb792757aefbb3b37e36017a40329dc6c23307",
+      "bytes": 44343
+    },
+    {
+      "dataset": "variants",
+      "path": "variants/tiny_n_L007_R1_xxx.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/24cdbea48c4415a29f668a724ce602fef8fed813/testdata/tiny/normal/tiny_n_L007_R1_xxx.fastq.gz",
+      "sha256": "0e90a678e0eb1b0510e9c31d654fa5712fc48acaff84fec7b5e4cfb6181022cd",
+      "bytes": 45690
+    },
+    {
+      "dataset": "variants",
+      "path": "variants/tiny_n_L007_R2_xxx.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/24cdbea48c4415a29f668a724ce602fef8fed813/testdata/tiny/normal/tiny_n_L007_R2_xxx.fastq.gz",
+      "sha256": "8e865020d852cffccc430ebeaa92672526a3f3a2f27abe9314a34cefbdbf2315",
+      "bytes": 43685
+    },
+    {
+      "dataset": "variants",
+      "path": "variants/tiny_n_L008_R1_xxx.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/24cdbea48c4415a29f668a724ce602fef8fed813/testdata/tiny/normal/tiny_n_L008_R1_xxx.fastq.gz",
+      "sha256": "705b79da386d67ab3fce770092305852fa7e581a8635b4eb1046c921a598fa1e",
+      "bytes": 40944
+    },
+    {
+      "dataset": "variants",
+      "path": "variants/tiny_n_L008_R2_xxx.fastq.gz",
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/24cdbea48c4415a29f668a724ce602fef8fed813/testdata/tiny/normal/tiny_n_L008_R2_xxx.fastq.gz",
+      "sha256": "e00859afce42f925eec2a0bbe61de19377ef624734c897e7de222b79aa9f9c2f",
+      "bytes": 42844
+    }
+  ]
+}

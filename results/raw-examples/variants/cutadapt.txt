@@ -1,0 +1,22 @@
+This is cutadapt 4.4 with Python 3.12.3
+Command line parameters: -j 2 -q 20 -m 30 -o /tmp/biolab-examples/variants/R1.clean.fq.gz -p /tmp/biolab-examples/variants/R2.clean.fq.gz /tmp/biolab-examples/variant-input/R1.fastq.gz /tmp/biolab-examples/variant-input/R2.fastq.gz
+Processing paired-end reads on 2 cores ...
+Finished in 0.087 s (31.396 µs/read; 1.91 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:              2,761
+
+== Read fate breakdown ==
+Pairs that were too short:                 191 (6.9%)
+Pairs written (passing filters):         2,570 (93.1%)
+
+Total basepairs processed:       557,722 bp
+  Read 1:       278,861 bp
+  Read 2:       278,861 bp
+Quality-trimmed:                  63,689 bp (11.4%)
+  Read 1:        27,283 bp
+  Read 2:        36,406 bp
+Total written (filtered):        479,695 bp (86.0%)
+  Read 1:       243,162 bp
+  Read 2:       236,533 bp

@@ -1,0 +1,6 @@
+bcftools	1.19-1build2
+bwa	0.7.17-7
+cutadapt	4.4-1build2
+fastqc	0.12.1+dfsg-3
+samtools	1.19.2-1build2
+subread	2.0.6+dfsg-2

@@ -1,0 +1,3 @@
+# Program:featureCounts v2.0.6; Command:"featureCounts" "-T" "2" "-p" "--countReadPairs" "-s" "0" "-t" "exon" "-g" "gene_id" "-a" "/tmp/biolab-raw/fixture/genes.gtf" "-o" "/tmp/biolab-raw/rnaseq/smoke-rna.counts.tsv" "/tmp/biolab-raw/rnaseq/smoke-rna.Aligned.sortedByCoord.out.bam" 
+Geneid	Chr	Start	End	Strand	Length	/tmp/biolab-raw/rnaseq/smoke-rna.Aligned.sortedByCoord.out.bam
+toy_gene	toy	1001	5000	+	4000	422
