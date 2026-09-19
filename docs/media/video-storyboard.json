@@ -1,0 +1,91 @@
+{
+  "duration_seconds": 120,
+  "audio": "none",
+  "subtitles": "intro-az.srt",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 10,
+      "slide": 1,
+      "topic": "Bioinformatics Research Lab",
+      "narration": "Bioinformatics Research Lab Azərbaycan dilində bioinformatikanı praktik öyrənmək üçün hazırlanıb. Burada mövzular işlək layihələrə, layihələr isə yoxlana bilən nəticələrə bağlanır."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "slide": 2,
+      "topic": "Məqsəd",
+      "narration": "Bioloji sualdan başlayın. Dataset-i seçin, metodu qurun və nəticəni şərh edin. Sonra nəticənin etibarlılığını sınayan ayrıca nəzarət sualı yazın."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "slide": 3,
+      "topic": "Mövcud imkanlar",
+      "narration": "Repoda on iki işlək layihə və səkkiz notebook mövcuddur. Paketlər quraşdırıldıqdan sonra səkkiz layihə data endirmədən işləyir."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "slide": 4,
+      "topic": "Layihə mövzuları",
+      "narration": "DNA, alignment, variantlar və proteinlər üçün giriş nümunələri var. Hər layihənin məlumatı, işə salma yolu və çıxışları ayrıca sənədləşdirilib."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "slide": 6,
+      "topic": "Real RNA-seq",
+      "narration": "Pasilla nümunəsi RNA-seq analizini və ifadə profilinin müqayisəsini göstərir. Qrafiki oxuyarkən nümunə sayını, model dizaynını və FDR həddini də yoxlayın."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "slide": 9,
+      "topic": "Elmi nəzarət",
+      "narration": "Khan modelində etiketlər qarışdırılır və bütün seçim prosesi təkrar işləyir. Bu training auditi nəticəni sınayır. Klinik validasiya kimi təqdim edilmir."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "slide": 11,
+      "topic": "Filogeniya",
+      "narration": "Yeddi Opuntia fraqmentindən bootstrap dəstəkli ağac qurulur. Ağac qısa ardıcıllıqlara aiddir. Tam növ filogeniyası iddiası daşımır."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "slide": 16,
+      "topic": "UNEC praktikumu",
+      "narration": "UNEC materialları səkkiz dərsə və cavablı praktiki tapşırıqlara bağlanıb. On beş həftəlik proqram və Azərbaycan dilində PDF praktikum var."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "slide": 15,
+      "topic": "Təkrar icra",
+      "narration": "Girişlərin mənşəyi, parametrlər və çıxış fayllarının hash-ləri saxlanır. Testlər və GitHub Actions icraları nəticənin necə yarandığını izləməyə kömək edir."
+    },
+    {
+      "start": 90,
+      "end": 100,
+      "slide": 19,
+      "topic": "Məhdudiyyət",
+      "narration": "Yüksək model score-u təkbaşına klinik fayda və ya biomarker sübutu deyil. Kiçik dataset, seçilmiş metod və texniki dizayn nəticəni məhdudlaşdırır."
+    },
+    {
+      "start": 100,
+      "end": 110,
+      "slide": 23,
+      "topic": "İlk icra",
+      "narration": "Başlamaq üçün Python mühitini qurun və alignment layihəsini offline işlədin. Yeni nəticə qovluğunu açın. Statusu, log-u və istifadə olunan girişləri oxuyun."
+    },
+    {
+      "start": 110,
+      "end": 120,
+      "slide": 26,
+      "topic": "Növbəti addım",
+      "narration": "Bir layihəni işlədin, nəticəni izah edin və öz nəzarət sualınızı yazın. Başlanğıc bələdçisi və bütün materiallar bioinformatics-lab repository-sindədir."
+    }
+  ]
+}

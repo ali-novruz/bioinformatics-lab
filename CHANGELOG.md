@@ -1,5 +1,14 @@
 # Dəyişikliklər
 
+## Təqdimat və tanıtım paketi — 2026-09-19
+
+README üçün AI üz qabığı, real nəticə qalereyası və qısa naviqasiya əlavə edildi.
+26 slaydlıq PowerPoint təqdimatı native giriş animasiyaları və fade keçidləri,
+redaktə edilən sxem, qrafik və cədvəllərlə hazırlandı. Statik PDF, 6 şəkilli
+başlanğıc səhifəsi, danışıq qeydləri, 2 dəqiqəlik səssiz MP4 önizləmə, Azərbaycan
+dilində subtitrlər və video çəkilişi təlimatı əlavə edildi.
+[Tanıtım paketi](docs/media/README.md).
+
 ## Research audit — 2026-09-16
 
 Custom RNA başlıqları və annotasiya ilə count merge düzəldildi. Registry, data

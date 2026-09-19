@@ -1,5 +1,7 @@
 * text=auto eol=lf
 *.pdf binary
+*.pptx binary
+*.mp4 binary
 *.sqlite binary
 *.md text eol=lf
 *.py text eol=lf

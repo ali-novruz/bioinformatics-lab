@@ -1,0 +1,122 @@
+{
+  "prepared": "2026-09-19",
+  "source_commit": "43ebcd8b35fdd001bde8dcb5e41cef468867335e",
+  "presentation": {
+    "slides": 26,
+    "entrance_effects": 234,
+    "fade_transitions": 26,
+    "native_tables": 3,
+    "native_charts": 1,
+    "speaker_notes": 26,
+    "package_layout_font_chart_checks": "passed",
+    "rendered_slides": 26,
+    "native_powerpoint_playback_tested": false
+  },
+  "pdf_page_counts": {
+    "bioinformatics-lab-presentation.pdf": 26,
+    "illustrated-quickstart.pdf": 6
+  },
+  "png_count": 7,
+  "video": {
+    "seconds": 120,
+    "width": 1280,
+    "height": 720,
+    "codec": "h264",
+    "crossfades": 11,
+    "audio": "none",
+    "subtitle_language": "aze"
+  },
+  "srt_cues": 24,
+  "files": [
+    {
+      "path": "bioinformatics-lab-animated.pptx",
+      "bytes": 2221204,
+      "sha256": "003c7f92eee7796d7b88b34e994b6a544cbfed4e01ac77b853d894cec4ccdfcf"
+    },
+    {
+      "path": "bioinformatics-lab-presentation.pdf",
+      "bytes": 4101949,
+      "sha256": "1c8367e253e0b83901035d319d92e04c63b3ae43907685f493dd1fe7486a16aa"
+    },
+    {
+      "path": "illustrated-quickstart.pdf",
+      "bytes": 314542,
+      "sha256": "87d608585fbcb9ac7cdaad2143e8dd4769016995358c81e3b7a3f5650604bd0b"
+    },
+    {
+      "path": "ILLUSTRATED_GUIDE.md",
+      "bytes": 3098,
+      "sha256": "36904cc803bc100721ab8c8d7fc7423ea4950f394b718e7e1a987235f40a799d"
+    },
+    {
+      "path": "images/presentation-cover.png",
+      "bytes": 1501192,
+      "sha256": "d26de7904fd7cfb79baa5971f3a2556fed89960dc21e4db6475fc9b80b04ed04"
+    },
+    {
+      "path": "images/step-01.png",
+      "bytes": 80943,
+      "sha256": "cdc16ef345e1da1c1773a130ad92abebd4a89666ab8afe1f0e95e00c165f0449"
+    },
+    {
+      "path": "images/step-02.png",
+      "bytes": 73626,
+      "sha256": "c559c0af3972a925c92f35c5bc30d7c69b066fe226ee55d9a52e3b97880e3bd7"
+    },
+    {
+      "path": "images/step-03.png",
+      "bytes": 78099,
+      "sha256": "5fc20afa30493528291076cec5515ecd2d0fd0229eecfa4239f0eca60cc13fff"
+    },
+    {
+      "path": "images/step-04.png",
+      "bytes": 81138,
+      "sha256": "fdd13789882ac1baf9e3c18f1039ac802815f18bd3f40badb88a387914803403"
+    },
+    {
+      "path": "images/step-05.png",
+      "bytes": 66282,
+      "sha256": "60af46d67ed911aec40537867687d1401a43565e8e27caf28633f2c30b3f9af6"
+    },
+    {
+      "path": "images/step-06.png",
+      "bytes": 73623,
+      "sha256": "ca32b6a8ffa3db1d5c2bffe2386412a37220402bdc279bd5a6259e43659f833c"
+    },
+    {
+      "path": "intro-az.srt",
+      "bytes": 2846,
+      "sha256": "1e2f24fde4780a3290c7e3c4056b8ea0a240a2fa437364238570f0095b7e67dd"
+    },
+    {
+      "path": "MEDIA_NOTES.md",
+      "bytes": 2966,
+      "sha256": "8dbb125493bd6fdfa99c0da126cf0baa07634dd2f1fa0cf878cba7eef688c4ff"
+    },
+    {
+      "path": "PRESENTATION_NOTES.md",
+      "bytes": 25332,
+      "sha256": "99bee9566e0e5feabf44a491772b8ef29241cb63f90e21c90eaf39e484e3fbb1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2756,
+      "sha256": "52547f1138ee10d0616c0646b6852c73675863023fc5fc04bfad000976531077"
+    },
+    {
+      "path": "repo-intro-preview.mp4",
+      "bytes": 1560373,
+      "sha256": "a7783555d9c931c2f5fa50a89ad44cf7a7484c33b0d475e706670a9dcabeefbe"
+    },
+    {
+      "path": "video-storyboard.json",
+      "bytes": 3603,
+      "sha256": "744b6fb5e7ad97dd1daab314b6d809707a36bddef3684796ba0db728d427b4e8"
+    },
+    {
+      "path": "VIDEO_GUIDE.md",
+      "bytes": 5327,
+      "sha256": "2b3891a2f5d197e58b23bab420682a5b1c0c6a7f4fe76170e1254ca87525802f"
+    }
+  ]
+}

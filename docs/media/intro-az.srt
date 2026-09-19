@@ -1,0 +1,119 @@
+1
+00:00:00,000 --> 00:00:05,000
+Bioinformatics Research Lab Azərbaycan dilində
+bioinformatikanı praktik öyrənmək üçün hazırlanıb.
+
+2
+00:00:05,000 --> 00:00:10,000
+Burada mövzular işlək layihələrə,
+layihələr isə yoxlana bilən nəticələrə bağlanır.
+
+3
+00:00:10,000 --> 00:00:15,000
+Bioloji sualdan başlayın. Dataset-i seçin,
+metodu qurun və nəticəni şərh edin.
+
+4
+00:00:15,000 --> 00:00:20,000
+Sonra nəticənin etibarlılığını sınayan
+ayrıca nəzarət sualı yazın.
+
+5
+00:00:20,000 --> 00:00:25,000
+Repoda on iki işlək layihə
+və səkkiz notebook mövcuddur.
+
+6
+00:00:25,000 --> 00:00:30,000
+Paketlər quraşdırıldıqdan sonra
+səkkiz layihə data endirmədən işləyir.
+
+7
+00:00:30,000 --> 00:00:35,000
+DNA, alignment, variantlar və proteinlər
+üçün giriş nümunələri var.
+
+8
+00:00:35,000 --> 00:00:40,000
+Hər layihənin məlumatı, işə salma yolu
+və çıxışları ayrıca sənədləşdirilib.
+
+9
+00:00:40,000 --> 00:00:45,000
+Pasilla nümunəsi RNA-seq analizini
+və ifadə profilinin müqayisəsini göstərir.
+
+10
+00:00:45,000 --> 00:00:50,000
+Qrafiki oxuyarkən nümunə sayını,
+model dizaynını və FDR həddini də yoxlayın.
+
+11
+00:00:50,000 --> 00:00:55,000
+Khan modelində etiketlər qarışdırılır
+və bütün seçim prosesi təkrar işləyir.
+
+12
+00:00:55,000 --> 00:01:00,000
+Bu training auditi nəticəni sınayır.
+Klinik validasiya kimi təqdim edilmir.
+
+13
+00:01:00,000 --> 00:01:05,000
+Yeddi Opuntia fraqmentindən
+bootstrap dəstəkli ağac qurulur.
+
+14
+00:01:05,000 --> 00:01:10,000
+Ağac qısa ardıcıllıqlara aiddir.
+Tam növ filogeniyası iddiası daşımır.
+
+15
+00:01:10,000 --> 00:01:15,000
+UNEC materialları səkkiz dərsə
+və cavablı praktiki tapşırıqlara bağlanıb.
+
+16
+00:01:15,000 --> 00:01:20,000
+On beş həftəlik proqram
+və Azərbaycan dilində PDF praktikum var.
+
+17
+00:01:20,000 --> 00:01:25,000
+Girişlərin mənşəyi, parametrlər
+və çıxış fayllarının hash-ləri saxlanır.
+
+18
+00:01:25,000 --> 00:01:30,000
+Testlər və GitHub Actions icraları
+nəticənin necə yarandığını izləməyə kömək edir.
+
+19
+00:01:30,000 --> 00:01:35,000
+Yüksək model score-u təkbaşına
+klinik fayda və ya biomarker sübutu deyil.
+
+20
+00:01:35,000 --> 00:01:40,000
+Kiçik dataset, seçilmiş metod
+və texniki dizayn nəticəni məhdudlaşdırır.
+
+21
+00:01:40,000 --> 00:01:45,000
+Başlamaq üçün Python mühitini qurun
+və alignment layihəsini offline işlədin.
+
+22
+00:01:45,000 --> 00:01:50,000
+Yeni nəticə qovluğunu açın.
+Statusu, log-u və istifadə olunan girişləri oxuyun.
+
+23
+00:01:50,000 --> 00:01:55,000
+Bir layihəni işlədin, nəticəni izah edin
+və öz nəzarət sualınızı yazın.
+
+24
+00:01:55,000 --> 00:02:00,000
+Başlanğıc bələdçisi və bütün materiallar
+bioinformatics-lab repository-sindədir.

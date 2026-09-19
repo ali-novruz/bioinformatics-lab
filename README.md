@@ -6,7 +6,7 @@
 
 Azərbaycan dilində bioinformatika laboratoriyası: kiçik real dataset-lər, işlək Python layihələri, izahlı notebook-lar və nəticəni sınayan elmi nəzarətlər. Kod və standart terminlər ingiliscədir.
 
-[![Validate lab](https://github.com/ali-novruz/bioinformatics-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/ali-novruz/bioinformatics-lab/actions/workflows/ci.yml)
+**Avtomatik yoxlamalar:** [GitHub Actions](https://github.com/ali-novruz/bioinformatics-lab/actions/workflows/ci.yml)
 
 [**Başlanğıc bələdçisi**](docs/START_HERE.md) · [**Layihələr**](projects/README.md) · [**Notebook-lar**](notebooks/README.md) · [**Nəticələr**](results/README.md) · [**PDF kitabxanası**](resources/books/README.md) · [**Roadmap**](roadmap/README.md)
 
@@ -15,6 +15,16 @@ Azərbaycan dilində bioinformatika laboratoriyası: kiçik real dataset-lər, i
 | **12** layihə · 8 offline | **8** icra edilmiş notebook | **4** kitab + praktikum | **57** test + Linux CI |
 
 <sub>Rəqəmlər 2026-09-16 auditinə aiddir. Cari icra vəziyyəti və əhatə: <a href="STATUS.md">STATUS</a>.</sub>
+
+## Təqdimat və şəkilli bələdçi
+
+[![26 slaydlıq təqdimatın üz qabığı](docs/media/images/presentation-cover.png)](docs/media/README.md)
+
+**[Animasiya əlavə edilmiş PowerPoint](docs/media/bioinformatics-lab-animated.pptx)** · [26 səhifəlik PDF](docs/media/bioinformatics-lab-presentation.pdf) · [6 addımlı şəkilli bələdçi](docs/media/ILLUSTRATED_GUIDE.md)
+
+[2 dəqiqəlik səssiz video önizləməsi](docs/media/repo-intro-preview.mp4) · [Video ssenarisi və çəkiliş təlimatı](docs/media/VIDEO_GUIDE.md) · [Bütün tanıtım materialları](docs/media/README.md)
+
+Təqdimatda proses sxemləri, redaktə edilən qrafik və cədvəllər, real analiz şəkilləri və danışıq qeydləri var. Animasiya PowerPoint-in Slide Show rejimində açılır. PDF statik nüsxədir.
 
 ## Analizlərə baxış
 
