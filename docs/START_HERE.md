@@ -6,8 +6,8 @@
 |---|---|---|
 | Bioinformatikanı sistemli öyrənmək | [Roadmap](../roadmap/README.md) → [mövzu xəritəsi](README.md) | Biologiyadan analizə mərhələli yol |
 | Kodu tez yoxlamaq | [SETUP](../SETUP.md), sonra `python -m pytest` | Şəbəkəsiz əsas yoxlamalar |
-| 12 layihəni işlətmək | `python scripts/lab.py run all` | Hər layihənin nəticələri və ümumi suite hesabatı |
-| Şəbəkəsiz layihələr | `python scripts/lab.py run all --offline` | 8 layihənin icrası; 4 endirməli layihə açıq skipped statusunda |
+| 13 layihəni işlətmək | `biolab run all` | Hər layihənin nəticələri və ümumi suite hesabatı |
+| Şəbəkəsiz layihələr | `biolab run all --offline` | 9 layihənin icrası; 4 endirməli layihə açıq skipped statusunda |
 | Xam FASTQ-dan nəticə almaq | [Xam workflow təlimatı](../workflows/README.md) | Linux alətləri, QC, mapping və analiz |
 | Hazır nəticəni oxumaq | [Nəticələr](../results/README.md) və [STATUS](../STATUS.md) | İcra edilmiş iş və sübut səviyyəsi |
 | Yeni tədqiqat seçmək | [30 layihə](../projects/IDEAS.md) və [suallar](../research/research-questions/README.md) | Hipotez, input, metod və qiymətləndirmə |

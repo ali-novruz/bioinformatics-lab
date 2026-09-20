@@ -12,6 +12,6 @@ Sxem: `sample`, `gene`, `gene_count`, `source_file`. Nümunə-gen cütü unikald
 
 Nəticə: **6 nümunə, 124 gen, 744 ölçmə**, integrity check `ok`, foreign-key pozuntusu yoxdur. SQL ilə hesablanan library totals ilkin matrislə tutuşdurulur. Çıxışda database, sorğu, CSV xülasəsi və icra mənşəyi saxlanılır.
 
-[Hazır database](../../../results/course-projects/study-database/laboratory.sqlite), [SQL sorğusu](../../../results/course-projects/study-database/queries.sql), [nəticə](../../../results/course-projects/study-database/summary.json).
+[Hazır database](../../../results/course-projects/study-database/laboratory.sqlite), [SQL sorğusu](../../../results/expanded-projects/study-database/queries.sql), [nəticə](../../../results/expanded-projects/study-database/summary.json).
 
 Bu, kiçik tədris kataloqudur; klinik məlumat idarəetmə sistemi deyil. İstifadəçi girişi, çoxistifadəçili icazələr və audit serveri bu layihənin əhatəsində deyil.

@@ -1,5 +1,13 @@
 # Bioinformatika üçün statistika
 
+## Dərinləşdirilmiş bələdçilər
+
+- [Survival analizi](survival.md)
+- [Bayesian analiz](bayesian.md)
+- [Qarışıq effektli modellər](mixed-models.md)
+- [Güc və nümunə sayı](power-sample-size.md)
+- [Kompozisional məlumat](compositional-data.md)
+
 ### Probability və distributions
 Probability qeyri-müəyyənliyi modelləşdirir. Bernoulli variantın var/yox, binomial sabit sayda müstəqil cəhdlərdə allel sayı, Poisson count, negative binomial overdispersed count, normal isə bəzi çevrilmiş davamlı ölçmələr üçün modeldir. Var(count)>mean(count) olduqda Poisson həddən artıq əmin ola bilər.
 

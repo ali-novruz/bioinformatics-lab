@@ -1,5 +1,7 @@
 ![Bioinformatics Research Lab — DNA mövzulu layihə üz qabığı](assets/readme/cover.png)
 
+[Azərbaycan dili](README.md) · [English](README.en.md)
+
 # Bioinformatics Research Lab
 
 **Biologiyanı öyrən. Analizi qur. Nəticəni yoxla. Yeni sual yarat.**
@@ -8,13 +10,15 @@ Azərbaycan dilində bioinformatika laboratoriyası: kiçik real dataset-lər, i
 
 **Avtomatik yoxlamalar:** [GitHub Actions](https://github.com/ali-novruz/bioinformatics-lab/actions/workflows/ci.yml)
 
-[**Başlanğıc bələdçisi**](docs/START_HERE.md) · [**Layihələr**](projects/README.md) · [**Notebook-lar**](notebooks/README.md) · [**Nəticələr**](results/README.md) · [**PDF kitabxanası**](resources/books/README.md) · [**Roadmap**](roadmap/README.md)
+**Lisenziya:** kod [MIT](LICENSE), layihənin orijinal tədris məzmunu [CC BY 4.0](LICENSE-docs). Xarici kitab və dataset istisnaları [lisenziya xəritəsində](LICENSING.md) göstərilir.
+
+[**Başlanğıc bələdçisi**](docs/START_HERE.md) · [**Layihələr**](projects/README.md) · [**Notebook-lar**](notebooks/README.md) · [**Nəticələr**](results/README.md) · [**320 terminlik lüğət**](docs/glossary.md) · [**PDF kitabxanası**](resources/books/README.md) · [**Roadmap**](roadmap/README.md)
 
 | 🧬 İşlək layihələr | 📓 Notebook-lar | 📚 PDF kitablar | 🧪 Yoxlamalar |
 |:---:|:---:|:---:|:---:|
-| **12** layihə · 8 offline | **8** icra edilmiş notebook | **4** kitab + praktikum | **57** test + Linux CI |
+| **13** layihə · 9 offline | **16** notebook: öyrənmə + reproduksiya | **4** kitab + praktikum | **60+** test · Linux + Windows CI |
 
-<sub>Rəqəmlər 2026-09-16 auditinə aiddir. Cari icra vəziyyəti və əhatə: <a href="STATUS.md">STATUS</a>.</sub>
+<sub>Rəqəmlər 2026-09-20 auditinə aiddir. Cari icra vəziyyəti və əhatə: <a href="STATUS.md">STATUS</a>.</sub>
 
 ## Təqdimat və şəkilli bələdçi
 
@@ -77,13 +81,13 @@ Bu ilk nümunə endirmə tələb etmir. Nəticələr `results/runs/` daxilində 
 <details>
 <summary><strong>Bütün layihələr, RNA-seq və yoxlama əmrləri</strong></summary>
 
-Səkkiz layihəni şəbəkəsiz işlədin:
+Doqquz layihəni şəbəkəsiz işlədin:
 
 ```bash
 python scripts/lab.py run all --offline
 ```
 
-Bütün 12 layihə üçün əlavə analiz paketlərini quraşdırın. Qalan dörd layihənin ilk icrasında real girişlər endirilir:
+Bütün 13 layihə üçün əlavə analiz paketlərini quraşdırın. Qalan dörd layihənin ilk icrasında real girişlər endirilir:
 
 ```bash
 python -m pip install -e ".[dev,research]"
@@ -105,7 +109,7 @@ Son notebook əmri real girişlərin əvvəlcədən endirilməsini tələb edir.
 
 </details>
 
-## 12 işlək layihə
+## 13 işlək layihə
 
 | İstiqamət | Layihələr | Nə əldə edirsiniz? |
 |---|---|---|
@@ -115,6 +119,7 @@ Son notebook əmri real girişlərin əvvəlcədən endirilməsini tələb edir.
 | **Machine learning** | [WDBC təsnifatı](projects/intermediate/disease-classification/README.md) · [Khan gen ifadəsi](projects/intermediate/gene-expression-ml/README.md) | Training daxilində model seçimi və ayrılmış test nəticələri |
 | **Statistika** | [Biostatistika laboratoriyası](projects/beginner/biostatistics-lab/README.md) | Null simulyasiyası, çoxsaylı testlər və BH düzəlişi |
 | **Proteinlər** | [Sequence və struktur](projects/intermediate/protein-analysis/README.md) | UniProt sequence analizi, PDB strukturu və contact map |
+| **Regional genetika** | [ClinVar variant prioritetləndirməsi](projects/advanced/regional-variant-interpretation/README.md) | İki açıq variant üçün izlənilə bilən, qeyri-klinik evidence triage |
 
 **Xam oxunuşdan nəticəyə:** altı real yeast nümunəsində FASTQ → FastQC → STAR → featureCounts → PyDESeq2 yolu, ayrıca xarici DNA nümunəsində BWA → variant calling icra olunub. [İcra sübutlarını aç →](results/raw-examples/README.md)
 
@@ -151,12 +156,12 @@ Hər nəticə üçün məlumatın mənşəyi, analiz parametrləri və məhdudiy
 
 ## Kitabxana və UNEC praktikumu
 
-**16 biologiya anlayışı · 11 data formatı · 18 database kartı · 11 məqalə qeydi · 9 mini-review**
+**16 biologiya anlayışı · 20 data formatı · 38 database kartı · 37 məqalə qeydi · 320 termin · 9 mini-review**
 
 | Oxu və öyrənmə | Təcrübə və araşdırma |
 |---|---|
-| [Biologiya və mövzu kitabxanası](docs/README.md) | [8 izahlı notebook](notebooks/README.md) |
-| [4 PDF kitab və oxu planı](resources/books/README.md) | [UNEC: 8 dərs və 24 cavablı tapşırıq](docs/unec/README.md) |
+| [Biologiya və mövzu kitabxanası](docs/README.md) · [AZ–EN lüğət](docs/glossary.md) | [8 izahlı + 8 reproduksiya notebook-u](notebooks/README.md) |
+| [4 PDF kitab və oxu planı](resources/books/README.md) | [UNEC: 8 dərs, 24 tapşırıq və ayrı həll açarı](docs/unec/README.md) |
 | [Məqalə təhlilləri](research/papers/README.md) · [Mini-review-lər](research/literature-reviews/README.md) | [15 həftəlik proqram və dərslər](docs/unec/README.md) |
 | [Databazalar və kurslar](resources/README.md) | [PDF praktikum](resources/unec/bioinformatika-praktikum.pdf) · [68 fayllıq mənbə kataloqu](resources/unec/README.md) |
 
@@ -170,7 +175,7 @@ bioinformatics-lab/
 ├── src/biolab/       Təkrar istifadə olunan analiz funksiyaları
 ├── scripts/          Endirmə, layihə icrası və yoxlamalar
 ├── workflows/        Xam FASTQ üçün Linux workflow-ları
-├── projects/         12 işlək layihə və 30 ideya
+├── projects/         13 işlək layihə və 30 əsas ideya
 ├── notebooks/        İzah və icra edilmiş hesablamalar
 ├── experiments/      Protokollar və nəzarət təcrübələri
 ├── results/          Saxlanmış nəticələr və icra sübutları
@@ -183,7 +188,7 @@ bioinformatics-lab/
 <details>
 <summary><strong>Elmi əhatə, texnologiyalar və inkişaf qaydası</strong></summary>
 
-**Hazır olan:** tədris nümunələri, kiçik real dataset analizləri, 12 işlək layihə və mövcud nəticələri sınayan nəzarətlər. **Planlaşdırılan:** 30 ideyanın hamısının icrası, tam genom benchmark-ları və müstəqil cohort validasiyası.
+**Hazır olan:** tədris nümunələri, kiçik real dataset analizləri, 13 işlək layihə və mövcud nəticələri sınayan nəzarətlər. **Planlaşdırılan:** 30 ideyanın hamısının icrası, tam genom benchmark-ları və müstəqil cohort validasiyası.
 
 Sintetik nümunələr, real analiz və gələcək protokollar ayrıca işarələnir. P-value effekt ölçüsü deyil; FDR, nümunə sayı, dizayn və qeyri-müəyyənlik birlikdə şərh edilir. Yüksək prediction score sabit biomarker və ya klinik fayda sübutu deyil. Məqalə qeydləri systematic review və bütün orijinal benchmark-ların reproduksiyası sayılmır.
 

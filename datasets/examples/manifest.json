@@ -24,6 +24,14 @@
       "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_001422.1&rettype=fasta&retmode=text",
       "source_sha256": "caa155c83967cc080f4f188f14f1f28c18d77448e87c3d00d3579ed348f4de2a",
       "transformation": "Unmodified prior verified reference input"
+    },
+    {
+      "path": "datasets/examples/regional/clinvar-2026-09-20.tsv",
+      "sha256": "11eb9ec087eea8351b077b4c1db10422fce6c1e68675cca7945dc807e1fa111a",
+      "bytes": 872,
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=2540,15333&retmode=json",
+      "source_sha256": "85ace564a545e3b0e1223bf56a09a1fe2341175be22e6731d381c8728ac4a362",
+      "transformation": "Selected, flattened fields from datasets/source-snapshots/clinvar-2540-15333-2026-09-20.json; UTF-8 TSV; retrieved 2026-09-20; source URL retained per row"
     }
   ]
 }

@@ -5,7 +5,7 @@
     {"id":"go-analysis","status":"executed","path":"results/expanded-projects/go-enrichment/summary.json"},
     {"id":"go-control","status":"executed","path":"results/research-audit/enrichment-control/summary.json"},
     {"id":"khan","status":"source","path":"datasets/khan-manifest.json"},
-    {"id":"expression-model","status":"executed","path":"results/course-projects/gene-expression-ml/summary.json"},
+    {"id":"expression-model","status":"executed","path":"results/expanded-projects/gene-expression-ml/summary.json"},
     {"id":"expression-control","status":"executed","path":"results/research-audit/expression-control/summary.json"}
   ],
   "edges": [

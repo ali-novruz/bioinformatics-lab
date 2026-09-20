@@ -69,4 +69,4 @@ python scripts/check_learning_assets.py
 
 ## Vahid layihə başladıcısı
 
-`python scripts/lab.py list` bütün işlək layihələri göstərir. `python scripts/lab.py run all --offline` 8 layihəni, `python scripts/lab.py run all` bütün 12 layihəni işlədir. Tam rejim üçün yuxarıdakı `[dev,research]` quraşdırılması lazımdır. Köhnə layihə skriptləri də işləməyə davam edir. `python scripts/check_all_results.py` bütün saxlanmış nəticələri, kiçik real girişləri və tarixi mənbə kodunu yoxlayır.
+`biolab list` bütün işlək layihələri göstərir. `biolab run all --offline` 9 layihəni, `biolab run all` bütün 13 layihəni işlədir. Tam rejim üçün yuxarıdakı `[dev,research]` quraşdırılması lazımdır. `python scripts/lab.py` geriyə uyğun shim kimi işləməyə davam edir. `python scripts/check_all_results.py` bütün saxlanmış nəticələri, kiçik real girişləri və tarixi mənbə kodunu yoxlayır.

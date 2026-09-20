@@ -57,7 +57,7 @@ python -m pip install -e ".[dev,research]"
 python scripts/lab.py run all
 ```
 
-İlk əmr 8 layihəni seçir, endirmə tələb edən 4 layihəni buraxır. Son əmr bütün 12 layihəni işlədir. RNA-seq research paketlərini tələb edir. Xam FASTQ workflow-ları üçün [ayrıca Linux/WSL təlimatı](../../workflows/README.md) var.
+İlk əmr 9 layihəni seçir, endirmə tələb edən 4 layihəni buraxır. Son əmr bütün 13 layihəni işlədir. RNA-seq research paketlərini tələb edir. Xam FASTQ workflow-ları üçün [ayrıca Linux/WSL təlimatı](../../workflows/README.md) var.
 
 ## 6. Öz sualınız və yoxlama
 

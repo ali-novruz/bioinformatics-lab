@@ -2,6 +2,13 @@
 
 Əsas faktiki nəticələr [results](../../results/README.md) daxilindədir.
 
+## Analitik qeydlər
+
+- [Khan təsnifatında permutation control](khan-permutation-control.md)
+- [GO singleton mənfi nəzarəti](go-singleton-negative-control.md)
+- [RNA-seq dizaynı, batch və effekt](rnaseq-design-and-effect.md)
+- [Qısa fraqment filogeniyasının sərhədi](phylogeny-fragment-boundary.md)
+
 - RNA modelində sequencing type təsirini ayrıca ablation ilə ölçmək lazımdır.
 - GIAB prefix xülasəsi benchmark deyil; real calls+confident regions növbəti tələbdir.
 - Internal ML nəticəsi external validation gap-ini bağlamır.

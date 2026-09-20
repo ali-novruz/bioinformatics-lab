@@ -6,6 +6,8 @@ Yeni: [Linux-da xam FASTQ-dan real RNA və xarici DNA nəticələri](raw-example
 Altı RNA sample-ında 300,000 read pair işləndi; 84 gen modelə daxil oldu.
 [Sintetik positive control](linux-smoke/README.md) ayrıca pipeline doğrulamasıdır.
 
+Yeni advanced nəticə: [iki ClinVar qeydinin regional-genetika evidence triage-si](advanced-projects/README.md). Bu tədris nümunəsi klinik qərar və prevalence analizi deyil.
+
 Bu hesabat faktiki local run-lardan avtomatik çıxarılan metriklərə əsaslanır. Məqalələrin orijinal benchmark-larının reproduksiyası deyil.
 
 | Analiz | Faktiki nəticə | Nə deməkdir? |
@@ -58,3 +60,5 @@ RNA nəticəsi seçilmiş negative-binomial model və FDR assumptions-a şərtli
 ## Tam layihə auditi və yeni analizlər
 
 [12 layihənin icra hesabatı və üç yeni analiz](expanded-projects/README.md).
+
+Tarixi 12-layihə snapshot-u dondurulub; cari kataloqda regional variant layihəsi ilə birlikdə 13 layihə var.

@@ -1,0 +1,18 @@
+{
+  "reason": "Byte-identical outputs are stored once under expanded-projects; course-specific run records and genuinely different outputs remain here.",
+  "references": {
+    "biostatistics-lab/library_sizes.csv": "results/expanded-projects/biostatistics-lab/library_sizes.csv",
+    "biostatistics-lab/multiple_testing.png": "results/expanded-projects/biostatistics-lab/multiple_testing.png",
+    "biostatistics-lab/null_tests.csv": "results/expanded-projects/biostatistics-lab/null_tests.csv",
+    "biostatistics-lab/summary.json": "results/expanded-projects/biostatistics-lab/summary.json",
+    "gene-expression-ml/classification_report.json": "results/expanded-projects/gene-expression-ml/classification_report.json",
+    "gene-expression-ml/comparison.png": "results/expanded-projects/gene-expression-ml/comparison.png",
+    "gene-expression-ml/confusion_matrix.png": "results/expanded-projects/gene-expression-ml/confusion_matrix.png",
+    "gene-expression-ml/predictions.csv": "results/expanded-projects/gene-expression-ml/predictions.csv",
+    "gene-expression-ml/selected_probes.csv": "results/expanded-projects/gene-expression-ml/selected_probes.csv",
+    "gene-expression-ml/summary.json": "results/expanded-projects/gene-expression-ml/summary.json",
+    "study-database/library_sizes.csv": "results/expanded-projects/study-database/library_sizes.csv",
+    "study-database/queries.sql": "results/expanded-projects/study-database/queries.sql",
+    "study-database/summary.json": "results/expanded-projects/study-database/summary.json"
+  }
+}

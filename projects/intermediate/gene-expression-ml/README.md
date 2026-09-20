@@ -25,7 +25,7 @@ Repo kökündə, [quraşdırılmış Python mühitində](../../../SETUP.md) işl
 | Dummy test balanced accuracy | 0.2500 |
 | Şərti bootstrap accuracy intervalı | 0.85-1.00 |
 
-![Test confusion matrix](../../../results/course-projects/gene-expression-ml/confusion_matrix.png)
+![Test confusion matrix](../../../results/expanded-projects/gene-expression-ml/confusion_matrix.png)
 
 Səhv: həqiqi sinif 2 olan bir nümunə sinif 4 proqnoz edilib. CV balı model seçimi üçün istifadə olunduğundan son qərəzsiz performans qiyməti kimi qəbul edilmir. Bootstrap intervalı yalnız bu sabit model və kiçik test dəsti üzrə şərtidir; cohort və model seçimi qeyri-müəyyənliyini tam əhatə etmir.
 

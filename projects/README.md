@@ -1,4 +1,4 @@
-# 12 işlək layihə
+# 13 işlək layihə
 
 ```bash
 python scripts/lab.py list
@@ -6,7 +6,7 @@ python scripts/lab.py run all --offline
 python scripts/lab.py run all
 ```
 
-Əmrləri repo kökündə [quraşdırmadan](../SETUP.md) sonra işlədin. Offline rejim 8 layihəni işlədir və endirmə tələb edən 4 layihəni açıq skipped statusunda göstərir. Tam rejim bütün 12 layihəni işlədir; RNA-seq üçün research dependencies, ilkin data üçün internet lazımdır. Hər layihə və ümumi suite ayrıca nəticə qovluğu və log yaradır. Hər hansı layihə uğursuz olarsa ümumi əmrin çıxış kodu uğursuzdur.
+Əmrləri repo kökündə [quraşdırmadan](../SETUP.md) sonra işlədin. Offline rejim 9 layihəni işlədir və endirmə tələb edən 4 layihəni açıq skipped statusunda göstərir. Tam rejim bütün 13 layihəni işlədir; RNA-seq üçün research dependencies, ilkin data üçün internet lazımdır. Hər layihə və ümumi suite ayrıca nəticə qovluğu və log yaradır. Hər hansı layihə uğursuz olarsa ümumi əmrin çıxış kodu uğursuzdur.
 
 | Kimlik | Layihə | Offline |
 |---|---|---|
@@ -22,6 +22,7 @@ python scripts/lab.py run all
 | enrichment | [Real GO-slim Enrichment](intermediate/go-enrichment/README.md) | Bəli |
 | phylogeny | [Opuntia Phylogeny](intermediate/phylogeny/README.md) | Bəli |
 | orfs | [Circular Genome ORF Discovery](beginner/orf-discovery/README.md) | Bəli |
+| regional-variants | [Regional ClinVar Evidence Triage](advanced/regional-variant-interpretation/README.md) | Bəli |
 
 Məsələn: `python scripts/lab.py run phylogeny --offline`. [İcra hesabatı və yeni nəticələr](../results/expanded-projects/README.md). [Maşınla oxunan registry](registry.json) bu siyahının əmrlərini saxlayır.
 

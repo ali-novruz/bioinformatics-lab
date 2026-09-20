@@ -189,7 +189,7 @@ Aşağıda yekun PPTX-dəki mətn, əlavə izahlar və mənbələr verilir. Qraf
 **Mənbələr:**
 
 - [projects/intermediate/gene-expression-ml/README.md](../../projects/intermediate/gene-expression-ml/README.md)
-- [results/course-projects/gene-expression-ml/summary.json](../../results/course-projects/gene-expression-ml/summary.json)
+- [results/expanded-projects/gene-expression-ml/summary.json](../../results/expanded-projects/gene-expression-ml/summary.json)
 
 ## 09. Model siqnalı təsadüfdən fərqlənirmi?
 

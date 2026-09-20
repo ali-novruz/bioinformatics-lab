@@ -1,4 +1,11 @@
-# 24 tapşırıq və cavab açarı
+# Tapşırıqlar və cavablar
+
+Materiallar tələbənin əvvəlcə müstəqil işləməsi üçün ayrılıb:
+
+- [24 tapşırıq və mərhələ yoxlamaları](exercises/README.md)
+- [Müəllim üçün cavablar və izahlar](solutions/README.md)
+
+Arxivdəki aşağıdakı birləşik versiya geriyə uyğun keçid üçün saxlanılır.
 
 Əvvəl [praktikumu](handbook.md) oxuyun. Hər bölmənin üç sualını cavaba baxmadan həll edin. Kodlu tapşırıqlarda nəticə və izahı birlikdə saxlayın.
 

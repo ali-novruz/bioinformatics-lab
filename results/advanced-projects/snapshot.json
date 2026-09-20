@@ -1,0 +1,10 @@
+{
+  "created": "2026-09-20",
+  "source": "python scripts/run_regional_variants.py",
+  "sha256": {
+    "regional-variants/prioritized_variants.csv": "0600b72d7597e1fa04800600d3fcb86a9193830377e3315ab5bb581afdfc060b",
+    "regional-variants/priorities.png": "bf4b407ad00360aa767728cdf16714b7f5e667d6e3517543a056eb7e80e48c0d",
+    "regional-variants/run.json": "658912df96fd6df940eb7b4a762d0af8e5229e2d68b735034bcb4beaa55b8e76",
+    "regional-variants/summary.json": "9ef94f1bf013bf59f44951cb2ab2facc88c4cea42ee2af9626b0b69a166755b2"
+  }
+}

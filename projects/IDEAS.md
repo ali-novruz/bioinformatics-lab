@@ -1,6 +1,6 @@
 # 30 bioinformatika layihəsi
 
-10 beginner, 10 intermediate, 10 advanced/research. Bunların hamısı hazır proqram deyil; [12 işlək layihənin dəqiq kataloqu](README.md) ayrıca göstərilir.
+10 beginner, 10 intermediate, 10 advanced/research. Bunların hamısı hazır proqram deyil; [13 işlək layihənin dəqiq kataloqu](README.md) ayrıca göstərilir. Epigenomika, GWAS, survival, assembly, long-read, HMM, annotasiya, deep learning, docking, batch correction, API, workflow və immunoinformatika üçün [sahə boşluqları üzrə icra xəritəsi](../roadmap/domain-gaps.md) ayrıca verilir.
 
 ## 01. DNA Sequence Analyzer
 
@@ -644,7 +644,7 @@
 
 **Potential Research Extension:** Functional assay validation.
 
-**Status:** Layihə ideyası/protokol; tamamlanmış implementasiya kimi sayılmır.
+**Status:** Birinci mərhələ işləkdir: [regional ClinVar evidence triage](advanced/regional-variant-interpretation/README.md) iki versiyalanmış record-u offline yoxlayır. Temporal holdout ML, VEP annotation və PR-AUC mərhələləri hələ protokoldur.
 
 ## 24. Drug Response Prediction
 

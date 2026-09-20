@@ -1,4 +1,6 @@
-# Windows / CPython 3.12 tested environment. Install this project separately with pip install -e .
+# Historical Windows / CPython 3.12 audit environment, retained as evidence.
+# Use uv.lock and uv sync --locked --extra dev --extra research for current reproducible installs.
+# Extra entries include transitive dependencies; this freeze is not the dependency specification.
 anndata==0.13.3.post0
 annotated-types==0.8.0
 array-api-compat==1.15.0

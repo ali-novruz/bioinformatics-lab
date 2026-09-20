@@ -1,5 +1,7 @@
 # Tənqidi tədqiqat auditi — 2026-09-16
 
+> Bu sənəd 2026-09-16 tarixli dondurulmuş auditdir. 2026-09-20 lisenziya, CLI, lock/CI, 13-cü layihə, notebook və geniş məzmun dəyişiklikləri üçün [cari vəziyyətə](../STATUS.md) baxın.
+
 ## Qiymətləndirmə və əhatə
 
 Başlanğıc revision: `fda0c35f0930dbc794eec1a8ac9076bafd4b0d8d`.

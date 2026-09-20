@@ -6,4 +6,4 @@
 - [Biostatistics Lab](biostatistics-lab/README.md): `python scripts/lab.py run statistics`.
 - [Circular Genome ORF Discovery](orf-discovery/README.md): `python scripts/lab.py run orfs`.
 
-Hər layihənin giriş, nəticə və məhdudiyyətləri öz səhifəsindədir. [12 layihənin kataloqu](../README.md) və [quraşdırma](../../SETUP.md).
+Hər layihənin giriş, nəticə və məhdudiyyətləri öz səhifəsindədir. [13 layihənin kataloqu](../README.md) və [quraşdırma](../../SETUP.md).

@@ -2,23 +2,10 @@
   "created": "2026-09-16",
   "text_normalization": "LF line endings; numerical content unchanged",
   "sha256": {
-    "biostatistics-lab/library_sizes.csv": "8f6d3e3139fda38bc9cc9dd262625df6814d1e12806788f6409e1ac0b8582f92",
-    "biostatistics-lab/multiple_testing.png": "fa6da611b07f9ced92195b34262f685009f7e617d8ba1fd45c07fc46e72021fd",
-    "biostatistics-lab/null_tests.csv": "3d5b49f244b3ebc02dd0e376b746940bf65b7854c0072b85931b0245d732abdb",
     "biostatistics-lab/run.json": "cf5421c2fda4199ca0a5f729608d8d9dccd9aa58e86f91a0c378898ede791b73",
-    "biostatistics-lab/summary.json": "a0b40c4c869920df56f4df3182f14859614dba418445002c8fb3c9f843523d9d",
-    "gene-expression-ml/classification_report.json": "3093384a29bce97ccf45dadfadeb475d2cf9a65e61749c0a58581b3c98507814",
-    "gene-expression-ml/comparison.png": "234f59eccf101e7df3a24b2db24a6d8ce600b6697a2b5c4ddb41a03be13fd56d",
-    "gene-expression-ml/confusion_matrix.png": "5a9806db5a462474191c22535e7a6a94b1223263510f55b99949ccdfd06c9a81",
     "gene-expression-ml/cv_results.csv": "fdaf5fae6ce3c0e6cfc57f25d3a062b36511f84abffe315fa88a9c96fda91e22",
-    "gene-expression-ml/predictions.csv": "437d8238cf452e4fb35af70d5f7eb63f6b7597cb044b5b16ef7d10b765bf358c",
     "gene-expression-ml/run.json": "9bbc6654c3b6e51464a90194179330d45fb3c145cda4307d1e87971bf36c5a40",
-    "gene-expression-ml/selected_probes.csv": "61b8135ed15d6d525edefae96cec6f69133f343d4cce1a72f2c97783aa77bc4b",
-    "gene-expression-ml/summary.json": "86de84c6a8863dc8e8b66c23bb69f8f1dba8e40b156db926dc6ea5fff45ed133",
     "study-database/laboratory.sqlite": "2f36aeff50b949d629d3ce87a3ee6a05db74084f126bf20afd9c7146745c3fee",
-    "study-database/library_sizes.csv": "f766e075383bd1fb3b343a05c0cef64bb572ca2ad9ddf625e026a6678abbc13b",
-    "study-database/queries.sql": "a9c4d4c46941c9cd5843073fd781b171e8b175ece069d03338c7dfa51b58ffc9",
-    "study-database/run.json": "32c292cebd558ecd51594f5514bb995d1ca30356e8896060d2629292a31fbdcc",
-    "study-database/summary.json": "a9b68fb3c062605274b4dd1587e60b1d47ede51d512e6508825f66d16c46a2e4"
+    "study-database/run.json": "32c292cebd558ecd51594f5514bb995d1ca30356e8896060d2629292a31fbdcc"
   }
 }

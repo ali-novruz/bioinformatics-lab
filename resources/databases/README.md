@@ -18,3 +18,14 @@
 - [Reactome](reactome.md): Kurasiya edilmiş bioloji reaksiyalar və pathways.
 - [GTEx](gtex.md): İnsan toxumalarında expression və genetic regulation.
 - [TCGA](tcga.md): Xərçənglərin molekulyar profillənməsi proqramı; data əsasən GDC vasitəsilə.
+- [gnomAD](gnomad.md): Population frequency, coverage və constraint.
+- [COSMIC](cosmic.md), [CIViC](civic.md), [PharmGKB](pharmgkb.md): somatik, klinik və farmakogenomik evidence.
+- [InterPro](interpro.md), [Pfam](pfam.md), [AlphaFold DB](alphafold-db.md): protein ailəsi, domen və proqnozlaşdırılmış struktur.
+- [HPO/Monarch](hpo-monarch.md), [Open Targets](open-targets.md), [DisGeNET](disgenet.md): phenotype, target və xəstəlik assosiasiyası.
+- [ENCODE](encode.md), [1000 Genomes](thousand-genomes.md), [GENCODE/RefSeq](gencode-refseq.md): functional genomics, population və annotation.
+- [miRBase](mirbase.md), [Rfam](rfam.md): miRNA və ncRNA ailələri.
+- [SILVA/MGnify](silva-mgnify.md): mikrobiom və rRNA taxonomy.
+- [Human Cell Atlas](human-cell-atlas.md), [DepMap](depmap.md), [BioGRID](biogrid.md): single-cell, dependency və interaction data.
+- [SGD/FlyBase](sgd-flybase.md): yeast və Drosophila model-orqanizm bilikləri.
+
+Kartlar eyni altı sualı cavablandırır: biological unit nədir, stabil ID nədir, hansı release istifadə olunur, necə əldə edilir, əsas şərh riski nədir və hansı kiçik layihə ilə yoxlanır. `python scripts/build_database_cards.py` genişləndirilmiş kartların strukturunu deterministik saxlayır.

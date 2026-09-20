@@ -11,6 +11,7 @@
     {"id":"statistics","title":"Biostatistics Lab","script":"run_biostatistics_lab.py","args":[],"offline":true,"fetch":[],"docs":"projects/beginner/biostatistics-lab/README.md"},
     {"id":"enrichment","title":"Real GO-slim Enrichment","script":"run_extensions.py","args":["--project","enrichment"],"offline":true,"fetch":[],"docs":"projects/intermediate/go-enrichment/README.md"},
     {"id":"phylogeny","title":"Opuntia Phylogeny","script":"run_extensions.py","args":["--project","phylogeny"],"offline":true,"fetch":[],"docs":"projects/intermediate/phylogeny/README.md"},
-    {"id":"orfs","title":"Circular Genome ORF Discovery","script":"run_extensions.py","args":["--project","orfs"],"offline":true,"fetch":[],"docs":"projects/beginner/orf-discovery/README.md"}
+    {"id":"orfs","title":"Circular Genome ORF Discovery","script":"run_extensions.py","args":["--project","orfs"],"offline":true,"fetch":[],"docs":"projects/beginner/orf-discovery/README.md"},
+    {"id":"regional-variants","title":"Regional ClinVar Evidence Triage","script":"run_regional_variants.py","args":[],"offline":true,"fetch":[],"docs":"projects/advanced/regional-variant-interpretation/README.md"}
   ]
 }

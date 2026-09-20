@@ -26,7 +26,7 @@ PDF-lər slaydların görüntü nüsxələridir. Axtarılan və kopyalanan mətn
 
 ## Məzmun xəritəsi
 
-1. Layihənin məqsədi və 12 layihənin xəritəsi
+1. Layihənin məqsədi və təqdimat hazırlanarkən mövcud olan 12 layihənin xəritəsi; cari kataloq 13 layihədir
 2. RNA-seq, WDBC, Khan, GO, filogeniya, ORF və protein nəticələri
 3. Xam oxunuş workflow-ları və nəticələrin mənşəyi
 4. UNEC materialları, oxu yolu və elmi məhdudiyyətlər

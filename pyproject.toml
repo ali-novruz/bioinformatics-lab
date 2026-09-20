@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=69"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,10 +7,13 @@ name = "bioinformatics-lab"
 version = "0.1.0"
 description = "Reproducible personal bioinformatics research laboratory"
 requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.en.md"
 dependencies = ["numpy>=2,<3", "pandas>=2.2,<4", "scipy>=1.12,<2", "matplotlib>=3.9,<4", "biopython>=1.84,<2", "scikit-learn>=1.4,<2"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8,<10", "nbformat>=5,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8", "ruff>=0.9,<1"]
+dev = ["pytest>=8,<10", "nbformat>=5,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8", "ruff>=0.9,<1", "pytest-cov>=6,<8", "mypy>=1.15,<2", "pandas-stubs>=2.2,<4"]
 research = ["pydeseq2==0.5.4", "statsmodels>=0.14,<1", "umap-learn>=0.5,<1", "networkx>=3,<4"]
 hts = ["pysam>=0.22,<1; sys_platform != 'win32'"]
 
@@ -24,6 +27,27 @@ where = ["src"]
 testpaths = ["tests"]
 addopts = "-q"
 
+[tool.ruff]
+target-version = "py311"
+
 [tool.ruff.lint]
-# Correctness checks only; do not reformat the teaching notebooks and scripts.
-select = ["E9", "F63", "F7", "F82"]
+select = ["E4", "E7", "E9", "F", "I", "B", "UP"]
+
+[tool.coverage.run]
+branch = true
+source = ["biolab"]
+relative_files = true
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 75
+
+[tool.mypy]
+python_version = "3.12"
+files = ["src/biolab"]
+ignore_missing_imports = true
+check_untyped_defs = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+warn_unused_ignores = true
+disable_error_code = ["var-annotated"]

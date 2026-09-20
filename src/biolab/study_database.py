@@ -1,8 +1,12 @@
 """A small relational laboratory catalog built from real example RNA counts."""
+
+from __future__ import annotations
+
 import csv
 import hashlib
 import sqlite3
 from pathlib import Path
+from typing import Any
 
 SCHEMA = """
 CREATE TABLE sample (
@@ -24,44 +28,67 @@ CREATE TABLE source_file (
 """
 
 
-def initialize(connection):
-    connection.execute('PRAGMA foreign_keys=ON')
+def initialize(connection: sqlite3.Connection) -> None:
+    connection.execute("PRAGMA foreign_keys=ON")
     connection.executescript(SCHEMA)
 
 
-def build_catalog(destination, counts_path, metadata_path):
+def build_catalog(
+    destination: str | Path, counts_path: str | Path, metadata_path: str | Path
+) -> dict[str, Any]:
     destination = Path(destination)
     if destination.exists():
-        raise FileExistsError('Choose a new database path')
+        raise FileExistsError("Choose a new database path")
     connection = sqlite3.connect(destination)
     try:
         initialize(connection)
         with connection:
-            with open(metadata_path, encoding='utf-8', newline='') as handle:
+            with open(metadata_path, encoding="utf-8", newline="") as handle:
                 for row in csv.DictReader(handle):
-                    connection.execute('INSERT INTO sample VALUES (?,?,?)',
-                                       (row['sample_id'], row['condition'], int(row['biological_replicate'])))
-            with open(counts_path, encoding='utf-8', newline='') as handle:
-                reader = csv.DictReader(handle, delimiter='\t')
-                samples = reader.fieldnames[1:]
-                expected = {row[0] for row in connection.execute('SELECT sample_id FROM sample')}
+                    connection.execute(
+                        "INSERT INTO sample VALUES (?,?,?)",
+                        (
+                            row["sample_id"],
+                            row["condition"],
+                            int(row["biological_replicate"]),
+                        ),
+                    )
+            with open(counts_path, encoding="utf-8", newline="") as handle:
+                reader = csv.DictReader(handle, delimiter="\t")
+                if not reader.fieldnames:
+                    raise ValueError("Count table header required")
+                fieldnames = reader.fieldnames
+                samples = fieldnames[1:]
+                expected = {
+                    row[0] for row in connection.execute("SELECT sample_id FROM sample")
+                }
                 if set(samples) != expected or len(samples) != len(set(samples)):
-                    raise ValueError('Count and metadata sample IDs differ')
+                    raise ValueError("Count and metadata sample IDs differ")
                 for row in reader:
-                    gene = row[reader.fieldnames[0]]
-                    connection.execute('INSERT INTO gene VALUES (?)', (gene,))
+                    gene = row[fieldnames[0]]
+                    connection.execute("INSERT INTO gene VALUES (?)", (gene,))
                     for sample in samples:
-                        connection.execute('INSERT INTO gene_count VALUES (?,?,?)',
-                                           (sample, gene, int(row[sample])))
+                        connection.execute(
+                            "INSERT INTO gene_count VALUES (?,?,?)",
+                            (sample, gene, int(row[sample])),
+                        )
             for path in [Path(counts_path), Path(metadata_path)]:
-                connection.execute('INSERT INTO source_file VALUES (?,?)',
-                                   (path.name, hashlib.sha256(path.read_bytes()).hexdigest()))
+                connection.execute(
+                    "INSERT INTO source_file VALUES (?,?)",
+                    (path.name, hashlib.sha256(path.read_bytes()).hexdigest()),
+                )
         return {
-            'samples': connection.execute('SELECT count(*) FROM sample').fetchone()[0],
-            'genes': connection.execute('SELECT count(*) FROM gene').fetchone()[0],
-            'count_records': connection.execute('SELECT count(*) FROM gene_count').fetchone()[0],
-            'integrity_check': connection.execute('PRAGMA integrity_check').fetchone()[0],
-            'foreign_key_violations': connection.execute('PRAGMA foreign_key_check').fetchall(),
+            "samples": connection.execute("SELECT count(*) FROM sample").fetchone()[0],
+            "genes": connection.execute("SELECT count(*) FROM gene").fetchone()[0],
+            "count_records": connection.execute(
+                "SELECT count(*) FROM gene_count"
+            ).fetchone()[0],
+            "integrity_check": connection.execute("PRAGMA integrity_check").fetchone()[
+                0
+            ],
+            "foreign_key_violations": connection.execute(
+                "PRAGMA foreign_key_check"
+            ).fetchall(),
         }
     finally:
         connection.close()

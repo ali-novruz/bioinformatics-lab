@@ -1,3 +1,5 @@
-# advanced
+# Advanced layihələr
 
-[Layihə kataloqu](../IDEAS.md) bu səviyyəyə aid sual, dataset, pipeline və evaluation meyarlarını verir. [Əsas implementasiyalar](../README.md) ayrıca sənədləşdirilib. Advanced/research üçün hər ideyanın experiment protocol-u [experiments](../../experiments/README.md) daxilindədir.
+[Regional ClinVar evidence triage](regional-variant-interpretation/README.md) tam işlək ilk advanced layihədir. O, MEFV və HBB nümunələrində mənbə, review status, inheritance və interpretation sərhədini görünən edir; klinik təsnifat yaratmır.
+
+[Layihə kataloqu](../IDEAS.md) digər advanced sualların dataset, pipeline və evaluation meyarlarını verir. Qalan protokollar [experiments](../../experiments/README.md) daxilində plan kimi saxlanılır və icra edilməyən nəticə kimi göstərilmir.

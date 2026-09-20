@@ -1,5 +1,16 @@
 # Dəyişikliklər
 
+## v0.1.0 hazırlığı — 2026-09-20
+
+- MIT kod və CC BY 4.0 sənəd lisenziyaları, aydın üçüncü tərəf istisnaları əlavə edildi.
+- Quraşdırılan `biolab` CLI layihə kataloqu və bütün run əmrlərini birləşdirdi; 13-cü regional ClinVar layihəsi işlək nəticə ilə əlavə olundu.
+- `uv.lock`, locked-environment CI, Windows offline CI, geniş Ruff qaydaları, mypy və 75% coverage həddi əlavə edildi.
+- 8 guided və 8 reproduction notebook-u ayrıldı; guided notebook-lar mərhələli izah və görünən output-la yaradıldı.
+- 20 format bələdçisi, 38 database kartı, 37 məqalə qeydi, 320 terminlik AZ–EN lüğət və beş dərin statistika bələdçisi tamamlandı.
+- UNEC tapşırıqları cavablardan ayrıldı; dörd nəticə finding-i və 14 sahəlik inkişaf xəritəsi yaradıldı.
+- Dublikat course nəticələri canonical reference xəritəsi ilə əvəz edildi; tarixi nəticələr source archive ilə yoxlanılır.
+- Alignment üçün opsional NumPy backend, stratified bootstrap, vektorlaşdırılmış singleton enrichment və ML indeks optimallaşdırması əlavə edildi.
+
 ## Təqdimat və tanıtım paketi — 2026-09-19
 
 README üçün AI üz qabığı, real nəticə qalereyası və qısa naviqasiya əlavə edildi.

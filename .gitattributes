@@ -10,3 +10,4 @@
 *.csv text eol=lf
 # Keep frozen execution bytes, overriding format-wide text rules above.
 results/research-audit/** -text
+results/advanced-projects/** -text whitespace=cr-at-eol

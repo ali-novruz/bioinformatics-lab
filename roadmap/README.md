@@ -2,6 +2,8 @@
 
 Vaxt şəxsi tempə bağlıdır. Statistikanın əsaslarını Phase 2-dən paralel öyrənin; Phase 8 dərinləşdirmədir. Hər keçid nəticə və izahla təsdiqlənir.
 
+Hazır modullardan sonrakı 14 istiqamət üçün [sahə boşluqları üzrə icra xəritəsinə](domain-gaps.md) baxın.
+
 ## Phase 1 — Biology Fundamentals
 
 - Öyrən: DNA→RNA→protein; genotype/phenotype; replication və expression.

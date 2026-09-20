@@ -11,6 +11,10 @@ datasets/raw/
 datasets/processed/
 results/runs/
 work/
+.coverage*
+coverage.xml
+htmlcov/
+.mypy_cache/
 *.bam
 *.bai
 *.cram

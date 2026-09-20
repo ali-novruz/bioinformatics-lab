@@ -15,7 +15,7 @@ MP4 slaydlar əsasında hazırlanmış **səssiz tanıtım maketidir**. Real ekr
 |---|---:|---|---|
 | 00:00-00:10 | 1 | DNA üz qabığı | Azərbaycan dilində bioinformatika laboratoriyası |
 | 00:10-00:20 | 2 | Sualdan nəzarətə proses sxemi | Öyrənmə və yoxlama iş axını |
-| 00:20-00:30 | 3 | Saylar və layihə qrafiki | 12 layihə, 8 notebook, 8 offline layihə |
+| 00:20-00:30 | 3 | Saylar və layihə qrafiki | 13 layihə, 16 notebook, 9 offline layihə |
 | 00:30-00:40 | 4 | Layihə kataloqu | DNA, alignment, genom və protein istiqamətləri |
 | 00:40-00:50 | 6 | Pasilla PCA | Real RNA-seq analizi və model dizaynı |
 | 00:50-01:00 | 9 | Permutation nəzarəti | Nəticənin təsadüfdən fərqlənməsi |
@@ -58,7 +58,7 @@ Quraşdırma və icra gözləmələrini montajda qısaldanda ekranda “gözləm
 
 **Başlıq:** Bioinformatics Research Lab: layihələr, real analiz və elmi nəzarətlər
 
-**Təsvir:** Azərbaycan dilində bioinformatika laboratoriyası ilə tanış olun. Repository 12 işlək layihəni, 8 notebook-u, PDF kitabxanasını və UNEC praktikumunu birləşdirir. Videoda RNA-seq, filogeniya, model nəzarəti və ilk offline icra yolunu göstəririk. Nəticələr tədris və tədqiqat nümunələridir. Tam materiallar və məhdudiyyətlər repository-dədir.
+**Təsvir:** Azərbaycan dilində bioinformatika laboratoriyası ilə tanış olun. Repository 13 işlək layihəni, 16 notebook-u, PDF kitabxanasını və UNEC praktikumunu birləşdirir. Videoda RNA-seq, filogeniya, model nəzarəti və ilk offline icra yolunu göstəririk. Nəticələr tədris və tədqiqat nümunələridir. Tam materiallar və məhdudiyyətlər repository-dədir.
 
 [Repository](https://github.com/ali-novruz/bioinformatics-lab) giriş icazəsi olan hesabla açılır.
 

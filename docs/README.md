@@ -1,6 +1,6 @@
 # Tədris və tədqiqat kitabxanası
 
-[Biologiyanın 16 əsas anlayışı](molecular-biology/README.md) → [11 data formatı](data-formats/README.md) → [roadmap](../roadmap/README.md).
+[Biologiyanın 16 əsas anlayışı](molecular-biology/README.md) → [20 data formatı](data-formats/README.md) → [320 terminlik AZ–EN lüğət](glossary.md) → [roadmap](../roadmap/README.md).
 
 - [Bioinformatik düşüncə](fundamentals/README.md)
 - [Genetika və koordinatlar](genetics/README.md)
@@ -13,6 +13,7 @@
 - [Systems biology](systems-biology/README.md)
 - [Machine learning for bioinformatics](machine-learning/README.md)
 - [Bioinformatika üçün statistika](statistics/README.md)
+- [Regional genetika və açıq ClinVar nümunəsi](regional-genetics/README.md)
 
 Hər modulda anlayış, metod, praktik yoxlama, məhdudiyyət və yeni araşdırma sualı var. “Advanced” mövzular giriş və metod seçimi səviyyəsindədir; ayrıca uzunmüddətli layihələrdə dərinləşdirilir.
 

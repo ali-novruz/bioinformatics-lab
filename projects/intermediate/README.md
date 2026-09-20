@@ -8,4 +8,4 @@
 - [Real GO-slim Enrichment](go-enrichment/README.md): `python scripts/lab.py run enrichment`.
 - [Opuntia Phylogeny](phylogeny/README.md): `python scripts/lab.py run phylogeny`.
 
-Hər layihənin giriş, nəticə və məhdudiyyətləri öz səhifəsindədir. [12 layihənin kataloqu](../README.md) və [quraşdırma](../../SETUP.md).
+Hər layihənin giriş, nəticə və məhdudiyyətləri öz səhifəsindədir. [13 layihənin kataloqu](../README.md) və [quraşdırma](../../SETUP.md).

@@ -16,4 +16,17 @@ Bu ilkin seçmə systematic review və ya 2026-cı ilin tam “state of the art�
 | [A universal SNP and small-indel variant caller using deep neural networks](deepvariant.md) | 2018 | Abstract, citation və author metadata; əsas mətn giriş məhdudiyyətlidir. |
 | [A Deep Learning Approach to Antibiotic Discovery](antibiotic-ai.md) | 2020 | Tam mətn: model, chemical validation, Results və Discussion. |
 
+## Genişləndirilmiş analitik kataloq
+
+Əlavə 26 qeyd eyni şablonla research question, metod, evidence scope, məhdudiyyət, repo əlaqəsi və növbəti eksperimenti ayırır.
+
+- **Alignment və əsas alqoritmlər:** [Needleman–Wunsch](needleman-wunsch.md), [Smith–Waterman](smith-waterman.md), [Clustal Omega](clustal-omega.md), [HMMER3](hmmer3.md)
+- **Read mapping və genom alətləri:** [Bowtie 2](bowtie2.md), [STAR](star.md), [HISAT2](hisat2.md), [SAMtools](samtools.md), [BEDTools](bedtools.md), [minimap2](minimap2.md)
+- **Expression və single-cell:** [edgeR](edger.md), [limma-voom](limma-voom.md), [t-SNE](tsne.md), [UMAP](umap.md), [Scanpy](scanpy.md), [Harmony](harmony.md), [scVI](scvi.md)
+- **Assembly və metagenomika:** [SPAdes](spades.md), [Flye](flye.md), [MetaPhlAn2](metaphlan2.md), [QIIME 2](qiime2.md)
+- **Populyasiya və genom resursları:** [PLINK](plink.md), [Human Genome](human-genome.md), [T2T-CHM13](t2t-chm13.md)
+- **Bioloji foundation modelləri:** [ESM-2](esm2.md), [Enformer](enformer.md)
+
+Beləliklə kataloqda **37 primary-source note** var. Bu say systematic review mənasına gəlmir; seçim tədris əhatəsini genişləndirmək üçündür.
+
 Search trace: DESeq2, Salmon və AlphaFold başlıqları ilə paper-index sorğuları; metod ailələri üçün geniş sorğu; DESeq2 related-papers sorğusu nəticə qaytarmadığı üçün müəllif/jurnal primary səhifələrinə keçildi. Geniş sorğudakı əlaqəsiz və təsdiqlənməmiş nəticələr daxil edilmədi. Publisher content və PMC arasında başlıq fərqləri note-da açıqlanır.

@@ -1,0 +1,11 @@
+{
+  "records": 2,
+  "genes": [
+    "HBB",
+    "MEFV"
+  ],
+  "source": "NCBI ClinVar ESummary snapshot",
+  "clinical_use": false,
+  "regional_prevalence_claim": false,
+  "warning": "These two examples do not estimate prevalence in Azerbaijan or the Caucasus."
+}
