@@ -1,6 +1,6 @@
 {
   "project": "regional-variants",
-  "created_utc": "20260920T023830Z-cdec5b",
+  "created_utc": "20260920T024321Z-a8ae9f",
   "python": "3.12.14",
   "platform": "Windows-11-10.0.26200-SP0",
   "packages": {
@@ -13,7 +13,7 @@
     "pydeseq2": "0.5.4",
     "matplotlib": "3.11.2"
   },
-  "git_commit": "709a80b5821c2e1246b86409f1c1ebf47630d072",
+  "git_commit": "22c590aa0962bbb115ba5af1f5fbeeac6c5706de",
   "working_tree_dirty": true,
   "source_files_sha256": {
     "projects\\registry.json": "edb6f8e6101cb47e2b7eeaeb7f0d7d6cb492b8e6bfc548a38e0b0906d7b661c7",
@@ -59,7 +59,7 @@
     "src\\biolab\\launcher.py": "badfd9203e4ff400ef5be6d31197756bd963392d2a0c497fc288ca2b7e8e06fc",
     "src\\biolab\\ml.py": "2ea6e5b3c5e61d676f97808ced0f1d12f2d41c396ff2c5a2eebb6a5c14ea16c5",
     "src\\biolab\\orfs.py": "a4bea1f497630f8a33daa9fba3c034fa42218fcaa863932fb394e5b4a549220e",
-    "src\\biolab\\phylogeny.py": "8d5211a997f3acbd980af31338b259d9d6af70a3657e11463aa6bc614240045e",
+    "src\\biolab\\phylogeny.py": "7f52651cbeed027981c0c3aa8c9c3096b29d246074ccb2f65391b794309c87bc",
     "src\\biolab\\provenance.py": "a70fc4716ad907aec912919f81dda8925d03b6c8da64083903f1413b3f2fba77",
     "src\\biolab\\registry.py": "e6b363624fddc7621f38651f3132ea76c55e53d4ba13538eba23dd35c380b8d5",
     "src\\biolab\\reporting.py": "a1a0e007b71c59cb53f8849c01c32f64b2b6091704c8e0d0173634e773b5460a",
@@ -87,8 +87,8 @@
     }
   ],
   "status": "complete",
-  "finished_utc": "2026-09-20T02:38:31.631890+00:00",
-  "elapsed_seconds": 0.45465790000025663,
+  "finished_utc": "2026-09-20T02:43:22.583079+00:00",
+  "elapsed_seconds": 0.46291789999986577,
   "error": null,
   "outputs_sha256": {
     "priorities.png": "bf4b407ad00360aa767728cdf16714b7f5e667d6e3517543a056eb7e80e48c0d",

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from collections import Counter
 from collections.abc import Iterable, Sequence
+from typing import cast
 
 import numpy as np
 from Bio.Phylo.BaseTree import Tree
@@ -22,7 +23,7 @@ def alignment_matrix(
     if len({len(s) for s in sequences}) != 1:
         raise ValueError("Aligned sequences must have equal length")
     matrix = np.array([list(s) for s in sequences])
-    usable = np.isin(matrix, list("ACGT")).all(axis=0)
+    usable = cast(NDArray[np.bool_], np.isin(matrix, list("ACGT")).all(axis=0))
     if not usable.any():
         raise ValueError("No complete ACGT alignment columns")
     return names, matrix[:, usable], usable
