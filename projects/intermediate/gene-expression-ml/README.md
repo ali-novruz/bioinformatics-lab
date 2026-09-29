@@ -1,5 +1,7 @@
 # Gen ifadəsindən şiş sinfinin təsnifatı
 
+**Dərsdə fərdi layihə kimi təqdim etmək üçün:** [ayrılmış layihə paketi, dərs planı, iş vərəqi və 16 slaydlıq təqdimat](../../showcase/khan-gene-expression-classifier/README.md).
+
 **Sual:** Khan mikroarray benchmark-ında training hissəsi ilə seçilmiş linear SVM verilmiş test hissəsində dörd sinfi ayıra bilirmi?
 
 ```bash

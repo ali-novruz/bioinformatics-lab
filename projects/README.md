@@ -1,5 +1,9 @@
 # 13 işlək layihə
 
+## Dərs üçün seçilmiş fərdi layihə
+
+**[Gen ifadəsindən şiş sinfinin təsnifatı](showcase/khan-gene-expression-classifier/README.md)** ayrıca dərs paketi kimi hazırlanıb. Paketə 50 dəqiqəlik dərs planı, tələbə iş vərəqi, faktiki nəticələrə bağlı təqdimat və qiymətləndirmə rubrikası daxildir. Kanonik analiz və nəticələr kopyalanmır, bir mənbədən istifadə olunur.
+
 ```bash
 python scripts/lab.py list
 python scripts/lab.py run all --offline

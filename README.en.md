@@ -48,6 +48,8 @@ The learning library currently includes 20 data-format guides, 38 database cards
 
 [Animated 26-slide PowerPoint](docs/media/bioinformatics-lab-animated.pptx) · [Static PDF](docs/media/bioinformatics-lab-presentation.pdf) · [Illustrated quick start](docs/media/ILLUSTRATED_GUIDE.md) · [Two-minute preview](docs/media/repo-intro-preview.mp4)
 
+The selected classroom showcase is [tumor class prediction from Khan gene expression](projects/showcase/khan-gene-expression-classifier/README.md), with a lesson plan, student worksheet, rubric, and a dedicated Azerbaijani PowerPoint.
+
 ## License and citation
 
 Original software is licensed under [MIT](LICENSE). Original teaching prose, presentations, and author-created synthetic data are licensed under [CC BY 4.0](LICENSE-docs). Third-party books, source excerpts, biological datasets, and derivatives retain their own terms; see the exact [license scope and exclusions](LICENSING.md). Cite the repository with [CITATION.cff](CITATION.cff) and cite underlying datasets and tools separately.

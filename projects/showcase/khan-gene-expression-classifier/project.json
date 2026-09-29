@@ -1,0 +1,18 @@
+{
+  "id": "khan-gene-expression-classifier-showcase",
+  "title_az": "Gen ifadəsindən şiş sinfinin təsnifatı",
+  "title_en": "Tumor class prediction from gene expression",
+  "level": "intermediate",
+  "class_duration_minutes": 50,
+  "extended_lab_minutes": 90,
+  "dataset": "Khan et al. (2001), pinned ISLP four-class microarray split",
+  "train_samples": 63,
+  "test_samples": 20,
+  "features": 2308,
+  "command": "biolab run expression-ml",
+  "network_required_on_first_run": true,
+  "canonical_project": "../../intermediate/gene-expression-ml/README.md",
+  "canonical_results": "../../../results/expanded-projects/gene-expression-ml/summary.json",
+  "control_results": "../../../results/research-audit/expression-control/summary.json",
+  "presentation": "presentation/khan-gene-expression-classifier-az.pptx"
+}

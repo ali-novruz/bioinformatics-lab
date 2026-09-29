@@ -30,6 +30,10 @@ Azərbaycan dilində bioinformatika laboratoriyası: kiçik real dataset-lər, i
 
 Təqdimatda proses sxemləri, redaktə edilən qrafik və cədvəllər, real analiz şəkilləri və danışıq qeydləri var. Animasiya PowerPoint-in Slide Show rejimində açılır. PDF statik nüsxədir.
 
+### Dərsdə təqdim etmək üçün seçilmiş fərdi layihə
+
+**[Gen ifadəsindən şiş sinfinin təsnifatı](projects/showcase/khan-gene-expression-classifier/README.md)** ayrıca layihə paketi kimi hazırlanıb. Burada 50 dəqiqəlik dərs planı, tələbə iş vərəqi, qiymətləndirmə rubrikası və yalnız bu analizə həsr olunmuş [16 slaydlıq PowerPoint](projects/showcase/khan-gene-expression-classifier/presentation/khan-gene-expression-classifier-az.pptx) var.
+
 ## Analizlərə baxış
 
 Aşağıdakı şəkillər repoda saxlanmış **faktiki analiz nəticələridir**. Şəkilə toxunaraq tam ölçüdə aça bilərsiniz.
