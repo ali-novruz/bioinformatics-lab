@@ -1,0 +1,26 @@
+probe_column,image_id,description,alignment_correlation,anova_f,highest_class,short_name
+V1158,814526.0,ESTs,1.0,36.017085340780426,BL,ESTs
+V1389,770394.0,"Fc fragment of IgG, receptor, transporter, alpha",1.0,87.87988739207573,EWS,Fc fragment of IgG
+V246,377461.0,"caveolin 1, caveolae protein, 22kD",1.0,69.33737179559463,EWS,caveolin 1
+V1954,814260.0,follicular lymphoma variant translocation 1,1.0,62.54313618186985,EWS,follicular lymphoma variant translocation 
+V545,1435862.0,"antigen identified by monoclonal antibodies 12E7, F21 and O13",1.0,54.27420222566521,EWS,antigen identified by monoclonal antibodie
+V107,365826.0,growth arrest-specific 1,1.0,49.48421122989955,EWS,growth arrest-specific 1
+V1319,866702.0,"protein tyrosine phosphatase, non-receptor type 13 (APO-1/CD95 (Fas)-associated phosphatase)",1.0,46.57862503732442,EWS,protein tyrosine phosphatase
+V1645,52076.0,olfactomedinrelated ER localized protein,1.0,42.97289564815676,EWS,olfactomedinrelated ER localized protein
+V842,810057.0,cold shock domain protein A,1.0,42.77183489586332,EWS,cold shock domain protein A
+V1708,43733.0,glycogenin 2,1.0,40.42932300673469,EWS,glycogenin 2
+V851,563673.0,antiquitin 1,1.0,36.14826301276007,EWS,antiquitin 1
+V2198,212542.0,Homo sapiens mRNA; cDNA DKFZp586J2118 (from clone DKFZp586J2118),1.0,35.88065834807297,EWS,Homo sapiens mRNA; cDNA DKFZp586J2118
+V2050,295985.0,ESTs,1.0,52.080189999989045,NB,ESTs
+V1066,486110.0,profilin 2,1.0,35.88986403298807,NB,profilin 2
+V1427,504791.0,glutathione S-transferase A4,1.0,35.54411888453108,NB,glutathione S-transferase A4
+V1955,784224.0,fibroblast growth factor receptor 4,1.0,75.51173190954913,RMS,fibroblast growth factor receptor 4
+V1003,796258.0,"sarcoglycan, alpha (50kD dystrophin-associated glycoprotein)",1.0,57.84656601429311,RMS,sarcoglycan
+V1194,859359.0,quinone oxidoreductase homolog,1.0,53.238145304672315,RMS,quinone oxidoreductase homolog
+V1,21652.0,"catenin (cadherin-associated protein), alpha 1 (102kD)",1.0,45.472369779523056,RMS,catenin
+V187,296448.0,insulin-like growth factor 2 (somatomedin A),1.0,40.3929597570862,RMS,insulin-like growth factor 2
+V2162,308163.0,ESTs,1.0,40.21456156642686,RMS,ESTs
+V2046,244618.0,ESTs,1.0,37.97140729765861,RMS,ESTs
+V174,769716.0,neurofibromin 2 (bilateral acoustic neuroma),1.0,36.38123483203708,RMS,neurofibromin 2
+V2022,204545.0,ESTs,1.0,36.07071427107365,RMS,ESTs
+V509,207274.0,Human DNA for insulin-like growth factor II (IGF-2); exon 7 and additional ORF,1.0,35.7827112616646,RMS,Human DNA for insulin-like growth factor I
