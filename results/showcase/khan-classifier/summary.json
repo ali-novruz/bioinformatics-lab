@@ -1,0 +1,43 @@
+{
+  "class_map": {
+    "1": "BL",
+    "2": "EWS",
+    "3": "NB",
+    "4": "RMS"
+  },
+  "selected_parameters": {
+    "classifier__C": 0.01,
+    "select__k": 25
+  },
+  "test_accuracy": 0.95,
+  "misclassified": [
+    {
+      "sample_id": "test_15",
+      "truth": "EWS",
+      "prediction": "RMS"
+    }
+  ],
+  "pca_explained_all": [
+    0.129,
+    0.1232
+  ],
+  "pca_explained_selected": [
+    0.3682,
+    0.2863
+  ],
+  "leakage": {
+    "shuffles": 100,
+    "leaky_mean": 0.531,
+    "leaky_min": 0.3683,
+    "inside_cv_mean": 0.2438,
+    "inside_cv_max": 0.4175,
+    "real_labels_leaky": 1.0,
+    "real_labels_inside_cv": 1.0
+  },
+  "selected_gene_classes": {
+    "EWS": 11,
+    "RMS": 10,
+    "NB": 3,
+    "BL": 1
+  }
+}
