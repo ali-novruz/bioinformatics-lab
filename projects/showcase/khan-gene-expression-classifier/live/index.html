@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Canlı laboratoriya · Khan SRBCT</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,50;1,9..144,300..600,50&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+/* Same visual system as the Hematoksilin deck: glass-slide pink ground, hematoxylin ink, eosin accent. */
+:root{
+  --glass:#f6eef2; --glass-2:#efe2e9; --label:#e6d6df; --card:#fbf6f8;
+  --hema:#291d4a; --hema-2:#4b3c78; --eosin:#c2457a; --mute:#7a6c8c; --rule:#dccbd6;
+  --c-bl:#c27f22; --c-ews:#3657b0; --c-nb:#2d8466; --c-rms:#b02e5b;
+  --good:#2d8466; --bad:#c2457a;
+  --font-display:"Fraunces", Georgia, serif;
+  --font-body:"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --font-data:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--glass);color:var(--hema);font-family:var(--font-body);font-size:16px;line-height:1.45}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--eosin);outline-offset:3px}
+.wrap{max-width:1500px;margin:0 auto;padding:22px max(16px,3vw) 60px;display:grid;gap:22px}
+header{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;border-bottom:1px solid var(--rule);padding-bottom:16px}
+h1{font-family:var(--font-display);font-weight:420;font-size:clamp(30px,3.2vw,50px);line-height:1;margin:0;letter-spacing:-.015em}
+h1 em{color:var(--eosin);font-weight:340}
+.eyebrow{font-family:var(--font-data);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--eosin);margin-bottom:8px}
+.status{display:flex;gap:10px;align-items:center;font-family:var(--font-data);font-size:13px}
+.pill{padding:.35em .9em;border-radius:99px;background:var(--glass-2);display:inline-flex;gap:8px;align-items:center}
+.pill i{width:9px;height:9px;border-radius:50%;background:var(--mute)}
+.pill[data-state="run"] i{background:var(--eosin);animation:blink .8s infinite}
+.pill[data-state="ok"] i{background:var(--good)}
+@keyframes blink{50%{opacity:.25}}
+
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.step{border:1.5px solid var(--hema);background:var(--card);border-radius:16px;padding:14px 18px;text-align:left;cursor:pointer;display:grid;gap:4px;transition:background .2s,color .2s,opacity .2s}
+.step b{font-family:var(--font-display);font-weight:500;font-size:22px}
+.step span{font-size:13px;color:var(--mute)}
+.step .n{font-family:var(--font-data);font-size:12px;color:var(--eosin)}
+.step:hover:not(:disabled){background:var(--hema);color:var(--glass)}
+.step:hover:not(:disabled) span{color:var(--label)}
+.step:disabled{opacity:.38;cursor:not-allowed}
+.step.done{border-color:var(--good)}
+.step.done .n::after{content:" · tamamlandı";color:var(--good)}
+
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px}
+.panel{background:var(--card);border-radius:18px;padding:18px 20px;display:flex;flex-direction:column;gap:12px;min-width:0;border:1px solid var(--rule)}
+.panel h2{font-family:var(--font-display);font-weight:500;font-size:22px;margin:0;display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.panel h2 small{font-family:var(--font-data);font-size:12px;color:var(--mute);font-weight:400}
+.span4{grid-column:span 4}.span5{grid-column:span 5}.span6{grid-column:span 6}.span7{grid-column:span 7}.span8{grid-column:span 8}.span12{grid-column:1/-1}
+.panel.idle{opacity:.55}
+.empty{font-size:14px;color:var(--mute);padding:20px 0}
+.big{font-family:var(--font-display);font-weight:330;font-size:clamp(44px,4.4vw,72px);line-height:.9;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.mono{font-family:var(--font-data)}
+.small{font-size:13px;color:var(--mute)}
+svg{width:100%;height:auto;display:block;overflow:visible}
+svg text{font-family:var(--font-data);fill:var(--hema)}
+
+/* CV grid */
+.cv{display:grid;grid-template-columns:70px repeat(3,minmax(0,1fr));gap:8px;align-items:stretch}
+.cv .hd{font-family:var(--font-data);font-size:12px;color:var(--mute);display:flex;align-items:center;justify-content:center}
+.cell{background:var(--glass);border-radius:12px;padding:10px;display:grid;gap:8px;border:2px solid transparent;transition:border-color .3s, background .3s}
+.cell.active{border-color:var(--eosin)}
+.cell.best{border-color:var(--hema);background:var(--glass-2)}
+.cell .mean{font-family:var(--font-display);font-size:26px;line-height:1;font-variant-numeric:tabular-nums}
+.folds{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;height:42px;align-items:end}
+.folds i{display:block;background:var(--hema-2);border-radius:3px 3px 0 0;height:0;transition:height .35s cubic-bezier(.2,.8,.1,1)}
+.ticker{font-family:var(--font-data);font-size:12px;color:var(--mute);height:1.5em;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+
+/* test tiles */
+.tiles{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:8px}
+.tile{aspect-ratio:3/4;border-radius:10px;background:var(--hema);color:var(--glass);display:flex;flex-direction:column;justify-content:space-between;padding:8px;cursor:pointer;border:0;text-align:left;transition:transform .5s cubic-bezier(.2,.8,.1,1), background .3s;transform:rotateY(0)}
+.tile .id{font-family:var(--font-data);font-size:11px;opacity:.7}
+.tile .cls{font-family:var(--font-display);font-size:clamp(16px,1.4vw,22px);font-weight:500}
+.tile .mk{font-size:18px;align-self:flex-end;font-weight:700}
+.tile.open{background:var(--card);color:var(--hema);box-shadow:inset 0 -6px 0 var(--c)}
+.tile.open.err{background:#f7dbe6;box-shadow:inset 0 0 0 2px var(--bad)}
+.tile.open.ok .mk{color:var(--good)}.tile.open.err .mk{color:var(--bad)}
+.tile.sel{outline:3px solid var(--hema);outline-offset:2px}
+.tile.flip{animation:flip .5s}
+@keyframes flip{0%{transform:rotateY(90deg)}100%{transform:rotateY(0)}}
+.metrics{display:flex;gap:26px;flex-wrap:wrap;font-family:var(--font-data);font-size:12px;color:var(--mute)}
+.metrics b{display:block;font-family:var(--font-display);font-size:28px;color:var(--hema);font-weight:400}
+
+.toggle{display:inline-flex;border:1px solid var(--hema);border-radius:99px;padding:3px;gap:3px;align-self:flex-start}
+.toggle button{border:0;background:none;padding:.3em .9em;border-radius:99px;cursor:pointer;font-size:13px}
+.toggle button[aria-pressed="true"]{background:var(--hema);color:var(--glass)}
+.dot{transition:transform 1.3s cubic-bezier(.6,0,.2,1), opacity .5s}
+.hm-row{cursor:pointer}.hm-row .hl{opacity:0}.hm-row.on .hl{opacity:1}
+.gene{display:grid;gap:8px}
+.gene .nm{font-family:var(--font-display);font-size:34px;line-height:1}
+.gbar{display:grid;grid-template-columns:40px 1fr 54px;gap:8px;align-items:center;font-family:var(--font-data);font-size:12px}
+.gbar i{height:12px;position:relative}
+.gbar i::before{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--rule)}
+.gbar i::after{content:"";position:absolute;top:0;bottom:0;width:var(--w);background:var(--c)}
+.gbar i.pos::after{left:50%}.gbar i.neg::after{right:50%}
+.gbar b{text-align:right}
+.labels{display:flex;flex-wrap:wrap;gap:3px}
+.labels i{width:12px;height:12px;border-radius:50%;transition:background .4s}
+.leaknums{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.leaknums div{border-top:3px solid currentColor;padding-top:8px}
+.leaknums .a{color:var(--bad)}.leaknums .b{color:var(--good)}
+.leaknums .small{color:inherit}
+.err-box{background:#f7dbe6;border:1px solid var(--bad);border-radius:12px;padding:12px 16px;font-family:var(--font-data);font-size:13px}
+select{font:inherit;padding:.3em .5em;border-radius:8px;border:1px solid var(--rule);background:var(--card)}
+@media (max-width:1000px){.span4,.span5,.span6,.span7,.span8{grid-column:1/-1}.steps{grid-template-columns:1fr 1fr}.tiles{grid-template-columns:repeat(5,1fr)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div><div class="eyebrow">Canlı laboratoriya · bioinformatics-lab</div><h1>Gen ifadəsindən <em>şiş təsnifatı</em></h1></div>
+    <div class="status"><span class="pill" id="pill" data-state="idle"><i></i><span id="pill-text">Hazırdır</span></span><span id="clock" class="mono">00:00</span></div>
+  </header>
+
+  <div id="error" class="err-box" hidden></div>
+
+  <nav class="steps" aria-label="Addımlar">
+    <button class="step done" id="s-data" type="button" disabled><span class="n">1 · DATA</span><b>Datanı yüklə</b><span>63 + 20 nümunə × 2308 gen</span></button>
+    <button class="step" id="s-train" type="button"><span class="n">2 · ÖYRƏT</span><b>Modeli öyrət</b><span>9 kombinasiya × 5 qat CV, canlı</span></button>
+    <button class="step" id="s-test" type="button" disabled><span class="n">3 · TEST</span><b>Testi aç</b><span>20 gizli nümunə, bir-bir</span></button>
+    <button class="step" id="s-leak" type="button"><span class="n">4 · NƏZARƏT</span><b>Sızma təcrübəsi</b><span>Qarışdırılmış etiketlər, canlı</span></button>
+  </nav>
+
+  <div class="grid">
+    <section class="panel span4">
+      <h2>Data <small>datasets/raw/khan · SHA-256 yoxlanılıb</small></h2>
+      <div style="display:flex;align-items:baseline;gap:.25em;flex-wrap:wrap"><span class="big" id="n-samples">63</span><span class="big" style="color:var(--eosin);font-style:italic">×</span><span class="big" id="n-genes">2308</span></div>
+      <div id="counts"></div>
+      <p class="small" style="margin:0">Sinif adları CRAN plsgenomics::SRBCT ilə ədədi uyğunlaşdırılıb. Test hissəsi addım 3-ə qədər bağlıdır.</p>
+    </section>
+
+    <section class="panel span8" id="p-cv">
+      <h2>Cross-validation <small>balanced accuracy · hər qatda bütün pipeline yenidən öyrədilir</small></h2>
+      <div class="cv" id="cv"></div>
+      <div class="ticker" id="ticker">Başlamaq üçün "Modeli öyrət" düyməsini basın.</div>
+    </section>
+
+    <section class="panel span6 idle" id="p-pca">
+      <h2>PCA <small id="pca-note">training-ə fit · boş dairə = test</small></h2>
+      <div class="toggle" role="group" aria-label="Gen dəsti"><button type="button" data-view="all" aria-pressed="true">2308 gen</button><button type="button" data-view="selected" aria-pressed="false">Seçilmiş genlər</button></div>
+      <div id="pca"><p class="empty">Model öyrədiləndən sonra görünür.</p></div>
+    </section>
+
+    <section class="panel span6 idle" id="p-genes">
+      <h2>Model hansı genlərə baxır <small id="genes-note"></small></h2>
+      <div style="display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px">
+        <div id="heat"><p class="empty">Model öyrədiləndən sonra görünür.</p></div>
+        <div class="gene" id="gene"></div>
+      </div>
+    </section>
+
+    <section class="panel span7 idle" id="p-test">
+      <h2>Ayrılmış test <small>tile-a klikləyin: SVM qərar dəyərləri</small></h2>
+      <div class="tiles" id="tiles"></div>
+      <div style="display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap">
+        <div><span class="big" id="correct">0</span><span class="big" style="color:var(--mute)">/20</span></div>
+        <div class="metrics" id="metrics"></div>
+      </div>
+    </section>
+
+    <section class="panel span5 idle" id="p-dec">
+      <h2>Qərar dəyərləri <small id="dec-label">—</small></h2>
+      <div id="decision"><p class="empty">Test açılanda görünür.</p></div>
+      <div id="confusion" style="max-width:300px"></div>
+    </section>
+
+    <section class="panel span12" id="p-leak">
+      <h2>Sızma təcrübəsi <small>etiketlər təsadüfi qarışdırılır: öyrəniləcək real əlaqə yoxdur</small></h2>
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap" class="small">
+        <label for="leak-n">Qarışdırma sayı</label>
+        <select id="leak-n"><option value="10">10 (~12 s)</option><option value="20" selected>20 (~25 s)</option><option value="50">50 (~1 dəq)</option><option value="100">100 (~2 dəq)</option></select>
+        <span>Etiketlər:</span><div class="labels" id="labels"></div>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:20px;align-items:center">
+        <div id="leak"></div>
+        <div class="leaknums">
+          <div class="a"><div class="big" id="leak-a">—</div><div class="small">gen seçimi CV-dən <b>əvvəl</b> · orta</div></div>
+          <div class="b"><div class="big" id="leak-b">—</div><div class="small">seçim CV <b>daxilində</b> · orta</div></div>
+          <p class="small" style="grid-column:1/-1;color:var(--mute);margin:0">Təsadüfi model 0.25 alır. Sızmalı variant təsadüfi etiketləri "öyrənmiş" kimi görünür.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script>
+const NS = "http://www.w3.org/2000/svg";
+const ORDER = ["BL", "EWS", "NB", "RMS"];
+const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const col = (c) => css("--c-" + c.toLowerCase());
+const $ = (id) => document.getElementById(id);
+function s(tag, attrs = {}, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function svg(el, w, h) { el.innerHTML = ""; return s("svg", { viewBox: `0 0 ${w} ${h}` }, el); }
+function t(p, x, y, str, a = {}) { const e = s("text", { x, y, "font-size": 13, ...a }, p); e.textContent = str; return e; }
+
+/* status + clock */
+let t0 = null;
+function status(state, text) { $("pill").dataset.state = state; $("pill-text").textContent = text; if (state === "run") t0 = performance.now(); }
+setInterval(() => { if ($("pill").dataset.state !== "run" || !t0) return; const s = Math.floor((performance.now() - t0) / 1000); $("clock").textContent = `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`; }, 250);
+function fail(msg) { const e = $("error"); e.hidden = false; e.textContent = "Xəta: " + msg; status("idle", "Xəta"); }
+function stream(url, handlers) {
+  return new Promise((resolve) => {
+    const es = new EventSource(url);
+    for (const [ev, fn] of Object.entries(handlers)) es.addEventListener(ev, (m) => fn(JSON.parse(m.data)));
+    es.addEventListener("done", () => { es.close(); resolve(true); });
+    es.addEventListener("fail", (m) => { es.close(); fail(JSON.parse(m.data).message); resolve(false); });
+    es.onerror = () => { es.close(); fail("Serverlə əlaqə kəsildi. Terminalda khan_live_demo.py işləyirmi?"); resolve(false); };
+  });
+}
+
+/* data panel */
+async function loadSummary() {
+  const r = await fetch("/api/summary");
+  if (!r.ok) return fail(`summary ${r.status}`);
+  const d = await r.json();
+  $("n-samples").textContent = d.train[0]; $("n-genes").textContent = d.train[1];
+  const W = 420, H = 170, root = svg($("counts"), W, H), base = 130, max = 23;
+  ORDER.forEach((c, i) => {
+    const x = 30 + i * 100, h1 = d.train_counts[i] / max * 100, h2 = d.test_counts[i] / max * 100;
+    s("rect", { x, y: base - h1, width: 30, height: h1, fill: col(c) }, root);
+    s("rect", { x: x + 34, y: base - h2, width: 30, height: h2, fill: "none", stroke: col(c), "stroke-width": 2 }, root);
+    t(root, x + 15, base - h1 - 6, d.train_counts[i], { "text-anchor": "middle" });
+    t(root, x + 49, base - h2 - 6, d.test_counts[i], { "text-anchor": "middle" });
+    t(root, x + 32, base + 22, c, { "text-anchor": "middle", fill: col(c), "font-weight": 600 });
+  });
+  t(root, 30, 12, "■ training   □ test", { fill: css("--mute") });
+}
+
+/* CV grid */
+const KS = [25, 100, 500], CS = [0.01, 0.1, 1];
+function buildCV() {
+  const el = $("cv"); el.innerHTML = '<div class="hd">C \\ k</div>' + KS.map((k) => `<div class="hd">k = ${k}</div>`).join("");
+  CS.forEach((c) => {
+    el.insertAdjacentHTML("beforeend", `<div class="hd">C = ${c}</div>`);
+    KS.forEach((k) => el.insertAdjacentHTML("beforeend", `<div class="cell" id="cell-${k}-${c}"><div class="folds">${"<i></i>".repeat(5)}</div><div class="mean">—</div></div>`));
+  });
+}
+async function train() {
+  buildCV(); $("error").hidden = true;
+  lock(true); status("run", "Model öyrədilir");
+  const ok = await stream("/api/train", {
+    fold: (d) => {
+      document.querySelectorAll(".cell.active").forEach((e) => e.classList.remove("active"));
+      const cell = $(`cell-${d.k}-${d.C}`); cell.classList.add("active");
+      cell.querySelectorAll(".folds i")[d.fold].style.height = Math.max(4, d.score * 100) + "%";
+      $("ticker").textContent = `C=${d.C} · k=${d.k} · qat ${d.fold + 1}/5 → balanced accuracy ${d.score.toFixed(2)} · ${d.ms} ms`;
+    },
+    cell: (d) => { $(`cell-${d.k}-${d.C}`).querySelector(".mean").textContent = d.mean.toFixed(2); },
+    best: (d) => {
+      document.querySelectorAll(".cell.active").forEach((e) => e.classList.remove("active"));
+      $(`cell-${d.k}-${d.C}`).classList.add("best");
+      $("ticker").textContent = `Seçildi: k = ${d.k}, C = ${d.C} · CV ${d.mean.toFixed(2)} · ${d.ties} kombinasiya bərabər, ilk ən yaxşı götürülür. Final model 63 nümunənin hamısında yenidən öyrədildi.`;
+    },
+    genes: (d) => drawGenes(d),
+    pca: (d) => drawPCA(d),
+  });
+  lock(false);
+  if (ok) { status("ok", "Model hazırdır"); $("s-train").classList.add("done"); $("s-test").disabled = false; }
+}
+
+/* PCA */
+let PCA_DATA = null;
+function drawPCA(d) {
+  PCA_DATA = d; $("p-pca").classList.remove("idle");
+  const W = 600, H = 380, pad = 34, root = svg($("pca"), W, H);
+  s("rect", { x: 10, y: 10, width: W - 20, height: H - 40, fill: "none", stroke: css("--rule") }, root);
+  const lab = t(root, W / 2, H - 6, "", { "text-anchor": "middle" });
+  const dots = [];
+  ["train", "test"].forEach((part) => d.all[part].forEach((p, i) => {
+    const c = p[2];
+    const e = s("circle", { r: part === "train" ? 6 : 7, fill: part === "train" ? col(c) : css("--card"), stroke: col(c), "stroke-width": part === "train" ? 0 : 2.5, class: "dot" }, root);
+    e.dataset.part = part; e.dataset.i = i; dots.push(e);
+  }));
+  function show(view) {
+    const pts = [...d[view].train, ...d[view].test], xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
+    const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
+    dots.forEach((e) => { const p = d[view][e.dataset.part][+e.dataset.i]; e.style.transform = `translate(${pad + (p[0] - x0) / (x1 - x0) * (W - 2 * pad)}px, ${H - 30 - pad + 10 - (p[1] - y0) / (y1 - y0) * (H - 2 * pad - 30)}px)`; });
+    const e = d[view].explained; lab.textContent = `PC1 ${Math.round(e[0] * 100)}% · PC2 ${Math.round(e[1] * 100)}% · cəmi ${Math.round((e[0] + e[1]) * 100)}%`;
+    document.querySelectorAll("[data-view]").forEach((b) => b.setAttribute("aria-pressed", b.dataset.view === view));
+  }
+  document.querySelectorAll("[data-view]").forEach((b) => (b.onclick = () => show(b.dataset.view)));
+  show("all"); setTimeout(() => show("selected"), 1800);
+}
+
+/* genes heatmap */
+function mix(a, b, k) { const pa = a.match(/\w\w/g).map((h) => parseInt(h, 16)), pb = b.match(/\w\w/g).map((h) => parseInt(h, 16)); return `rgb(${pa.map((v, i) => Math.round(v + (pb[i] - v) * k)).join(",")})`; }
+function drawGenes(d) {
+  $("p-genes").classList.remove("idle");
+  $("genes-note").textContent = `${d.genes.length} gen · z-skor`;
+  const n = d.samples.length, W = 560, lab = 110, top = 22, cw = (W - lab) / n, ch = 15, H = top + d.genes.length * ch + 4;
+  const root = svg($("heat"), W, H), lo = "3657b0", mid = "f6eef2", hi = "c2457a";
+  let x = lab;
+  ORDER.forEach((c) => { const k = d.samples.filter((v) => v === c).length; s("rect", { x, y: 4, width: k * cw - 2, height: 6, fill: col(c) }, root); t(root, x + k * cw / 2, 20, c, { "text-anchor": "middle", "font-size": 10, fill: col(c) }); x += k * cw; });
+  const rows = d.genes.map((g, r) => {
+    const row = s("g", { class: "hm-row", tabindex: 0 }, root);
+    d.z[r].forEach((v, c) => { const k = Math.max(-2.5, Math.min(2.5, v)) / 2.5; s("rect", { x: lab + c * cw, y: top + r * ch, width: cw + .3, height: ch + .3, fill: k < 0 ? mix(mid, lo, -k) : mix(mid, hi, k) }, row); });
+    const key = ["FGFR4", "CD99", "IGF2", "FCGRT", "CAV1"].includes(g.symbol);
+    t(row, lab - 6, top + r * ch + 11, g.symbol.length > 15 ? g.symbol.slice(0, 14) + "…" : g.symbol, { "text-anchor": "end", "font-size": 10, fill: key ? css("--eosin") : css("--hema"), "font-weight": key ? 600 : 400 });
+    s("rect", { x: lab, y: top + r * ch, width: W - lab, height: ch, fill: "none", stroke: css("--hema"), "stroke-width": 1.5, class: "hl" }, row);
+    const pick = () => { rows.forEach((x) => x.classList.toggle("on", x === row)); showGene(g); };
+    row.addEventListener("mouseenter", pick); row.addEventListener("click", pick); row.addEventListener("focus", pick);
+    return row;
+  });
+  const f = d.genes.findIndex((g) => g.symbol === "FGFR4");
+  rows[f >= 0 ? f : 0].dispatchEvent(new Event("click"));
+}
+function showGene(g) {
+  const vals = ORDER.map((c) => g.means[c]), mx = Math.max(0.5, ...vals.map(Math.abs));
+  $("gene").innerHTML = `<div class="nm">${g.symbol}</div><div class="small">${g.description}</div><div class="mono small">${g.probe} · F = ${g.f} · ən yüksək: <b style="color:${col(g.high)}">${g.high}</b></div>` +
+    ORDER.map((c, i) => `<div class="gbar"><span>${c}</span><i class="${vals[i] < 0 ? "neg" : "pos"}" style="--w:${Math.abs(vals[i]) / mx * 50}%;--c:${col(c)}"></i><b>${vals[i].toFixed(2)}</b></div>`).join("");
+}
+
+/* test */
+const SAMPLES = [];
+async function test() {
+  $("p-test").classList.remove("idle"); $("p-dec").classList.remove("idle");
+  const tiles = $("tiles"); tiles.innerHTML = ""; SAMPLES.length = 0; $("correct").textContent = "0"; $("metrics").innerHTML = "";
+  for (let i = 0; i < 20; i++) tiles.insertAdjacentHTML("beforeend", `<button class="tile" type="button" id="tile-${i}" disabled><span class="id">${String(i + 1).padStart(2, "0")}</span><span class="cls">?</span><span class="mk"></span></button>`);
+  lock(true); status("run", "Test açılır");
+  let correct = 0;
+  const ok = await stream("/api/test", {
+    sample: (d) => {
+      SAMPLES[d.i] = d;
+      const ok = d.truth === d.pred, el = $(`tile-${d.i}`);
+      el.disabled = false; el.classList.add("open", "flip", ok ? "ok" : "err"); el.style.setProperty("--c", col(d.truth));
+      el.querySelector(".cls").innerHTML = ok ? d.truth : `${d.truth}<br><small style="font-size:.6em">→ ${d.pred}</small>`;
+      el.querySelector(".mk").textContent = ok ? "✓" : "✕";
+      el.onclick = () => showDecision(d.i);
+      if (ok) $("correct").textContent = ++correct;
+      showDecision(d.i);
+    },
+    metrics: (m) => {
+      $("metrics").innerHTML = [["accuracy", m.accuracy], ["balanced", m.balanced], ["macro F1", m.macro_f1], ["dummy", 0.25]].map(([a, b]) => `<div>${a}<b>${b.toFixed(3)}</b></div>`).join("");
+      drawConfusion(m.confusion);
+      const err = SAMPLES.findIndex((x) => x.truth !== x.pred); if (err >= 0) showDecision(err);
+    },
+  });
+  lock(false);
+  if (ok) { status("ok", "Test tamamlandı"); $("s-test").classList.add("done"); }
+}
+function showDecision(i) {
+  const d = SAMPLES[i];
+  document.querySelectorAll(".tile").forEach((e, j) => e.classList.toggle("sel", j === i));
+  $("dec-label").innerHTML = `${d.id} · həqiqi <b style="color:${col(d.truth)}">${d.truth}</b> → proqnoz <b style="color:${col(d.pred)}">${d.pred}</b>`;
+  const W = 460, H = 200, mid = 230, sc = 110, root = svg($("decision"), W, H);
+  [-1.5, -1, -0.5, 0.5, 1, 1.5].forEach((v) => { s("line", { x1: mid + v * sc, x2: mid + v * sc, y1: 4, y2: H - 24, stroke: css("--rule") }, root); t(root, mid + v * sc, H - 6, (v > 0 ? "+" : "") + v, { "text-anchor": "middle", "font-size": 11 }); });
+  s("line", { x1: mid, x2: mid, y1: 4, y2: H - 24, stroke: css("--hema"), "stroke-width": 1.5 }, root);
+  ORDER.forEach((c, k) => {
+    const v = Math.max(-2, Math.min(2, d.scores[c])), y = 10 + k * 40, win = c === d.pred;
+    s("rect", { x: v < 0 ? mid + v * sc : mid, y, width: Math.abs(v) * sc, height: 26, fill: col(c), opacity: win ? 1 : .4 }, root);
+    t(root, v < 0 ? mid + v * sc - 6 : mid + v * sc + 6, y + 18, `${c} ${d.scores[c] > 0 ? "+" : ""}${d.scores[c].toFixed(2)}`, { "text-anchor": v < 0 ? "end" : "start", "font-weight": win ? 600 : 400 });
+  });
+}
+function drawConfusion(M) {
+  const W = 300, o = 52, cs = 56, root = svg($("confusion"), W, o + 4 * cs + 6);
+  t(root, o + 2 * cs, 12, "proqnoz", { "text-anchor": "middle", "font-size": 11 });
+  ORDER.forEach((c, i) => {
+    t(root, o + i * cs + cs / 2, o - 8, c, { "text-anchor": "middle", fill: col(c), "font-size": 11, "font-weight": 600 });
+    t(root, o - 8, o + i * cs + cs / 2 + 4, c, { "text-anchor": "end", fill: col(c), "font-size": 11, "font-weight": 600 });
+    ORDER.forEach((_, j) => {
+      const v = M[i][j];
+      s("rect", { x: o + j * cs + 2, y: o + i * cs + 2, width: cs - 4, height: cs - 4, rx: 6, fill: v ? (i === j ? col(c) : css("--bad")) : css("--glass"), opacity: v ? .3 + .7 * Math.min(1, v / 6) : 1 }, root);
+      t(root, o + j * cs + cs / 2, o + i * cs + cs / 2 + 7, v, { "text-anchor": "middle", "font-size": 20, "font-weight": 600, fill: v ? css("--hema") : css("--mute") });
+    });
+  });
+}
+
+/* leakage */
+async function leak() {
+  const n = +$("leak-n").value, A = [], B = [];
+  const W = 760, H = 260, pad = 30, bins = 40, root = svg($("leak"), W, H), X = (v) => pad + v * (W - 2 * pad);
+  for (let g = 0; g <= 4; g++) { s("line", { x1: X(g / 4), x2: X(g / 4), y1: 8, y2: H - 28, stroke: css("--rule") }, root); t(root, X(g / 4), H - 10, (g / 4).toFixed(2), { "text-anchor": "middle", "font-size": 11 }); }
+  s("line", { x1: X(.25), x2: X(.25), y1: 4, y2: H - 28, stroke: css("--hema"), "stroke-dasharray": "5 4", "stroke-width": 1.5 }, root);
+  t(root, X(.25) + 6, 16, "təsadüf 0.25", { "font-size": 11 });
+  const ga = s("g", {}, root), gb = s("g", {}, root), yMax = Math.max(8, Math.ceil(n * 0.3));
+  function bars(g, vals, color) {
+    g.innerHTML = ""; const cnt = new Array(bins).fill(0); vals.forEach((v) => cnt[Math.min(bins - 1, Math.floor(v * bins))]++);
+    cnt.forEach((k, i) => { if (!k) return; const h = Math.min(1, k / yMax) * (H - 44); s("rect", { x: X(i / bins) + 1, y: H - 28 - h, width: (W - 2 * pad) / bins - 2, height: h, fill: color, opacity: .85 }, g); });
+  }
+  const lab = $("labels"); lab.innerHTML = "<i></i>".repeat(63);
+  $("leak-a").textContent = "—"; $("leak-b").textContent = "—";
+  lock(true); status("run", `Sızma təcrübəsi · 0/${n}`);
+  const ok = await stream(`/api/leak?n=${n}`, {
+    shuffle: (d) => {
+      A.push(d.leaky); B.push(d.inside);
+      bars(ga, A, css("--bad")); bars(gb, B, css("--good"));
+      const mean = (v) => (v.reduce((a, b) => a + b, 0) / v.length).toFixed(2);
+      $("leak-a").textContent = mean(A); $("leak-b").textContent = mean(B);
+      [...lab.children].forEach((e, i) => (e.style.background = col(d.labels[i])));
+      $("pill-text").textContent = `Sızma təcrübəsi · ${d.i}/${n}`;
+    },
+  });
+  lock(false);
+  if (ok) { status("ok", "Təcrübə tamamlandı"); $("s-leak").classList.add("done"); }
+}
+
+function lock(on) { ["s-train", "s-leak"].forEach((id) => ($(id).disabled = on)); if (on) $("s-test").disabled = true; else $("s-test").disabled = !$("s-train").classList.contains("done"); }
+$("s-train").onclick = train; $("s-test").onclick = test; $("s-leak").onclick = leak;
+buildCV(); loadSummary();
+</script>
+</body>
+</html>

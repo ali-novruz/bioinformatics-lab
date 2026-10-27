@@ -115,6 +115,16 @@ python scripts/fetch_khan.py
 python scripts/run_expression_ml.py
 ```
 
+## Canlı demo
+
+Dərsdə terminal əvəzinə brauzerdə vizual laboratoriya göstərmək üçün:
+
+```bash
+python scripts/khan_live_demo.py
+```
+
+`http://127.0.0.1:8765` açılır (yalnız standart kitabxana serveri, əlavə paket lazım deyil). Dörd düymə ardıcıl işləyir: data, 9 × 5 cross-validation şəbəkəsinin qat-qat dolması (sonra PCA və gen istilik xəritəsi), 20 test nümunəsinin bir-bir açılması və qarışdırılmış etiketlərlə sızma təcrübəsi. Protokol `fit_training_only` və `run_khan_showcase.py` ilə eynidir, buna görə ekrandakı rəqəmlər saxlanmış nəticələrlə üst-üstə düşür. İnterfeys: [`live/index.html`](live/index.html).
+
 ## Təqdimatda göstəriləcək sübutlar
 
 1. `summary.json` dataset ölçülərini, seçilən parametrləri və test metriklərini saxlayır.
