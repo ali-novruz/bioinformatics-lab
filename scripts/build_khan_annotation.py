@@ -125,9 +125,11 @@ def main() -> None:
     )[["probe_column", "image_id", "description", "alignment_correlation"]]
     folder = ROOT / "datasets/annotations"
     folder.mkdir(exist_ok=True)
-    annotation.to_csv(folder / "khan_probe_annotation.csv", index=False)
+    annotation.to_csv(
+        folder / "khan_probe_annotation.csv", index=False, lineterminator="\n"
+    )
     (folder / "khan_annotation_verification.json").write_text(
-        json.dumps(report, indent=2) + "\n", encoding="utf-8"
+        json.dumps(report, indent=2) + "\n", encoding="utf-8", newline="\n"
     )
     print("Class map:", report["class_map"])
     print("Probe alignment min corr:", report["probe_alignment"]["min_correlation"])

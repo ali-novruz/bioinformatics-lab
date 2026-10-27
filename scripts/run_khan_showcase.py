@@ -102,7 +102,7 @@ def main():
     genes["highest_class"] = class_means.idxmax().to_numpy()
     genes["short_name"] = genes["description"].map(short_name)
     genes = genes.sort_values(["highest_class", "anova_f"], ascending=[True, False])
-    genes.to_csv(out / "selected_genes.csv", index=False)
+    genes.to_csv(out / "selected_genes.csv", index=False, lineterminator="\n")
 
     # PCA geometry: all probes vs selected probes, both fit on training only.
     pca_views = {}
@@ -123,10 +123,10 @@ def main():
     decision.insert(0, "prediction", prediction)
     decision.insert(0, "truth", yte_name.to_numpy())
     decision.insert(0, "sample_id", [f"test_{i:02d}" for i in range(1, 21)])
-    decision.to_csv(out / "test_decision_scores.csv", index=False)
+    decision.to_csv(out / "test_decision_scores.csv", index=False, lineterminator="\n")
 
     leakage = leakage_experiment(xtrain, ytrain, k, c)
-    leakage.to_csv(out / "leakage_experiment.csv", index=False)
+    leakage.to_csv(out / "leakage_experiment.csv", index=False, lineterminator="\n")
     shuffled = leakage[leakage["labels"] == "shuffled"]
 
     # Figures for the repository.

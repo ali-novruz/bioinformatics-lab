@@ -1,6 +1,6 @@
 {
   "project": "khan-showcase",
-  "created_utc": "20261021T150852Z-0aea2c",
+  "created_utc": "20261027T065659Z-6357f3",
   "python": "3.12.14",
   "platform": "Windows-11-10.0.26300-SP0",
   "packages": {
@@ -13,7 +13,7 @@
     "pydeseq2": "0.5.4",
     "matplotlib": "3.11.2"
   },
-  "git_commit": "459af8492feb5b2af15c9c610775fe269866b363",
+  "git_commit": "33166eff0dd544ba13a8346c3da7ace58eadcaef",
   "working_tree_dirty": true,
   "source_files_sha256": {
     "projects\\registry.json": "edb6f8e6101cb47e2b7eeaeb7f0d7d6cb492b8e6bfc548a38e0b0906d7b661c7",
@@ -21,7 +21,7 @@
     "scripts\\analyze_counts.py": "cf8fb5999f7e4f8988b7ba5926b7ef71df3f7f14d5ed9fe279335720f409ece4",
     "scripts\\build_database_cards.py": "d19db726fa2377781c0ad603ab484962d934fbeb6c132e388a9b8423d55364cc",
     "scripts\\build_glossary.py": "f932c30122f3c09208b86c587e033e4390e0a421ef11c8fcc2dc8ac40c239330",
-    "scripts\\build_khan_annotation.py": "f93fc2062c8f1def14a67664a9b2082d91f2fb9ff1148bc32c5036738b264ce1",
+    "scripts\\build_khan_annotation.py": "78366f371a97823e8a48ef64301d0bd09c3533a8957e3f1eecd68574d1e50f07",
     "scripts\\build_learning_notebooks.py": "1556395fcd9c6ff85e775fd8eee019ed3c307c7b57287a0d797326ea8de770e2",
     "scripts\\build_paper_notes.py": "2f54a443a23fe0d91ede2660d39e25e0f16674f5d3735889f10744b2442ae26b",
     "scripts\\build_study_guide.py": "e779164c83d14712b6255d42058da8ea0f6689bdb034e72e7e875f768e4a5717",
@@ -42,7 +42,7 @@
     "scripts\\run_controls.py": "23aef08d3d30e051baccec71188c44a07f192b1729e1c28a3ddf5fc7b3329efa",
     "scripts\\run_expression_ml.py": "cfef112342eb0006fcbb59622944bd109e1084d1b1982dfe49b7b773681fc111",
     "scripts\\run_extensions.py": "d97bea1d2f07d88d99262769b6f9fb38b2d4ff4579b00f73f15ec3cc038fee35",
-    "scripts\\run_khan_showcase.py": "ebc283152b17a68ba5003d5bef38ec77f512a6295f40e2bc191ea59dfe7f8676",
+    "scripts\\run_khan_showcase.py": "9e7dfb02075d697b72e41f69ea9be64ecb71e0ba68e52966d638ef32e79ccd63",
     "scripts\\run_projects.py": "356e81a247712af45da303ce4ee03b7c4479485f876fe9246c1e641b326e7ab5",
     "scripts\\run_raw_examples.py": "944e86eb4bcac12e4753a749a48348cc86494a1bfd6f824e6c517988e6d01f45",
     "scripts\\run_regional_variants.py": "438cd8a5932c4874b5ccff1a3b57b3b59b5d27a8000bfa18183df068aba661d1",
@@ -110,28 +110,28 @@
     {
       "path": "datasets/annotations/khan_annotation_verification.json",
       "external": false,
-      "sha256": "1d232484c12db5fb78c27443d761c882c516513273ab72a3231f0b93d90a318e",
-      "bytes": 1989
+      "sha256": "44089905b00d3db9df4015a61d4edc6464182054660197a1b2e306b826543fef",
+      "bytes": 1870
     },
     {
       "path": "datasets/annotations/khan_probe_annotation.csv",
       "external": false,
-      "sha256": "eb0532e23d9283ac5fe19a6a032619a49d62520d3acec93f12a35331645fa490",
-      "bytes": 134101
+      "sha256": "694beb03333c963a81e83ac5ba2c7a9ed26f7e8198602320155e69788e4579e1",
+      "bytes": 131792
     }
   ],
   "status": "passed",
-  "finished_utc": "2026-10-21T15:09:40.301249+00:00",
-  "elapsed_seconds": 47.43,
+  "finished_utc": "2026-10-27T06:58:46.358223+00:00",
+  "elapsed_seconds": 107.49,
   "error": null,
   "outputs_sha256": {
     "heatmap.png": "c67b0f360066c0e364469239503df63c9bb5f17c67fbe946bac75b8e4112cacd",
     "leakage.png": "9eb4908c1be6a6fafeb676bc208548e4d5938d40fccd1dbda1fb5780bc8dda26",
-    "leakage_experiment.csv": "66b9a5011496c314a807d133072f2ff10aa77074ebc6aee4f4b859d79c32f7cf",
+    "leakage_experiment.csv": "f15f044247033150fc3960ce5e23d6e41f58be1cc4226664cb0d98ac8ec83c05",
     "pca.png": "aaa3174614d563f274eb6aa0a9191b66e5b6f97170bb64e4d1dfeb3faed36d94",
     "presentation_data.json": "dabb2a3857c06d684a16754eadcfbb092b10af9776ad6bb0f6fb1a601226a13f",
-    "selected_genes.csv": "aefbcc680204b98e3435f6287daea8100fe0e1087a5a0f3951047128d66c16f3",
+    "selected_genes.csv": "7bdd3c6e8cdc7568f322e0e9c48e9dc3935c2c960c3e4fd95134f9629c013265",
     "summary.json": "74c346e6c462cd210760f87d0bbaab7b5cf1eeef4c25b179467a265028f69e6f",
-    "test_decision_scores.csv": "82688ff393bef332afbdb2dbc51ad1248408e69332790c7b6c77233ea24562a0"
+    "test_decision_scores.csv": "be80aa5d7052cd1b663a8f8341f28d47a5b65f91b43fa20eca8486fdb1c2c077"
   }
 }
