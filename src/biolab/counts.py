@@ -58,5 +58,5 @@ def combine_feature_counts(samples_path: str | Path) -> pd.DataFrame:
         integers = values.map(int)
         if any(value > 2**63 - 1 for value in integers):
             raise ValueError("Counts exceed signed 64-bit range")
-        series.append(integers.astype("int64").rename(row.sample_id))
+        series.append(integers.astype("int64").rename(str(row.sample_id)))
     return pd.concat(series, axis=1).rename_axis("gene_id")

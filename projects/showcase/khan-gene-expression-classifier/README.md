@@ -47,7 +47,38 @@ Bu paket kodu və nəticələri kopyalamır. O, mövcud kanonik analizə istinad
 | 99 permutation üzrə null orta | 0.2419 |
 | Permutation p-value | 0.01 |
 
-Bir test nümunəsində həqiqi sinif 2 olduğu halda model sinif 4 proqnoz edib. Sinif nömrələrinin bioloji adlara xəritəsi bu paylanan fayllarda ayrıca təsdiqlənmədiyi üçün nəticələr 1–4 kimi saxlanılır.
+Bir test nümunəsində (`test_15`) həqiqi sinif 2 (EWS) olduğu halda model sinif 4 (RMS) proqnoz edib. Bu nümunənin dörd qərar dəyərinin hamısı mənfidir (ən yüksəyi RMS: −0.06, EWS: −0.20), yəni model burada qərarsızdır.
+
+## Genişləndirilmiş analiz: adlı siniflər, genlər və sızma təcrübəsi
+
+[`scripts/build_khan_annotation.py`](../../../scripts/build_khan_annotation.py) ISLP fayllarını CRAN `plsgenomics` 1.5-3 paketindəki adlı `SRBCT` məlumatı ilə ədədi olaraq tutuşdurur. Hər nümunə tam bir SRBCT nümunəsinə uyğun gəlir (korrelyasiya ≥ 0.9999), hər sütun eyni indeksli genə uyğun gəlir (minimum 0.992). Uyğunluq tək mənalı deyilsə skript xəta verir.
+
+| ISLP sinfi | Şiş | Training | Test |
+|---:|---|---:|---:|
+| 1 | Burkitt limfoması (BL) | 8 | 3 |
+| 2 | Ewing sarkoması (EWS) | 23 | 6 |
+| 3 | Neyroblastoma (NB) | 12 | 6 |
+| 4 | Rabdomiosarkoma (RMS) | 20 | 5 |
+
+Nəticə: [`datasets/annotations/`](../../../datasets/annotations/) (2308 prob üçün IMAGE klon ID-si və təsvir). Model training daxilində seçdiyi 25 probun arasında Khan və b. (2001) məqaləsinin məlum markerlərini özü tapır: **FGFR4** (RMS), **CD99/MIC2** antigeni 12E7 (EWS), **FCGRT** və **caveolin 1** (EWS), **IGF2** (RMS).
+
+[`scripts/run_khan_showcase.py`](../../../scripts/run_khan_showcase.py) protokolu dəyişmədən dörd əlavə görünüş yaradır. Saxlanmış nəticə: [`results/showcase/khan-classifier/`](../../../results/showcase/khan-classifier/).
+
+| Görünüş | Nəticə |
+|---|---|
+| PCA, 2308 prob (yalnız training-ə fit) | PC1+PC2 = 25%; siniflər qarışıqdır |
+| PCA, 25 seçilmiş prob | PC1+PC2 = 65%; dörd klaster aydın ayrılır |
+| Sızma təcrübəsi, 100 qarışdırılmış etiket | Seçim CV-dən **əvvəl**: orta balanced accuracy **0.53**; seçim CV **daxilində**: **0.24** (təsadüf 0.25) |
+| Test qərar dəyərləri | Yeganə səhv ən aşağı marjlı nümunədir |
+
+Sızma təcrübəsi layihənin əsas metodoloji dərsini rəqəmlə göstərir: etiketlər tamamilə təsadüfi olsa belə, xüsusiyyət seçimini bütün training üzərində edib sonra CV aparmaq modelin "öyrəndiyi" illüziyasını yaradır.
+
+```bash
+uv run --with rdata python scripts/build_khan_annotation.py
+python scripts/run_khan_showcase.py
+```
+
+Sinif adları indi təsdiqlənib, amma gen siyahısı biomarker iddiası deyil: seçilən problar fold-dan fold-a dəyişir (orta Jaccard 0.26).
 
 ## Analiz məntiqi
 
@@ -83,6 +114,16 @@ Birbaşa skriptlə eyni analiz:
 python scripts/fetch_khan.py
 python scripts/run_expression_ml.py
 ```
+
+## Canlı demo
+
+Dərsdə terminal əvəzinə brauzerdə vizual laboratoriya göstərmək üçün:
+
+```bash
+python scripts/khan_live_demo.py
+```
+
+`http://127.0.0.1:8765` açılır (yalnız standart kitabxana serveri, əlavə paket lazım deyil). Dörd düymə ardıcıl işləyir: data, 9 × 5 cross-validation şəbəkəsinin qat-qat dolması (sonra PCA və gen istilik xəritəsi), 20 test nümunəsinin bir-bir açılması və qarışdırılmış etiketlərlə sızma təcrübəsi. Protokol `fit_training_only` və `run_khan_showcase.py` ilə eynidir, buna görə ekrandakı rəqəmlər saxlanmış nəticələrlə üst-üstə düşür. İnterfeys: [`live/index.html`](live/index.html).
 
 ## Təqdimatda göstəriləcək sübutlar
 

@@ -16,7 +16,7 @@ Fayllar dərslik müəlliflərinin [ISLP deposundan](https://github.com/intro-st
 | Bölünmə | ISLP tərəfindən verilən train/test saxlanılır |
 | Saxlama | CSV-lər ilk icrada endirilir, Git-ə daxil edilmir |
 
-Sinif nömrələrinin biologiya adlarına dəqiq xəritəsi bu fayllarda ayrıca təsdiqlənmədiyi üçün qrafiklərdə 1-4 istifadə edilir. `V1..V2308` təsdiqlənmiş gene symbol deyil. Bu versiyanın 20 test nümunəsi orijinal məqalənin bütün cohort-u kimi göstərilmir. Mənbədən əvvəlki preprocessing-in split-dən müstəqil olub-olmadığı burada yoxlanmayıb.
+Sinif adları və prob annotasiyası [`scripts/build_khan_annotation.py`](../../scripts/build_khan_annotation.py) ilə CRAN `plsgenomics` 1.5-3 `SRBCT` məlumatına ədədi uyğunlaşdırma yolu ilə təsdiqlənib: 1 = BL, 2 = EWS, 3 = NB, 4 = RMS. `Vj` sütunu SRBCT-nin j-ci geninə uyğundur; IMAGE klon ID-si və təsviri [`datasets/annotations/`](../annotations/) daxilindədir. Təsvirlər 2001-ci il annotasiyasıdır, müasir HGNC simvolu deyil. Mövcud kanonik qrafiklər tarixi səbəbdən 1-4 saxlayır. Bu versiyanın 20 test nümunəsi orijinal məqalənin bütün cohort-u kimi göstərilmir. Mənbədən əvvəlki preprocessing-in split-dən müstəqil olub-olmadığı burada yoxlanmayıb.
 
 ## İstifadə və məhdudiyyət
 
