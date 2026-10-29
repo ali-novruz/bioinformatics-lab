@@ -17,6 +17,12 @@
       "commit": "709a80b5821c2e1246b86409f1c1ebf47630d072",
       "sha256": "bc1e32dcd880238aeeebe965082ffd23567e316fba89887c32bd5008f3521cec",
       "purpose": "Exact pre-hardening source bytes for published results; never execute archive code"
+    },
+    {
+      "path": "results/source-archives/459af84.zip",
+      "commit": "459af8492feb5b2af15c9c610775fe269866b363",
+      "sha256": "574379fa78292ce9857a4be9ff49a5b93e95553fbc975192f16f0a5678092e32",
+      "purpose": "src/biolab/counts.py before the pandas-stubs 3.1 typing fix; never execute archive code"
     }
   ]
 }
