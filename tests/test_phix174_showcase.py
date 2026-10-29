@@ -36,3 +36,12 @@ def test_stored_showcase_summary():
     assert summary["exact_starts_recovered"] == 11
     assert summary["overlapping_pairs"] == summary["overlapping_pairs_other_frame"] == 8
     assert summary["null"]["real_loci_ge_100aa"] > summary["null"]["null_max_loci_ge_100aa"]
+
+
+def test_live_lab_bundle_matches_stored_results():
+    text = (ROOT / "projects/beginner/orf-discovery/live/data.js").read_text(encoding="utf-8")
+    bundle = json.loads(text.removeprefix("window.PHIX=").rstrip().rstrip(";"))
+    fasta = SeqIO.read(DATA / "NC_001422.1.fasta", "fasta")
+    stored = json.loads((STORED / "summary.json").read_text(encoding="utf-8"))
+    assert bundle["sequence"] == str(fasta.seq).upper()
+    assert bundle["summary"] == stored

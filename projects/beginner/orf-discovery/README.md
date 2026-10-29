@@ -39,3 +39,7 @@ python scripts/run_phix174_showcase.py
 ```
 
 Hədlər: uyğunlaşdırma strand və stop kodonu ilədir; qarışdırma mononukleotid tərkibini saxlayır, kodon quruluşunu yox; tək, gen sıxlığı yüksək faq genomudur.
+
+## Canlı brauzer laboratoriyası
+
+[`live/index.html`](live/index.html) faylını brauzerdə açın (server lazım deyil). `find_orfs` qaydaları JavaScript-ə köçürülüb; səhifə açılanda Python nəticəsi ilə müqayisə edir (114 = 114). Minimum uzunluq sürgüsü, zəncir və dairəvilik seçimləri, bir hərflə stop kodonu yaradan mutasiya (məsələn, F geni 427 aa-dan 254 aa-ya qırılır) və qarışdırılmış genomlarla canlı null təcrübəsi var. `live/data.js` saxlanmış nəticədən yaradılıb və testlə yoxlanılır.
