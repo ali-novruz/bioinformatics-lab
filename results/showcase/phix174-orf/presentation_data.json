@@ -1,0 +1,2725 @@
+{
+  "sequence": "GAGTTTTATCGCTTCCATGACGCAGAAGTTAACACTTTCGGATATTTCTGATGAGTCGAAAAATTATCTTGATAAAGCAGGAATTACTACTGCTTGTTTACGAATTAAATCGAAGTGGACTGCTGGCGGAAAATGAGAAAATTCGACCTATCCTTGCGCAGCTCGAGAAGCTCTTACTTTGCGACCTTTCGCCATCAACTAACGATTCTGTCAAAAACTGACGCGTTGGATGAGGAGAAGTGGCTTAATATGCTTGGCACGTTCGTCAAGGACTGGTTTAGATATGAGTCACATTTTGTTCATGGTAGAGATTCTCTTGTTGACATTTTAAAAGAGCGTGGATTACTATCTGAGTCCGATGCTGTTCAACCACTAATAGGTAAGAAATCATGAGTCAAGTTACTGAACAATCCGTACGTTTCCAGACCGCTTTGGCCTCTATTAAGCTCATTCAGGCTTCTGCCGTTTTGGATTTAACCGAAGATGATTTCGATTTTCTGACGAGTAACAAAGTTTGGATTGCTACTGACCGCTCTCGTGCTCGTCGCTGCGTTGAGGCTTGCGTTTATGGTACGCTGGACTTTGTGGGATACCCTCGCTTTCCTGCTCCTGTTGAGTTTATTGCTGCCGTCATTGCTTATTATGTTCATCCCGTCAACATTCAAACGGCCTGTCTCATCATGGAAGGCGCTGAATTTACGGAAAACATTATTAATGGCGTCGAGCGTCCGGTTAAAGCCGCTGAATTGTTCGCGTTTACCTTGCGTGTACGCGCAGGAAACACTGACGTTCTTACTGACGCAGAAGAAAACGTGCGTCAAAAATTACGTGCGGAAGGAGTGATGTAATGTCTAAAGGTAAAAAACGTTCTGGCGCTCGCCCTGGTCGTCCGCAGCCGTTGCGAGGTACTAAAGGCAAGCGTAAAGGCGCTCGTCTTTGGTATGTAGGTGGTCAACAATTTTAATTGCAGGGGCTTCGGCCCCTTACTTGAGGATAAATTATGTCTAATATTCAAACTGGCGCCGAGCGTATGCCGCATGACCTTTCCCATCTTGGCTTCCTTGCTGGTCAGATTGGTCGTCTTATTACCATTTCAACTACTCCGGTTATCGCTGGCGACTCCTTCGAGATGGACGCCGTTGGCGCTCTCCGTCTTTCTCCATTGCGTCGTGGCCTTGCTATTGACTCTACTGTAGACATTTTTACTTTTTATGTCCCTCATCGTCACGTTTATGGTGAACAGTGGATTAAGTTCATGAAGGATGGTGTTAATGCCACTCCTCTCCCGACTGTTAACACTACTGGTTATATTGACCATGCCGCTTTTCTTGGCACGATTAACCCTGATACCAATAAAATCCCTAAGCATTTGTTTCAGGGTTATTTGAATATCTATAACAACTATTTTAAAGCGCCGTGGATGCCTGACCGTACCGAGGCTAACCCTAATGAGCTTAATCAAGATGATGCTCGTTATGGTTTCCGTTGCTGCCATCTCAAAAACATTTGGACTGCTCCGCTTCCTCCTGAGACTGAGCTTTCTCGCCAAATGACGACTTCTACCACATCTATTGACATTATGGGTCTGCAAGCTGCTTATGCTAATTTGCATACTGACCAAGAACGTGATTACTTCATGCAGCGTTACCATGATGTTATTTCTTCATTTGGAGGTAAAACCTCTTATGACGCTGACAACCGTCCTTTACTTGTCATGCGCTCTAATCTCTGGGCATCTGGCTATGATGTTGATGGAACTGACCAAACGTCGTTAGGCCAGTTTTCTGGTCGTGTTCAACAGACCTATAAACATTCTGTGCCGCGTTTCTTTGTTCCTGAGCATGGCACTATGTTTACTCTTGCGCTTGTTCGTTTTCCGCCTACTGCGACTAAAGAGATTCAGTACCTTAACGCTAAAGGTGCTTTGACTTATACCGATATTGCTGGCGACCCTGTTTTGTATGGCAACTTGCCGCCGCGTGAAATTTCTATGAAGGATGTTTTCCGTTCTGGTGATTCGTCTAAGAAGTTTAAGATTGCTGAGGGTCAGTGGTATCGTTATGCGCCTTCGTATGTTTCTCCTGCTTATCACCTTCTTGAAGGCTTCCCATTCATTCAGGAACCGCCTTCTGGTGATTTGCAAGAACGCGTACTTATTCGCCACCATGATTATGACCAGTGTTTCCAGTCCGTTCAGTTGTTGCAGTGGAATAGTCAGGTTAAATTTAATGTGACCGTTTATCGCAATCTGCCGACCACTCGCGATTCAATCATGACTTCGTGATAAAAGATTGAGTGTGAGGTTATAACGCCGAAGCGGTAAAAATTTTAATTTTTGCCGCTGAGGGGTTGACCAAGCGAAGCGCGGTAGGTTTTCTGCTTAGGAGTTTAATCATGTTTCAGACTTTTATTTCTCGCCATAATTCAAACTTTTTTTCTGATAAGCTGGTTCTCACTTCTGTTACTCCAGCTTCTTCGGCACCTGTTTTACAGACACCTAAAGCTACATCGTCAACGTTATATTTTGATAGTTTGACGGTTAATGCTGGTAATGGTGGTTTTCTTCATTGCATTCAGATGGATACATCTGTCAACGCCGCTAATCAGGTTGTTTCTGTTGGTGCTGATATTGCTTTTGATGCCGACCCTAAATTTTTTGCCTGTTTGGTTCGCTTTGAGTCTTCTTCGGTTCCGACTACCCTCCCGACTGCCTATGATGTTTATCCTTTGAATGGTCGCCATGATGGTGGTTATTATACCGTCAAGGACTGTGTGACTATTGACGTCCTTCCCCGTACGCCGGGCAATAACGTTTATGTTGGTTTCATGGTTTGGTCTAACTTTACCGCTACTAAATGCCGCGGATTGGTTTCGCTGAATCAGGTTATTAAAGAGATTATTTGTCTCCAGCCACTTAAGTGAGGTGATTTATGTTTGGTGCTATTGCTGGCGGTATTGCTTCTGCTCTTGCTGGTGGCGCCATGTCTAAATTGTTTGGAGGCGGTCAAAAAGCCGCCTCCGGTGGCATTCAAGGTGATGTGCTTGCTACCGATAACAATACTGTAGGCATGGGTGATGCTGGTATTAAATCTGCCATTCAAGGCTCTAATGTTCCTAACCCTGATGAGGCCGCCCCTAGTTTTGTTTCTGGTGCTATGGCTAAAGCTGGTAAAGGACTTCTTGAAGGTACGTTGCAGGCTGGCACTTCTGCCGTTTCTGATAAGTTGCTTGATTTGGTTGGACTTGGTGGCAAGTCTGCCGCTGATAAAGGAAAGGATACTCGTGATTATCTTGCTGCTGCATTTCCTGAGCTTAATGCTTGGGAGCGTGCTGGTGCTGATGCTTCCTCTGCTGGTATGGTTGACGCCGGATTTGAGAATCAAAAAGAGCTTACTAAAATGCAACTGGACAATCAGAAAGAGATTGCCGAGATGCAAAATGAGACTCAAAAAGAGATTGCTGGCATTCAGTCGGCGACTTCACGCCAGAATACGAAAGACCAGGTATATGCACAAAATGAGATGCTTGCTTATCAACAGAAGGAGTCTACTGCTCGCGTTGCGTCTATTATGGAAAACACCAATCTTTCCAAGCAACAGCAGGTTTCCGAGATTATGCGCCAAATGCTTACTCAAGCTCAAACGGCTGGTCAGTATTTTACCAATGACCAAATCAAAGAAATGACTCGCAAGGTTAGTGCTGAGGTTGACTTAGTTCATCAGCAAACGCAGAATCAGCGGTATGGCTCTTCTCATATTGGCGCTACTGCAAAGGATATTTCTAATGTCGTCACTGATGCTGCTTCTGGTGTGGTTGATATTTTTCATGGTATTGATAAAGCTGTTGCCGATACTTGGAACAATTTCTGGAAAGACGGTAAAGCTGATGGTATTGGCTCTAATTTGTCTAGGAAATAACCGTCAGGATTGACACCCTCCCAATTGTATGTTTTCATGCCTCCAAATCTTGGAGGCTTTTTTATGGTTCGTTCTTATTACCCTTCTGAATGTCACGCTGATTATTTTGACTTTGAGCGTATCGAGGCTCTTAAACCTGCTATTGAGGCTTGTGGCATTTCTACTCTTTCTCAATCCCCAATGCTTGGCTTCCATAAGCAGATGGATAACCGCATCAAGCTCTTGGAAGAGATTCTGTCTTTTCGTATGCAGGGCGTTGAGTTCGATAATGGTGATATGTATGTTGACGGCCATAAGGCTGCTTCTGACGTTCGTGATGAGTTTGTATCTGTTACTGAGAAGTTAATGGATGAATTGGCACAATGCTACAATGTGCTCCCCCAACTTGATATTAATAACACTATAGACCACCGCCCCGAAGGGGACGAAAAATGGTTTTTAGAGAACGAGAAGACGGTTACGCAGTTTTGCCGCAAGCTGGCTGCTGAACGCCCTCTTAAGGATATTCGCGATGAGTATAATTACCCCAAAAAGAAAGGTATTAAGGATGAGTGTTCAAGATTGCTGGAGGCCTCCACTATGAAATCGCGTAGAGGCTTTGCTATTCAGCGTTTGATGAATGCAATGCGACAGGCTCATGCTGATGGTTGGTTTATCGTTTTTGACACTCTCACGTTGGCTGACGACCGATTAGAGGCGTTTTATGATAATCCCAATGCTTTGCGTGACTATTTTCGTGATATTGGTCGTATGGTTCTTGCTGCCGAGGGTCGCAAGGCTAATGATTCACACGCCGACTGCTATCAGTATTTTTGTGTGCCTGAGTATGGTACAGCTAATGGCCGTCTTCATTTCCATGCGGTGCACTTTATGCGGACACTTCCTACAGGTAGCGTTGACCCTAATTTTGGTCGTCGGGTACGCAATCGCCGCCAGTTAAATAGCTTGCAAAATACGTGGCCTTATGGTTACAGTATGCCCATCGCAGTTCGCTACACGCAGGACGCTTTTTCACGTTCTGGTTGGTTGTGGCCTGTTGATGCTAAAGGTGAGCCGCTTAAAGCTACCAGTTATATGGCTGTTGGTTTCTATGTGGCTAAATACGTTAACAAAAAGTCAGATATGGACCTTGCTGCTAAAGGTCTAGGAGCTAAAGAATGGAACAACTCACTAAAAACCAAGCTGTCGCTACTTCCCAAGAAGCTGTTCAGAATCAGAATGAGCCGCAACTTCGGGATGAAAATGCTCACAATGACAAATCTGTCCACGGAGTGCTTAATCCAACTTACCAAGCTGGGTTACGACGCGACGCCGTTCAACCAGATATTGAAGCAGAACGCAAAAAGAGAGATGAGATTGAGGCTGGGAAAAGTTACTGTAGCCGACGTTTTGGCGGCGCAACCTGTGACGACAAATCTGCTCAAATTTATGCGCGCTTCGATAAAAATGATTGGCGTATCCAACCTGCA",
+  "genes": [
+    {
+      "gene": "A",
+      "locus_tag": "phiX174p01",
+      "product": "DNA replication initiation",
+      "strand": "+",
+      "segments0": [
+        [
+          3980,
+          5386
+        ],
+        [
+          0,
+          136
+        ]
+      ],
+      "start0": 3980,
+      "start_frame": 2,
+      "length_aa": 513,
+      "wraps_origin": true,
+      "locus_found": true,
+      "exact_start_found": true,
+      "longest_candidate_aa": 522,
+      "upstream_extension_aa": 9
+    },
+    {
+      "gene": "A*",
+      "locus_tag": "phiX174p02",
+      "product": "DNA replication initiation",
+      "strand": "+",
+      "segments0": [
+        [
+          4496,
+          5386
+        ],
+        [
+          0,
+          136
+        ]
+      ],
+      "start0": 4496,
+      "start_frame": 2,
+      "length_aa": 341,
+      "wraps_origin": true,
+      "locus_found": true,
+      "exact_start_found": true,
+      "longest_candidate_aa": 522,
+      "upstream_extension_aa": 181
+    },
+    {
+      "gene": "B",
+      "locus_tag": "phiX174p03",
+      "product": "head morphogenesis",
+      "strand": "+",
+      "segments0": [
+        [
+          5074,
+          5386
+        ],
+        [
+          0,
+          51
+        ]
+      ],
+      "start0": 5074,
+      "start_frame": 1,
+      "length_aa": 120,
+      "wraps_origin": true,
+      "locus_found": true,
+      "exact_start_found": true,
+      "longest_candidate_aa": 120,
+      "upstream_extension_aa": 0
+    },
+    {
+      "gene": "K",
+      "locus_tag": "phiX174p04",
+      "product": "K",
+      "strand": "+",
+      "segments0": [
+        [
+          50,
+          221
+        ]
+      ],
+      "start0": 50,
+      "start_frame": 2,
+      "length_aa": 56,
+      "wraps_origin": false,
+      "locus_found": true,
+      "exact_start_found": true,
+      "longest_candidate_aa": 56,
+      "upstream_extension_aa": 0
+    },
+    {
+      "gene": "C",
+      "locus_tag": "phiX174p05",
+      "product": "terminase",
+      "strand": "+",
+      "segments0": [
+        [
+          132,
+          393
+        ]
+      ],
+      "start0": 132,
+      "start_frame": 0,
+      "length_aa": 86,
+      "wraps_origin": false,
+      "locus_found": true,
+      "exact_start_found": true,
+      "longest_candidate_aa": 86,
+      "upstream_extension_aa": 0
+    },
+    {
+      "gene": "D",
+      "locus_tag": "phiX174p07",
+      "product": "head morphogenesis",
+      "strand": "+",
+      "segments0": [
+        [
+          389,
+          848
+        ]
+      ],
+      "start0": 389,
+      "start_frame": 2,
+      "length_aa": 152,
+      "wraps_origin": false,
+      "locus_found": true,
+      "exact_start_found": true,
+      "longest_candidate_aa": 152,
+      "upstream_extension_aa": 0
+    },
+    {
+      "gene": "E",
+      "locus_tag": "phiX174p08",
+      "product": "endolysin",
+      "strand": "+",
+      "segments0": [
+        [
+          567,
+          843
+        ]
+      ],
+      "start0": 567,
+      "start_frame": 0,
+      "length_aa": 91,
+      "wraps_origin": false,
+      "locus_found": true,
+      "exact_start_found": true,
+      "longest_candidate_aa": 91,
+      "upstream_extension_aa": 0
+    },
+    {
+      "gene": "J",
+      "locus_tag": "phiX174p09",
+      "product": "DNA condensation",
+      "strand": "+",
+      "segments0": [
+        [
+          847,
+          964
+        ]
+      ],
+      "start0": 847,
+      "start_frame": 1,
+      "length_aa": 38,
+      "wraps_origin": false,
+      "locus_found": true,
+      "exact_start_found": true,
+      "longest_candidate_aa": 38,
+      "upstream_extension_aa": 0
+    },
+    {
+      "gene": "F",
+      "locus_tag": "phiX174p06",
+      "product": "major head protein",
+      "strand": "+",
+      "segments0": [
+        [
+          1000,
+          2284
+        ]
+      ],
+      "start0": 1000,
+      "start_frame": 1,
+      "length_aa": 427,
+      "wraps_origin": false,
+      "locus_found": true,
+      "exact_start_found": true,
+      "longest_candidate_aa": 427,
+      "upstream_extension_aa": 0
+    },
+    {
+      "gene": "G",
+      "locus_tag": "phiX174p10",
+      "product": "major spike protein",
+      "strand": "+",
+      "segments0": [
+        [
+          2394,
+          2922
+        ]
+      ],
+      "start0": 2394,
+      "start_frame": 0,
+      "length_aa": 175,
+      "wraps_origin": false,
+      "locus_found": true,
+      "exact_start_found": true,
+      "longest_candidate_aa": 175,
+      "upstream_extension_aa": 0
+    },
+    {
+      "gene": "H",
+      "locus_tag": "phiX174p11",
+      "product": "pilot protein for DNA ejection",
+      "strand": "+",
+      "segments0": [
+        [
+          2930,
+          3917
+        ]
+      ],
+      "start0": 2930,
+      "start_frame": 2,
+      "length_aa": 328,
+      "wraps_origin": false,
+      "locus_found": true,
+      "exact_start_found": true,
+      "longest_candidate_aa": 328,
+      "upstream_extension_aa": 0
+    }
+  ],
+  "loci": [
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          3953,
+          5386
+        ],
+        [
+          0,
+          136
+        ]
+      ],
+      "longest_aa": 522,
+      "starts": 23,
+      "wraps_origin": true,
+      "gene": "A"
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          1000,
+          2284
+        ]
+      ],
+      "longest_aa": 427,
+      "starts": 11,
+      "wraps_origin": false,
+      "gene": "F"
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          2930,
+          3917
+        ]
+      ],
+      "longest_aa": 328,
+      "starts": 12,
+      "wraps_origin": false,
+      "gene": "H"
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          3075,
+          3684
+        ]
+      ],
+      "longest_aa": 202,
+      "starts": 8,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          1093,
+          1651
+        ]
+      ],
+      "longest_aa": 185,
+      "starts": 6,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          2394,
+          2922
+        ]
+      ],
+      "longest_aa": 175,
+      "starts": 3,
+      "wraps_origin": false,
+      "gene": "G"
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          389,
+          848
+        ]
+      ],
+      "longest_aa": 152,
+      "starts": 2,
+      "wraps_origin": false,
+      "gene": "D"
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          1771,
+          2167
+        ]
+      ],
+      "longest_aa": 131,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          5074,
+          5386
+        ],
+        [
+          0,
+          51
+        ]
+      ],
+      "longest_aa": 120,
+      "starts": 1,
+      "wraps_origin": true,
+      "gene": "B"
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          3945,
+          4263
+        ]
+      ],
+      "longest_aa": 105,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          3920,
+          4211
+        ]
+      ],
+      "longest_aa": 96,
+      "starts": 2,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          567,
+          843
+        ]
+      ],
+      "longest_aa": 91,
+      "starts": 3,
+      "wraps_origin": false,
+      "gene": "E"
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          132,
+          393
+        ]
+      ],
+      "longest_aa": 86,
+      "starts": 2,
+      "wraps_origin": false,
+      "gene": "C"
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          1997,
+          2234
+        ]
+      ],
+      "longest_aa": 78,
+      "starts": 3,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          4620,
+          4857
+        ]
+      ],
+      "longest_aa": 78,
+      "starts": 5,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          817,
+          1051
+        ]
+      ],
+      "longest_aa": 77,
+      "starts": 2,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          2517,
+          2742
+        ]
+      ],
+      "longest_aa": 74,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          2542,
+          2731
+        ]
+      ],
+      "longest_aa": 62,
+      "starts": 3,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          3741,
+          3930
+        ]
+      ],
+      "longest_aa": 62,
+      "starts": 4,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          0,
+          18
+        ],
+        [
+          5215,
+          5386
+        ]
+      ],
+      "longest_aa": 62,
+      "starts": 1,
+      "wraps_origin": true,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          4881,
+          5064
+        ]
+      ],
+      "longest_aa": 60,
+      "starts": 2,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          1598,
+          1775
+        ]
+      ],
+      "longest_aa": 58,
+      "starts": 3,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          473,
+          650
+        ]
+      ],
+      "longest_aa": 58,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          50,
+          221
+        ]
+      ],
+      "longest_aa": 56,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": "K"
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          1037,
+          1196
+        ]
+      ],
+      "longest_aa": 52,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          3159,
+          3303
+        ]
+      ],
+      "longest_aa": 47,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          3823,
+          3955
+        ]
+      ],
+      "longest_aa": 43,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          1068,
+          1200
+        ]
+      ],
+      "longest_aa": 43,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          1262,
+          1388
+        ]
+      ],
+      "longest_aa": 41,
+      "starts": 2,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          847,
+          964
+        ]
+      ],
+      "longest_aa": 38,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": "J"
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          3710,
+          3827
+        ]
+      ],
+      "longest_aa": 38,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          277,
+          391
+        ]
+      ],
+      "longest_aa": 37,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          1448,
+          1553
+        ]
+      ],
+      "longest_aa": 34,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          1473,
+          1578
+        ]
+      ],
+      "longest_aa": 34,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "+",
+      "segments0": [
+        [
+          229,
+          331
+        ]
+      ],
+      "longest_aa": 33,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    },
+    {
+      "strand": "-",
+      "segments0": [
+        [
+          2303,
+          2396
+        ]
+      ],
+      "longest_aa": 30,
+      "starts": 1,
+      "wraps_origin": false,
+      "gene": null
+    }
+  ],
+  "curve": [
+    {
+      "min_aa": 30,
+      "loci": 36,
+      "gene_loci": 10,
+      "precision": 0.2778,
+      "recall": 1.0
+    },
+    {
+      "min_aa": 35,
+      "loci": 32,
+      "gene_loci": 10,
+      "precision": 0.3125,
+      "recall": 1.0
+    },
+    {
+      "min_aa": 40,
+      "loci": 29,
+      "gene_loci": 9,
+      "precision": 0.3103,
+      "recall": 0.9
+    },
+    {
+      "min_aa": 45,
+      "loci": 26,
+      "gene_loci": 9,
+      "precision": 0.3462,
+      "recall": 0.9
+    },
+    {
+      "min_aa": 50,
+      "loci": 25,
+      "gene_loci": 9,
+      "precision": 0.36,
+      "recall": 0.9
+    },
+    {
+      "min_aa": 55,
+      "loci": 24,
+      "gene_loci": 9,
+      "precision": 0.375,
+      "recall": 0.9
+    },
+    {
+      "min_aa": 60,
+      "loci": 21,
+      "gene_loci": 8,
+      "precision": 0.381,
+      "recall": 0.8
+    },
+    {
+      "min_aa": 65,
+      "loci": 17,
+      "gene_loci": 8,
+      "precision": 0.4706,
+      "recall": 0.8
+    },
+    {
+      "min_aa": 70,
+      "loci": 17,
+      "gene_loci": 8,
+      "precision": 0.4706,
+      "recall": 0.8
+    },
+    {
+      "min_aa": 75,
+      "loci": 16,
+      "gene_loci": 8,
+      "precision": 0.5,
+      "recall": 0.8
+    },
+    {
+      "min_aa": 80,
+      "loci": 13,
+      "gene_loci": 8,
+      "precision": 0.6154,
+      "recall": 0.8
+    },
+    {
+      "min_aa": 85,
+      "loci": 13,
+      "gene_loci": 8,
+      "precision": 0.6154,
+      "recall": 0.8
+    },
+    {
+      "min_aa": 90,
+      "loci": 12,
+      "gene_loci": 7,
+      "precision": 0.5833,
+      "recall": 0.7
+    },
+    {
+      "min_aa": 95,
+      "loci": 11,
+      "gene_loci": 6,
+      "precision": 0.5455,
+      "recall": 0.6
+    },
+    {
+      "min_aa": 100,
+      "loci": 10,
+      "gene_loci": 6,
+      "precision": 0.6,
+      "recall": 0.6
+    },
+    {
+      "min_aa": 105,
+      "loci": 10,
+      "gene_loci": 6,
+      "precision": 0.6,
+      "recall": 0.6
+    },
+    {
+      "min_aa": 110,
+      "loci": 9,
+      "gene_loci": 6,
+      "precision": 0.6667,
+      "recall": 0.6
+    },
+    {
+      "min_aa": 115,
+      "loci": 9,
+      "gene_loci": 6,
+      "precision": 0.6667,
+      "recall": 0.6
+    },
+    {
+      "min_aa": 120,
+      "loci": 9,
+      "gene_loci": 6,
+      "precision": 0.6667,
+      "recall": 0.6
+    },
+    {
+      "min_aa": 125,
+      "loci": 8,
+      "gene_loci": 5,
+      "precision": 0.625,
+      "recall": 0.5
+    },
+    {
+      "min_aa": 130,
+      "loci": 8,
+      "gene_loci": 5,
+      "precision": 0.625,
+      "recall": 0.5
+    },
+    {
+      "min_aa": 135,
+      "loci": 7,
+      "gene_loci": 5,
+      "precision": 0.7143,
+      "recall": 0.5
+    },
+    {
+      "min_aa": 140,
+      "loci": 7,
+      "gene_loci": 5,
+      "precision": 0.7143,
+      "recall": 0.5
+    },
+    {
+      "min_aa": 145,
+      "loci": 7,
+      "gene_loci": 5,
+      "precision": 0.7143,
+      "recall": 0.5
+    },
+    {
+      "min_aa": 150,
+      "loci": 7,
+      "gene_loci": 5,
+      "precision": 0.7143,
+      "recall": 0.5
+    },
+    {
+      "min_aa": 155,
+      "loci": 6,
+      "gene_loci": 4,
+      "precision": 0.6667,
+      "recall": 0.4
+    },
+    {
+      "min_aa": 160,
+      "loci": 6,
+      "gene_loci": 4,
+      "precision": 0.6667,
+      "recall": 0.4
+    },
+    {
+      "min_aa": 165,
+      "loci": 6,
+      "gene_loci": 4,
+      "precision": 0.6667,
+      "recall": 0.4
+    },
+    {
+      "min_aa": 170,
+      "loci": 6,
+      "gene_loci": 4,
+      "precision": 0.6667,
+      "recall": 0.4
+    },
+    {
+      "min_aa": 175,
+      "loci": 6,
+      "gene_loci": 4,
+      "precision": 0.6667,
+      "recall": 0.4
+    },
+    {
+      "min_aa": 180,
+      "loci": 5,
+      "gene_loci": 3,
+      "precision": 0.6,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 185,
+      "loci": 5,
+      "gene_loci": 3,
+      "precision": 0.6,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 190,
+      "loci": 4,
+      "gene_loci": 3,
+      "precision": 0.75,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 195,
+      "loci": 4,
+      "gene_loci": 3,
+      "precision": 0.75,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 200,
+      "loci": 4,
+      "gene_loci": 3,
+      "precision": 0.75,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 205,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 210,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 215,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 220,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 225,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 230,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 235,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 240,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 245,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 250,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 255,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 260,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 265,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 270,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 275,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 280,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 285,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 290,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 295,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 300,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 305,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 310,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 315,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 320,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 325,
+      "loci": 3,
+      "gene_loci": 3,
+      "precision": 1.0,
+      "recall": 0.3
+    },
+    {
+      "min_aa": 330,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 335,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 340,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 345,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 350,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 355,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 360,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 365,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 370,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 375,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 380,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 385,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 390,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 395,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 400,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 405,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 410,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 415,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 420,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 425,
+      "loci": 2,
+      "gene_loci": 2,
+      "precision": 1.0,
+      "recall": 0.2
+    },
+    {
+      "min_aa": 430,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 435,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 440,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 445,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 450,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 455,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 460,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 465,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 470,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 475,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 480,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 485,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 490,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 495,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 500,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 505,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 510,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 515,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 520,
+      "loci": 1,
+      "gene_loci": 1,
+      "precision": 1.0,
+      "recall": 0.1
+    },
+    {
+      "min_aa": 525,
+      "loci": 0,
+      "gene_loci": 0,
+      "precision": null,
+      "recall": 0.0
+    },
+    {
+      "min_aa": 530,
+      "loci": 0,
+      "gene_loci": 0,
+      "precision": null,
+      "recall": 0.0
+    }
+  ],
+  "null": [
+    {
+      "shuffle": 1,
+      "loci": 34,
+      "longest_aa": 92,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 2,
+      "loci": 24,
+      "longest_aa": 102,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 3,
+      "loci": 34,
+      "longest_aa": 81,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 4,
+      "loci": 29,
+      "longest_aa": 70,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 5,
+      "loci": 28,
+      "longest_aa": 90,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 6,
+      "loci": 20,
+      "longest_aa": 68,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 7,
+      "loci": 30,
+      "longest_aa": 89,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 8,
+      "loci": 29,
+      "longest_aa": 120,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 9,
+      "loci": 18,
+      "longest_aa": 96,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 10,
+      "loci": 36,
+      "longest_aa": 104,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 11,
+      "loci": 26,
+      "longest_aa": 88,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 12,
+      "loci": 38,
+      "longest_aa": 106,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 13,
+      "loci": 23,
+      "longest_aa": 82,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 14,
+      "loci": 18,
+      "longest_aa": 77,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 15,
+      "loci": 29,
+      "longest_aa": 93,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 16,
+      "loci": 22,
+      "longest_aa": 157,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 17,
+      "loci": 22,
+      "longest_aa": 93,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 18,
+      "loci": 19,
+      "longest_aa": 121,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 19,
+      "loci": 22,
+      "longest_aa": 85,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 20,
+      "loci": 31,
+      "longest_aa": 89,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 21,
+      "loci": 26,
+      "longest_aa": 72,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 22,
+      "loci": 22,
+      "longest_aa": 67,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 23,
+      "loci": 26,
+      "longest_aa": 75,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 24,
+      "loci": 33,
+      "longest_aa": 120,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 25,
+      "loci": 28,
+      "longest_aa": 94,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 26,
+      "loci": 28,
+      "longest_aa": 95,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 27,
+      "loci": 30,
+      "longest_aa": 83,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 28,
+      "loci": 25,
+      "longest_aa": 101,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 29,
+      "loci": 37,
+      "longest_aa": 93,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 30,
+      "loci": 29,
+      "longest_aa": 81,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 31,
+      "loci": 30,
+      "longest_aa": 111,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 32,
+      "loci": 32,
+      "longest_aa": 103,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 33,
+      "loci": 30,
+      "longest_aa": 86,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 34,
+      "loci": 39,
+      "longest_aa": 91,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 35,
+      "loci": 29,
+      "longest_aa": 111,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 36,
+      "loci": 22,
+      "longest_aa": 115,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 37,
+      "loci": 24,
+      "longest_aa": 112,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 38,
+      "loci": 19,
+      "longest_aa": 101,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 39,
+      "loci": 27,
+      "longest_aa": 102,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 40,
+      "loci": 24,
+      "longest_aa": 110,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 41,
+      "loci": 23,
+      "longest_aa": 105,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 42,
+      "loci": 30,
+      "longest_aa": 81,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 43,
+      "loci": 27,
+      "longest_aa": 110,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 44,
+      "loci": 28,
+      "longest_aa": 85,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 45,
+      "loci": 30,
+      "longest_aa": 93,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 46,
+      "loci": 36,
+      "longest_aa": 92,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 47,
+      "loci": 27,
+      "longest_aa": 110,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 48,
+      "loci": 27,
+      "longest_aa": 107,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 49,
+      "loci": 29,
+      "longest_aa": 79,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 50,
+      "loci": 25,
+      "longest_aa": 129,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 51,
+      "loci": 30,
+      "longest_aa": 94,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 52,
+      "loci": 30,
+      "longest_aa": 104,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 53,
+      "loci": 29,
+      "longest_aa": 104,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 54,
+      "loci": 28,
+      "longest_aa": 83,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 55,
+      "loci": 24,
+      "longest_aa": 95,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 56,
+      "loci": 36,
+      "longest_aa": 139,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 57,
+      "loci": 25,
+      "longest_aa": 111,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 58,
+      "loci": 22,
+      "longest_aa": 85,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 59,
+      "loci": 30,
+      "longest_aa": 83,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 60,
+      "loci": 22,
+      "longest_aa": 104,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 61,
+      "loci": 29,
+      "longest_aa": 86,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 62,
+      "loci": 27,
+      "longest_aa": 104,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 63,
+      "loci": 31,
+      "longest_aa": 68,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 64,
+      "loci": 27,
+      "longest_aa": 115,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 65,
+      "loci": 32,
+      "longest_aa": 128,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 66,
+      "loci": 25,
+      "longest_aa": 119,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 67,
+      "loci": 24,
+      "longest_aa": 78,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 68,
+      "loci": 28,
+      "longest_aa": 88,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 69,
+      "loci": 25,
+      "longest_aa": 120,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 70,
+      "loci": 27,
+      "longest_aa": 135,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 71,
+      "loci": 25,
+      "longest_aa": 136,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 72,
+      "loci": 33,
+      "longest_aa": 99,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 73,
+      "loci": 32,
+      "longest_aa": 80,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 74,
+      "loci": 24,
+      "longest_aa": 106,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 75,
+      "loci": 24,
+      "longest_aa": 108,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 76,
+      "loci": 33,
+      "longest_aa": 85,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 77,
+      "loci": 29,
+      "longest_aa": 89,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 78,
+      "loci": 33,
+      "longest_aa": 99,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 79,
+      "loci": 24,
+      "longest_aa": 79,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 80,
+      "loci": 27,
+      "longest_aa": 94,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 81,
+      "loci": 24,
+      "longest_aa": 68,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 82,
+      "loci": 33,
+      "longest_aa": 95,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 83,
+      "loci": 26,
+      "longest_aa": 96,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 84,
+      "loci": 21,
+      "longest_aa": 118,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 85,
+      "loci": 33,
+      "longest_aa": 130,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 86,
+      "loci": 30,
+      "longest_aa": 104,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 87,
+      "loci": 26,
+      "longest_aa": 122,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 88,
+      "loci": 33,
+      "longest_aa": 110,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 89,
+      "loci": 34,
+      "longest_aa": 136,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 90,
+      "loci": 26,
+      "longest_aa": 122,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 91,
+      "loci": 31,
+      "longest_aa": 124,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 92,
+      "loci": 30,
+      "longest_aa": 80,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 93,
+      "loci": 30,
+      "longest_aa": 84,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 94,
+      "loci": 27,
+      "longest_aa": 86,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 95,
+      "loci": 24,
+      "longest_aa": 126,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 96,
+      "loci": 29,
+      "longest_aa": 95,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 97,
+      "loci": 29,
+      "longest_aa": 78,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 98,
+      "loci": 28,
+      "longest_aa": 75,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 99,
+      "loci": 35,
+      "longest_aa": 73,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 100,
+      "loci": 24,
+      "longest_aa": 72,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 101,
+      "loci": 27,
+      "longest_aa": 69,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 102,
+      "loci": 25,
+      "longest_aa": 88,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 103,
+      "loci": 25,
+      "longest_aa": 97,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 104,
+      "loci": 28,
+      "longest_aa": 74,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 105,
+      "loci": 25,
+      "longest_aa": 117,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 106,
+      "loci": 27,
+      "longest_aa": 112,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 107,
+      "loci": 31,
+      "longest_aa": 100,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 108,
+      "loci": 23,
+      "longest_aa": 82,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 109,
+      "loci": 29,
+      "longest_aa": 80,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 110,
+      "loci": 28,
+      "longest_aa": 83,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 111,
+      "loci": 30,
+      "longest_aa": 112,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 112,
+      "loci": 26,
+      "longest_aa": 154,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 113,
+      "loci": 22,
+      "longest_aa": 101,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 114,
+      "loci": 33,
+      "longest_aa": 90,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 115,
+      "loci": 22,
+      "longest_aa": 83,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 116,
+      "loci": 30,
+      "longest_aa": 75,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 117,
+      "loci": 30,
+      "longest_aa": 95,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 118,
+      "loci": 22,
+      "longest_aa": 85,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 119,
+      "loci": 27,
+      "longest_aa": 69,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 120,
+      "loci": 23,
+      "longest_aa": 140,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 121,
+      "loci": 29,
+      "longest_aa": 97,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 122,
+      "loci": 26,
+      "longest_aa": 108,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 123,
+      "loci": 34,
+      "longest_aa": 91,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 124,
+      "loci": 21,
+      "longest_aa": 63,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 125,
+      "loci": 25,
+      "longest_aa": 95,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 126,
+      "loci": 26,
+      "longest_aa": 80,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 127,
+      "loci": 27,
+      "longest_aa": 78,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 128,
+      "loci": 32,
+      "longest_aa": 87,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 129,
+      "loci": 24,
+      "longest_aa": 77,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 130,
+      "loci": 26,
+      "longest_aa": 99,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 131,
+      "loci": 25,
+      "longest_aa": 63,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 132,
+      "loci": 26,
+      "longest_aa": 119,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 133,
+      "loci": 28,
+      "longest_aa": 106,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 134,
+      "loci": 34,
+      "longest_aa": 160,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 135,
+      "loci": 34,
+      "longest_aa": 120,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 136,
+      "loci": 22,
+      "longest_aa": 128,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 137,
+      "loci": 32,
+      "longest_aa": 82,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 138,
+      "loci": 33,
+      "longest_aa": 115,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 139,
+      "loci": 21,
+      "longest_aa": 95,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 140,
+      "loci": 27,
+      "longest_aa": 108,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 141,
+      "loci": 24,
+      "longest_aa": 99,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 142,
+      "loci": 25,
+      "longest_aa": 88,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 143,
+      "loci": 30,
+      "longest_aa": 68,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 144,
+      "loci": 27,
+      "longest_aa": 82,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 145,
+      "loci": 24,
+      "longest_aa": 90,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 146,
+      "loci": 30,
+      "longest_aa": 137,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 147,
+      "loci": 27,
+      "longest_aa": 92,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 148,
+      "loci": 26,
+      "longest_aa": 86,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 149,
+      "loci": 26,
+      "longest_aa": 89,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 150,
+      "loci": 26,
+      "longest_aa": 93,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 151,
+      "loci": 35,
+      "longest_aa": 96,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 152,
+      "loci": 24,
+      "longest_aa": 123,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 153,
+      "loci": 30,
+      "longest_aa": 92,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 154,
+      "loci": 29,
+      "longest_aa": 110,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 155,
+      "loci": 21,
+      "longest_aa": 95,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 156,
+      "loci": 29,
+      "longest_aa": 98,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 157,
+      "loci": 15,
+      "longest_aa": 78,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 158,
+      "loci": 28,
+      "longest_aa": 160,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 159,
+      "loci": 39,
+      "longest_aa": 130,
+      "loci_ge_100aa": 3
+    },
+    {
+      "shuffle": 160,
+      "loci": 31,
+      "longest_aa": 79,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 161,
+      "loci": 24,
+      "longest_aa": 126,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 162,
+      "loci": 30,
+      "longest_aa": 105,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 163,
+      "loci": 38,
+      "longest_aa": 76,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 164,
+      "loci": 24,
+      "longest_aa": 116,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 165,
+      "loci": 27,
+      "longest_aa": 111,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 166,
+      "loci": 31,
+      "longest_aa": 95,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 167,
+      "loci": 33,
+      "longest_aa": 90,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 168,
+      "loci": 29,
+      "longest_aa": 87,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 169,
+      "loci": 24,
+      "longest_aa": 148,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 170,
+      "loci": 25,
+      "longest_aa": 81,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 171,
+      "loci": 30,
+      "longest_aa": 78,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 172,
+      "loci": 25,
+      "longest_aa": 69,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 173,
+      "loci": 23,
+      "longest_aa": 103,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 174,
+      "loci": 32,
+      "longest_aa": 66,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 175,
+      "loci": 34,
+      "longest_aa": 73,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 176,
+      "loci": 23,
+      "longest_aa": 105,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 177,
+      "loci": 30,
+      "longest_aa": 79,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 178,
+      "loci": 29,
+      "longest_aa": 90,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 179,
+      "loci": 23,
+      "longest_aa": 96,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 180,
+      "loci": 28,
+      "longest_aa": 107,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 181,
+      "loci": 24,
+      "longest_aa": 93,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 182,
+      "loci": 20,
+      "longest_aa": 82,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 183,
+      "loci": 21,
+      "longest_aa": 86,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 184,
+      "loci": 24,
+      "longest_aa": 116,
+      "loci_ge_100aa": 2
+    },
+    {
+      "shuffle": 185,
+      "loci": 24,
+      "longest_aa": 222,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 186,
+      "loci": 27,
+      "longest_aa": 84,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 187,
+      "loci": 29,
+      "longest_aa": 114,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 188,
+      "loci": 33,
+      "longest_aa": 101,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 189,
+      "loci": 26,
+      "longest_aa": 80,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 190,
+      "loci": 23,
+      "longest_aa": 96,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 191,
+      "loci": 32,
+      "longest_aa": 76,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 192,
+      "loci": 25,
+      "longest_aa": 78,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 193,
+      "loci": 30,
+      "longest_aa": 110,
+      "loci_ge_100aa": 1
+    },
+    {
+      "shuffle": 194,
+      "loci": 25,
+      "longest_aa": 92,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 195,
+      "loci": 29,
+      "longest_aa": 85,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 196,
+      "loci": 30,
+      "longest_aa": 95,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 197,
+      "loci": 25,
+      "longest_aa": 92,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 198,
+      "loci": 23,
+      "longest_aa": 95,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 199,
+      "loci": 27,
+      "longest_aa": 72,
+      "loci_ge_100aa": 0
+    },
+    {
+      "shuffle": 200,
+      "loci": 22,
+      "longest_aa": 61,
+      "loci_ge_100aa": 0
+    }
+  ],
+  "overlaps": [
+    {
+      "genes": "A–B",
+      "overlap_nt": 363,
+      "frame_shift": 2,
+      "same_frame": false
+    },
+    {
+      "genes": "A–K",
+      "overlap_nt": 86,
+      "frame_shift": 1,
+      "same_frame": false
+    },
+    {
+      "genes": "A–C",
+      "overlap_nt": 4,
+      "frame_shift": 2,
+      "same_frame": false
+    },
+    {
+      "genes": "B–K",
+      "overlap_nt": 1,
+      "frame_shift": 2,
+      "same_frame": false
+    },
+    {
+      "genes": "K–C",
+      "overlap_nt": 89,
+      "frame_shift": 1,
+      "same_frame": false
+    },
+    {
+      "genes": "C–D",
+      "overlap_nt": 4,
+      "frame_shift": 2,
+      "same_frame": false
+    },
+    {
+      "genes": "D–E",
+      "overlap_nt": 276,
+      "frame_shift": 1,
+      "same_frame": false
+    },
+    {
+      "genes": "D–J",
+      "overlap_nt": 1,
+      "frame_shift": 2,
+      "same_frame": false
+    }
+  ],
+  "summary": {
+    "accession": "NC_001422.1",
+    "length_nt": 5386,
+    "gc_fraction": 0.4476,
+    "curated_cds": 11,
+    "curated_gene_loci": 10,
+    "candidates": 114,
+    "loci": 36,
+    "loci_plus": 22,
+    "loci_minus": 14,
+    "gene_loci_recovered": 10,
+    "exact_starts_recovered": 11,
+    "upstream_start_genes": [
+      "A",
+      "A*"
+    ],
+    "precision_at_30aa": 0.2778,
+    "best_threshold_full_recall": {
+      "min_aa": 35,
+      "loci": 32,
+      "gene_loci": 10,
+      "precision": 0.3125,
+      "recall": 1.0
+    },
+    "coding_fraction": 0.9597,
+    "overlapping_pairs": 8,
+    "overlapping_pairs_other_frame": 8,
+    "null": {
+      "shuffles": 200,
+      "real_loci_ge_100aa": 10,
+      "null_mean_loci_ge_100aa": 0.5,
+      "null_max_loci_ge_100aa": 3,
+      "p_loci_ge_100aa": 0.005,
+      "real_longest_aa": 522,
+      "null_mean_longest_aa": 97.6,
+      "null_max_longest_aa": 222,
+      "p_longest": 0.005
+    },
+    "limitations": [
+      "Matching uses strand and stop codon; the scan reports every in-frame ATG, so start choice is evaluated separately.",
+      "Mononucleotide shuffles keep composition but not codon or dinucleotide structure.",
+      "One small, gene-dense phage genome; precision here does not transfer to larger genomes.",
+      "Curated CDS are the reference; non-ATG starts or unannotated genes would count as errors."
+    ]
+  }
+}

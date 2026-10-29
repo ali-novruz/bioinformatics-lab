@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ORF Laboratoriyası · PhiX174</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+/* Live ORF lab in the Avtoradioqraf look: film-grey ground, lane colours, every number recomputed in the browser from the 5386 letters. */
+:root{
+  --film:#e9edf0; --film-2:#dde3e8; --sheet:#f6f8f9; --ink:#14181f; --ink-2:#3c4654; --mute:#6c7684; --grid:#cfd6dd;
+  --f0:#2c5aa0; --f1:#b8892a; --f2:#b03a3a; --minus:#7d4a9e; --good:#2f7d4f; --bad:#b03a3a; --accent:#b8892a; --plus-false:#9aa3ad;
+  --font-display:"Newsreader", Georgia, serif; --font-body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif; --font-data:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--film);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.45}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--f0);outline-offset:3px}
+.wrap{max-width:1500px;margin:0 auto;padding:22px max(16px,3vw) 60px;display:grid;gap:18px}
+header{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:14px}
+h1{font-family:var(--font-display);font-weight:400;font-size:clamp(30px,3.4vw,52px);line-height:1;margin:0;letter-spacing:-.015em}
+h1 i{font-weight:300;color:var(--ink-2)}
+.kicker{font-family:var(--font-data);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);margin-bottom:8px}
+.verify{font-family:var(--font-data);font-size:13px;padding:.4em .9em;background:var(--sheet);border:1px solid var(--grid)}
+.verify b{color:var(--good)}
+.layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:18px;align-items:start}
+.panel{background:var(--sheet);border:1px solid var(--grid);padding:18px 20px;display:grid;gap:12px;min-width:0}
+.panel h2{font-family:var(--font-display);font-weight:500;font-size:24px;margin:0;display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.panel h2 small{font-family:var(--font-data);font-size:12px;color:var(--mute);font-weight:400}
+.kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}
+.kpis div{border-top:3px solid var(--ink);padding-top:6px;font-family:var(--font-data);font-size:11px;color:var(--mute)}
+.kpis b{display:block;font-family:var(--font-display);font-weight:400;font-size:clamp(26px,2.4vw,38px);color:var(--ink);line-height:1.05;font-variant-numeric:tabular-nums}
+.controls{display:grid;gap:10px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+input[type=range]{flex:1;min-width:180px;accent-color:var(--ink)}
+.btn{border:1px solid var(--ink);background:var(--sheet);padding:.45em 1em;cursor:pointer;font-family:var(--font-data);font-size:13px}
+.btn:hover:not(:disabled){background:var(--ink);color:var(--film)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.btn.primary{background:var(--ink);color:var(--film)}
+.toggle{display:inline-flex;gap:6px;align-items:center;font-family:var(--font-data);font-size:13px;cursor:pointer}
+select{padding:.35em .5em;border:1px solid var(--grid);background:var(--sheet)}
+svg{width:100%;height:auto;display:block;overflow:visible}
+svg text{font-family:var(--font-data)}
+.arc{transition:opacity .3s}
+.info{min-height:3em;font-size:15px}.info span{font-family:var(--font-data);font-size:13px;color:var(--mute)}
+.genes{display:flex;flex-wrap:wrap;gap:6px}
+.gchip{font-family:var(--font-data);font-size:12px;padding:.25em .6em;border:1px solid var(--grid);background:var(--film)}
+.gchip.ok{border-color:var(--good);color:var(--good)}.gchip.lost{border-color:var(--bad);color:var(--bad);text-decoration:line-through}
+.mut{font-family:var(--font-data);font-size:14px;background:var(--film);padding:10px 12px;word-break:break-all}
+.mut .hl{background:var(--bad);color:#fff;padding:0 2px}
+.mut .codon{border-bottom:2px solid var(--ink)}
+.small{font-size:13px;color:var(--mute)}
+@media (max-width:1050px){.layout{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div><div class="kicker">Canlı laboratoriya · PhiX174 · NC_001422.1</div><h1>ORF laboratoriyası <i>— hər rəqəm brauzerdə hesablanır</i></h1></div>
+    <div class="verify" id="verify">Yoxlanılır…</div>
+  </header>
+
+  <div class="kpis" id="kpis">
+    <div>namizəd<b id="k-cand">—</b></div><div>lokus<b id="k-loci">—</b></div><div>gen lokusu<b id="k-hit">—</b></div><div>tam gen (dəqiq CDS)<b id="k-exact">—</b></div><div>precision<b id="k-prec">—</b></div><div>recall<b id="k-rec">—</b></div>
+  </div>
+
+  <div class="layout">
+    <section class="panel">
+      <h2>Genom <small>xarici: GenBank genləri · daxili: tapılan lokuslar</small></h2>
+      <div id="ring"></div>
+      <p class="info" id="info">Genin üzərinə gəlin.</p>
+    </section>
+
+    <div style="display:grid;gap:18px">
+      <section class="panel">
+        <h2>1 · Axtarış parametrləri <small>find_orfs ilə eyni qaydalar</small></h2>
+        <div class="controls">
+          <div class="row"><label for="min" class="mono">min uzunluq <b id="min-v">30</b> aa</label><input id="min" type="range" min="10" max="530" step="5" value="30"></div>
+          <div class="row">
+            <label class="toggle"><input type="checkbox" id="plus" checked> plus zəncir</label>
+            <label class="toggle"><input type="checkbox" id="minus" checked> minus zəncir</label>
+            <label class="toggle"><input type="checkbox" id="circ" checked> dairəvi (origin-i keç)</label>
+          </div>
+          <div class="genes" id="genes"></div>
+          <p class="small" id="speed"></p>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>2 · Mutasiya <small>bir hərf dəyişir, gen qırılır</small></h2>
+        <div class="row">
+          <select id="mut-gene" aria-label="Gen"></select>
+          <button class="btn" id="mut-go" type="button">Stop kodonu yarat</button>
+          <button class="btn" id="mut-reset" type="button" disabled>Bərpa et</button>
+        </div>
+        <div class="mut" id="mut-view">Gen seçin və düyməni basın: genin ortasındakı CAA / CAG / CGA kodonunun ilk hərfi T olur.</div>
+      </section>
+
+      <section class="panel">
+        <h2>3 · Null təcrübə <small>hərf tərkibi eyni, sıra təsadüfi</small></h2>
+        <div class="row">
+          <select id="n-shuf" aria-label="Qarışdırma sayı"><option>20</option><option selected>50</option><option>200</option></select>
+          <button class="btn primary" id="shuf" type="button">Genomu qarışdır</button>
+          <span class="small" id="shuf-status"></span>
+        </div>
+        <div id="hist"></div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="phix-core.js"></script>
+<script>
+const D = PHIX, L = D.sequence.length, NS = "http://www.w3.org/2000/svg";
+const { findOrfs, lociOf, lociKey, segFrames } = Deck;
+const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const $ = (id) => document.getElementById(id);
+function s(tag, attrs = {}, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+const GENES = D.genes.filter((g) => g.gene !== "A*");
+const GENE_KEYS = new Map(GENES.map((g) => ["+" + g.segments0[g.segments0.length - 1][1], g]));
+let SEQ = D.sequence, mutation = null;
+
+/* Verify the browser port against the Python result stored in the repo. */
+(function verify() {
+  const t0 = performance.now(), n = findOrfs(D.sequence, 30, true).length, ms = performance.now() - t0;
+  const ok = n === D.summary.candidates;
+  $("verify").innerHTML = ok ? `Brauzer: <b>${n}</b> namizəd · Python: <b>${D.summary.candidates}</b> · eynidir · ${ms.toFixed(0)} ms` : `Uyğunsuzluq: brauzer ${n}, Python ${D.summary.candidates}`;
+  if (!ok) $("verify").style.color = css("--bad");
+})();
+
+/* ring */
+const ang = (x) => (x / L) * Math.PI * 2 - Math.PI / 2;
+function arc(cx, cy, r, a, b) { const p0 = [cx + r * Math.cos(ang(a)), cy + r * Math.sin(ang(a))], p1 = [cx + r * Math.cos(ang(b)), cy + r * Math.sin(ang(b))]; return `M${p0} A${r},${r} 0 ${(b - a) / L > .5 ? 1 : 0} 1 ${p1}`; }
+const W = 640, C = W / 2;
+const root = s("svg", { viewBox: `0 0 ${W} ${W}` }, $("ring"));
+s("circle", { cx: C, cy: C, r: 300, fill: "none", stroke: css("--grid") }, root);
+for (let k = 0; k < L; k += 1000) { const a = ang(k); const tx = s("text", { x: C + 322 * Math.cos(a), y: C + 322 * Math.sin(a) + 4, "text-anchor": "middle", "font-size": 12, fill: css("--mute") }, root); tx.textContent = k ? `${k / 1000}k` : "ori"; }
+GENES.forEach((g) => {
+  const fr = segFrames(g.segments0), grp = s("g", { tabindex: 0, style: "cursor:pointer" }, root);
+  g.segments0.forEach(([a, b], i) => s("path", { d: arc(C, C, 262 + fr[i] * 18, a, b), stroke: css(`--f${fr[i]}`), "stroke-width": 14, fill: "none" }, grp));
+  const mid = (g.segments0[0][0] + g.segments0.reduce((x, [a, b]) => x + b - a, 0) / 2) % L;
+  const lab = s("text", { x: C + 222 * Math.cos(ang(mid)), y: C + 222 * Math.sin(ang(mid)) + 7, "text-anchor": "middle", "font-size": 20, "font-weight": 700, "font-family": "Newsreader, serif", fill: css("--ink") }, grp); lab.textContent = g.gene;
+  const show = () => ($("info").innerHTML = `<b>${g.gene}</b> · ${g.product}<br><span>${g.length_aa} aa · ${g.segments0.map(([a, b]) => `${a + 1}–${b}`).join(" + ")}</span>`);
+  grp.addEventListener("mouseenter", show); grp.addEventListener("focus", show);
+});
+const lociLayer = s("g", {}, root);
+const center = s("text", { x: C, y: C - 6, "text-anchor": "middle", "font-size": 34, "font-family": "Newsreader, serif" }, root);
+const center2 = s("text", { x: C, y: C + 22, "text-anchor": "middle", "font-size": 13, fill: css("--mute") }, root);
+
+function compute() {
+  const min = +$("min").value, t0 = performance.now();
+  $("min-v").textContent = min;
+  let orfs = findOrfs(SEQ, min, $("circ").checked);
+  orfs = orfs.filter((o) => (o.strand === "+" ? $("plus").checked : $("minus").checked));
+  const loci = lociOf(orfs), ms = performance.now() - t0;
+  lociLayer.innerHTML = "";
+  let hits = 0;
+  const exact = new Set(GENES.filter((g) => orfs.some((o) => o.strand === "+" && JSON.stringify(o.segments) === JSON.stringify(g.segments0))).map((g) => g.gene));
+  loci.forEach((o) => {
+    const g = GENE_KEYS.get(lociKey(o)); if (g) hits++;
+    o.segments.forEach(([a, b]) => s("path", { d: arc(C, C, o.strand === "+" ? 190 : 160, a, b), stroke: o.strand === "+" ? (g ? css("--good") : css("--plus-false")) : css("--minus"), "stroke-width": 10, fill: "none", opacity: g ? 1 : .6, class: "arc" }, lociLayer));
+  });
+  $("k-cand").textContent = orfs.length; $("k-loci").textContent = loci.length; $("k-hit").textContent = `${hits}/${GENES.length}`;
+  $("k-prec").textContent = loci.length ? (hits / loci.length).toFixed(2) : "—"; $("k-rec").textContent = (hits / GENES.length).toFixed(2); $("k-exact").textContent = `${exact.size}/${GENES.length}`;
+  center.textContent = orfs.length; center2.textContent = `namizəd · ${loci.length} lokus`;
+  $("genes").innerHTML = GENES.map((g) => `<span class="gchip ${exact.has(g.gene) ? "ok" : "lost"}" title="${g.product}">${g.gene} · ${g.length_aa} aa</span>`).join("");
+  $("speed").textContent = `İki zəncirdə ${L} mövqe skan edildi: ${ms.toFixed(0)} ms.${mutation ? " Mutasiya aktivdir." : ""}`;
+}
+["min", "plus", "minus", "circ"].forEach((id) => $(id).addEventListener("input", compute));
+
+/* mutation */
+GENES.filter((g) => g.length_aa > 60).forEach((g) => $("mut-gene").insertAdjacentHTML("beforeend", `<option value="${g.gene}">${g.gene} · ${g.product}</option>`));
+$("mut-gene").value = "F";
+$("mut-go").onclick = () => {
+  const g = GENES.find((x) => x.gene === $("mut-gene").value);
+  const coding = g.segments0.flatMap(([a, b]) => Array.from({ length: b - a }, (_, i) => a + i));
+  const half = Math.floor(coding.length / 6) * 3;
+  let pos = null;
+  for (let i = half; i + 2 < coding.length; i += 3) { const c = coding.slice(i, i + 3).map((p) => D.sequence[p]).join(""); if (["CAA", "CAG", "CGA"].includes(c)) { pos = { i, at: coding[i], codon: c }; break; } }
+  if (!pos) { $("mut-view").textContent = "Bu gendə bir hərflə stopa çevrilən kodon tapılmadı."; return; }
+  SEQ = D.sequence.slice(0, pos.at) + "T" + D.sequence.slice(pos.at + 1);
+  mutation = pos;
+  const from = Math.max(0, pos.at - 15), ctx = (str) => str.slice(from, pos.at) + `<span class="hl">${str[pos.at]}</span>` + str.slice(pos.at + 1, pos.at + 18);
+  $("mut-view").innerHTML = `Gen ${g.gene}, kodon ${pos.i / 3 + 1}/${g.length_aa}: <b>${pos.codon}</b> → <b>T${pos.codon.slice(1)}</b> (stop) · mövqe ${pos.at + 1}<br>əvvəl: ${ctx(D.sequence)}<br>sonra: ${ctx(SEQ)}<br><span class="small">Gen ${g.gene}-in dəqiq CDS-i artıq tapılmır: həqiqi ATG-dən oxunan ORF ${pos.i / 3} aa-da bitir. Köhnə stop yalnız mutasiyadan sonrakı ATG-lərdən çatılır, ona görə lokus sayı dəyişməyə bilər.</span>`;
+  $("mut-reset").disabled = false;
+  compute();
+};
+$("mut-reset").onclick = () => { SEQ = D.sequence; mutation = null; $("mut-reset").disabled = true; $("mut-view").textContent = "Genom bərpa olundu."; compute(); };
+
+/* shuffle null, computed live */
+function rng(seed) { let x = seed >>> 0; return () => ((x = (x * 1664525 + 1013904223) >>> 0) / 4294967296); }
+function drawHist(vals, real) {
+  const Wd = 640, H = 230, pad = 36, max = Math.max(real + 2, ...vals, 4);
+  const el = $("hist"); el.innerHTML = ""; const r = s("svg", { viewBox: `0 0 ${Wd} ${H}` }, el);
+  const counts = new Array(max + 1).fill(0); vals.forEach((v) => counts[v]++); const ym = Math.max(1, ...counts), bw = (Wd - 2 * pad) / (max + 1);
+  counts.forEach((c, v) => { const h = (c / ym) * (H - 70); s("rect", { x: pad + v * bw + 2, y: H - 40 - h, width: bw - 4, height: h, fill: css("--mute") }, r); const tx = s("text", { x: pad + v * bw + bw / 2, y: H - 22, "text-anchor": "middle", "font-size": 12 }, r); tx.textContent = v; });
+  const rx = pad + real * bw + bw / 2; s("line", { x1: rx, x2: rx, y1: 10, y2: H - 40, stroke: css("--good"), "stroke-width": 5 }, r);
+  const lt = s("text", { x: rx - 8, y: 24, "text-anchor": "end", fill: css("--good"), "font-weight": 600, "font-size": 13 }, r); lt.textContent = `həqiqi genom: ${real}`;
+  const ax = s("text", { x: Wd / 2, y: H - 2, "text-anchor": "middle", "font-size": 12, fill: css("--mute") }, r); ax.textContent = `≥100 aa lokus sayı · ${vals.length} qarışdırılmış genom`;
+}
+const realLong = lociOf(findOrfs(D.sequence, 30, true)).filter((o) => o.aa >= 100).length;
+drawHist([], realLong);
+$("shuf").onclick = async () => {
+  const n = +$("n-shuf").value, rand = rng(Date.now()), letters = D.sequence.split(""), vals = [];
+  $("shuf").disabled = true;
+  for (let k = 0; k < n; k++) {
+    for (let i = letters.length - 1; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [letters[i], letters[j]] = [letters[j], letters[i]]; }
+    vals.push(lociOf(findOrfs(letters.join(""), 30, true)).filter((o) => o.aa >= 100).length);
+    drawHist(vals, realLong);
+    const mean = vals.reduce((a, b) => a + b, 0) / vals.length;
+    $("shuf-status").textContent = `${k + 1}/${n} · orta ${mean.toFixed(2)} · maks. ${Math.max(...vals)} · həqiqi ${realLong}`;
+    await new Promise((r) => setTimeout(r, 0));
+  }
+  $("shuf").disabled = false;
+};
+compute();
+</script>
+
+</body>
+</html>
