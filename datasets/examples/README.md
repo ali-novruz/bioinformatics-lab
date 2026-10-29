@@ -19,3 +19,5 @@ SGD-yə və GO annotasiya müəlliflərinə istinad saxlanılır; SGD səhifəl�
 ## PhiX174
 
 NC_001422.1 referens FASTA-sı əvvəlki yoxlanmış NCBI girişinin dəyişdirilməmiş nüsxəsidir. 5386 nukleotid, dairəvi genom analizi. [Əvvəlki mənşə manifesti](../reference-manifest.json) və [NCBI mənbə qeydi](https://www.ncbi.nlm.nih.gov/nuccore/NC_001422.1). ORF namizədləri bu ardıcıllıqdan alqoritmlə hesablanır, təsdiqlənmiş CDS siyahısından köçürülmür.
+
+`NC_001422.1.gb` eyni qeydin dəyişdirilməmiş GenBank nüsxəsidir (2026-10-29 endirilib, LOCUS tarixi 11-JAN-2023; ardıcıllıq FASTA ilə eynidir). Onun 11 CDS-i yalnız namizədlərin sonradan qiymətləndirilməsi üçün istifadə olunur: [genişləndirilmiş analiz](../../projects/beginner/orf-discovery/README.md).

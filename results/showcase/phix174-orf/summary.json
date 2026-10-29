@@ -1,0 +1,45 @@
+{
+  "accession": "NC_001422.1",
+  "length_nt": 5386,
+  "gc_fraction": 0.4476,
+  "curated_cds": 11,
+  "curated_gene_loci": 10,
+  "candidates": 114,
+  "loci": 36,
+  "loci_plus": 22,
+  "loci_minus": 14,
+  "gene_loci_recovered": 10,
+  "exact_starts_recovered": 11,
+  "upstream_start_genes": [
+    "A",
+    "A*"
+  ],
+  "precision_at_30aa": 0.2778,
+  "best_threshold_full_recall": {
+    "min_aa": 35,
+    "loci": 32,
+    "gene_loci": 10,
+    "precision": 0.3125,
+    "recall": 1.0
+  },
+  "coding_fraction": 0.9597,
+  "overlapping_pairs": 8,
+  "overlapping_pairs_other_frame": 8,
+  "null": {
+    "shuffles": 200,
+    "real_loci_ge_100aa": 10,
+    "null_mean_loci_ge_100aa": 0.5,
+    "null_max_loci_ge_100aa": 3,
+    "p_loci_ge_100aa": 0.005,
+    "real_longest_aa": 522,
+    "null_mean_longest_aa": 97.6,
+    "null_max_longest_aa": 222,
+    "p_longest": 0.005
+  },
+  "limitations": [
+    "Matching uses strand and stop codon; the scan reports every in-frame ATG, so start choice is evaluated separately.",
+    "Mononucleotide shuffles keep composition but not codon or dinucleotide structure.",
+    "One small, gene-dense phage genome; precision here does not transfer to larger genomes.",
+    "Curated CDS are the reference; non-ATG starts or unannotated genes would count as errors."
+  ]
+}

@@ -1,0 +1,12 @@
+gene,locus_tag,product,strand,segments0,start0,start_frame,length_aa,wraps_origin,locus_found,exact_start_found,longest_candidate_aa,upstream_extension_aa
+A,phiX174p01,DNA replication initiation,+,"[(3980, 5386), (0, 136)]",3980,2,513,True,True,True,522,9
+A*,phiX174p02,DNA replication initiation,+,"[(4496, 5386), (0, 136)]",4496,2,341,True,True,True,522,181
+B,phiX174p03,head morphogenesis,+,"[(5074, 5386), (0, 51)]",5074,1,120,True,True,True,120,0
+K,phiX174p04,K,+,"[(50, 221)]",50,2,56,False,True,True,56,0
+C,phiX174p05,terminase,+,"[(132, 393)]",132,0,86,False,True,True,86,0
+D,phiX174p07,head morphogenesis,+,"[(389, 848)]",389,2,152,False,True,True,152,0
+E,phiX174p08,endolysin,+,"[(567, 843)]",567,0,91,False,True,True,91,0
+J,phiX174p09,DNA condensation,+,"[(847, 964)]",847,1,38,False,True,True,38,0
+F,phiX174p06,major head protein,+,"[(1000, 2284)]",1000,1,427,False,True,True,427,0
+G,phiX174p10,major spike protein,+,"[(2394, 2922)]",2394,0,175,False,True,True,175,0
+H,phiX174p11,pilot protein for DNA ejection,+,"[(2930, 3917)]",2930,2,328,False,True,True,328,0
