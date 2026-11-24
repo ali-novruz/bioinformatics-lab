@@ -19,3 +19,7 @@ SGD-yə və GO annotasiya müəlliflərinə istinad saxlanılır; SGD səhifəl�
 ## PhiX174
 
 NC_001422.1 referens FASTA-sı əvvəlki yoxlanmış NCBI girişinin dəyişdirilməmiş nüsxəsidir. 5386 nukleotid, dairəvi genom analizi. [Əvvəlki mənşə manifesti](../reference-manifest.json) və [NCBI mənbə qeydi](https://www.ncbi.nlm.nih.gov/nuccore/NC_001422.1). ORF namizədləri bu ardıcıllıqdan alqoritmlə hesablanır, təsdiqlənmiş CDS siyahısından köçürülmür.
+
+## ClinVar: MEFV və HBB
+
+`regional/clinvar-mefv-hbb-2026-11-24.tsv.gz` NCBI ClinVar ESummary cavabından seçilmiş sahələrdir (MEFV[gene] 1484, HBB[gene] 1974 qeyd; gzip, mtime 0). `regional/uniprot-mefv-hbb-2026-11-24.json` UniProt O15553 və P68871-in uzunluq və domen xüsusiyyətləridir. Hər ikisi [`scripts/fetch_regional_clinvar.py`](../../scripts/fetch_regional_clinvar.py) ilə yaradılır; ClinVar həftəlik yeniləndiyi üçün analizlər canlı servisi deyil, bu snapshot-u oxuyur.
