@@ -56,3 +56,7 @@ python scripts/run_regional_clinvar_showcase.py  # analiz (offline)
 ```
 
 Hədlər: ClinVar təsnifatı həftəlik dəyişir və burada ACMG qərarı verilmir; gnomAD dəyəri ClinVar-ın göstərdiyi ən yüksək tezlikdir, əcdad bölgüsü yoxdur; təqdimat qərəzi (ascertainment) qismən nəzarət olunur; regional yayılma, daşıyıcılıq riski və diaqnoz iddiası yoxdur.
+
+## Canlı brauzer kəşfiyyatçısı
+
+[`live/index.html`](live/index.html) faylını brauzerdə açın (server lazım deyil). Gen, təsnifat, nəticə tipi, minimum ulduz və gnomAD tezliyi filtrləri ilə zülal xəritəsi və cədvəl canlı yenilənir; istənilən zülal pəncərəsi üçün permutasiya testi brauzerdə işləyir (MEFV 580–775: 9/13). Açılışda tərkib Python nəticəsi ilə müqayisə olunur. `live/data.js` saxlanmış nəticədən yaradılıb və testlə yoxlanılır.

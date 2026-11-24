@@ -69,3 +69,15 @@ def test_stored_showcase_summary():
         summary["clinical_use"] is False
         and summary["regional_prevalence_claim"] is False
     )
+
+
+def test_live_explorer_bundle_matches_stored_results():
+    text = (ROOT / "projects/advanced/regional-variant-interpretation/live/data.js").read_text(encoding="utf-8")
+    bundle = json.loads(text.removeprefix("window.CVDEMO=").rstrip().rstrip(";"))
+    stored = json.loads((STORED / "summary.json").read_text(encoding="utf-8"))
+    assert bundle["summary"] == stored
+    group = bundle["columns"].index("group")
+    gene = bundle["columns"].index("gene")
+    for name, counts in stored["composition"].items():
+        rows = [r for r in bundle["rows"] if r[gene] == name]
+        assert {g: sum(r[group] == g for r in rows) for g in counts} == counts
