@@ -32,6 +32,24 @@
       "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=2540,15333&retmode=json",
       "source_sha256": "85ace564a545e3b0e1223bf56a09a1fe2341175be22e6731d381c8728ac4a362",
       "transformation": "Selected, flattened fields from datasets/source-snapshots/clinvar-2540-15333-2026-09-20.json; UTF-8 TSV; retrieved 2026-09-20; source URL retained per row"
+    },
+    {
+      "path": "datasets/examples/regional/clinvar-mefv-hbb-2026-11-24.tsv.gz",
+      "sha256": "a7854209ffc960165be460407ddf9baed1cb0453993afdc643f120c4188b9803",
+      "bytes": 159901,
+      "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar (query: MEFV[gene], HBB[gene])",
+      "source_sha256": "a7854209ffc960165be460407ddf9baed1cb0453993afdc643f120c4188b9803",
+      "retrieved": "2026-11-24",
+      "transformation": "Selected fields from the live service response (not stored); source_sha256 is the hash of this derived file; see scripts/fetch_regional_clinvar.py; gzip (mtime 0) of the TSV"
+    },
+    {
+      "path": "datasets/examples/regional/uniprot-mefv-hbb-2026-11-24.json",
+      "sha256": "34bb8c7b57f9524fb35d69cf07dc9e197a44be16565f8450e02b745d795b2e16",
+      "bytes": 3496,
+      "source_url": "https://rest.uniprot.org/uniprotkb/{O15553,P68871}.json",
+      "source_sha256": "34bb8c7b57f9524fb35d69cf07dc9e197a44be16565f8450e02b745d795b2e16",
+      "retrieved": "2026-11-24",
+      "transformation": "Selected fields from the live service response (not stored); source_sha256 is the hash of this derived file; see scripts/fetch_regional_clinvar.py"
     }
   ]
 }

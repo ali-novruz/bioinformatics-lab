@@ -1,0 +1,232 @@
+{
+ "MEFV": {
+  "accession": "O15553",
+  "entry_version": 230,
+  "length": 781,
+  "features": [
+   {
+    "type": "Domain",
+    "description": "Pyrin",
+    "start": 1,
+    "end": 92
+   },
+   {
+    "type": "Domain",
+    "description": "B30.2/SPRY",
+    "start": 580,
+    "end": 775
+   },
+   {
+    "type": "Zinc finger",
+    "description": "B box-type",
+    "start": 370,
+    "end": 412
+   },
+   {
+    "type": "Region",
+    "description": "Disordered",
+    "start": 93,
+    "end": 226
+   },
+   {
+    "type": "Region",
+    "description": "Interaction with RELA",
+    "start": 266,
+    "end": 280
+   },
+   {
+    "type": "Region",
+    "description": "Disordered",
+    "start": 270,
+    "end": 322
+   },
+   {
+    "type": "Region",
+    "description": "Disordered",
+    "start": 336,
+    "end": 373
+   },
+   {
+    "type": "Region",
+    "description": "Required for homotrimerization and induction of pyroptosomes",
+    "start": 420,
+    "end": 582
+   },
+   {
+    "type": "Coiled coil",
+    "description": "",
+    "start": 413,
+    "end": 442
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 5,
+    "end": 15
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 18,
+    "end": 28
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 38,
+    "end": 41
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 42,
+    "end": 47
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 53,
+    "end": 60
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 63,
+    "end": 76
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 80,
+    "end": 92
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 414,
+    "end": 519
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 524,
+    "end": 528
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 531,
+    "end": 539
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 541,
+    "end": 547
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 590,
+    "end": 594
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 604,
+    "end": 606
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 684,
+    "end": 686
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 762,
+    "end": 764
+   }
+  ]
+ },
+ "HBB": {
+  "accession": "P68871",
+  "entry_version": 220,
+  "length": 147,
+  "features": [
+   {
+    "type": "Domain",
+    "description": "Globin",
+    "start": 3,
+    "end": 147
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 6,
+    "end": 17
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 21,
+    "end": 35
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 37,
+    "end": 42
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 44,
+    "end": 46
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 52,
+    "end": 57
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 59,
+    "end": 75
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 82,
+    "end": 95
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 102,
+    "end": 119
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 120,
+    "end": 122
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 125,
+    "end": 143
+   },
+   {
+    "type": "Helix",
+    "description": "",
+    "start": 144,
+    "end": 146
+   }
+  ]
+ }
+}

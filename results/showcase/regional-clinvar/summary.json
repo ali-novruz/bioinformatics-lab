@@ -1,0 +1,284 @@
+{
+  "snapshot": "clinvar-mefv-hbb-2026-11-24.tsv.gz",
+  "records_total": 3458,
+  "records_by_query": {
+    "HBB": 1974,
+    "MEFV": 1484
+  },
+  "excluded": {
+    "not_single_named_gene": 106,
+    "not_small_variant_type": 41,
+    "no_germline_classification": 2,
+    "not_on_canonical_transcript": 78
+  },
+  "kept_on_older_transcript_version": 222,
+  "in_scope": {
+    "HBB": 1822,
+    "MEFV": 1409
+  },
+  "composition": {
+    "HBB": {
+      "P/LP": 408,
+      "Conflicting": 101,
+      "VUS": 283,
+      "B/LB": 844,
+      "Other": 186
+    },
+    "MEFV": {
+      "P/LP": 25,
+      "Conflicting": 274,
+      "VUS": 531,
+      "B/LB": 548,
+      "Other": 31
+    }
+  },
+  "review_stars": {
+    "HBB": {
+      "0": 351,
+      "1": 1142,
+      "2": 310,
+      "3": 19
+    },
+    "MEFV": {
+      "0": 51,
+      "1": 1153,
+      "2": 205,
+      "3": 0
+    }
+  },
+  "plp_strength": {
+    "HBB": {
+      "plp": 408,
+      "plp_2plus_stars": 158,
+      "plp_expert_panel": 11
+    },
+    "MEFV": {
+      "plp": 25,
+      "plp_2plus_stars": 10,
+      "plp_expert_panel": 0
+    }
+  },
+  "consequences": {
+    "HBB": {
+      "frameshift": 150,
+      "inframe": 26,
+      "missense": 499,
+      "no_protein_term": 968,
+      "nonsense": 43,
+      "stop_loss": 4,
+      "synonymous": 132
+    },
+    "MEFV": {
+      "frameshift": 36,
+      "inframe": 8,
+      "missense": 638,
+      "no_protein_term": 265,
+      "nonsense": 30,
+      "synonymous": 432
+    }
+  },
+  "hotspot_mefv": {
+    "domain": "B30.2/SPRY 580-775",
+    "unit": "distinct protein change",
+    "plp_records": 13,
+    "plp_records_in_domain": 9,
+    "plp_missense": 10,
+    "plp_in_domain": 6,
+    "plp_share": 0.6,
+    "all_classified_missense": 439,
+    "all_in_domain": 105,
+    "all_missense_share": 0.2392,
+    "domain_length_share": 0.251,
+    "p_uniform_binomial": 0.0201,
+    "permutations": 10000,
+    "null_mean_share": 0.2414,
+    "null_q95_share": 0.5,
+    "p_label_permutation": 0.0152,
+    "sensitivity_with_conflicting": {
+      "classified_changes": 596,
+      "plp_share": 0.6,
+      "p_label_permutation": 0.0174
+    },
+    "caveat": "Domain location is itself ACMG evidence (PM1), so classification and location are not independent; the null addresses sequencing focus only partly."
+  },
+  "frequency_tension": {
+    "threshold": 0.005,
+    "plp_above": [
+      {
+        "gene": "HBB",
+        "change": "E7V",
+        "af": 0.01298,
+        "stars": 2
+      }
+    ],
+    "most_common_conflicting": [
+      {
+        "gene": "MEFV",
+        "change": "E148Q",
+        "af": 0.0711
+      },
+      {
+        "gene": "MEFV",
+        "change": "P369S",
+        "af": 0.0159
+      },
+      {
+        "gene": "MEFV",
+        "change": "I591T",
+        "af": 0.01505
+      },
+      {
+        "gene": "MEFV",
+        "change": "R408Q",
+        "af": 0.01456
+      },
+      {
+        "gene": "MEFV",
+        "change": "R501=",
+        "af": 0.01248
+      }
+    ]
+  },
+  "teaching_variants": [
+    {
+      "gene": "MEFV",
+      "hgvs_c": "c.2080A>G",
+      "change": "M694V",
+      "variation_id": "2538",
+      "classification": "Pathogenic/Likely pathogenic",
+      "group": "P/LP",
+      "stars": 2,
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "gnomad_af_max": 0.00028,
+      "traits": "Acute febrile neutrophilic dermatosis;Autoinflammatory syndrome;Familial Mediterranean fever;Familial Mediterranean fever, autosomal dominant;Inborn genetic diseases;MEFV-related disorder;Recurrent fever;not provided"
+    },
+    {
+      "gene": "MEFV",
+      "hgvs_c": "c.2040G>C",
+      "change": "M680I",
+      "variation_id": "36507",
+      "classification": "Pathogenic/Likely pathogenic",
+      "group": "P/LP",
+      "stars": 2,
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "gnomad_af_max": null,
+      "traits": "Acute febrile neutrophilic dermatosis;Autoinflammatory syndrome;Familial Mediterranean fever;Familial Mediterranean fever, autosomal dominant;Inborn genetic diseases;MEFV-related disorder;See cases;not provided"
+    },
+    {
+      "gene": "MEFV",
+      "hgvs_c": "c.2082G>A",
+      "change": "M694I",
+      "variation_id": "2539",
+      "classification": "Pathogenic/Likely pathogenic",
+      "group": "P/LP",
+      "stars": 2,
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "gnomad_af_max": 0.00014,
+      "traits": "Acute febrile neutrophilic dermatosis;Autoinflammatory syndrome;Familial Mediterranean fever;Familial Mediterranean fever, autosomal dominant;MEFV-related disorder;not provided"
+    },
+    {
+      "gene": "MEFV",
+      "hgvs_c": "c.2177T>C",
+      "change": "V726A",
+      "variation_id": "2540",
+      "classification": "Pathogenic/Likely pathogenic",
+      "group": "P/LP",
+      "stars": 2,
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "gnomad_af_max": 0.00147,
+      "traits": "Acute febrile neutrophilic dermatosis;Autoinflammatory syndrome;Familial Mediterranean fever;Familial Mediterranean fever, autosomal dominant;Inborn genetic diseases;MEFV-related disorder;not provided"
+    },
+    {
+      "gene": "MEFV",
+      "hgvs_c": "c.442G>C",
+      "change": "E148Q",
+      "variation_id": "2542",
+      "classification": "Conflicting classifications of pathogenicity",
+      "group": "Conflicting",
+      "stars": 1,
+      "review_status": "criteria provided, conflicting classifications",
+      "gnomad_af_max": 0.0711,
+      "traits": "Acute febrile neutrophilic dermatosis;Autoinflammatory syndrome;Familial Mediterranean fever;Familial Mediterranean fever, autosomal dominant;Inborn genetic diseases;See cases;Systemic lupus erythematosus;not provided;not specified"
+    },
+    {
+      "gene": "HBB",
+      "hgvs_c": "c.20A>T",
+      "change": "E7V",
+      "variation_id": "15333",
+      "classification": "Pathogenic",
+      "group": "P/LP",
+      "stars": 2,
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "gnomad_af_max": 0.01298,
+      "traits": "Beta-thalassemia HBB/LCRB;Dominant beta-thalassemia;Erythrocytosis, familial, 6;Fetal hemoglobin quantitative trait locus 1;HBB-related disorder;Hb SS disease;Heinz body anemia;Hereditary persistence of fetal hemoglobin;Inborn genetic diseases;METHEMOGLOBINEMIA, BETA TYPE;Malaria, susceptibility to;See cases;Sickle cell-hemoglobin C disease;alpha Thalassemia;beta Thalassemia;not provided"
+    },
+    {
+      "gene": "HBB",
+      "hgvs_c": "c.79G>A",
+      "change": "E27K",
+      "variation_id": "15161",
+      "classification": "Pathogenic",
+      "group": "P/LP",
+      "stars": 2,
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "gnomad_af_max": 0.00041,
+      "traits": "Anemia;Beta-thalassemia HBB/LCRB;Dominant beta-thalassemia;Erythrocytosis, familial, 6;Fetal hemoglobin quantitative trait locus 1;HBB-related disorder;Hb SS disease;Heinz body anemia;Hemoglobin E disease;Hemoglobin E/beta- thalassemia;Hereditary persistence of fetal hemoglobin;Inborn genetic diseases;METHEMOGLOBINEMIA, BETA TYPE;Malaria, susceptibility to;alpha Thalassemia;beta Thalassemia;not provided;not specified"
+    },
+    {
+      "gene": "HBB",
+      "hgvs_c": "c.118C>T",
+      "change": "Q40*",
+      "variation_id": "15402",
+      "classification": "Pathogenic",
+      "group": "P/LP",
+      "stars": 2,
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "gnomad_af_max": 0.00033,
+      "traits": "Beta-thalassemia HBB/LCRB;Dominant beta-thalassemia;Erythrocyte disorder;Erythrocytosis, familial, 6;HBB-related disorder;Hb SS disease;Heinz body anemia;Hereditary persistence of fetal hemoglobin;Inborn genetic diseases;METHEMOGLOBINEMIA, BETA TYPE;Malaria, susceptibility to;alpha Thalassemia;beta Thalassemia;not provided"
+    },
+    {
+      "gene": "HBB",
+      "hgvs_c": "c.93-21G>A",
+      "change": "c.93-21G>A",
+      "variation_id": "15454",
+      "classification": "Pathogenic",
+      "group": "P/LP",
+      "stars": 3,
+      "review_status": "reviewed by expert panel",
+      "gnomad_af_max": 0.00016,
+      "traits": "Beta-thalassemia HBB/LCRB"
+    },
+    {
+      "gene": "HBB",
+      "hgvs_c": "c.92+1G>A",
+      "change": "c.92+1G>A",
+      "variation_id": "15436",
+      "classification": "Pathogenic",
+      "group": "P/LP",
+      "stars": 2,
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "gnomad_af_max": 5e-05,
+      "traits": "Beta-thalassemia HBB/LCRB;Dominant beta-thalassemia;Erythrocytosis, familial, 6;Fetal hemoglobin quantitative trait locus 1;HBB-related disorder;Hb SS disease;Heinz body anemia;Hereditary persistence of fetal hemoglobin;Inborn genetic diseases;METHEMOGLOBINEMIA, BETA TYPE;Malaria, susceptibility to;beta Thalassemia;not provided"
+    },
+    {
+      "gene": "HBB",
+      "hgvs_c": "c.92+6T>C",
+      "change": "c.92+6T>C",
+      "variation_id": "15450",
+      "classification": "Pathogenic/Likely pathogenic",
+      "group": "P/LP",
+      "stars": 2,
+      "review_status": "criteria provided, multiple submitters, no conflicts",
+      "gnomad_af_max": 0.00012,
+      "traits": "Beta thalassemia intermedia;Beta-thalassemia HBB/LCRB;Dominant beta-thalassemia;Erythrocytosis, familial, 6;Fetal hemoglobin quantitative trait locus 1;HBB-related disorder;Hb SS disease;Heinz body anemia;Hereditary persistence of fetal hemoglobin;Inborn genetic diseases;METHEMOGLOBINEMIA, BETA TYPE;Malaria, susceptibility to;alpha Thalassemia;beta Thalassemia;not provided"
+    }
+  ],
+  "clinical_use": false,
+  "regional_prevalence_claim": false,
+  "limitations": [
+    "ClinVar aggregates submitter assertions; classifications change weekly and are not ACMG calls made here.",
+    "gnomAD values are the highest frequency ClinVar displays for the record, without ancestry breakdown.",
+    "Submission is ascertainment-biased (exon 10 of MEFV is sequenced most); the permutation null addresses only part of it.",
+    "Teaching variants are reported as found in ClinVar; no prevalence, carrier risk or diagnosis is implied."
+  ]
+}

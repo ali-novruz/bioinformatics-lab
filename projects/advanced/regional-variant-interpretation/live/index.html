@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ClinVar Kəşfiyyatçısı · MEFV və HBB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..600;1,7..72,400&family=Public+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+/* Live explorer in the Hesabat look: report paper, one control column, map and table recomputed from the pinned ClinVar snapshot on every change. */
+:root{
+  --paper:#fbfbf8; --paper-2:#f0f2f1; --ink:#1d2a33; --ink-2:#44535e; --mute:#71808a; --grid:#d9dfe2; --rule:#c4ccd0;
+  --plp:#b3261e; --conf:#c77700; --vus:#7a8590; --blb:#1d5fa8; --other:#c8ccd2; --accent:#0f6b5c; --domain:#3b4a5c;
+  --font-display:"Literata", Georgia, serif; --font-body:"Public Sans", "Segoe UI", system-ui, sans-serif; --font-data:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.45}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1500px;margin:0 auto;padding:20px max(16px,3vw) 60px;display:grid;gap:16px}
+header{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:12px}
+h1{font-family:var(--font-display);font-weight:500;font-size:clamp(28px,3vw,44px);margin:0;line-height:1.05}
+h1 em{color:var(--accent);font-weight:400}
+.eyebrow{font-family:var(--font-data);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.verify{font-family:var(--font-data);font-size:12px;padding:.4em .8em;background:var(--paper-2);border-left:3px solid var(--accent)}
+.layout{display:grid;grid-template-columns:300px minmax(0,1fr);gap:18px;align-items:start}
+.controls{display:grid;gap:14px;position:sticky;top:12px}
+fieldset{border:1px solid var(--rule);padding:10px 12px;margin:0;display:grid;gap:6px}
+legend{font-family:var(--font-data);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);padding:0 4px}
+label.opt{display:flex;gap:8px;align-items:center;cursor:pointer;font-size:14px}
+.sw{width:10px;height:10px;display:inline-block}
+input[type=range]{width:100%;accent-color:var(--accent)}
+.kpis{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;border-top:2px solid var(--ink);border-left:1px solid var(--rule)}
+.kpis div{padding:8px 12px;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);font-family:var(--font-data);font-size:11px;color:var(--mute)}
+.kpis b{display:block;font-family:var(--font-display);font-weight:500;font-size:28px;color:var(--ink);font-variant-numeric:tabular-nums}
+.panel{border:1px solid var(--rule);padding:14px;display:grid;gap:10px;min-width:0;background:#fff}
+.panel h2{font-family:var(--font-display);font-weight:500;font-size:20px;margin:0;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.panel h2 small{font-family:var(--font-data);font-size:11px;color:var(--mute);font-weight:400}
+svg{width:100%;height:auto;display:block;overflow:visible}
+svg text{font-family:var(--font-data)}
+.tablewrap{max-height:360px;overflow:auto;border-top:1px solid var(--rule)}
+table{width:100%;border-collapse:collapse;font-family:var(--font-data);font-size:12px}
+th,td{text-align:left;padding:5px 8px;border-bottom:1px solid var(--grid);white-space:nowrap}
+th{position:sticky;top:0;background:var(--paper-2);cursor:pointer}
+td a{color:var(--accent)}
+.perm{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:14px;align-items:center}
+.btn{border:1px solid var(--ink);background:var(--ink);color:var(--paper);padding:.45em 1em;cursor:pointer;font-family:var(--font-data);font-size:12px}
+.btn:disabled{opacity:.4}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+select,input[type=number]{border:1px solid var(--rule);background:#fff;padding:.3em .5em;width:auto}
+.small{font-size:12px;color:var(--mute)}
+@media (max-width:1000px){.layout{grid-template-columns:1fr}.controls{position:static}.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}.perm{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div><div class="eyebrow">Canlı laboratoriya · ClinVar snapshot 2026-11-24 · tədris məqsədli</div><h1>ClinVar kəşfiyyatçısı: <em>MEFV və HBB</em></h1></div>
+    <div class="verify" id="verify">Yoxlanılır…</div>
+  </header>
+
+  <div class="layout">
+    <aside class="controls" aria-label="Filtrlər">
+      <fieldset><legend>Gen</legend>
+        <label class="opt"><input type="radio" name="gene" value="MEFV" checked> MEFV · pirin · 781 aa</label>
+        <label class="opt"><input type="radio" name="gene" value="HBB"> HBB · beta-qlobin · 147 aa</label>
+      </fieldset>
+      <fieldset id="groups"><legend>Təsnifat</legend></fieldset>
+      <fieldset id="conseq"><legend>Nəticə tipi</legend></fieldset>
+      <fieldset><legend>Minimum ulduz</legend>
+        <input id="stars" type="range" min="0" max="3" step="1" value="0" aria-label="Minimum ulduz"><span class="small" id="stars-v">0 · hamısı</span>
+      </fieldset>
+      <fieldset><legend>gnomAD tezliyi</legend>
+        <label class="opt"><input type="checkbox" id="af-only"> yalnız tezliyi olanlar</label>
+        <input id="af" type="range" min="-6" max="-0.5" step="0.1" value="-0.5" aria-label="Maksimum tezlik"><span class="small" id="af-v">≤ hamısı</span>
+      </fieldset>
+    </aside>
+
+    <main style="display:grid;gap:14px;min-width:0">
+      <div class="kpis"><div>seçilmiş qeyd<b id="k-n">—</b></div><div>P/LP<b id="k-plp">—</b></div><div>VUS<b id="k-vus">—</b></div><div>ziddiyyətli<b id="k-conf">—</b></div><div>≥2 ulduz<b id="k-strong">—</b></div></div>
+      <section class="panel"><h2>Zülal xəritəsi <small id="map-note"></small></h2><div id="map"></div></section>
+      <section class="panel">
+        <h2>Pəncərə testi <small>seçilmiş P/LP missense-lərin payı pəncərədə: təsadüf olarmı?</small></h2>
+        <div class="perm">
+          <div style="display:grid;gap:8px">
+            <div class="row"><label for="w-a">pəncərə</label><input id="w-a" type="number" min="1" value="580" style="width:80px"> – <input id="w-b" type="number" min="1" value="775" style="width:80px"> <span class="small">aa</span></div>
+            <div class="row"><button class="btn" id="run" type="button">2000 permutasiya</button><span class="small" id="perm-out"></span></div>
+            <p class="small" style="margin:0">Vahid: fərqli zülal dəyişikliyi (eyni dəyişikliyi təsvir edən qeydlər bir dəfə sayılır). Null: P/LP etiketləri təsnif olunmuş (P/LP, VUS, B/LB) missense dəyişikliklər arasında qarışdırılır. MEFV 580–775 üçün repo nəticəsi: 6/10, p = 0.015 (10 000 permutasiya). Domen yeri özü təsnifat sübutudur (PM1), ona görə nəticə ehtiyatla oxunmalıdır.</p>
+          </div>
+          <div id="perm"></div>
+        </div>
+      </section>
+      <section class="panel"><h2>Qeydlər <small>sütun başlığına klikləyin · VCV linki ClinVar-a aparır</small></h2><div class="tablewrap"><table><thead><tr><th data-k="change">dəyişiklik</th><th data-k="consequence">tip</th><th data-k="position">mövqe</th><th data-k="group">təsnifat</th><th data-k="stars">ulduz</th><th data-k="af">gnomAD</th><th data-k="variation_id">VCV</th></tr></thead><tbody id="tbody"></tbody></table></div></section>
+    </main>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const D = CVDEMO, NS = "http://www.w3.org/2000/svg";
+const GROUPS = ["P/LP", "Conflicting", "VUS", "B/LB", "Other"];
+const GSHORT = { "P/LP": "P/LP", Conflicting: "Ziddiyyətli", VUS: "VUS", "B/LB": "B/LB", Other: "Digər" };
+const GVAR = { "P/LP": "--plp", Conflicting: "--conf", VUS: "--vus", "B/LB": "--blb", Other: "--other" };
+const CONSEQ = ["missense", "nonsense", "frameshift", "inframe", "stop_loss", "synonymous", "no_protein_term"];
+const CNAME = { missense: "missense", nonsense: "nonsens (stop)", frameshift: "çərçivə sürüşməsi", inframe: "çərçivədaxili", stop_loss: "stop itkisi", synonymous: "sinonim", no_protein_term: "protein termini yoxdur" };
+const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const $ = (id) => document.getElementById(id);
+const R = D.rows.map((r) => Object.fromEntries(D.columns.map((c, i) => [c, r[i]])));
+function s(tag, a = {}, p) { const e = document.createElementNS(NS, tag); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; }
+function t(p, x, y, str, a = {}) { const e = s("text", { x, y, "font-size": 12, fill: css("--ink"), ...a }, p); e.textContent = str; return e; }
+const fmtAf = (v) => (v == null ? "—" : v === 0 ? "0" : v >= 0.01 ? v.toFixed(3) : v.toExponential(1));
+
+/* parity with the Python summary */
+(function verify() {
+  const comp = (g) => Object.fromEntries(GROUPS.map((k) => [k, R.filter((r) => r.gene === g && r.group === k).length]));
+  const ok = ["MEFV", "HBB"].every((g) => JSON.stringify(comp(g)) === JSON.stringify(D.summary.composition[g]));
+  $("verify").textContent = ok ? `Brauzer tərkibi Python nəticəsi ilə eynidir · ${R.length} qeyd` : "Uyğunsuzluq: brauzer tərkibi Python nəticəsindən fərqlənir";
+  if (!ok) $("verify").style.borderColor = css("--plp");
+})();
+
+GROUPS.forEach((g) => $("groups").insertAdjacentHTML("beforeend", `<label class="opt"><input type="checkbox" value="${g}" checked> <span class="sw" style="background:var(${GVAR[g]})"></span>${GSHORT[g]}</label>`));
+CONSEQ.forEach((c) => $("conseq").insertAdjacentHTML("beforeend", `<label class="opt"><input type="checkbox" value="${c}" ${c === "synonymous" ? "" : "checked"}> ${CNAME[c]}</label>`));
+
+let sortKey = "position", sortDir = 1;
+function current() {
+  const gene = document.querySelector("input[name=gene]:checked").value;
+  const groups = new Set([...$("groups").querySelectorAll("input:checked")].map((i) => i.value));
+  const conseq = new Set([...$("conseq").querySelectorAll("input:checked")].map((i) => i.value));
+  const minStars = +$("stars").value, afMax = 10 ** +$("af").value, afOnly = $("af-only").checked;
+  return { gene, rows: R.filter((r) => r.gene === gene && groups.has(r.group) && conseq.has(r.consequence) && r.stars >= minStars && (r.af == null ? !afOnly : r.af <= afMax || +$("af").value >= -0.5)) };
+}
+function update() {
+  const { gene, rows } = current();
+  $("stars-v").textContent = ["0 · hamısı", "≥1 ulduz", "≥2 ulduz", "≥3 ulduz (ekspert panel)"][+$("stars").value];
+  $("af-v").textContent = +$("af").value >= -0.5 ? "≤ hamısı" : `≤ ${fmtAf(10 ** +$("af").value)}`;
+  const n = (g) => rows.filter((r) => r.group === g).length;
+  $("k-n").textContent = rows.length; $("k-plp").textContent = n("P/LP"); $("k-vus").textContent = n("VUS"); $("k-conf").textContent = n("Conflicting"); $("k-strong").textContent = rows.filter((r) => r.stars >= 2).length;
+  drawMap(gene, rows); drawTable(rows);
+}
+function drawMap(gene, rows) {
+  const dom = D.domains[gene], len = dom.length, W = 1000, H = 300, x0 = 20, x1 = W - 20, base = 230;
+  const el = $("map"); el.innerHTML = ""; const root = s("svg", { viewBox: `0 0 ${W} ${H}` }, el);
+  const X = (p) => x0 + ((p - 1) / (len - 1)) * (x1 - x0);
+  s("rect", { x: x0, y: base, width: x1 - x0, height: 20, fill: css("--grid") }, root);
+  dom.domains.forEach((f) => { s("rect", { x: X(f.start), y: base - 4, width: X(f.end) - X(f.start), height: 28, fill: css("--domain"), rx: 3 }, root); const lab = f.description || f.type; if (X(f.end) - X(f.start) > lab.length * 7.5 + 10) t(root, (X(f.start) + X(f.end)) / 2, base + 15, lab, { "text-anchor": "middle", fill: "#fff", "font-weight": 600 }); });
+  for (let p = 50; p < len; p += len > 300 ? 100 : 25) t(root, X(p), base + 44, p, { "text-anchor": "middle", fill: css("--mute"), "font-size": 11 });
+  const byPos = new Map(); rows.filter((r) => r.position).forEach((r) => (byPos.get(r.position) || byPos.set(r.position, []).get(r.position)).push(r));
+  byPos.forEach((list, pos) => {
+    const top = list.slice().sort((a, b) => GROUPS.indexOf(a.group) - GROUPS.indexOf(b.group))[0], h = 18 + Math.log2(1 + list.length) * 40;
+    s("line", { x1: X(pos), x2: X(pos), y1: base - 6, y2: base - h, stroke: css(GVAR[top.group]), "stroke-width": 1.2, opacity: .7 }, root);
+    const c = s("circle", { cx: X(pos), cy: base - h, r: 3.5 + Math.min(4, list.length), fill: css(GVAR[top.group]) }, root);
+    const tt = s("title", {}, c); tt.textContent = `${gene} ${pos}: ` + list.map((r) => `${r.change} ${GSHORT[r.group]}`).join(", ");
+  });
+  const noncoding = rows.filter((r) => !r.position).length;
+  $("map-note").textContent = `${byPos.size} mövqe · protein termini olmayan, xəritədə görünməyən qeyd: ${noncoding}`;
+}
+function drawTable(rows) {
+  const sorted = rows.slice().sort((a, b) => { const va = a[sortKey], vb = b[sortKey]; if (va == null) return 1; if (vb == null) return -1; return (va > vb ? 1 : va < vb ? -1 : 0) * sortDir; }).slice(0, 400);
+  $("tbody").innerHTML = sorted.map((r) => `<tr><td>${r.change || "—"}</td><td>${CNAME[r.consequence]}</td><td>${r.position ?? "—"}</td><td style="color:var(${GVAR[r.group]});font-weight:600">${GSHORT[r.group]}</td><td>${"★".repeat(r.stars)}${"☆".repeat(4 - r.stars)}</td><td>${fmtAf(r.af)}</td><td><a href="https://www.ncbi.nlm.nih.gov/clinvar/variation/${r.variation_id}/" target="_blank" rel="noopener">${r.variation_id}</a></td></tr>`).join("") + (rows.length > 400 ? `<tr><td colspan="7" class="small">… ilk 400 sətir göstərilir (${rows.length})</td></tr>` : "");
+}
+document.querySelectorAll("th[data-k]").forEach((th) => th.addEventListener("click", () => { sortDir = th.dataset.k === sortKey ? -sortDir : 1; sortKey = th.dataset.k; update(); }));
+document.querySelectorAll("input").forEach((i) => i.addEventListener("input", () => { if (i.name === "gene") { const g = i.value; $("w-a").value = g === "MEFV" ? 580 : 1; $("w-b").value = g === "MEFV" ? 775 : 30; $("perm").innerHTML = ""; $("perm-out").textContent = ""; } if (!["w-a", "w-b"].includes(i.id)) update(); }));
+
+/* window permutation test, computed live */
+function rng(seed) { let x = seed >>> 0; return () => ((x = (x * 1664525 + 1013904223) >>> 0) / 4294967296); }
+$("run").onclick = async () => {
+  const gene = document.querySelector("input[name=gene]:checked").value, a = +$("w-a").value, b = +$("w-b").value;
+  if (!(a >= 1 && b >= a && b <= D.domains[gene].length)) { $("perm-out").textContent = `Pəncərə 1–${D.domains[gene].length} aralığında olmalıdır.`; return; }
+  // one entry per distinct protein change (several records can describe the same change); most severe class wins
+  const SEV = ["P/LP", "VUS", "B/LB"], seen = new Map();
+  R.filter((r) => r.gene === gene && r.consequence === "missense" && SEV.includes(r.group)).sort((x, y) => SEV.indexOf(x.group) - SEV.indexOf(y.group)).forEach((r) => { const k = r.position + r.change; if (!seen.has(k)) seen.set(k, r); });
+  const ms = [...seen.values()];
+  const inside = ms.map((r) => r.position >= a && r.position <= b), plp = ms.map((r) => r.group === "P/LP");
+  const k = plp.filter(Boolean).length;
+  if (!k) { $("perm-out").textContent = "Bu gendə P/LP missense yoxdur."; return; }
+  const obs = inside.filter((v, i) => v && plp[i]).length / k;
+  const rand = rng(Date.now()), labels = plp.slice(), null_ = [];
+  $("run").disabled = true;
+  for (let p = 0; p < 2000; p++) {
+    for (let i = labels.length - 1; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [labels[i], labels[j]] = [labels[j], labels[i]]; }
+    null_.push(inside.filter((v, i) => v && labels[i]).length / k);
+    if (p % 100 === 99) { drawPerm(null_, obs, inside.filter(Boolean).length / ms.length); await new Promise((r) => setTimeout(r, 0)); }
+  }
+  const pval = (1 + null_.filter((v) => v >= obs).length) / (null_.length + 1);
+  $("perm-out").textContent = `P/LP dəyişiklik ${inside.filter((v, i) => v && plp[i]).length}/${k} = ${(obs * 100).toFixed(0)}% · bütün missense dəyişikliklər ${inside.filter(Boolean).length}/${ms.length} = ${(inside.filter(Boolean).length / ms.length * 100).toFixed(1)}% · p ≈ ${pval.toFixed(4)}`;
+  drawPerm(null_, obs, inside.filter(Boolean).length / ms.length);
+  $("run").disabled = false;
+};
+function drawPerm(vals, obs, base) {
+  const W = 600, H = 200, pad = 30, el = $("perm"); el.innerHTML = ""; const root = s("svg", { viewBox: `0 0 ${W} ${H}` }, el);
+  const bins = 25, X = (v) => pad + v * (W - 2 * pad), c = new Array(bins).fill(0); vals.forEach((v) => c[Math.min(bins - 1, Math.floor(v * bins))]++);
+  const ym = Math.max(1, ...c); c.forEach((n, i) => { const h = (n / ym) * (H - 60); s("rect", { x: X(i / bins) + 1, y: H - 36 - h, width: (W - 2 * pad) / bins - 2, height: h, fill: css("--grid") }, root); });
+  [0, .25, .5, .75, 1].forEach((v) => t(root, X(v), H - 18, `${v * 100}%`, { "text-anchor": "middle", "font-size": 11 }));
+  s("line", { x1: X(base), x2: X(base), y1: 10, y2: H - 36, stroke: css("--vus"), "stroke-width": 2, "stroke-dasharray": "4 3" }, root);
+  s("line", { x1: X(obs), x2: X(obs), y1: 10, y2: H - 36, stroke: css("--plp"), "stroke-width": 4 }, root);
+  t(root, X(obs) + 6, 22, `P/LP ${(obs * 100).toFixed(0)}%`, { fill: css("--plp"), "font-weight": 600 });
+  t(root, W / 2, H - 2, `${vals.length} permutasiya`, { "text-anchor": "middle", fill: css("--mute"), "font-size": 11 });
+}
+update();
+</script>
+
+</body>
+</html>
