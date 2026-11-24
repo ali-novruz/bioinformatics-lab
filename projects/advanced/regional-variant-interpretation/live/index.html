@@ -89,7 +89,7 @@ select,input[type=number]{border:1px solid var(--rule);background:#fff;padding:.
           <div style="display:grid;gap:8px">
             <div class="row"><label for="w-a">pəncərə</label><input id="w-a" type="number" min="1" value="580" style="width:80px"> – <input id="w-b" type="number" min="1" value="775" style="width:80px"> <span class="small">aa</span></div>
             <div class="row"><button class="btn" id="run" type="button">2000 permutasiya</button><span class="small" id="perm-out"></span></div>
-            <p class="small" style="margin:0">Null: P/LP etiketləri təsnif olunmuş (P/LP, VUS, B/LB) missense mövqeləri arasında qarışdırılır. MEFV 580–775 üçün repo nəticəsi: 9/13, p = 0.0013 (10 000 permutasiya).</p>
+            <p class="small" style="margin:0">Vahid: fərqli zülal dəyişikliyi (eyni dəyişikliyi təsvir edən qeydlər bir dəfə sayılır). Null: P/LP etiketləri təsnif olunmuş (P/LP, VUS, B/LB) missense dəyişikliklər arasında qarışdırılır. MEFV 580–775 üçün repo nəticəsi: 6/10, p = 0.015 (10 000 permutasiya). Domen yeri özü təsnifat sübutudur (PM1), ona görə nəticə ehtiyatla oxunmalıdır.</p>
           </div>
           <div id="perm"></div>
         </div>
@@ -105,8 +105,8 @@ const D = CVDEMO, NS = "http://www.w3.org/2000/svg";
 const GROUPS = ["P/LP", "Conflicting", "VUS", "B/LB", "Other"];
 const GSHORT = { "P/LP": "P/LP", Conflicting: "Ziddiyyətli", VUS: "VUS", "B/LB": "B/LB", Other: "Digər" };
 const GVAR = { "P/LP": "--plp", Conflicting: "--conf", VUS: "--vus", "B/LB": "--blb", Other: "--other" };
-const CONSEQ = ["missense", "nonsense", "frameshift", "inframe", "synonymous", "noncoding"];
-const CNAME = { missense: "missense", nonsense: "nonsens (stop)", frameshift: "çərçivə sürüşməsi", inframe: "çərçivədaxili", synonymous: "sinonim", noncoding: "kodlaşdırmayan" };
+const CONSEQ = ["missense", "nonsense", "frameshift", "inframe", "stop_loss", "synonymous", "no_protein_term"];
+const CNAME = { missense: "missense", nonsense: "nonsens (stop)", frameshift: "çərçivə sürüşməsi", inframe: "çərçivədaxili", stop_loss: "stop itkisi", synonymous: "sinonim", no_protein_term: "protein termini yoxdur" };
 const css = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const $ = (id) => document.getElementById(id);
 const R = D.rows.map((r) => Object.fromEntries(D.columns.map((c, i) => [c, r[i]])));
@@ -156,7 +156,7 @@ function drawMap(gene, rows) {
     const tt = s("title", {}, c); tt.textContent = `${gene} ${pos}: ` + list.map((r) => `${r.change} ${GSHORT[r.group]}`).join(", ");
   });
   const noncoding = rows.filter((r) => !r.position).length;
-  $("map-note").textContent = `${byPos.size} mövqe · xəritədə olmayan kodlaşdırmayan qeyd: ${noncoding}`;
+  $("map-note").textContent = `${byPos.size} mövqe · protein termini olmayan, xəritədə görünməyən qeyd: ${noncoding}`;
 }
 function drawTable(rows) {
   const sorted = rows.slice().sort((a, b) => { const va = a[sortKey], vb = b[sortKey]; if (va == null) return 1; if (vb == null) return -1; return (va > vb ? 1 : va < vb ? -1 : 0) * sortDir; }).slice(0, 400);
@@ -170,7 +170,10 @@ function rng(seed) { let x = seed >>> 0; return () => ((x = (x * 1664525 + 10139
 $("run").onclick = async () => {
   const gene = document.querySelector("input[name=gene]:checked").value, a = +$("w-a").value, b = +$("w-b").value;
   if (!(a >= 1 && b >= a && b <= D.domains[gene].length)) { $("perm-out").textContent = `Pəncərə 1–${D.domains[gene].length} aralığında olmalıdır.`; return; }
-  const ms = R.filter((r) => r.gene === gene && r.consequence === "missense" && ["P/LP", "VUS", "B/LB"].includes(r.group));
+  // one entry per distinct protein change (several records can describe the same change); most severe class wins
+  const SEV = ["P/LP", "VUS", "B/LB"], seen = new Map();
+  R.filter((r) => r.gene === gene && r.consequence === "missense" && SEV.includes(r.group)).sort((x, y) => SEV.indexOf(x.group) - SEV.indexOf(y.group)).forEach((r) => { const k = r.position + r.change; if (!seen.has(k)) seen.set(k, r); });
+  const ms = [...seen.values()];
   const inside = ms.map((r) => r.position >= a && r.position <= b), plp = ms.map((r) => r.group === "P/LP");
   const k = plp.filter(Boolean).length;
   if (!k) { $("perm-out").textContent = "Bu gendə P/LP missense yoxdur."; return; }
@@ -183,7 +186,7 @@ $("run").onclick = async () => {
     if (p % 100 === 99) { drawPerm(null_, obs, inside.filter(Boolean).length / ms.length); await new Promise((r) => setTimeout(r, 0)); }
   }
   const pval = (1 + null_.filter((v) => v >= obs).length) / (null_.length + 1);
-  $("perm-out").textContent = `P/LP ${inside.filter((v, i) => v && plp[i]).length}/${k} = ${(obs * 100).toFixed(0)}% · bütün missense ${(inside.filter(Boolean).length / ms.length * 100).toFixed(1)}% · p ≈ ${pval.toFixed(4)}`;
+  $("perm-out").textContent = `P/LP dəyişiklik ${inside.filter((v, i) => v && plp[i]).length}/${k} = ${(obs * 100).toFixed(0)}% · bütün missense dəyişikliklər ${inside.filter(Boolean).length}/${ms.length} = ${(inside.filter(Boolean).length / ms.length * 100).toFixed(1)}% · p ≈ ${pval.toFixed(4)}`;
   drawPerm(null_, obs, inside.filter(Boolean).length / ms.length);
   $("run").disabled = false;
 };

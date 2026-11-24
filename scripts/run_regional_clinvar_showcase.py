@@ -93,8 +93,8 @@ def load():
         lambda r: not r["title"].startswith(CURRENT[r["gene"]]), axis=1
     )
     excluded = {
-        "multi_gene_or_cnv": int((table["gene"] != table["gene_query"]).sum()),
-        "haplotype_or_complex": int(
+        "not_single_named_gene": int((table["gene"] != table["gene_query"]).sum()),
+        "not_small_variant_type": int(
             (
                 (table["gene"] == table["gene_query"]) & ~table["obj_type"].isin(SMALL)
             ).sum()
@@ -106,10 +106,10 @@ def load():
                 & ~germline
             ).sum()
         ),
-        "genomic_or_other_description": int((~on_transcript).sum()),
+        "not_on_canonical_transcript": int((~on_transcript).sum()),
     }
-    excluded["kept_on_older_transcript_version"] = int(older.sum())
-    return table, scoped, excluded
+    kept_older = int(older.sum())
+    return table, scoped, excluded, kept_older
 
 
 def domains():
@@ -125,30 +125,55 @@ def domains():
     }
 
 
-def hotspot(mefv, rng):
-    """B30.2/SPRY (UniProt 580-775) share of P/LP missense versus two nulls."""
-    start, end = 580, 775
-    missense = mefv[
-        (mefv["consequence"] == "missense")
-        & mefv["group"].isin(["P/LP", "VUS", "B/LB"])
-    ]
-    inside = missense["position"].between(start, end).to_numpy()
-    plp = (missense["group"] == "P/LP").to_numpy()
+SEVERITY = ["P/LP", "Conflicting", "VUS", "B/LB"]
+
+
+def change_table(records, groups):
+    """One row per distinct protein change; its class is the most severe among its records.
+
+    Several records can describe the same protein change (e.g. M680I from three
+    different base changes); counting records would treat them as independent.
+    """
+    m = records[(records["consequence"] == "missense") & records["group"].isin(groups)]
+    rank = m["group"].map(SEVERITY.index)
+    m = m.assign(rank=rank).sort_values("rank")
+    return m.drop_duplicates(["position", "change"], keep="first")
+
+
+def permutation_share(changes, start, end, rng):
+    inside = changes["position"].between(start, end).to_numpy()
+    plp = (changes["group"] == "P/LP").to_numpy()
     observed = inside[plp].mean()
     null = np.array([inside[rng.permutation(plp)].mean() for _ in range(PERMUTATIONS)])
-    p_label = (1 + (null >= observed).sum()) / (PERMUTATIONS + 1)
-    length_share = (end - start + 1) / 781
+    p_value = (1 + (null >= observed).sum()) / (PERMUTATIONS + 1)
+    return inside, plp, observed, null, p_value
+
+
+def hotspot(mefv, dom, rng):
+    """B30.2/SPRY share of P/LP missense changes against a label-permutation null."""
+    b302 = next(f for f in dom["MEFV"]["domains"] if f["description"] == "B30.2/SPRY")
+    start, end, length = b302["start"], b302["end"], dom["MEFV"]["length"]
+    changes = change_table(mefv, ["P/LP", "VUS", "B/LB"])
+    inside, plp, observed, null, p_label = permutation_share(changes, start, end, rng)
     from scipy.stats import binomtest
 
+    length_share = (end - start + 1) / length
     p_uniform = binomtest(
         int(inside[plp].sum()), int(plp.sum()), length_share, alternative="greater"
     ).pvalue
+    with_conflicting = change_table(mefv, ["P/LP", "Conflicting", "VUS", "B/LB"])
+    _, plp_c, obs_c, _, p_c = permutation_share(with_conflicting, start, end, rng)
+    records = mefv[(mefv["consequence"] == "missense") & (mefv["group"] == "P/LP")]
     return {
-        "domain": "B30.2/SPRY 580-775",
+        "domain": f"B30.2/SPRY {start}-{end}",
+        "unit": "distinct protein change",
+        "plp_records": int(len(records)),
+        "plp_records_in_domain": int(records["position"].between(start, end).sum()),
         "plp_missense": int(plp.sum()),
         "plp_in_domain": int(inside[plp].sum()),
         "plp_share": round(float(observed), 4),
-        "all_classified_missense": int(len(missense)),
+        "all_classified_missense": int(len(changes)),
+        "all_in_domain": int(inside.sum()),
         "all_missense_share": round(float(inside.mean()), 4),
         "domain_length_share": round(length_share, 4),
         "p_uniform_binomial": float(f"{p_uniform:.3g}"),
@@ -156,12 +181,18 @@ def hotspot(mefv, rng):
         "null_mean_share": round(float(null.mean()), 4),
         "null_q95_share": round(float(np.quantile(null, 0.95)), 4),
         "p_label_permutation": round(float(p_label), 5),
+        "sensitivity_with_conflicting": {
+            "classified_changes": int(len(with_conflicting)),
+            "plp_share": round(float(obs_c), 4),
+            "p_label_permutation": round(float(p_c), 5),
+        },
+        "caveat": "Domain location is itself ACMG evidence (PM1), so classification and location are not independent; the null addresses sequencing focus only partly.",
     }, null
 
 
 def main():
     started = time.perf_counter()
-    table, scoped, excluded = load()
+    table, scoped, excluded, kept_older = load()
     dom = domains()
     out = new_run(
         ROOT,
@@ -189,7 +220,7 @@ def main():
     }
     consequences = scoped.groupby(["gene", "consequence"]).size().unstack(fill_value=0)
 
-    hot, null = hotspot(scoped[scoped["gene"] == "MEFV"], rng)
+    hot, null = hotspot(scoped[scoped["gene"] == "MEFV"], dom, rng)
 
     tension = scoped[(scoped["group"] == "P/LP") & (scoped["af"] > FREQ_TENSION)]
     common_conflicts = scoped[(scoped["group"] == "Conflicting")].nlargest(5, "af")
@@ -343,6 +374,7 @@ def main():
         "records_total": int(len(table)),
         "records_by_query": table["gene_query"].value_counts().to_dict(),
         "excluded": excluded,
+        "kept_on_older_transcript_version": kept_older,
         "in_scope": scoped["gene"].value_counts().to_dict(),
         "composition": {g: row.to_dict() for g, row in composition.iterrows()},
         "review_stars": {

@@ -1,6 +1,6 @@
 {
   "project": "regional-clinvar-showcase",
-  "created_utc": "20261124T062606Z-c40561",
+  "created_utc": "20261124T070305Z-7c42d2",
   "python": "3.12.14",
   "platform": "Windows-11-10.0.26300-SP0",
   "packages": {
@@ -13,7 +13,7 @@
     "pydeseq2": "0.5.4",
     "matplotlib": "3.11.2"
   },
-  "git_commit": "18c1672d8b1b2b24100a7cb2eb4b79b4849b26c5",
+  "git_commit": "761591ff7e2d310c85c1c157b0bca99e8713e4b0",
   "working_tree_dirty": true,
   "source_files_sha256": {
     "projects\\registry.json": "edb6f8e6101cb47e2b7eeaeb7f0d7d6cb492b8e6bfc548a38e0b0906d7b661c7",
@@ -34,7 +34,7 @@
     "scripts\\fetch_data.py": "489333b4fb551fecaa600f5df1f2cbe19e548fdd8d5692263d5b2f272d0adb2e",
     "scripts\\fetch_khan.py": "946c264149ed0a5ac6d23ae7b597980762f2cc16678dc1146826ef97feb97fdc",
     "scripts\\fetch_raw_examples.py": "773f65729390044a69e59d2abc8193f350203cffeae4ef298ec9ddfdb32786ae",
-    "scripts\\fetch_regional_clinvar.py": "711a06d42fdf62ba5e4186553cc6eef185100521c3ab790f8faf6f27415a6440",
+    "scripts\\fetch_regional_clinvar.py": "08f433882436e96aacca64f06f40049db1bad121800556f9fd33d27b63d79fdb",
     "scripts\\lab.py": "67ce8f638e2ce034bd39ae0a107e318333d3adc6fd08a16cfacc67f9e6bf1b26",
     "scripts\\make_visualizations.py": "f858ee64929a37090fff5e92890ae3e48afcd3009c0ad3d1cf0b913ee21adeae",
     "scripts\\protein_project.py": "46591d670b1f2e3581fb3db70f90837fa01b5128c4ea05a3caa86d150a621d75",
@@ -44,7 +44,7 @@
     "scripts\\run_extensions.py": "d97bea1d2f07d88d99262769b6f9fb38b2d4ff4579b00f73f15ec3cc038fee35",
     "scripts\\run_projects.py": "356e81a247712af45da303ce4ee03b7c4479485f876fe9246c1e641b326e7ab5",
     "scripts\\run_raw_examples.py": "944e86eb4bcac12e4753a749a48348cc86494a1bfd6f824e6c517988e6d01f45",
-    "scripts\\run_regional_clinvar_showcase.py": "a67beab7e03343fc6d04ae8a04bb4e6f2560331ddfc18e1fe68d64a4c1527221",
+    "scripts\\run_regional_clinvar_showcase.py": "2bb651c552d46f130e1d16809dd3e945c9ac7106676658f67ab9554182e55c5a",
     "scripts\\run_regional_variants.py": "438cd8a5932c4874b5ccff1a3b57b3b59b5d27a8000bfa18183df068aba661d1",
     "scripts\\run_study_database.py": "d7695a618f9e014adcec95ba106492e2c89f22194925498d90d693de4e18317a",
     "scripts\\validate_notebooks.py": "2e893b7ce2f0c942e619fd6c311194161be213cc9dd6f4f37b0851073f18fb64",
@@ -52,7 +52,7 @@
     "src\\biolab\\__init__.py": "0a50060f88afc44e68451378d4e9411061af2b975e3840f76074b5ca12ccfad4",
     "src\\biolab\\cli.py": "396ed186ffccf7ba2f23d9e5fdca5166fc1259817f6e7b12aee245ddf42d629c",
     "src\\biolab\\clinical.py": "13e0fd6a45da59593282a84347d15ad4e43d0a55c0c2f206b2147f4c66b58749",
-    "src\\biolab\\clinvar.py": "8cfb438fed0df28dae7ce2d1a894f7a5176e9d6e6a6a6e2bb224e36e616ddfeb",
+    "src\\biolab\\clinvar.py": "f2eff3afddaedff4f986c9246756caa9aef4fbece10673b29cd8725576d3367b",
     "src\\biolab\\counts.py": "2754b4dd1a6b76afdc684fd2096c8329c4ec947f616cea67a60bff4ea92e1ade",
     "src\\biolab\\enrichment.py": "292353dd6a85e16a1f5fba4a9e2a6c280d39097b9d46cad3e3deb100d7e2fbbd",
     "src\\biolab\\expression_ml.py": "07d8897a450539bcbf0e9a1dbbeae29316976068e398ca891e47cd8f2d2c2216",
@@ -98,19 +98,19 @@
     }
   ],
   "status": "passed",
-  "finished_utc": "2026-11-24T06:26:09.005897+00:00",
-  "elapsed_seconds": 2.14,
+  "finished_utc": "2026-11-24T07:03:11.241379+00:00",
+  "elapsed_seconds": 5.64,
   "error": null,
   "outputs_sha256": {
     "composition.csv": "984455ab4f22e860e8fda713deda7bada0bc60f2847fb8ade2408ab983264eeb",
-    "frequency_by_class.png": "1b2dd60b661426909c2725fcd88bdd12aa11e31214451e7581f182bdf2ccde5a",
+    "frequency_by_class.png": "bad2331d4ca9af48ff649d827aae8a43a5a91e3f8fd9eedf36c580e3a147710f",
     "frequency_tension.csv": "b98d6a3108a92b4993fc5a83ac0e930c0de683d4e5303d0645e559d31a8ac99f",
-    "hotspot_null.csv": "b87a08babf9461bc4bb4368f1b4cc71a14896df5c484d7e235776ed8f4191566",
-    "hotspot_null.png": "453a1e5e34752a14d7fd7328f868c079a08a39fedf810e24bfc04a3eea9e0dd1",
-    "lollipop.png": "53d5339767c03d1dc784686aacd66ed11cb29613a0cce1c18a7d29b6445d001e",
-    "presentation_data.json": "394d3fcaf449d32d200e1be17ae254345f5af90d70d93aabd60af1d9a3fd848c",
-    "records_in_scope.csv": "718732af916adfa3ea36979de7fa5d166d89f6b8d603152efb9e2aea1b0094e0",
-    "summary.json": "b86d50b99fa54b84404677ac3eef4ced30772db8ab5c733d194628a0c0999793",
+    "hotspot_null.csv": "c7a21b97cfdf6fbe3e4ea3c4cbb2d027a1594790bb0c1acd60595e5a10872734",
+    "hotspot_null.png": "0d3e18e0333151050c4a92424ce8527bdeff0a9973a94a4780ae0cc6239a75c5",
+    "lollipop.png": "1259a8708539bf967db9c5187b14fc1fbf7495b867768b2b2ee3b262e3f145f3",
+    "presentation_data.json": "219139de8642cbb32336e4f240fc00006a36adce0b05d9c72d503585cacad6a1",
+    "records_in_scope.csv": "8b78686094fd94381d3a14b3711b3610a1d099ba923606196e46991ebd00c7bc",
+    "summary.json": "8456df6dd0e41b63287e764c8df3f5dd2cab91ab3b59d30b4a885963570aaee0",
     "teaching_variants.csv": "1f1572ef92f4452b3b73079399d9dc34dbeb04b59780a2bf0addeed452edeb02"
   }
 }

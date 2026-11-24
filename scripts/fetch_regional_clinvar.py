@@ -150,7 +150,7 @@ def register(paths, today):
                 "source_url": sources[kind],
                 "source_sha256": hashlib.sha256(data).hexdigest(),
                 "retrieved": today,
-                "transformation": "Selected fields from the live service response; see scripts/fetch_regional_clinvar.py"
+                "transformation": "Selected fields from the live service response (not stored); source_sha256 is the hash of this derived file; see scripts/fetch_regional_clinvar.py"
                 + ("; gzip (mtime 0) of the TSV" if kind == "clinvar" else ""),
             }
         )

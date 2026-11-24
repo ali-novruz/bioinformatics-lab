@@ -40,7 +40,7 @@
       "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar (query: MEFV[gene], HBB[gene])",
       "source_sha256": "a7854209ffc960165be460407ddf9baed1cb0453993afdc643f120c4188b9803",
       "retrieved": "2026-11-24",
-      "transformation": "Selected fields from the live service response; see scripts/fetch_regional_clinvar.py; gzip (mtime 0) of the TSV"
+      "transformation": "Selected fields from the live service response (not stored); source_sha256 is the hash of this derived file; see scripts/fetch_regional_clinvar.py; gzip (mtime 0) of the TSV"
     },
     {
       "path": "datasets/examples/regional/uniprot-mefv-hbb-2026-11-24.json",
@@ -49,7 +49,7 @@
       "source_url": "https://rest.uniprot.org/uniprotkb/{O15553,P68871}.json",
       "source_sha256": "34bb8c7b57f9524fb35d69cf07dc9e197a44be16565f8450e02b745d795b2e16",
       "retrieved": "2026-11-24",
-      "transformation": "Selected fields from the live service response; see scripts/fetch_regional_clinvar.py"
+      "transformation": "Selected fields from the live service response (not stored); source_sha256 is the hash of this derived file; see scripts/fetch_regional_clinvar.py"
     }
   ]
 }

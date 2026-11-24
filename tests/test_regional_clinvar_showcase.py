@@ -26,7 +26,12 @@ STORED = ROOT / "results/showcase/regional-clinvar"
         ("NM_000518.5(HBB):c.17_18del (p.Pro6fs)", ("frameshift", 6, "P6fs")),
         ("NM_000243.3(MEFV):c.6C>T (p.Ala2=)", ("synonymous", 2, "A2=")),
         ("NM_000243.3(MEFV):c.2076_2078del (p.Ile692del)", ("inframe", 692, "I692del")),
-        ("NM_000518.5(HBB):c.93-21G>A", ("noncoding", None, "")),
+        ("NM_000518.5(HBB):c.93-21G>A", ("no_protein_term", None, "")),
+        ("NM_000518.5(HBB):c.55del (p.Lys18_Val19insTer)", ("nonsense", 18, "K18*")),
+        ("NM_000518.5(HBB):c.x (p.Glu121delinsLeuTer)", ("nonsense", 121, "E121*")),
+        ("NM_000518.5(HBB):c.x (p.Ter148ThrextTer?)", ("stop_loss", 148, "*148ext")),
+        ("NM_000518.5(HBB):c.x (p.His3_Leu4=)", ("synonymous", 3, "H3=")),
+        ("NM_000518.5(HBB):c.x (p.125EGN[3])", ("inframe", 125, "125EGN[3]")),
     ],
 )
 def test_protein_consequence(title, expected):
@@ -53,6 +58,13 @@ def test_classification_groups():
         == "Conflicting"
     )
     assert classification_group("not provided") == "Other"
+    with pytest.raises(ValueError):
+        classification_group("risk factor")
+
+
+def test_unrecognised_protein_term_raises():
+    with pytest.raises(ValueError):
+        protein_consequence("NM_000518.5(HBB):c.x (p.Xyz12Abc)")
 
 
 def test_stored_showcase_summary():
@@ -62,8 +74,11 @@ def test_stored_showcase_summary():
     assert summary["composition"]["MEFV"]["P/LP"] == 25
     assert summary["composition"]["HBB"]["P/LP"] == 408
     hot = summary["hotspot_mefv"]
-    assert (hot["plp_in_domain"], hot["plp_missense"]) == (9, 13)
-    assert hot["p_label_permutation"] < 0.01
+    assert hot["unit"] == "distinct protein change"
+    assert (hot["plp_records_in_domain"], hot["plp_records"]) == (9, 13)
+    assert (hot["plp_in_domain"], hot["plp_missense"]) == (6, 10)
+    assert (hot["all_in_domain"], hot["all_classified_missense"]) == (105, 439)
+    assert hot["p_label_permutation"] < 0.05
     assert [v["change"] for v in summary["frequency_tension"]["plp_above"]] == ["E7V"]
     assert (
         summary["clinical_use"] is False
